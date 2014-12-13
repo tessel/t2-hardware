@@ -1,4 +1,4 @@
-update=Sat 13 Dec 2014 11:37:27 AM PST
+update=Sat 13 Dec 2014 12:55:54 PM PST
 version=1
 last_client=kicad
 [cvpcb]
@@ -29,7 +29,7 @@ ModuleOutlineThickness=0.150000000000
 version=1
 [eeschema]
 version=1
-LibDir=/media/sf_technical/kicad-resources
+LibDir=../tm-kicad-library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,4 +61,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=parts
+LibName31=tm-kicad-lib

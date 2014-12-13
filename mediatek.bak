@@ -29,7 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:parts
+LIBS:tm-kicad-lib
+LIBS:v2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
@@ -199,4 +200,6 @@ Text GLabel 13750 1950 2    60   Input Italic 12
 DDR_RAS
 Text GLabel 13750 2100 2    60   Input Italic 12
 DDR_WE
+Text HLabel 12900 1350 0    60   Input Italic 12
+DDR
 $EndSCHEMATC

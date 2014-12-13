@@ -29,18 +29,19 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:parts
+LIBS:tm-kicad-lib
+LIBS:v2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 2 2
-Title ""
+Title "Tessel v2"
 Date ""
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "Technical Machine"
+Comment1 "Copyright 2014 Technical Machine Inc."
+Comment2 "CC-BY-SA"
 Comment3 ""
 Comment4 ""
 $EndDescr

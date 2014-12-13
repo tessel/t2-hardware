@@ -29,7 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:parts
+LIBS:tm-kicad-lib
+LIBS:v2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -49,5 +50,6 @@ S 2400 2500 800  1400
 U 548C90C9
 F0 "mediatek" 60
 F1 "mediatek.sch" 60
+F2 "DDR" I R 3200 2650 60 
 $EndSheet
 $EndSCHEMATC
