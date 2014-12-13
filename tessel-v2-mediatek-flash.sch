@@ -33,15 +33,15 @@ LIBS:tm-kicad-lib
 LIBS:tessel-v2-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr B 17000 11000
 encoding utf-8
-Sheet 1 7
-Title ""
+Sheet 4 8
+Title "Tessel v2"
 Date ""
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "Technical Machine"
+Comment1 "Copyright 2014 Technical Machine Inc."
+Comment2 "CC-BY-SA"
 Comment3 ""
 Comment4 ""
 $EndDescr
