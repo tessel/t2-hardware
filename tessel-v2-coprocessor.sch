@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 5 5
+Sheet 5 7
 Title "Tessel v2"
 Date ""
 Rev ""
