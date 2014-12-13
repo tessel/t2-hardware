@@ -144,15 +144,15 @@ F 3 "" H 5950 9300 60  0000 C CNN
 	9    7500 8800
 	1    0    0    -1  
 $EndComp
-Text Label 13100 2100 1    60   Italic 12
+Text Label 13100 2100 1    60   ~ 0
 DDR_CKE
-Text Label 13200 2100 1    60   Italic 12
+Text Label 13200 2100 1    60   ~ 0
 DDR_CS
-Text Label 13300 2100 1    60   Italic 12
+Text Label 13300 2100 1    60   ~ 0
 DDR_CAS
-Text Label 13400 2100 1    60   Italic 12
+Text Label 13400 2100 1    60   ~ 0
 DDR_RAS
-Text Label 13500 2100 1    60   Italic 12
+Text Label 13500 2100 1    60   ~ 0
 DDR_WE
 Wire Wire Line
 	13100 1450 13100 2100
@@ -179,7 +179,7 @@ Wire Bus Line
 Wire Wire Line
 	13100 1500 13750 1500
 Connection ~ 13100 1500
-Text GLabel 13750 1500 2    60   Input Italic 12
+Text GLabel 13750 1500 2    60   Input ~ 0
 DDR_CKE
 Wire Wire Line
 	13200 1650 13750 1650
@@ -192,14 +192,14 @@ Wire Wire Line
 Connection ~ 13400 1950
 Wire Wire Line
 	13500 2100 13750 2100
-Text GLabel 13750 1650 2    60   Input Italic 12
+Text GLabel 13750 1650 2    60   Input ~ 0
 DDR_CS
-Text GLabel 13750 1800 2    60   Input Italic 12
+Text GLabel 13750 1800 2    60   Input ~ 0
 DDR_CAS
-Text GLabel 13750 1950 2    60   Input Italic 12
+Text GLabel 13750 1950 2    60   Input ~ 0
 DDR_RAS
-Text GLabel 13750 2100 2    60   Input Italic 12
+Text GLabel 13750 2100 2    60   Input ~ 0
 DDR_WE
-Text HLabel 12900 1350 0    60   Input Italic 12
+Text HLabel 12900 1350 0    60   Input ~ 0
 DDR
 $EndSCHEMATC
