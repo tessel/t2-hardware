@@ -30,12 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:tm-kicad-lib
-LIBS:v2-cache
+LIBS:tessel-v2-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "Tessel v2"
 Date ""
 Rev ""
@@ -46,26 +46,26 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5050 2700 2100 5500
+S 4200 2700 2100 5500
 U 548C90C9
 F0 "MEDIATEK" 60
-F1 "mediatek.sch" 60
-F2 "DDR" I R 7150 2850 60 
+F1 "tessel-v2-mediatek.sch" 60
+F2 "DDR" I R 6300 2850 60 
 $EndSheet
 $Sheet
-S 7650 4500 2000 1200
+S 7700 4500 2000 1200
 U 548CB640
 F0 "POWER" 60
 F1 "tessel-v2-power.sch" 60
 $EndSheet
 $Sheet
-S 7650 6200 2000 2000
+S 7700 6200 2000 2000
 U 548CB7C3
 F0 "I/O" 60
 F1 "tessel-v2-io.sch" 60
 $EndSheet
 $Sheet
-S 10150 2700 2100 5500
+S 11000 2700 2100 5500
 U 548CB895
 F0 "COPROCESSOR" 60
 F1 "tessel-v2-coprocessor.sch" 60

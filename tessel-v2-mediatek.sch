@@ -30,12 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:tm-kicad-lib
-LIBS:v2-cache
+LIBS:tessel-v2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title "Tessel v2"
 Date ""
 Rev ""
