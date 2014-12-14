@@ -1,4 +1,4 @@
-update=Sat 13 Dec 2014 02:06:46 PM PST
+update=Sat 13 Dec 2014 04:45:02 PM PST
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,9 +25,11 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=../tm-kicad-library
+LibDir=/media/sf_technical/tm-kicad-lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,5 +62,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=tm-kicad-lib
-[general]
-version=1
