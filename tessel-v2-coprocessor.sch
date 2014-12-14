@@ -254,4 +254,12 @@ Text HLabel 6000 3900 0    60   BiDi ~ 0
 SWDIO
 Text HLabel 6000 3600 0    60   Input ~ 0
 SAM_~RESET
+Text Label 6800 4800 2    60   ~ 0
+PORT_A_G3
+Text Label 6800 4900 2    60   ~ 0
+PORT_B_G3
+Text HLabel 6000 4800 0    60   BiDi ~ 0
+PORT_A_G3
+Text HLabel 6000 4900 0    60   BiDi ~ 0
+PORT_B_G3
 $EndSCHEMATC
