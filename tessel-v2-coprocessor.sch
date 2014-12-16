@@ -609,17 +609,6 @@ Connection ~ 8300 7900
 Wire Wire Line
 	8600 7900 8600 7800
 Connection ~ 8400 7900
-$Comp
-L +3.3V #PWR?
-U 1 1 548FE458
-P 7550 2250
-F 0 "#PWR?" H 7550 2210 30  0001 C CNN
-F 1 "+3.3V" H 7550 2360 30  0000 C CNN
-F 2 "" H 7550 2250 60  0000 C CNN
-F 3 "" H 7550 2250 60  0000 C CNN
-	1    7550 2250
-	1    0    0    -1  
-$EndComp
 Text Label 7600 2400 0    60   ~ 0
 3.3V
 Text Label 8600 4100 1    60   ~ 0
@@ -635,4 +624,6 @@ F 3 "http://www.sii.co.jp/en/quartz/files/2013/03/file_PRODUCT_MASTER_50812_GRAP
 	1    5400 7400
 	1    0    0    -1  
 $EndComp
+Text GLabel 7550 2250 1    60   Input ~ 0
+3.3V_CP
 $EndSCHEMATC
