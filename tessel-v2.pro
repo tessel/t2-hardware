@@ -1,4 +1,4 @@
-update=Mon 15 Dec 2014 01:59:34 PM PST
+update=Mon 15 Dec 2014 06:45:03 PM PST
 version=1
 last_client=kicad
 [cvpcb]
@@ -27,7 +27,7 @@ BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [eeschema]
 version=1
-LibDir=/media/sf_technical/tm-kicad-lib
+LibDir=../tm-kicad-library;../tessel-v2-hardware
 [eeschema/libraries]
 LibName1=power
 LibName2=device
