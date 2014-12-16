@@ -1049,4 +1049,28 @@ F 3 "" H 2750 8200 60  0000 C CNN
 	1    2750 8200
 	1    0    0    -1  
 $EndComp
+Text HLabel 19850 7450 2    60   Input ~ 0
+MT_SI
+Text HLabel 19850 7600 2    60   Input ~ 0
+MT_SO
+Text HLabel 19850 7750 2    60   Input ~ 0
+MT_WP
+Text HLabel 19850 7900 2    60   Input ~ 0
+MT_HOLD
+Text HLabel 19850 8050 2    60   Input ~ 0
+MT_CS
+Text HLabel 19850 8200 2    60   Input ~ 0
+MT_SCK
+Wire Wire Line
+	19100 7450 19850 7450
+Wire Wire Line
+	19100 7600 19850 7600
+Wire Wire Line
+	19100 7750 19850 7750
+Wire Wire Line
+	19100 7900 19850 7900
+Wire Wire Line
+	19100 8050 19850 8050
+Wire Wire Line
+	19100 8200 19850 8200
 $EndSCHEMATC
