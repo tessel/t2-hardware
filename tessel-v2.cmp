@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Tue 16 Dec 2014 10:55:18 PM PST
+Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Tue 16 Dec 2014 11:33:51 PM PST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491EF9D;
@@ -752,14 +752,14 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB7C3/548FC9D0;
 Reference = C801;
-ValeurCmp = 20pF;
+ValeurCmp = 8pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/548FCA07;
 Reference = C802;
-ValeurCmp = 20pF;
+ValeurCmp = 8pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
@@ -1684,14 +1684,14 @@ BeginCmp
 TimeStamp = /548CB895/548FAB63;
 Reference = U701;
 ValeurCmp = SAMD21G14A-MU;
-IdModule  = QFN48;
+IdModule  = SMD_Packages:QFN-48-1EP;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/54910B6A;
 Reference = U801;
 ValeurCmp = AP2192ASG-13;
-IdModule  = ;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
@@ -1705,28 +1705,28 @@ BeginCmp
 TimeStamp = /548CB7C3/54911CE3;
 Reference = U803;
 ValeurCmp = AP2192ASG-13;
-IdModule  = ;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/548FD11E;
 Reference = X201;
 ValeurCmp = 20MHz;
-IdModule  = ;
+IdModule  = tm-kicad-lib:CTS-425;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB895/54900866;
 Reference = X701;
 ValeurCmp = SC32S-12.5PF20PPM;
-IdModule  = ;
+IdModule  = tm-kicad-lib:SC-32S;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/548FCA48;
 Reference = X801;
 ValeurCmp = 12MHz;
-IdModule  = ;
+IdModule  = tm-kicad-lib:NX5032GA-12.000000MHZ-LN-CD-1;
 EndCmp
 
 EndListe
