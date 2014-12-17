@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Wed 17 Dec 2014 12:00:33 AM PST
+Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Wed 17 Dec 2014 11:25:47 AM PST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491EF9D;
@@ -1068,14 +1068,14 @@ BeginCmp
 TimeStamp = /548CB7C3/549677D0;
 Reference = J815;
 ValeurCmp = CONN_02X05;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
+IdModule  = tm-kicad-lib:CONN_02x05_0.05in;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/5497B032;
 Reference = J816;
 ValeurCmp = CONN_02X05;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
+IdModule  = tm-kicad-lib:CONN_02x05_0.05in;
 EndCmp
 
 BeginCmp
