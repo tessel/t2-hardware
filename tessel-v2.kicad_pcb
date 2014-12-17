@@ -2,7 +2,7 @@
 
   (general
     (links 703)
-    (no_connects 392)
+    (no_connects 697)
     (area 99.949999 49.949999 200.050001 150.050001)
     (thickness 1.6)
     (drawings 4)
@@ -65,7 +65,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 100 150)
     (grid_origin 100 150)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFFF77F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -639,7 +639,7 @@
   )
 
   (module tm-kicad-lib:ANTENNA-SMT-2.45GHz (layer F.Cu) (tedit 543C8054) (tstamp 5491406C)
-    (at 150 160.050001)
+    (at 186.36 139.84)
     (path /548C90C9/548CC15D/5491EF9D)
     (fp_text reference AE501 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
@@ -654,7 +654,7 @@
   )
 
   (module tm-kicad-lib:ANTENNA-SMT-2.45GHz (layer F.Cu) (tedit 543C8054) (tstamp 54914072)
-    (at 150 160.050001)
+    (at 188.9 122.06)
     (path /548C90C9/548CC15D/5492F389)
     (fp_text reference AE502 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
@@ -669,7 +669,7 @@
   )
 
   (module tm-kicad-lib:1909763-1 (layer F.Cu) (tedit 5490FAC2) (tstamp 54914081)
-    (at 150 160.050001)
+    (at 186.36 129.68)
     (path /548C90C9/548CC15D/5491FF82)
     (fp_text reference AE503 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.15)))
@@ -694,7 +694,7 @@
   )
 
   (module tm-kicad-lib:1909763-1 (layer F.Cu) (tedit 5490FAC2) (tstamp 54914090)
-    (at 150 160.050001)
+    (at 191.44 129.68)
     (path /548C90C9/548CC15D/5492F38F)
     (fp_text reference AE504 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.15)))
@@ -719,7 +719,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 5491409D)
-    (at 150 160.050001)
+    (at 140.64 170.32)
     (path /548C90C9/54904C40)
     (attr smd)
     (fp_text reference C201 (at 0 -0.3175) (layer F.SilkS)
@@ -747,7 +747,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549140A8)
-    (at 150 160.050001)
+    (at 120.32 185.56)
     (path /548C90C9/54904BCE)
     (attr smd)
     (fp_text reference C202 (at 0 -0.6096) (layer F.SilkS)
@@ -773,7 +773,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549140B3)
-    (at 150 160.050001)
+    (at 144.45 167.78)
     (path /548C90C9/54904B91)
     (attr smd)
     (fp_text reference C203 (at 0 -0.6096) (layer F.SilkS)
@@ -799,7 +799,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549140BE)
-    (at 150 160.050001)
+    (at 144.45 169.05)
     (path /548C90C9/54904B51)
     (attr smd)
     (fp_text reference C204 (at 0 -0.6096) (layer F.SilkS)
@@ -825,7 +825,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549140C9)
-    (at 150 160.050001)
+    (at 140.64 177.94)
     (path /548C90C9/54904B0E)
     (attr smd)
     (fp_text reference C205 (at 0 -0.6096) (layer F.SilkS)
@@ -851,7 +851,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549140D4)
-    (at 150 160.050001)
+    (at 93.65 142.38)
     (path /548C90C9/54904AC8)
     (attr smd)
     (fp_text reference C206 (at 0 -0.6096) (layer F.SilkS)
@@ -877,7 +877,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549140DF)
-    (at 150 160.050001)
+    (at 144.45 170.32)
     (path /548C90C9/54905997)
     (attr smd)
     (fp_text reference C207 (at 0 -0.6096) (layer F.SilkS)
@@ -903,7 +903,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549140EA)
-    (at 150 160.050001)
+    (at 125.4 161.43)
     (path /548C90C9/549059E3)
     (attr smd)
     (fp_text reference C208 (at 0 -0.6096) (layer F.SilkS)
@@ -929,7 +929,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549140F5)
-    (at 150 160.050001)
+    (at 150.8 142.38)
     (path /548C90C9/54903DA9)
     (attr smd)
     (fp_text reference C209 (at 0 -0.6096) (layer F.SilkS)
@@ -955,7 +955,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914100)
-    (at 150 160.050001)
+    (at 163.5 146.19)
     (path /548C90C9/54903E09)
     (attr smd)
     (fp_text reference C210 (at 0 -0.6096) (layer F.SilkS)
@@ -981,7 +981,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491410B)
-    (at 150 160.050001)
+    (at 150.8 146.19)
     (path /548C90C9/548FE2F7)
     (attr smd)
     (fp_text reference C211 (at 0 -0.6096) (layer F.SilkS)
@@ -1007,7 +1007,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914116)
-    (at 150 160.050001)
+    (at 130.48 137.3)
     (path /548C90C9/54903E44)
     (attr smd)
     (fp_text reference C212 (at 0 -0.6096) (layer F.SilkS)
@@ -1033,7 +1033,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914121)
-    (at 150 160.050001)
+    (at 129.21 139.84)
     (path /548C90C9/54903E80)
     (attr smd)
     (fp_text reference C213 (at 0 -0.6096) (layer F.SilkS)
@@ -1059,7 +1059,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491412C)
-    (at 150 160.050001)
+    (at 134.29 136.03)
     (path /548C90C9/5490272D)
     (attr smd)
     (fp_text reference C214 (at 0 -0.6096) (layer F.SilkS)
@@ -1085,7 +1085,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914137)
-    (at 150 160.050001)
+    (at 155.88 147.46)
     (path /548C90C9/5490278B)
     (attr smd)
     (fp_text reference C215 (at 0 -0.6096) (layer F.SilkS)
@@ -1111,7 +1111,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914142)
-    (at 150 160.050001)
+    (at 152.07 152.54)
     (path /548C90C9/549027BC)
     (attr smd)
     (fp_text reference C216 (at 0 -0.6096) (layer F.SilkS)
@@ -1137,7 +1137,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491414D)
-    (at 150 160.050001)
+    (at 144.45 138.57)
     (path /548C90C9/548FD2A7)
     (attr smd)
     (fp_text reference C217 (at 0 -0.6096) (layer F.SilkS)
@@ -1163,7 +1163,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914158)
-    (at 150 160.050001)
+    (at 141.91 139.84)
     (path /548C90C9/54902840)
     (attr smd)
     (fp_text reference C218 (at 0 -0.6096) (layer F.SilkS)
@@ -1189,7 +1189,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 54914165)
-    (at 150 160.050001)
+    (at 140.64 167.78)
     (path /548C90C9/54902875)
     (attr smd)
     (fp_text reference C219 (at 0 -0.3175) (layer F.SilkS)
@@ -1217,7 +1217,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914170)
-    (at 150 160.050001)
+    (at 164.77 110.63)
     (path /548C90C9/54902A17)
     (attr smd)
     (fp_text reference C220 (at 0 -0.6096) (layer F.SilkS)
@@ -1243,7 +1243,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491417B)
-    (at 150 160.050001)
+    (at 130.48 141.11)
     (path /548C90C9/54902A54)
     (attr smd)
     (fp_text reference C221 (at 0 -0.6096) (layer F.SilkS)
@@ -1269,7 +1269,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914186)
-    (at 150 160.050001)
+    (at 144.45 137.3)
     (path /548C90C9/548FD250)
     (attr smd)
     (fp_text reference C222 (at 0 -0.6096) (layer F.SilkS)
@@ -1295,7 +1295,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914191)
-    (at 150 160.050001)
+    (at 133.02 138.57)
     (path /548C90C9/54902A88)
     (attr smd)
     (fp_text reference C223 (at 0 -0.6096) (layer F.SilkS)
@@ -1321,7 +1321,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491419C)
-    (at 150 160.050001)
+    (at 141.91 138.57)
     (path /548C90C9/548FD6DA)
     (attr smd)
     (fp_text reference C224 (at 0 -0.6096) (layer F.SilkS)
@@ -1347,7 +1347,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549141A7)
-    (at 150 160.050001)
+    (at 133.02 143.65)
     (path /548C90C9/548FF9E4)
     (attr smd)
     (fp_text reference C225 (at 0 -0.6096) (layer F.SilkS)
@@ -1373,7 +1373,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 549141B4)
-    (at 150 160.050001)
+    (at 140.64 172.86)
     (path /548C90C9/548FF9A2)
     (attr smd)
     (fp_text reference C226 (at 0 -0.3175) (layer F.SilkS)
@@ -1401,7 +1401,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549141BF)
-    (at 150 160.050001)
+    (at 143.18 142.38)
     (path /548C90C9/549004C6)
     (attr smd)
     (fp_text reference C227 (at 0 -0.6096) (layer F.SilkS)
@@ -1427,7 +1427,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 549141CC)
-    (at 150 160.050001)
+    (at 121.59 141.11)
     (path /548C90C9/549004F8)
     (attr smd)
     (fp_text reference C228 (at 0 -0.3175) (layer F.SilkS)
@@ -1455,7 +1455,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549141D7)
-    (at 150 160.050001)
+    (at 136.83 137.3)
     (path /548C90C9/549006EA)
     (attr smd)
     (fp_text reference C229 (at 0 -0.6096) (layer F.SilkS)
@@ -1481,7 +1481,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549141E2)
-    (at 150 160.050001)
+    (at 131.75 139.84)
     (path /548C90C9/549007FF)
     (attr smd)
     (fp_text reference C230 (at 0 -0.6096) (layer F.SilkS)
@@ -1507,7 +1507,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549141ED)
-    (at 150 160.050001)
+    (at 134.29 137.3)
     (path /548C90C9/548FF2BC)
     (attr smd)
     (fp_text reference C231 (at 0 -0.6096) (layer F.SilkS)
@@ -1533,7 +1533,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549141F8)
-    (at 150 160.050001)
+    (at 131.75 137.3)
     (path /548C90C9/54910D44)
     (attr smd)
     (fp_text reference C232 (at 0 -0.6096) (layer F.SilkS)
@@ -1559,7 +1559,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914203)
-    (at 150 160.050001)
+    (at 144.45 139.84)
     (path /548C90C9/5490FA31)
     (attr smd)
     (fp_text reference C233 (at 0 -0.6096) (layer F.SilkS)
@@ -1585,7 +1585,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491420E)
-    (at 150 160.050001)
+    (at 141.91 137.3)
     (path /548C90C9/54910D54)
     (attr smd)
     (fp_text reference C234 (at 0 -0.6096) (layer F.SilkS)
@@ -1611,7 +1611,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914219)
-    (at 150 160.050001)
+    (at 133.02 142.38)
     (path /548C90C9/5490FA9A)
     (attr smd)
     (fp_text reference C235 (at 0 -0.6096) (layer F.SilkS)
@@ -1637,7 +1637,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914224)
-    (at 150 160.050001)
+    (at 133.02 141.11)
     (path /548C90C9/54910D5A)
     (attr smd)
     (fp_text reference C236 (at 0 -0.6096) (layer F.SilkS)
@@ -1663,7 +1663,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491422F)
-    (at 150 160.050001)
+    (at 139.37 137.3)
     (path /548C90C9/548CC02E/548D4B3C)
     (attr smd)
     (fp_text reference C301 (at 0 -0.6096) (layer F.SilkS)
@@ -1689,7 +1689,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491423A)
-    (at 150 160.050001)
+    (at 129.21 136.03)
     (path /548C90C9/548CC02E/548D48B9)
     (attr smd)
     (fp_text reference C302 (at 0 -0.6096) (layer F.SilkS)
@@ -1715,7 +1715,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914245)
-    (at 150 160.050001)
+    (at 140.64 138.57)
     (path /548C90C9/548CC02E/548D79BD)
     (attr smd)
     (fp_text reference C303 (at 0 -0.6096) (layer F.SilkS)
@@ -1741,7 +1741,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914250)
-    (at 150 160.050001)
+    (at 143.18 144.92)
     (path /548C90C9/548CC02E/548D6B14)
     (attr smd)
     (fp_text reference C304 (at 0 -0.6096) (layer F.SilkS)
@@ -1767,7 +1767,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491425B)
-    (at 150 160.050001)
+    (at 140.64 144.92)
     (path /548C90C9/548CC02E/548D79FD)
     (attr smd)
     (fp_text reference C305 (at 0 -0.6096) (layer F.SilkS)
@@ -1793,7 +1793,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914266)
-    (at 150 160.050001)
+    (at 144.45 143.65)
     (path /548C90C9/548CC02E/548D3587)
     (attr smd)
     (fp_text reference C306 (at 0 -0.6096) (layer F.SilkS)
@@ -1819,7 +1819,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914271)
-    (at 150 160.050001)
+    (at 164.77 111.9)
     (path /548C90C9/548CC02E/548D7FDE)
     (attr smd)
     (fp_text reference C307 (at 0 -0.6096) (layer F.SilkS)
@@ -1845,7 +1845,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491427C)
-    (at 150 160.050001)
+    (at 160.96 114.44)
     (path /548C90C9/548CC02E/548D8010)
     (attr smd)
     (fp_text reference C308 (at 0 -0.6096) (layer F.SilkS)
@@ -1871,7 +1871,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914287)
-    (at 150 160.050001)
+    (at 164.77 113.17)
     (path /548C90C9/548CC02E/548D803B)
     (attr smd)
     (fp_text reference C309 (at 0 -0.6096) (layer F.SilkS)
@@ -1897,7 +1897,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914292)
-    (at 150 160.050001)
+    (at 138.1 144.92)
     (path /548C90C9/548CC02E/548D8069)
     (attr smd)
     (fp_text reference C310 (at 0 -0.6096) (layer F.SilkS)
@@ -1923,7 +1923,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491429D)
-    (at 150 160.050001)
+    (at 135.56 143.65)
     (path /548C90C9/548CC15A/548FCD34)
     (attr smd)
     (fp_text reference C401 (at 0 -0.6096) (layer F.SilkS)
@@ -1949,7 +1949,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549142A8)
-    (at 150 160.050001)
+    (at 140.64 142.38)
     (path /548C90C9/548CC15D/54918014)
     (attr smd)
     (fp_text reference C501 (at 0 -0.6096) (layer F.SilkS)
@@ -1975,7 +1975,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549142B3)
-    (at 150 160.050001)
+    (at 164.77 114.44)
     (path /548C90C9/548CC15D/5491D8CB)
     (attr smd)
     (fp_text reference C502 (at 0 -0.6096) (layer F.SilkS)
@@ -2001,7 +2001,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549142BE)
-    (at 150 160.050001)
+    (at 164.77 115.71)
     (path /548C90C9/548CC15D/5491E068)
     (attr smd)
     (fp_text reference C503 (at 0 -0.6096) (layer F.SilkS)
@@ -2027,7 +2027,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549142C9)
-    (at 150 160.050001)
+    (at 167.31 110.63)
     (path /548C90C9/548CC15D/5492F341)
     (attr smd)
     (fp_text reference C504 (at 0 -0.6096) (layer F.SilkS)
@@ -2053,7 +2053,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549142D4)
-    (at 150 160.050001)
+    (at 167.31 111.9)
     (path /548C90C9/548CC15D/5492F371)
     (attr smd)
     (fp_text reference C505 (at 0 -0.6096) (layer F.SilkS)
@@ -2079,7 +2079,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549142DF)
-    (at 150 160.050001)
+    (at 172.39 110.63)
     (path /548C90C9/548CC15D/5491D9DB)
     (attr smd)
     (fp_text reference C506 (at 0 -0.6096) (layer F.SilkS)
@@ -2105,7 +2105,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549142EA)
-    (at 150 160.050001)
+    (at 169.85 110.63)
     (path /548C90C9/548CC15D/54922984)
     (attr smd)
     (fp_text reference C507 (at 0 -0.6096) (layer F.SilkS)
@@ -2131,7 +2131,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549142F5)
-    (at 150 160.050001)
+    (at 167.31 115.71)
     (path /548C90C9/548CC15D/5492F34D)
     (attr smd)
     (fp_text reference C508 (at 0 -0.6096) (layer F.SilkS)
@@ -2157,7 +2157,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914300)
-    (at 150 160.050001)
+    (at 169.85 111.9)
     (path /548C90C9/548CC15D/5492F3F4)
     (attr smd)
     (fp_text reference C509 (at 0 -0.6096) (layer F.SilkS)
@@ -2183,7 +2183,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491430B)
-    (at 150 160.050001)
+    (at 169.85 113.17)
     (path /548C90C9/548CC15D/5491DBA9)
     (attr smd)
     (fp_text reference C510 (at 0 -0.6096) (layer F.SilkS)
@@ -2209,7 +2209,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914316)
-    (at 150 160.050001)
+    (at 172.39 111.9)
     (path /548C90C9/548CC15D/5492F353)
     (attr smd)
     (fp_text reference C511 (at 0 -0.6096) (layer F.SilkS)
@@ -2235,7 +2235,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914321)
-    (at 150 160.050001)
+    (at 172.39 114.44)
     (path /548C90C9/548CC15D/5491DF95)
     (attr smd)
     (fp_text reference C512 (at 0 -0.6096) (layer F.SilkS)
@@ -2261,7 +2261,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491432C)
-    (at 150 160.050001)
+    (at 172.39 113.17)
     (path /548C90C9/548CC15D/5492F36B)
     (attr smd)
     (fp_text reference C513 (at 0 -0.6096) (layer F.SilkS)
@@ -2287,7 +2287,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914337)
-    (at 150 160.050001)
+    (at 169.85 115.71)
     (path /548C90C9/548CC15D/5491DC7C)
     (attr smd)
     (fp_text reference C514 (at 0 -0.6096) (layer F.SilkS)
@@ -2313,7 +2313,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914342)
-    (at 150 160.050001)
+    (at 169.85 114.44)
     (path /548C90C9/548CC15D/5492F35F)
     (attr smd)
     (fp_text reference C515 (at 0 -0.6096) (layer F.SilkS)
@@ -2339,7 +2339,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491434D)
-    (at 150 160.050001)
+    (at 172.39 115.71)
     (path /548C90C9/548CC15D/5491E0C6)
     (attr smd)
     (fp_text reference C516 (at 0 -0.6096) (layer F.SilkS)
@@ -2365,7 +2365,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914358)
-    (at 150 160.050001)
+    (at 174.93 114.44)
     (path /548C90C9/548CC15D/5492F377)
     (attr smd)
     (fp_text reference C517 (at 0 -0.6096) (layer F.SilkS)
@@ -2391,7 +2391,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914363)
-    (at 150 160.050001)
+    (at 174.93 111.9)
     (path /548C90C9/548CC15D/5491E4E1)
     (attr smd)
     (fp_text reference C518 (at 0 -0.6096) (layer F.SilkS)
@@ -2417,7 +2417,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491436E)
-    (at 150 160.050001)
+    (at 174.93 115.71)
     (path /548C90C9/548CC15D/5492F383)
     (attr smd)
     (fp_text reference C519 (at 0 -0.6096) (layer F.SilkS)
@@ -2443,7 +2443,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 5491437B)
-    (at 150 160.050001)
+    (at 110.16 174.13)
     (path /548CB640/54907224)
     (attr smd)
     (fp_text reference C601 (at 0 -0.3175) (layer F.SilkS)
@@ -2471,7 +2471,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914386)
-    (at 150 160.050001)
+    (at 174.93 113.17)
     (path /548CB640/5490722A)
     (attr smd)
     (fp_text reference C602 (at 0 -0.6096) (layer F.SilkS)
@@ -2497,7 +2497,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 54914393)
-    (at 150 160.050001)
+    (at 140.64 175.4)
     (path /548CB640/5490724C)
     (attr smd)
     (fp_text reference C603 (at 0 -0.3175) (layer F.SilkS)
@@ -2525,7 +2525,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 549143A0)
-    (at 150 160.050001)
+    (at 138.1 181.75)
     (path /548CB640/54900384)
     (attr smd)
     (fp_text reference C604 (at 0 -0.3175) (layer F.SilkS)
@@ -2553,7 +2553,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549143AB)
-    (at 150 160.050001)
+    (at 174.93 110.63)
     (path /548CB640/54905BB7)
     (attr smd)
     (fp_text reference C605 (at 0 -0.6096) (layer F.SilkS)
@@ -2579,7 +2579,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549143B6)
-    (at 150 160.050001)
+    (at 177.47 114.44)
     (path /548CB640/549555CB)
     (attr smd)
     (fp_text reference C606 (at 0 -0.6096) (layer F.SilkS)
@@ -2605,7 +2605,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 549143C3)
-    (at 150 160.050001)
+    (at 106.35 156.35)
     (path /548CB640/549071EA)
     (attr smd)
     (fp_text reference C607 (at 0 -0.3175) (layer F.SilkS)
@@ -2633,7 +2633,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549143CE)
-    (at 150 160.050001)
+    (at 177.47 115.71)
     (path /548CB640/549071F0)
     (attr smd)
     (fp_text reference C608 (at 0 -0.6096) (layer F.SilkS)
@@ -2659,7 +2659,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 549143DB)
-    (at 150 160.050001)
+    (at 158.42 143.65)
     (path /548CB640/549071E4)
     (attr smd)
     (fp_text reference C609 (at 0 -0.3175) (layer F.SilkS)
@@ -2687,7 +2687,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 549143E8)
-    (at 150 160.050001)
+    (at 115.24 136.03)
     (path /548CB640/5490429E)
     (attr smd)
     (fp_text reference C610 (at 0 -0.3175) (layer F.SilkS)
@@ -2715,7 +2715,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549143F3)
-    (at 150 160.050001)
+    (at 180.01 115.71)
     (path /548CB640/5491553C)
     (attr smd)
     (fp_text reference C611 (at 0 -0.6096) (layer F.SilkS)
@@ -2741,7 +2741,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 54914400)
-    (at 150 160.050001)
+    (at 129.21 143.65)
     (path /548CB640/54962B4C)
     (attr smd)
     (fp_text reference C612 (at 0 -0.3175) (layer F.SilkS)
@@ -2769,7 +2769,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491440B)
-    (at 150 160.050001)
+    (at 177.47 110.63)
     (path /548CB640/54904314)
     (attr smd)
     (fp_text reference C613 (at 0 -0.6096) (layer F.SilkS)
@@ -2795,7 +2795,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 54914418)
-    (at 150 160.050001)
+    (at 124.13 134.76)
     (path /548CB640/5490E77B)
     (attr smd)
     (fp_text reference C614 (at 0 -0.3175) (layer F.SilkS)
@@ -2823,7 +2823,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914423)
-    (at 150 160.050001)
+    (at 172.39 116.98)
     (path /548CB640/54962B52)
     (attr smd)
     (fp_text reference C615 (at 0 -0.6096) (layer F.SilkS)
@@ -2849,7 +2849,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 54914430)
-    (at 150 160.050001)
+    (at 131.75 129.68)
     (path /548CB640/54904BE9)
     (attr smd)
     (fp_text reference C616 (at 0 -0.3175) (layer F.SilkS)
@@ -2877,7 +2877,7 @@
   )
 
   (module Discret:C1 (layer F.Cu) (tedit 54913551) (tstamp 5491443B)
-    (at 150 160.050001)
+    (at 130.48 153.81)
     (descr "Condensateur e = 1 pas")
     (tags C)
     (path /548CB640/54917A12)
@@ -2904,7 +2904,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914446)
-    (at 150 160.050001)
+    (at 180.01 116.98)
     (path /548CB640/5490EF43)
     (attr smd)
     (fp_text reference C618 (at 0 -0.6096) (layer F.SilkS)
@@ -2930,7 +2930,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 54914453)
-    (at 150 160.050001)
+    (at 124.13 128.41)
     (path /548CB640/54915FCA)
     (attr smd)
     (fp_text reference C619 (at 0 -0.3175) (layer F.SilkS)
@@ -2958,7 +2958,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491445E)
-    (at 150 160.050001)
+    (at 177.47 116.98)
     (path /548CB640/54974D61)
     (attr smd)
     (fp_text reference C620 (at 0 -0.6096) (layer F.SilkS)
@@ -2984,7 +2984,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 5491446B)
-    (at 150 160.050001)
+    (at 115.24 129.68)
     (path /548CB640/54903B3D)
     (attr smd)
     (fp_text reference C621 (at 0 -0.3175) (layer F.SilkS)
@@ -3012,7 +3012,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 54914478)
-    (at 150 160.050001)
+    (at 117.78 130.95)
     (path /548CB640/54962B1C)
     (attr smd)
     (fp_text reference C622 (at 0 -0.3175) (layer F.SilkS)
@@ -3040,7 +3040,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 54914485)
-    (at 150 160.050001)
+    (at 136.83 130.95)
     (path /548CB640/549038BF)
     (attr smd)
     (fp_text reference C623 (at 0 -0.3175) (layer F.SilkS)
@@ -3068,7 +3068,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 54914492)
-    (at 150 160.050001)
+    (at 144.45 129.68)
     (path /548CB640/54962B22)
     (attr smd)
     (fp_text reference C624 (at 0 -0.3175) (layer F.SilkS)
@@ -3096,7 +3096,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 5491449F)
-    (at 150 160.050001)
+    (at 112.7 139.84)
     (path /548CB640/5495FD64)
     (attr smd)
     (fp_text reference C625 (at 0 -0.3175) (layer F.SilkS)
@@ -3124,7 +3124,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549144AA)
-    (at 150 160.050001)
+    (at 174.93 116.98)
     (path /548CB640/54962B28)
     (attr smd)
     (fp_text reference C626 (at 0 -0.6096) (layer F.SilkS)
@@ -3150,7 +3150,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549144B5)
-    (at 150 160.050001)
+    (at 177.47 118.25)
     (path /548CB640/54903C66)
     (attr smd)
     (fp_text reference C627 (at 0 -0.6096) (layer F.SilkS)
@@ -3176,7 +3176,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549144C0)
-    (at 150 160.050001)
+    (at 174.93 125.87)
     (path /548CB895/54978225)
     (attr smd)
     (fp_text reference C701 (at 0 -0.6096) (layer F.SilkS)
@@ -3202,7 +3202,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549144CB)
-    (at 150 160.050001)
+    (at 174.93 118.25)
     (path /548CB895/548F96F8)
     (attr smd)
     (fp_text reference C702 (at 0 -0.6096) (layer F.SilkS)
@@ -3228,7 +3228,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549144D6)
-    (at 150 160.050001)
+    (at 172.39 118.25)
     (path /548CB895/548FAA8B)
     (attr smd)
     (fp_text reference C703 (at 0 -0.6096) (layer F.SilkS)
@@ -3254,7 +3254,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549144E1)
-    (at 150 160.050001)
+    (at 158.42 116.98)
     (path /548CB895/548F96CA)
     (attr smd)
     (fp_text reference C704 (at 0 -0.6096) (layer F.SilkS)
@@ -3280,7 +3280,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549144EC)
-    (at 150 160.050001)
+    (at 172.39 119.52)
     (path /548CB895/548FA741)
     (attr smd)
     (fp_text reference C705 (at 0 -0.6096) (layer F.SilkS)
@@ -3306,7 +3306,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549144F7)
-    (at 150 160.050001)
+    (at 174.93 119.52)
     (path /548CB895/548FA7E4)
     (attr smd)
     (fp_text reference C706 (at 0 -0.6096) (layer F.SilkS)
@@ -3332,7 +3332,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914502)
-    (at 150 160.050001)
+    (at 177.47 119.52)
     (path /548CB895/548FA7B7)
     (attr smd)
     (fp_text reference C707 (at 0 -0.6096) (layer F.SilkS)
@@ -3358,7 +3358,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 5491450F)
-    (at 150 160.050001)
+    (at 119.05 124.6)
     (path /548CB895/548F9D44)
     (attr smd)
     (fp_text reference C708 (at 0 -0.3175) (layer F.SilkS)
@@ -3386,7 +3386,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 5491451C)
-    (at 150 160.050001)
+    (at 103.81 136.03)
     (path /548CB895/548FAB15)
     (attr smd)
     (fp_text reference C709 (at 0 -0.3175) (layer F.SilkS)
@@ -3414,7 +3414,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914527)
-    (at 150 160.050001)
+    (at 158.42 114.44)
     (path /548CB895/548F9D6C)
     (attr smd)
     (fp_text reference C710 (at 0 -0.6096) (layer F.SilkS)
@@ -3440,7 +3440,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914532)
-    (at 150 160.050001)
+    (at 174.93 120.79)
     (path /548CB7C3/548FC9D0)
     (attr smd)
     (fp_text reference C801 (at 0 -0.6096) (layer F.SilkS)
@@ -3466,7 +3466,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491453D)
-    (at 150 160.050001)
+    (at 172.39 120.79)
     (path /548CB7C3/548FCA07)
     (attr smd)
     (fp_text reference C802 (at 0 -0.6096) (layer F.SilkS)
@@ -3492,7 +3492,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914548)
-    (at 150 160.050001)
+    (at 158.42 115.71)
     (path /548CB7C3/54906329)
     (attr smd)
     (fp_text reference C803 (at 0 -0.6096) (layer F.SilkS)
@@ -3518,7 +3518,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914553)
-    (at 150 160.050001)
+    (at 158.42 118.25)
     (path /548CB7C3/54906403)
     (attr smd)
     (fp_text reference C804 (at 0 -0.6096) (layer F.SilkS)
@@ -3544,7 +3544,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491455E)
-    (at 150 160.050001)
+    (at 158.42 119.52)
     (path /548CB7C3/5490644B)
     (attr smd)
     (fp_text reference C805 (at 0 -0.6096) (layer F.SilkS)
@@ -3570,7 +3570,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914569)
-    (at 150 160.050001)
+    (at 158.42 120.79)
     (path /548CB7C3/549064B7)
     (attr smd)
     (fp_text reference C806 (at 0 -0.6096) (layer F.SilkS)
@@ -3596,7 +3596,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914574)
-    (at 150 160.050001)
+    (at 160.96 115.71)
     (path /548CB7C3/549160AC)
     (attr smd)
     (fp_text reference C807 (at 0 -0.6096) (layer F.SilkS)
@@ -3622,7 +3622,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 54914581)
-    (at 150 160.050001)
+    (at 111.43 125.87)
     (path /548CB7C3/549160B2)
     (attr smd)
     (fp_text reference C808 (at 0 -0.3175) (layer F.SilkS)
@@ -3650,7 +3650,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491458C)
-    (at 150 160.050001)
+    (at 177.47 125.87)
     (path /548CB7C3/54914D43)
     (attr smd)
     (fp_text reference C809 (at 0 -0.6096) (layer F.SilkS)
@@ -3676,7 +3676,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 54914599)
-    (at 150 160.050001)
+    (at 110.16 132.22)
     (path /548CB7C3/54914DBF)
     (attr smd)
     (fp_text reference C810 (at 0 -0.3175) (layer F.SilkS)
@@ -3704,7 +3704,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549145A4)
-    (at 150 160.050001)
+    (at 160.96 116.98)
     (path /548CB7C3/54917032)
     (attr smd)
     (fp_text reference C811 (at 0 -0.6096) (layer F.SilkS)
@@ -3730,7 +3730,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 549145B1)
-    (at 150 160.050001)
+    (at 116.51 144.92)
     (path /548CB7C3/54917038)
     (attr smd)
     (fp_text reference C812 (at 0 -0.3175) (layer F.SilkS)
@@ -3758,7 +3758,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549145BC)
-    (at 150 160.050001)
+    (at 172.39 122.06)
     (path /548CB7C3/5491701B)
     (attr smd)
     (fp_text reference C813 (at 0 -0.6096) (layer F.SilkS)
@@ -3784,7 +3784,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 549145C9)
-    (at 150 160.050001)
+    (at 126.67 123.33)
     (path /548CB7C3/54917021)
     (attr smd)
     (fp_text reference C814 (at 0 -0.3175) (layer F.SilkS)
@@ -3812,7 +3812,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 549145D6)
-    (at 150 160.050001)
+    (at 120.32 136.03)
     (path /548CB7C3/5490474C)
     (attr smd)
     (fp_text reference C815 (at 0 -0.3175) (layer F.SilkS)
@@ -3840,7 +3840,7 @@
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 5491354F) (tstamp 549145F2)
-    (at 150 160.050001)
+    (at 167.31 113.17)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /548C90C9/548CC15D/5491674C)
@@ -3880,7 +3880,7 @@
   )
 
   (module SMD_Packages:SOT-23 (layer F.Cu) (tedit 5491354E) (tstamp 549145FE)
-    (at 150 160.050001)
+    (at 103.81 185.56)
     (tags SOT23)
     (path /548CB7C3/54967C1F)
     (fp_text reference D801 (at 1.99898 -0.09906 90) (layer F.SilkS)
@@ -3908,7 +3908,7 @@
   )
 
   (module SMD_Packages:SOT-23 (layer F.Cu) (tedit 5491354E) (tstamp 5491460A)
-    (at 150 160.050001)
+    (at 133.02 176.67)
     (tags SOT23)
     (path /548CB7C3/5491069A)
     (fp_text reference D802 (at 1.99898 -0.09906 90) (layer F.SilkS)
@@ -3936,7 +3936,7 @@
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 5491354F) (tstamp 54914626)
-    (at 150 160.050001)
+    (at 177.47 113.17)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /548CB7C3/549000A2)
@@ -3976,7 +3976,7 @@
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 5491354F) (tstamp 54914642)
-    (at 150 160.050001)
+    (at 180.01 114.44)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /548CB7C3/5490043C)
@@ -4016,7 +4016,7 @@
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 5491354F) (tstamp 5491465E)
-    (at 150 160.050001)
+    (at 178.74 120.79)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /548CB7C3/54900475)
@@ -4056,7 +4056,7 @@
   )
 
   (module SMD_Packages:SOT-23 (layer F.Cu) (tedit 5491354E) (tstamp 5491466A)
-    (at 150 160.050001)
+    (at 133.02 170.32)
     (tags SOT23)
     (path /548CB7C3/5490FDCC)
     (fp_text reference D806 (at 1.99898 -0.09906 90) (layer F.SilkS)
@@ -4084,7 +4084,7 @@
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 5491354F) (tstamp 54914686)
-    (at 150 160.050001)
+    (at 160.96 119.52)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /548CB7C3/549004B3)
@@ -4124,7 +4124,7 @@
   )
 
   (module SMD_Packages:SOT-23 (layer F.Cu) (tedit 5491354E) (tstamp 54914692)
-    (at 150 160.050001)
+    (at 136.83 163.97)
     (tags SOT23)
     (path /548CB7C3/5490FF84)
     (fp_text reference D808 (at 1.99898 -0.09906 90) (layer F.SilkS)
@@ -4152,7 +4152,7 @@
   )
 
   (module SMD_Packages:SOT-23 (layer F.Cu) (tedit 5491354E) (tstamp 5491469E)
-    (at 150 160.050001)
+    (at 143.18 185.56)
     (tags SOT23)
     (path /548CB7C3/5491140D)
     (fp_text reference D809 (at 1.99898 -0.09906 90) (layer F.SilkS)
@@ -4180,7 +4180,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5491354F) (tstamp 549146AA)
-    (at 150 160.050001)
+    (at 136.83 158.89)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548C90C9/548FCD55)
@@ -4207,40 +4207,8 @@
     )
   )
 
-  (module Connect:1pin (layer F.Cu) (tedit 54913551) (tstamp 549146B0)
-    (at 150 160.050001)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (path /548C90C9/548CC15D/54918BC9)
-    (fp_text reference J501 (at 0 -3.048) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value CONN_01X01 (at 0 2.794) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS)
-      (net 78 /MEDIATEK/RF/NC_70))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 54913551) (tstamp 549146B6)
-    (at 150 160.050001)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (path /548C90C9/548CC15D/54918C42)
-    (fp_text reference J502 (at 0 -3.048) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value CONN_01X01 (at 0 2.794) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS)
-      (net 79 /MEDIATEK/RF/NC_78))
-  )
-
   (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 5491354F) (tstamp 549146C4)
-    (at 150 160.050001)
+    (at 88.57 109.36)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548C90C9/548CC15D/5491EAD6)
@@ -4271,7 +4239,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 5491354F) (tstamp 549146D2)
-    (at 150 160.050001)
+    (at 119.05 155.08)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548CB640/54942FBC)
@@ -4301,8 +4269,8 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_2x08 (layer F.Cu) (tedit 5491354F) (tstamp 549146EE)
-    (at 150 160.050001)
+  (module Pin_Headers:Pin_Header_Straight_2x08 (layer F.Cu) (tedit 5491354F) (tstamp 54914F49)
+    (at 143.18 122.06)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548CB640/54927F53)
@@ -4360,15 +4328,15 @@
   )
 
   (module tm-kicad-lib:MICRO-USB-10104111 (layer F.Cu) (tedit 5449BD13) (tstamp 54914703)
-    (at 150 160.050001)
+    (at 120.32 53.48 180)
     (path /548CB7C3/54968820)
-    (fp_text reference J801 (at -3 -1) (layer F.SilkS)
+    (fp_text reference J801 (at -3 -1 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value USB-MICRO-B (at 0 -5.08) (layer F.SilkS) hide
+    (fp_text value USB-MICRO-B (at 0 -5.08 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user "BOARD EDGE" (at 0 4.75) (layer F.SilkS) hide
+    (fp_text user "BOARD EDGE" (at 0 4.75 180) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
     (fp_line (start -3.75 0) (end -3.75 1.5) (layer F.SilkS) (width 0.15))
@@ -4376,32 +4344,32 @@
     (fp_line (start -2 0) (end -3.75 0) (layer F.SilkS) (width 0.15))
     (fp_line (start 2 0) (end 3.75 0) (layer F.SilkS) (width 0.15))
     (fp_line (start 4 4.3) (end -4 4.3) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.3 0) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.3 0 180) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask)
       (net 37 +5V))
-    (pad 2 smd rect (at -0.65 0) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at -0.65 0 180) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask)
       (net 62 /COPROCESSOR/SAM_USB_DM))
-    (pad 3 smd rect (at 0 0) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask)
+    (pad 3 smd rect (at 0 0 180) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask)
       (net 63 /COPROCESSOR/SAM_USB_DP))
-    (pad 4 smd rect (at 0.65 0) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at 0.65 0 180) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask)
       (net 85 "Net-(J801-Pad4)"))
-    (pad 5 smd rect (at 1.3 0) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask)
+    (pad 5 smd rect (at 1.3 0 180) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask)
       (net 5 GND))
-    (pad 6 smd rect (at -3.75 2.85) (size 2.3 1.9) (layers F.Cu F.Paste F.Mask)
+    (pad 6 smd rect (at -3.75 2.85 180) (size 2.3 1.9) (layers F.Cu F.Paste F.Mask)
       (net 5 GND))
-    (pad 7 smd rect (at -1.2 2.85) (size 1.7 1.9) (layers F.Cu F.Paste F.Mask)
+    (pad 7 smd rect (at -1.2 2.85 180) (size 1.7 1.9) (layers F.Cu F.Paste F.Mask)
       (net 5 GND))
-    (pad 8 smd rect (at 1.2 2.85) (size 1.7 1.9) (layers F.Cu F.Paste F.Mask)
+    (pad 8 smd rect (at 1.2 2.85 180) (size 1.7 1.9) (layers F.Cu F.Paste F.Mask)
       (net 5 GND))
-    (pad 9 smd rect (at 3.75 2.85) (size 2.3 1.9) (layers F.Cu F.Paste F.Mask)
+    (pad 9 smd rect (at 3.75 2.85 180) (size 2.3 1.9) (layers F.Cu F.Paste F.Mask)
       (net 5 GND))
-    (pad 9 smd rect (at 3.2 0.6) (size 1.5 1) (layers F.Cu F.Paste F.Mask)
+    (pad 9 smd rect (at 3.2 0.6 180) (size 1.5 1) (layers F.Cu F.Paste F.Mask)
       (net 5 GND))
-    (pad 9 smd rect (at -3.2 0.6) (size 1.5 1) (layers F.Cu F.Paste F.Mask)
+    (pad 9 smd rect (at -3.2 0.6 180) (size 1.5 1) (layers F.Cu F.Paste F.Mask)
       (net 5 GND))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x07 (layer F.Cu) (tedit 5491354F) (tstamp 54914715)
-    (at 150 160.050001)
+  (module Pin_Headers:Pin_Header_Straight_1x07 (layer F.Cu) (tedit 5491354F) (tstamp 54914F92)
+    (at 72.06 155.08)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548CB7C3/548F8C77)
@@ -4439,24 +4407,8 @@
     )
   )
 
-  (module Connect:1pin (layer F.Cu) (tedit 54913551) (tstamp 5491471B)
-    (at 150 160.050001)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (path /548CB7C3/54905BD2)
-    (fp_text reference J803 (at 0 -3.048) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value CONN_01X01 (at 0 2.794) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS)
-      (net 93 /I/O/USB_RESET#))
-  )
-
   (module Pin_Headers:Pin_Header_Straight_2x01 (layer F.Cu) (tedit 5491354F) (tstamp 54914728)
-    (at 150 160.050001)
+    (at 127.94 171.59)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548CB7C3/548FB8F0)
@@ -4485,7 +4437,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x01 (layer F.Cu) (tedit 5491354F) (tstamp 54914735)
-    (at 150 160.050001)
+    (at 105.08 129.68)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548CB7C3/548FA315)
@@ -4514,7 +4466,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5491354F) (tstamp 54914741)
-    (at 150 160.050001)
+    (at 145.72 150)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548CB7C3/548F8CDC)
@@ -4542,7 +4494,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5491354F) (tstamp 5491474D)
-    (at 150 160.050001)
+    (at 136.83 151.27)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548CB7C3/548F8D58)
@@ -4570,7 +4522,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5491354F) (tstamp 54914759)
-    (at 150 160.050001)
+    (at 146.99 175.4)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548CB7C3/548F8C03)
@@ -4598,7 +4550,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x04 (layer F.Cu) (tedit 5491354F) (tstamp 5491476D)
-    (at 150 160.050001)
+    (at 82.22 139.84)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548CB7C3/5494AFA3)
@@ -4639,47 +4591,47 @@
     )
   )
 
-  (module tm-kicad-lib:KUSBEX-ASFS2N-B (layer F.Cu) (tedit 54900BB6) (tstamp 54914781)
-    (at 150 160.050001)
+  (module tm-kicad-lib:KUSBEX-ASFS2N-B (layer F.Cu) (tedit 54900BB6) (tstamp 54914F17)
+    (at 158.42 61.1 180)
     (path /548CB7C3/548FDA9E)
-    (fp_text reference J810 (at 0.5 -3.75) (layer F.SilkS) hide
+    (fp_text reference J810 (at 0.5 -3.75 180) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
-    (fp_text value USB_A_2_stack (at -0.25 5.25) (layer F.SilkS)
+    (fp_text value USB_A_2_stack (at -0.25 5.25 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_line (start -6.75 16) (end 6.5 16) (layer F.SilkS) (width 0.15))
     (fp_line (start 6.5 -1.5) (end 6.5 16) (layer F.SilkS) (width 0.15))
     (fp_line (start -6.75 -1.5) (end -6.75 15.9) (layer F.SilkS) (width 0.15))
     (fp_line (start -6.75 -1.5) (end 6.45 -1.5) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at -3.5 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole circle (at -3.5 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 55 /I/O/VBUS[1]))
-    (pad 2 thru_hole circle (at -1 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole circle (at -1 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 64 /I/O/USB_DD-[1]))
-    (pad 3 thru_hole circle (at 1 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole circle (at 1 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 65 /I/O/USB_DD+[1]))
-    (pad 4 thru_hole circle (at 3.5 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 4 thru_hole circle (at 3.5 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 5 thru_hole circle (at -3.5 2.7) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 5 thru_hole circle (at -3.5 2.7 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 53 /I/O/VBUS[2]))
-    (pad 6 thru_hole circle (at -1 2.7) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 6 thru_hole circle (at -1 2.7 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 69 "Net-(D806-Pad2)"))
-    (pad 7 thru_hole circle (at 1 2.7) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 7 thru_hole circle (at 1 2.7 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 70 "Net-(D806-Pad1)"))
-    (pad 8 thru_hole circle (at 3.5 2.7) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 8 thru_hole circle (at 3.5 2.7 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 9 thru_hole circle (at -6.57 -0.43) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
+    (pad 9 thru_hole circle (at -6.57 -0.43 180) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 10 thru_hole circle (at -6.57 5.25) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
+    (pad 10 thru_hole circle (at -6.57 5.25 180) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 11 thru_hole circle (at 6.57 -0.43) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
+    (pad 11 thru_hole circle (at 6.57 -0.43 180) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 12 thru_hole circle (at 6.57 5.25) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
+    (pad 12 thru_hole circle (at 6.57 5.25 180) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
   )
 
-  (module tm-kicad-lib:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 543EC1DF) (tstamp 5491479B)
-    (at 150 160.050001)
+  (module tm-kicad-lib:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 543EC1DF) (tstamp 54914F64)
+    (at 61.9 109.36)
     (path /548CB7C3/548F4832)
     (fp_text reference J811 (at 0 1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
@@ -4741,47 +4693,47 @@
       (net 115 /I/O/PORTA_G3))
   )
 
-  (module tm-kicad-lib:KUSBEX-ASFS2N-B (layer F.Cu) (tedit 54900BB6) (tstamp 549147AF)
-    (at 150 160.050001)
+  (module tm-kicad-lib:KUSBEX-ASFS2N-B (layer F.Cu) (tedit 54900BB6) (tstamp 54914F2C)
+    (at 140.64 61.1 180)
     (path /548CB7C3/548FDD0B)
-    (fp_text reference J812 (at 0.5 -3.75) (layer F.SilkS) hide
+    (fp_text reference J812 (at 0.5 -3.75 180) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
-    (fp_text value USB_A_2_stack (at -0.25 5.25) (layer F.SilkS)
+    (fp_text value USB_A_2_stack (at -0.25 5.25 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_line (start -6.75 16) (end 6.5 16) (layer F.SilkS) (width 0.15))
     (fp_line (start 6.5 -1.5) (end 6.5 16) (layer F.SilkS) (width 0.15))
     (fp_line (start -6.75 -1.5) (end -6.75 15.9) (layer F.SilkS) (width 0.15))
     (fp_line (start -6.75 -1.5) (end 6.45 -1.5) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at -3.5 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole circle (at -3.5 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 59 /I/O/VBUS[3]))
-    (pad 2 thru_hole circle (at -1 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole circle (at -1 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 72 /I/O/USB_DD-[3]))
-    (pad 3 thru_hole circle (at 1 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole circle (at 1 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 73 /I/O/USB_DD+[3]))
-    (pad 4 thru_hole circle (at 3.5 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 4 thru_hole circle (at 3.5 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 5 thru_hole circle (at -3.5 2.7) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 5 thru_hole circle (at -3.5 2.7 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 57 /I/O/VBUS[4]))
-    (pad 6 thru_hole circle (at -1 2.7) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 6 thru_hole circle (at -1 2.7 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 74 /I/O/USB_DD-[4]))
-    (pad 7 thru_hole circle (at 1 2.7) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 7 thru_hole circle (at 1 2.7 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 75 /I/O/USB_DD+[4]))
-    (pad 8 thru_hole circle (at 3.5 2.7) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 8 thru_hole circle (at 3.5 2.7 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 9 thru_hole circle (at -6.57 -0.43) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
+    (pad 9 thru_hole circle (at -6.57 -0.43 180) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 10 thru_hole circle (at -6.57 5.25) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
+    (pad 10 thru_hole circle (at -6.57 5.25 180) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 11 thru_hole circle (at 6.57 -0.43) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
+    (pad 11 thru_hole circle (at 6.57 -0.43 180) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 12 thru_hole circle (at 6.57 5.25) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
+    (pad 12 thru_hole circle (at 6.57 5.25 180) (size 3 3) (drill 2.3) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
   )
 
-  (module tm-kicad-lib:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 543EC1DF) (tstamp 549147C9)
-    (at 150 160.050001)
+  (module tm-kicad-lib:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 543EC1DF) (tstamp 54914F7F)
+    (at 69.52 127.14)
     (path /548CB7C3/548F4875)
     (fp_text reference J813 (at 0 1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
@@ -4843,14 +4795,14 @@
       (net 123 /I/O/PORTB_G3))
   )
 
-  (module tm-kicad-lib:RB1-125BAG1A (layer F.Cu) (tedit 54910BE9) (tstamp 549147E3)
-    (at 150 160.050001)
+  (module tm-kicad-lib:RB1-125BAG1A (layer F.Cu) (tedit 54910BE9) (tstamp 54914F02)
+    (at 181.28 63.64 180)
     (descr http://www.shopwiznet.com/lanotattachments/download/file/id/95/store/1/)
     (path /548CB7C3/54902F47)
-    (fp_text reference J814 (at 4.25 -6) (layer F.SilkS) hide
+    (fp_text reference J814 (at 4.25 -6 180) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
-    (fp_text value RJ45_LEDs (at 4.25 3.25) (layer F.SilkS)
+    (fp_text value RJ45_LEDs (at 4.25 3.25 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_line (start -2.5 13.25) (end 11.5 13.25) (layer F.SilkS) (width 0.15))
@@ -4859,40 +4811,40 @@
     (fp_line (start -3.25 17.5) (end 12.25 17.5) (layer F.SilkS) (width 0.15))
     (fp_line (start 12.25 -4.5) (end 12.25 6.5) (layer F.SilkS) (width 0.15))
     (fp_line (start 12.25 6.5) (end 12.25 17.39) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole circle (at 0 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 124 "Net-(J814-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 -2.54) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole circle (at 1.27 -2.54 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 125 "Net-(J814-Pad2)"))
-    (pad 3 thru_hole circle (at 2.54 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole circle (at 2.54 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 12 +3.3V))
-    (pad 4 thru_hole circle (at 3.81 -2.54) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 4 thru_hole circle (at 3.81 -2.54 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 5 thru_hole circle (at 5.08 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 5 thru_hole circle (at 5.08 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 6 thru_hole circle (at 6.35 -2.54) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 6 thru_hole circle (at 6.35 -2.54 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 12 +3.3V))
-    (pad 7 thru_hole circle (at 7.62 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 7 thru_hole circle (at 7.62 0 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 126 "Net-(J814-Pad7)"))
-    (pad 8 thru_hole circle (at 8.89 -2.54) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 8 thru_hole circle (at 8.89 -2.54 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 127 "Net-(J814-Pad8)"))
-    (pad 9 thru_hole circle (at 10.77 9.73) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 9 thru_hole circle (at 10.77 9.73 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 12 +3.3V))
-    (pad 10 thru_hole circle (at 8.23 11.25) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 10 thru_hole circle (at 8.23 11.25 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 128 /I/O/L2_yellow))
-    (pad 11 thru_hole circle (at 0.66 9.73) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 11 thru_hole circle (at 0.66 9.73 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 12 +3.3V))
-    (pad 12 thru_hole circle (at -1.88 11.25) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
+    (pad 12 thru_hole circle (at -1.88 11.25 180) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS)
       (net 129 /I/O/L4_green))
-    (pad 13 thru_hole circle (at -3.3 3.3) (size 2 2) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
+    (pad 13 thru_hole circle (at -3.3 3.3 180) (size 2 2) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad 14 thru_hole circle (at 12.22 3.3) (size 2 2) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
+    (pad 14 thru_hole circle (at 12.22 3.3 180) (size 2 2) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 5 GND))
-    (pad "" np_thru_hole circle (at 10.16 6.35) (size 3.25 3.25) (drill 3.25) (layers *.Cu))
-    (pad "" np_thru_hole circle (at -1.27 6.35) (size 3.25 3.25) (drill 3.25) (layers *.Cu))
+    (pad "" np_thru_hole circle (at 10.16 6.35 180) (size 3.25 3.25) (drill 3.25) (layers *.Cu))
+    (pad "" np_thru_hole circle (at -1.27 6.35 180) (size 3.25 3.25) (drill 3.25) (layers *.Cu))
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x05 (layer F.Cu) (tedit 5491354F) (tstamp 549147F9)
-    (at 150 160.050001)
+    (at 69.52 170.32)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548CB7C3/549677D0)
@@ -4938,7 +4890,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x05 (layer F.Cu) (tedit 5491354F) (tstamp 5491480F)
-    (at 150 160.050001)
+    (at 94.92 160.16)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548CB7C3/5497B032)
@@ -4984,7 +4936,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491481A)
-    (at 150 160.050001)
+    (at 174.93 123.33)
     (path /548C90C9/54910D3E)
     (attr smd)
     (fp_text reference L201 (at 0 -0.6096) (layer F.SilkS)
@@ -5010,7 +4962,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914825)
-    (at 150 160.050001)
+    (at 174.93 124.6)
     (path /548C90C9/548FF18F)
     (attr smd)
     (fp_text reference L202 (at 0 -0.6096) (layer F.SilkS)
@@ -5036,7 +4988,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914830)
-    (at 150 160.050001)
+    (at 172.39 123.33)
     (path /548C90C9/5490F586)
     (attr smd)
     (fp_text reference L203 (at 0 -0.6096) (layer F.SilkS)
@@ -5062,7 +5014,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491483B)
-    (at 150 160.050001)
+    (at 172.39 124.6)
     (path /548C90C9/54910D4A)
     (attr smd)
     (fp_text reference L204 (at 0 -0.6096) (layer F.SilkS)
@@ -5088,7 +5040,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914846)
-    (at 150 160.050001)
+    (at 172.39 125.87)
     (path /548C90C9/548CC15D/5491D96C)
     (attr smd)
     (fp_text reference L501 (at 0 -0.6096) (layer F.SilkS)
@@ -5114,7 +5066,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914851)
-    (at 150 160.050001)
+    (at 174.93 122.06)
     (path /548C90C9/548CC15D/5492294C)
     (attr smd)
     (fp_text reference L502 (at 0 -0.6096) (layer F.SilkS)
@@ -5140,7 +5092,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491485C)
-    (at 150 160.050001)
+    (at 177.47 124.6)
     (path /548C90C9/548CC15D/5492F347)
     (attr smd)
     (fp_text reference L503 (at 0 -0.6096) (layer F.SilkS)
@@ -5166,7 +5118,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914867)
-    (at 150 160.050001)
+    (at 180.01 124.6)
     (path /548C90C9/548CC15D/5492F3EE)
     (attr smd)
     (fp_text reference L504 (at 0 -0.6096) (layer F.SilkS)
@@ -5192,7 +5144,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914872)
-    (at 150 160.050001)
+    (at 166.04 124.6)
     (path /548C90C9/548CC15D/5491DC09)
     (attr smd)
     (fp_text reference L505 (at 0 -0.6096) (layer F.SilkS)
@@ -5218,7 +5170,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491487D)
-    (at 150 160.050001)
+    (at 180.01 123.33)
     (path /548C90C9/548CC15D/5492F359)
     (attr smd)
     (fp_text reference L506 (at 0 -0.6096) (layer F.SilkS)
@@ -5244,7 +5196,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914888)
-    (at 150 160.050001)
+    (at 164.77 127.14)
     (path /548C90C9/548CC15D/5491DF34)
     (attr smd)
     (fp_text reference L507 (at 0 -0.6096) (layer F.SilkS)
@@ -5270,7 +5222,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914893)
-    (at 150 160.050001)
+    (at 158.42 123.33)
     (path /548C90C9/548CC15D/5492F365)
     (attr smd)
     (fp_text reference L508 (at 0 -0.6096) (layer F.SilkS)
@@ -5296,7 +5248,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491489E)
-    (at 150 160.050001)
+    (at 160.96 124.6)
     (path /548C90C9/548CC15D/5491E48A)
     (attr smd)
     (fp_text reference L509 (at 0 -0.6096) (layer F.SilkS)
@@ -5322,7 +5274,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549148A9)
-    (at 150 160.050001)
+    (at 168.58 125.87)
     (path /548C90C9/548CC15D/5492F37D)
     (attr smd)
     (fp_text reference L510 (at 0 -0.6096) (layer F.SilkS)
@@ -5348,7 +5300,7 @@
   )
 
   (module SMD_Packages:SMD-0603 (layer F.Cu) (tedit 5491354E) (tstamp 549148B3)
-    (at 150 160.050001)
+    (at 158.42 111.9)
     (path /548CB640/549071D8)
     (attr smd)
     (fp_text reference L601 (at 0 0) (layer F.SilkS)
@@ -5373,7 +5325,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549148BE)
-    (at 150 160.050001)
+    (at 158.42 125.87)
     (path /548CB640/549002DD)
     (attr smd)
     (fp_text reference L602 (at 0 -0.6096) (layer F.SilkS)
@@ -5399,7 +5351,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549148C9)
-    (at 150 160.050001)
+    (at 158.42 124.6)
     (path /548CB640/54962B10)
     (attr smd)
     (fp_text reference L603 (at 0 -0.6096) (layer F.SilkS)
@@ -5425,7 +5377,7 @@
   )
 
   (module SMD_Packages:SMD-0603 (layer F.Cu) (tedit 5491354E) (tstamp 549148D3)
-    (at 150 160.050001)
+    (at 181.28 127.14)
     (path /548CB895/548FA5A7)
     (attr smd)
     (fp_text reference L701 (at 0 0) (layer F.SilkS)
@@ -5450,7 +5402,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 549148E0)
-    (at 150 160.050001)
+    (at 126.67 129.68)
     (path /548CB7C3/549160A6)
     (attr smd)
     (fp_text reference L801 (at 0 -0.3175) (layer F.SilkS)
@@ -5478,7 +5430,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 549148ED)
-    (at 150 160.050001)
+    (at 116.51 118.25)
     (path /548CB7C3/54914BB2)
     (attr smd)
     (fp_text reference L802 (at 0 -0.3175) (layer F.SilkS)
@@ -5506,7 +5458,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 549148FA)
-    (at 150 160.050001)
+    (at 127.94 119.52)
     (path /548CB7C3/5491702C)
     (attr smd)
     (fp_text reference L803 (at 0 -0.3175) (layer F.SilkS)
@@ -5534,7 +5486,7 @@
   )
 
   (module SMD_Packages:SMD-0805 (layer F.Cu) (tedit 5491354E) (tstamp 54914907)
-    (at 150 160.050001)
+    (at 122.86 125.87)
     (path /548CB7C3/54917015)
     (attr smd)
     (fp_text reference L804 (at 0 -0.3175) (layer F.SilkS)
@@ -5562,7 +5514,7 @@
   )
 
   (module SMD_Packages:SOT-23 (layer F.Cu) (tedit 5491354E) (tstamp 54914913)
-    (at 150 160.050001)
+    (at 106.35 144.92)
     (tags SOT23)
     (path /548CB640/54916E11)
     (fp_text reference Q601 (at 1.99898 -0.09906 90) (layer F.SilkS)
@@ -5590,7 +5542,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491491E)
-    (at 150 160.050001)
+    (at 158.42 122.06)
     (path /548C90C9/5490CBD2)
     (attr smd)
     (fp_text reference R201 (at 0 -0.6096) (layer F.SilkS)
@@ -5616,7 +5568,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914929)
-    (at 150 160.050001)
+    (at 160.96 125.87)
     (path /548C90C9/548FD597)
     (attr smd)
     (fp_text reference R202 (at 0 -0.6096) (layer F.SilkS)
@@ -5642,7 +5594,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914934)
-    (at 150 160.050001)
+    (at 160.96 123.33)
     (path /548C90C9/54912AB6)
     (attr smd)
     (fp_text reference R203 (at 0 -0.6096) (layer F.SilkS)
@@ -5668,7 +5620,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491493F)
-    (at 150 160.050001)
+    (at 160.96 122.06)
     (path /548C90C9/548CC02E/548D3CA8)
     (attr smd)
     (fp_text reference R301 (at 0 -0.6096) (layer F.SilkS)
@@ -5694,7 +5646,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491494A)
-    (at 150 160.050001)
+    (at 166.04 123.33)
     (path /548C90C9/548CC02E/548D3CD9)
     (attr smd)
     (fp_text reference R302 (at 0 -0.6096) (layer F.SilkS)
@@ -5720,7 +5672,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914955)
-    (at 150 160.050001)
+    (at 163.5 125.87)
     (path /548C90C9/548CC02E/548D36D9)
     (attr smd)
     (fp_text reference R303 (at 0 -0.6096) (layer F.SilkS)
@@ -5746,7 +5698,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914960)
-    (at 150 160.050001)
+    (at 163.5 124.6)
     (path /548C90C9/548CC02E/548D6FE8)
     (attr smd)
     (fp_text reference R304 (at 0 -0.6096) (layer F.SilkS)
@@ -5772,7 +5724,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491496B)
-    (at 150 160.050001)
+    (at 168.58 124.6)
     (path /548C90C9/548CC02E/548D71F3)
     (attr smd)
     (fp_text reference R305 (at 0 -0.6096) (layer F.SilkS)
@@ -5798,7 +5750,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914976)
-    (at 150 160.050001)
+    (at 168.58 123.33)
     (path /548C90C9/548CC15D/54917341)
     (attr smd)
     (fp_text reference R501 (at 0 -0.6096) (layer F.SilkS)
@@ -5824,7 +5776,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914981)
-    (at 150 160.050001)
+    (at 163.5 123.33)
     (path /548C90C9/548CC15D/549167C3)
     (attr smd)
     (fp_text reference R502 (at 0 -0.6096) (layer F.SilkS)
@@ -5850,7 +5802,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5491498C)
-    (at 150 160.050001)
+    (at 164.77 116.98)
     (path /548C90C9/548CC15D/54919448)
     (attr smd)
     (fp_text reference R503 (at 0 -0.6096) (layer F.SilkS)
@@ -5876,7 +5828,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914997)
-    (at 150 160.050001)
+    (at 167.31 116.98)
     (path /548C90C9/548CC15D/5491938E)
     (attr smd)
     (fp_text reference R504 (at 0 -0.6096) (layer F.SilkS)
@@ -5902,7 +5854,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549149A2)
-    (at 150 160.050001)
+    (at 160.96 113.17)
     (path /548C90C9/548CC15D/5491920E)
     (attr smd)
     (fp_text reference R505 (at 0 -0.6096) (layer F.SilkS)
@@ -5928,7 +5880,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549149AD)
-    (at 150 160.050001)
+    (at 158.42 113.17)
     (path /548C90C9/548CC15D/549247BD)
     (attr smd)
     (fp_text reference R506 (at 0 -0.6096) (layer F.SilkS)
@@ -5954,7 +5906,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549149B8)
-    (at 150 160.050001)
+    (at 166.04 125.87)
     (path /548C90C9/548CC15D/5492F3FF)
     (attr smd)
     (fp_text reference R507 (at 0 -0.6096) (layer F.SilkS)
@@ -5980,7 +5932,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549149C3)
-    (at 150 160.050001)
+    (at 180.01 118.25)
     (path /548CB640/54907246)
     (attr smd)
     (fp_text reference R601 (at 0 -0.6096) (layer F.SilkS)
@@ -6006,7 +5958,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549149CE)
-    (at 150 160.050001)
+    (at 180.01 125.87)
     (path /548CB640/54910C7C)
     (attr smd)
     (fp_text reference R602 (at 0 -0.6096) (layer F.SilkS)
@@ -6032,7 +5984,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549149D9)
-    (at 150 160.050001)
+    (at 177.47 123.33)
     (path /548CB640/5490CBBD)
     (attr smd)
     (fp_text reference R603 (at 0 -0.6096) (layer F.SilkS)
@@ -6058,7 +6010,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549149E4)
-    (at 150 160.050001)
+    (at 169.85 116.98)
     (path /548CB640/548FE5A4)
     (attr smd)
     (fp_text reference R604 (at 0 -0.6096) (layer F.SilkS)
@@ -6084,7 +6036,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549149EF)
-    (at 150 160.050001)
+    (at 169.85 118.25)
     (path /548CB640/54903D3C)
     (attr smd)
     (fp_text reference R605 (at 0 -0.6096) (layer F.SilkS)
@@ -6110,7 +6062,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 549149FA)
-    (at 150 160.050001)
+    (at 169.85 119.52)
     (path /548CB640/54903C97)
     (attr smd)
     (fp_text reference R606 (at 0 -0.6096) (layer F.SilkS)
@@ -6136,7 +6088,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A05)
-    (at 150 160.050001)
+    (at 169.85 120.79)
     (path /548CB640/54907262)
     (attr smd)
     (fp_text reference R607 (at 0 -0.6096) (layer F.SilkS)
@@ -6162,7 +6114,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A10)
-    (at 150 160.050001)
+    (at 164.77 118.25)
     (path /548CB640/549071DE)
     (attr smd)
     (fp_text reference R608 (at 0 -0.6096) (layer F.SilkS)
@@ -6188,7 +6140,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A1B)
-    (at 150 160.050001)
+    (at 167.31 118.25)
     (path /548CB640/549071F6)
     (attr smd)
     (fp_text reference R609 (at 0 -0.6096) (layer F.SilkS)
@@ -6214,7 +6166,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A26)
-    (at 150 160.050001)
+    (at 169.85 122.06)
     (path /548CB640/54912DC7)
     (attr smd)
     (fp_text reference R610 (at 0 -0.6096) (layer F.SilkS)
@@ -6240,7 +6192,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A31)
-    (at 150 160.050001)
+    (at 164.77 119.52)
     (path /548CB640/54904B6B)
     (attr smd)
     (fp_text reference R611 (at 0 -0.6096) (layer F.SilkS)
@@ -6266,7 +6218,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A3C)
-    (at 150 160.050001)
+    (at 160.96 111.9)
     (path /548CB640/54912DB8)
     (attr smd)
     (fp_text reference R612 (at 0 -0.6096) (layer F.SilkS)
@@ -6292,7 +6244,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A47)
-    (at 150 160.050001)
+    (at 167.31 119.52)
     (path /548CB640/54900355)
     (attr smd)
     (fp_text reference R613 (at 0 -0.6096) (layer F.SilkS)
@@ -6318,7 +6270,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A52)
-    (at 150 160.050001)
+    (at 164.77 120.79)
     (path /548CB640/54903DB1)
     (attr smd)
     (fp_text reference R614 (at 0 -0.6096) (layer F.SilkS)
@@ -6344,7 +6296,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A5D)
-    (at 150 160.050001)
+    (at 164.77 122.06)
     (path /548CB640/54962B16)
     (attr smd)
     (fp_text reference R615 (at 0 -0.6096) (layer F.SilkS)
@@ -6370,7 +6322,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A68)
-    (at 150 160.050001)
+    (at 167.31 122.06)
     (path /548CB640/54962B2E)
     (attr smd)
     (fp_text reference R616 (at 0 -0.6096) (layer F.SilkS)
@@ -6396,7 +6348,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A73)
-    (at 150 160.050001)
+    (at 155.88 113.17)
     (path /548CB640/54905054)
     (attr smd)
     (fp_text reference R617 (at 0 -0.6096) (layer F.SilkS)
@@ -6422,7 +6374,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A7E)
-    (at 150 160.050001)
+    (at 155.88 114.44)
     (path /548CB895/5497863A)
     (attr smd)
     (fp_text reference R701 (at 0 -0.6096) (layer F.SilkS)
@@ -6448,7 +6400,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A89)
-    (at 150 160.050001)
+    (at 155.88 115.71)
     (path /548CB895/54912D2C)
     (attr smd)
     (fp_text reference R702 (at 0 -0.6096) (layer F.SilkS)
@@ -6474,7 +6426,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A94)
-    (at 150 160.050001)
+    (at 155.88 116.98)
     (path /548CB895/54912D32)
     (attr smd)
     (fp_text reference R703 (at 0 -0.6096) (layer F.SilkS)
@@ -6500,7 +6452,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914A9F)
-    (at 150 160.050001)
+    (at 155.88 118.25)
     (path /548CB895/54912B30)
     (attr smd)
     (fp_text reference R704 (at 0 -0.6096) (layer F.SilkS)
@@ -6526,7 +6478,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914AAA)
-    (at 150 160.050001)
+    (at 155.88 119.52)
     (path /548CB895/54912C7C)
     (attr smd)
     (fp_text reference R705 (at 0 -0.6096) (layer F.SilkS)
@@ -6552,7 +6504,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914AB5)
-    (at 150 160.050001)
+    (at 155.88 122.06)
     (path /548CB895/54913EC4)
     (attr smd)
     (fp_text reference R706 (at 0 -0.6096) (layer F.SilkS)
@@ -6578,7 +6530,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914AC0)
-    (at 150 160.050001)
+    (at 155.88 123.33)
     (path /548CB895/54913EBE)
     (attr smd)
     (fp_text reference R707 (at 0 -0.6096) (layer F.SilkS)
@@ -6604,7 +6556,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914ACB)
-    (at 150 160.050001)
+    (at 155.88 111.9)
     (path /548CB895/54913ED0)
     (attr smd)
     (fp_text reference R708 (at 0 -0.6096) (layer F.SilkS)
@@ -6630,7 +6582,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914AD6)
-    (at 150 160.050001)
+    (at 155.88 110.63)
     (path /548CB895/54913ECA)
     (attr smd)
     (fp_text reference R709 (at 0 -0.6096) (layer F.SilkS)
@@ -6656,7 +6608,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914AE1)
-    (at 150 160.050001)
+    (at 155.88 120.79)
     (path /548CB7C3/548F5965)
     (attr smd)
     (fp_text reference R801 (at 0 -0.6096) (layer F.SilkS)
@@ -6682,7 +6634,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914AEC)
-    (at 150 160.050001)
+    (at 158.42 110.63)
     (path /548CB7C3/54916677)
     (attr smd)
     (fp_text reference R802 (at 0 -0.6096) (layer F.SilkS)
@@ -6708,7 +6660,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914AF7)
-    (at 150 160.050001)
+    (at 153.34 110.63)
     (path /548CB7C3/548FBB62)
     (attr smd)
     (fp_text reference R803 (at 0 -0.6096) (layer F.SilkS)
@@ -6734,7 +6686,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914B02)
-    (at 150 160.050001)
+    (at 153.34 111.9)
     (path /548CB7C3/548F9D36)
     (attr smd)
     (fp_text reference R804 (at 0 -0.6096) (layer F.SilkS)
@@ -6760,7 +6712,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914B0D)
-    (at 150 160.050001)
+    (at 153.34 113.17)
     (path /548CB7C3/548FC0A9)
     (attr smd)
     (fp_text reference R805 (at 0 -0.6096) (layer F.SilkS)
@@ -6786,7 +6738,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914B18)
-    (at 150 160.050001)
+    (at 155.88 124.6)
     (path /548CB7C3/548FBB95)
     (attr smd)
     (fp_text reference R806 (at 0 -0.6096) (layer F.SilkS)
@@ -6812,7 +6764,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914B23)
-    (at 150 160.050001)
+    (at 155.88 125.87)
     (path /548CB7C3/548FA0FF)
     (attr smd)
     (fp_text reference R807 (at 0 -0.6096) (layer F.SilkS)
@@ -6838,7 +6790,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914B2E)
-    (at 150 160.050001)
+    (at 153.34 114.44)
     (path /548CB7C3/548FF659)
     (attr smd)
     (fp_text reference R808 (at 0 -0.6096) (layer F.SilkS)
@@ -6864,7 +6816,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914B39)
-    (at 150 160.050001)
+    (at 153.34 115.71)
     (path /548CB7C3/548FF95D)
     (attr smd)
     (fp_text reference R809 (at 0 -0.6096) (layer F.SilkS)
@@ -6890,7 +6842,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914B44)
-    (at 150 160.050001)
+    (at 153.34 116.98)
     (path /548CB7C3/548FF916)
     (attr smd)
     (fp_text reference R810 (at 0 -0.6096) (layer F.SilkS)
@@ -6916,7 +6868,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914B4F)
-    (at 150 160.050001)
+    (at 150.8 110.63)
     (path /548CB7C3/548FF99F)
     (attr smd)
     (fp_text reference R811 (at 0 -0.6096) (layer F.SilkS)
@@ -6942,7 +6894,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914B5A)
-    (at 150 160.050001)
+    (at 150.8 111.9)
     (path /548CB7C3/54904DEB)
     (attr smd)
     (fp_text reference R812 (at 0 -0.6096) (layer F.SilkS)
@@ -6968,7 +6920,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914B65)
-    (at 150 160.050001)
+    (at 153.34 118.25)
     (path /548CB7C3/54907831)
     (attr smd)
     (fp_text reference R813 (at 0 -0.6096) (layer F.SilkS)
@@ -6994,7 +6946,7 @@
   )
 
   (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 54914B70)
-    (at 150 160.050001)
+    (at 151.27 114.330001)
     (path /548CB7C3/54907A61)
     (attr smd)
     (fp_text reference R814 (at 0 -0.6096) (layer F.SilkS)
@@ -7020,7 +6972,7 @@
   )
 
   (module tm-kicad-lib:MT7620N (layer F.Cu) (tedit 548B4B36) (tstamp 54914C12)
-    (at 150 160.050001)
+    (at 176.2 157.62)
     (path /548C90C9/548F43B1)
     (fp_text reference U201 (at 0.25 -7.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7338,7 +7290,7 @@
   )
 
   (module tm-kicad-lib:WBGA-84 (layer F.Cu) (tedit 54877368) (tstamp 54914C71)
-    (at 150 160.050001)
+    (at 178.74 172.86)
     (path /548C90C9/548CC02E/548CFEFF)
     (fp_text reference U301 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7524,7 +7476,7 @@
   )
 
   (module tm-kicad-lib:WNG008 (layer F.Cu) (tedit 5487C98F) (tstamp 54914C85)
-    (at 150 160.050001)
+    (at 154.61 175.4)
     (path /548C90C9/548CC15A/548FCC1A)
     (fp_text reference U401 (at -2.5 -3.5) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.07)))
@@ -7559,7 +7511,7 @@
   )
 
   (module tm-kicad-lib:WDFN8-2x2-0.5P (layer F.Cu) (tedit 5491019C) (tstamp 54914C95)
-    (at 150 160.050001)
+    (at 157.15 161.43)
     (path /548CB640/5491A509)
     (fp_text reference U601 (at -1.5 0 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
@@ -7591,7 +7543,7 @@
   )
 
   (module SMD_Packages:SOT-23-6 (layer F.Cu) (tedit 5491354E) (tstamp 54914CA4)
-    (at 150 160.050001)
+    (at 126.67 147.46)
     (path /548CB640/548FCFEB)
     (fp_text reference U602 (at 1.99898 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7624,7 +7576,7 @@
   )
 
   (module tm-kicad-lib:WDFN8-2x2-0.5P (layer F.Cu) (tedit 5491019C) (tstamp 54914CB4)
-    (at 150 160.050001)
+    (at 144.45 162.7)
     (path /548CB640/548FCFA8)
     (fp_text reference U603 (at -1.5 0 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
@@ -7652,7 +7604,7 @@
   )
 
   (module SMD_Packages:SOT-23-6 (layer F.Cu) (tedit 5491354E) (tstamp 54914CC3)
-    (at 150 160.050001)
+    (at 111.43 162.7)
     (path /548CB640/5496BC93)
     (fp_text reference U604 (at 1.99898 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7685,7 +7637,7 @@
   )
 
   (module tm-kicad-lib:FAN5353 (layer F.Cu) (tedit 5490857B) (tstamp 54914CD7)
-    (at 150 160.050001)
+    (at 167.31 138.57)
     (path /548CB640/5491AE64)
     (fp_text reference U605 (at -1 -1.4 90) (layer F.SilkS)
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -7725,7 +7677,7 @@
   )
 
   (module SMD_Packages:QFN-48-1EP (layer F.Cu) (tedit 5491354E) (tstamp 54914D12)
-    (at 150 160.050001)
+    (at 64.44 91.58)
     (path /548CB895/548FAB63)
     (attr smd)
     (fp_text reference U701 (at -0.01016 1.29032) (layer F.SilkS)
@@ -7846,7 +7798,7 @@
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 54914D29)
-    (at 150 160.050001)
+    (at 192.71 157.62)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /548CB7C3/54910B6A)
@@ -7892,7 +7844,7 @@
   )
 
   (module tm-kicad-lib:CY7C65634-48AXCT (layer F.Cu) (tedit 549005CD) (tstamp 54914D62)
-    (at 150 160.050001)
+    (at 166.04 172.86)
     (path /548CB7C3/548F8A97)
     (fp_text reference U802 (at 0 -1.75) (layer F.SilkS)
       (effects (font (size 0.4 0.4) (thickness 0.0625)))
@@ -8004,7 +7956,7 @@
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 54914D79)
-    (at 150 160.050001)
+    (at 160.96 188.1)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /548CB7C3/54911CE3)
@@ -8050,7 +8002,7 @@
   )
 
   (module tm-kicad-lib:CTS-425 (layer F.Cu) (tedit 54912C41) (tstamp 54914D85)
-    (at 150 160.050001)
+    (at 162.23 109.36)
     (path /548C90C9/548FD11E)
     (fp_text reference X201 (at 3 -4) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
@@ -8073,7 +8025,7 @@
   )
 
   (module tm-kicad-lib:SC-32S (layer F.Cu) (tedit 54912EA9) (tstamp 54914D8D)
-    (at 150 160.050001)
+    (at 137.3 141.000001)
     (path /548CB895/54900866)
     (fp_text reference X701 (at 0 -1.5) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
@@ -8090,7 +8042,7 @@
   )
 
   (module tm-kicad-lib:NX5032GA-12.000000MHZ-LN-CD-1 (layer F.Cu) (tedit 54913017) (tstamp 54914D97)
-    (at 150 160.050001)
+    (at 210.49 152.54)
     (path /548CB7C3/548FCA48)
     (fp_text reference X801 (at 2 -0.1 90) (layer F.SilkS)
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -8106,6 +8058,78 @@
       (net 51 /I/O/USB_XTAL_OUT))
     (pad 2 smd rect (at 4 0) (size 2 2.4) (layers F.Cu F.Paste F.Mask)
       (net 52 /I/O/USB_XTAL_IN))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01 (layer F.Cu) (tedit 5491384F) (tstamp 5491540A)
+    (at 120.32 165.24)
+    (descr "Through hole pin header")
+    (tags "pin header")
+    (path /548C90C9/548CC15D/54918BC9)
+    (fp_text reference J501 (at 0 -2.286) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_01X01 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1.27 1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 1.27 1.27) (end 1.27 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 1.27 -1.27) (end -1.27 -1.27) (layer F.SilkS) (width 0.15))
+    (pad 1 thru_hole rect (at 0 0) (size 2.2352 2.2352) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 78 /MEDIATEK/RF/NC_70))
+    (model Pin_Headers/Pin_Header_Straight_1x01.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01 (layer F.Cu) (tedit 5491384F) (tstamp 54915413)
+    (at 159.69 155.08)
+    (descr "Through hole pin header")
+    (tags "pin header")
+    (path /548C90C9/548CC15D/54918C42)
+    (fp_text reference J502 (at 0 -2.286) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_01X01 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1.27 1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 1.27 1.27) (end 1.27 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 1.27 -1.27) (end -1.27 -1.27) (layer F.SilkS) (width 0.15))
+    (pad 1 thru_hole rect (at 0 0) (size 2.2352 2.2352) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 79 /MEDIATEK/RF/NC_78))
+    (model Pin_Headers/Pin_Header_Straight_1x01.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01 (layer F.Cu) (tedit 5491384F) (tstamp 5491541C)
+    (at 164.77 161.43)
+    (descr "Through hole pin header")
+    (tags "pin header")
+    (path /548CB7C3/54905BD2)
+    (fp_text reference J803 (at 0 -2.286) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_01X01 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1.27 1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 1.27 1.27) (end 1.27 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 1.27 -1.27) (end -1.27 -1.27) (layer F.SilkS) (width 0.15))
+    (pad 1 thru_hole rect (at 0 0) (size 2.2352 2.2352) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 93 /I/O/USB_RESET#))
+    (model Pin_Headers/Pin_Header_Straight_1x01.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_line (start 100 50) (end 100 150) (angle 90) (layer Edge.Cuts) (width 0.1))
