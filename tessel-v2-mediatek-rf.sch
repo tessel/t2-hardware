@@ -851,7 +851,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 5150 3700 5150
 Wire Wire Line
-	4450 5550 4450 5600
+	4450 5700 4450 5550
 Wire Wire Line
 	2050 5150 2050 5250
 Wire Wire Line
@@ -910,9 +910,9 @@ F 3 "" H 4900 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 5450 4200 5600
+	4200 5450 4200 5700
 Wire Wire Line
-	4200 5600 4450 5600
+	3750 5700 4450 5700
 $Comp
 L R R505
 U 1 1 5491920E
@@ -1013,4 +1013,25 @@ Text Label 3750 5150 0    60   ~ 0
 WLED_N
 Text Label 4400 5150 0    60   ~ 0
 WLED_N_R
+$Comp
+L R R508
+U 1 1 549228BB
+P 3750 5450
+F 0 "R508" V 3830 5450 40  0000 C CNN
+F 1 "4.7kR" V 3757 5451 40  0000 C CNN
+F 2 "" V 3680 5450 30  0001 C CNN
+F 3 "" H 3750 5450 30  0000 C CNN
+	1    3750 5450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3750 5200 3750 5150
+Connection ~ 3750 5150
+Connection ~ 4200 5700
+Text Notes 3300 6150 0    60   ~ 0
+WLED: Boot config for\nAuto-detect DRAM config.\n0 = DRAM from EEPROM\n1 = DRAM from auto-detect
+Text Notes 5600 5350 0    60   ~ 0
+ANT_TRN: DBG_JTAG_MODE\n0 = EPHY_LED\n1 = JTAG
+Text Notes 5600 5650 0    60   ~ 0
+ANT_TRNB: XTAL_FREQ_SEL\n0 = 20MHz\n1 = 40MHz
 $EndSCHEMATC

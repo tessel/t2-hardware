@@ -59,8 +59,6 @@ F0 "FLASH" 60
 F1 "tessel-v2-mediatek-flash.sch" 60
 F2 "Flash_SI" I R 19100 7450 60 
 F3 "Flash_SO" I R 19100 7600 60 
-F4 "Flash_WP" I R 19100 7750 60 
-F5 "Flash_HOLD" I R 19100 7900 60 
 F6 "Flash_CS" I R 19100 8050 60 
 F7 "Flash_SCK" I R 19100 8200 60 
 $EndSheet
@@ -625,10 +623,6 @@ Text HLabel 19850 7450 2    60   Input ~ 0
 MT_SI
 Text HLabel 19850 7600 2    60   Input ~ 0
 MT_SO
-Text HLabel 19850 7750 2    60   Input ~ 0
-MT_WP
-Text HLabel 19850 7900 2    60   Input ~ 0
-MT_HOLD
 Text HLabel 19850 8050 2    60   Input ~ 0
 MT_CS
 Text HLabel 19850 8200 2    60   Input ~ 0
@@ -995,10 +989,6 @@ Wire Wire Line
 	19100 7450 19850 7450
 Wire Wire Line
 	19100 7600 19850 7600
-Wire Wire Line
-	19100 7750 19850 7750
-Wire Wire Line
-	19100 7900 19850 7900
 Wire Wire Line
 	19100 8050 19850 8050
 Wire Wire Line
