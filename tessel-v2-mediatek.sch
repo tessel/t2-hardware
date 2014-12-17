@@ -577,8 +577,6 @@ F 3 "" H 4000 8600 60  0000 C CNN
 	1    4000 8600
 	1    0    0    -1  
 $EndComp
-Text HLabel 3850 8200 1    60   Input ~ 0
-1.5V
 $Comp
 L +1.2V #PWR205
 U 1 1 5490938C
@@ -1248,5 +1246,7 @@ MT_XTAL_XO_R
 Text GLabel 7900 5550 1    60   Input ~ 0
 1.5V_SOC
 Text GLabel 10550 5100 1    60   Input ~ 0
+1.5V_SOC
+Text GLabel 3850 8200 1    60   Input ~ 0
 1.5V_SOC
 $EndSCHEMATC
