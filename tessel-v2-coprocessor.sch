@@ -420,13 +420,17 @@ Wire Wire Line
 Connection ~ 7900 3250
 Connection ~ 7900 2400
 Wire Wire Line
-	7900 2400 7900 4200
+	7900 2400 7900 3250
+Wire Wire Line
+	7900 3250 7900 4200
 Connection ~ 8300 3050
 Connection ~ 8300 2400
 Connection ~ 8400 2950
 Connection ~ 8400 2400
 Wire Wire Line
-	8400 2400 8400 4200
+	8400 2400 8400 2950
+Wire Wire Line
+	8400 2950 8400 4200
 Wire Wire Line
 	7550 2400 7550 2250
 Wire Wire Line
@@ -440,7 +444,9 @@ Wire Wire Line
 Wire Wire Line
 	8300 3050 6300 3050
 Wire Wire Line
-	8300 2400 8300 4200
+	8300 2400 8300 3050
+Wire Wire Line
+	8300 3050 8300 4200
 Wire Wire Line
 	8100 3150 8100 4200
 Wire Wire Line
@@ -450,7 +456,9 @@ Wire Wire Line
 Wire Wire Line
 	7100 3250 7100 3450
 Wire Wire Line
-	7100 3250 7900 3250
+	7100 3250 7500 3250
+Wire Wire Line
+	7500 3250 7900 3250
 Connection ~ 8600 3250
 Connection ~ 8950 3250
 Wire Wire Line
@@ -458,9 +466,13 @@ Wire Wire Line
 Wire Wire Line
 	8950 3250 8950 3400
 Wire Wire Line
-	8600 3250 9350 3250
+	8600 3250 8950 3250
 Wire Wire Line
-	8600 3150 8600 4200
+	8950 3250 9350 3250
+Wire Wire Line
+	8600 3150 8600 3250
+Wire Wire Line
+	8600 3250 8600 4200
 Wire Wire Line
 	4800 7950 4800 8100
 Connection ~ 4800 7400
@@ -472,7 +484,9 @@ Wire Wire Line
 Wire Wire Line
 	4800 7400 5100 7400
 Wire Wire Line
-	4800 7100 4800 7550
+	4800 7100 4800 7400
+Wire Wire Line
+	4800 7400 4800 7550
 Wire Wire Line
 	9700 7100 10900 7100
 Wire Wire Line
@@ -514,7 +528,9 @@ Wire Wire Line
 Wire Wire Line
 	9700 4600 10900 4600
 Wire Wire Line
-	5700 7400 6900 7400
+	5700 7400 6000 7400
+Wire Wire Line
+	6000 7400 6900 7400
 Wire Wire Line
 	4800 7100 6900 7100
 Wire Wire Line
@@ -540,7 +556,13 @@ Wire Wire Line
 Wire Wire Line
 	6900 4600 6000 4600
 Wire Wire Line
-	7550 2400 8600 2400
+	7550 2400 7900 2400
+Wire Wire Line
+	7900 2400 8300 2400
+Wire Wire Line
+	8300 2400 8400 2400
+Wire Wire Line
+	8400 2400 8600 2400
 Wire Wire Line
 	7500 3450 7500 3250
 Connection ~ 7500 3250
@@ -556,9 +578,17 @@ F 3 "" H 8000 8100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 7800 8000 8100
+	8000 7800 8000 7900
 Wire Wire Line
-	8000 7900 8600 7900
+	8000 7900 8000 8100
+Wire Wire Line
+	8000 7900 8200 7900
+Wire Wire Line
+	8200 7900 8300 7900
+Wire Wire Line
+	8300 7900 8400 7900
+Wire Wire Line
+	8400 7900 8600 7900
 Wire Wire Line
 	8200 7900 8200 7800
 Connection ~ 8000 7900
@@ -572,7 +602,7 @@ Wire Wire Line
 	8600 7900 8600 7800
 Connection ~ 8400 7900
 Text Label 7600 2400 0    60   ~ 0
-3.3V
+3.3V_CP
 Text Label 8600 4100 1    60   ~ 0
 VDDANA
 $Comp
@@ -752,4 +782,52 @@ Text HLabel 6000 6100 0    60   Input ~ 0
 GPIO_1
 Text HLabel 6000 5700 0    60   Input ~ 0
 GPIO_2_DAC
+Text Label 3400 4600 0    60   ~ 0
+SAM_~RESET
+Wire Wire Line
+	3300 4600 4100 4600
+$Comp
+L C C?
+U 1 1 54978225
+P 4100 4900
+F 0 "C?" H 4100 5000 40  0000 L CNN
+F 1 "100nF" H 4106 4815 40  0000 L CNN
+F 2 "" H 4138 4750 30  0000 C CNN
+F 3 "" H 4100 4900 60  0000 C CNN
+	1    4100 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4500 4100 4600
+Wire Wire Line
+	4100 4600 4100 4700
+Connection ~ 4100 4600
+Wire Wire Line
+	4100 5100 4100 5200
+$Comp
+L R R?
+U 1 1 5497863A
+P 4100 4250
+F 0 "R?" V 4180 4250 40  0000 C CNN
+F 1 "22R" V 4107 4251 40  0000 C CNN
+F 2 "" V 4030 4250 30  0000 C CNN
+F 3 "" H 4100 4250 30  0000 C CNN
+	1    4100 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 4000 4100 3900
+Text GLabel 4100 3900 1    60   Input ~ 0
+3.3V_CP
+$Comp
+L GND #PWR?
+U 1 1 54978E0E
+P 4100 5200
+F 0 "#PWR?" H 4100 5200 30  0001 C CNN
+F 1 "GND" H 4100 5130 30  0001 C CNN
+F 2 "" H 4100 5200 60  0000 C CNN
+F 3 "" H 4100 5200 60  0000 C CNN
+	1    4100 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
