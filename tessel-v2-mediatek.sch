@@ -206,8 +206,6 @@ F 3 "" H 4800 6600 60  0000 C CNN
 	1    4800 6600
 	1    0    0    -1  
 $EndComp
-Text HLabel 7900 5550 1    60   Input ~ 0
-1.5V
 $Comp
 L INDUCTOR L?
 U 1 1 548FF18F
@@ -331,8 +329,6 @@ F 3 "" H 9850 5200 60  0000 C CNN
 $EndComp
 NoConn ~ 11850 6800
 NoConn ~ 11850 6900
-Text HLabel 10550 5100 1    60   Input ~ 0
-1.5V
 Text HLabel 10750 5150 1    60   Input ~ 0
 EXT_LDO_DIG
 NoConn ~ 10850 5750
@@ -1260,4 +1256,8 @@ Text Label 8100 10150 0    60   ~ 0
 MT_PLL_VC_CAP
 Text Label 7000 10050 0    60   ~ 0
 MT_XTAL_XO_R
+Text GLabel 7900 5550 1    60   Input ~ 0
+1.5V_SOC
+Text GLabel 10550 5100 1    60   Input ~ 0
+1.5V_SOC
 $EndSCHEMATC
