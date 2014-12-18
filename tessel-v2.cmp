@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Wed 17 Dec 2014 04:05:26 PM PST
+Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Wed 17 Dec 2014 06:25:24 PM PST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491EF9D;
@@ -1208,21 +1208,21 @@ BeginCmp
 TimeStamp = /548CB640/549071D8;
 Reference = L601;
 ValeurCmp = 1uH;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = tm-kicad-lib:LQH44PN1R0NP0L(1.0uH);
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/549002DD;
 Reference = L602;
 ValeurCmp = 470nH;
-IdModule  = tm-kicad-lib:SMD-0402;
+IdModule  = tm-kicad-lib:SRP4012-R47M(470nH);
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54962B10;
 Reference = L603;
 ValeurCmp = 2.2uH;
-IdModule  = tm-kicad-lib:SMD-0402;
+IdModule  = tm-kicad-lib:NR6028T2R2N(2.2uH);
 EndCmp
 
 BeginCmp
