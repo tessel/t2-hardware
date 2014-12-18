@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /548C90C9/54904C40;
 Reference = C201;
 ValeurCmp = 4.7uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
@@ -207,7 +207,7 @@ BeginCmp
 TimeStamp = /548C90C9/548FF9A2;
 Reference = C226;
 ValeurCmp = 4.7uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
@@ -221,7 +221,7 @@ BeginCmp
 TimeStamp = /548C90C9/549004F8;
 Reference = C228;
 ValeurCmp = 4.7uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
@@ -270,14 +270,14 @@ BeginCmp
 TimeStamp = /548C90C9/5490FA9A;
 Reference = C235;
 ValeurCmp = 4.7uF;
-IdModule  = tm-kicad-lib:SMD-0402;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/54910D5A;
 Reference = C236;
 ValeurCmp = 4.7uF;
-IdModule  = tm-kicad-lib:SMD-0402;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
@@ -508,7 +508,7 @@ BeginCmp
 TimeStamp = /548CB640/5490724C;
 Reference = C603;
 ValeurCmp = 4.7uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
@@ -585,7 +585,7 @@ BeginCmp
 TimeStamp = /548CB640/5490E77B;
 Reference = C614;
 ValeurCmp = 4.7uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
@@ -599,7 +599,7 @@ BeginCmp
 TimeStamp = /548CB640/54904BE9;
 Reference = C616;
 ValeurCmp = 4.7uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
@@ -620,7 +620,7 @@ BeginCmp
 TimeStamp = /548CB640/54915FCA;
 Reference = C619;
 ValeurCmp = 4.7uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
@@ -1726,14 +1726,14 @@ BeginCmp
 TimeStamp = /548CB640/548FCFEB;
 Reference = U602;
 ValeurCmp = FDG6342L;
-IdModule  = SMD_Packages:SOT-23-6;
+IdModule  = tm-kicad-lib:SC70-6;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/548FCFA8;
 Reference = U603;
 ValeurCmp = AAT4610;
-IdModule  = tm-kicad-lib:WDFN8-2x2-0.5P;
+IdModule  = SMD_Packages:SOT-23-5;
 EndCmp
 
 BeginCmp
