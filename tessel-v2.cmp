@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Wed 17 Dec 2014 06:25:24 PM PST
+Cmp-Mod V01 Created by Cvpcb (2014-11-19 BZR 5293)-product   date = Thu 18 Dec 2014 04:28:16 PM EST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491EF9D;
@@ -606,7 +606,7 @@ BeginCmp
 TimeStamp = /548CB640/54917A12;
 Reference = C617;
 ValeurCmp = 100uF DNP;
-IdModule  = Discret:C1;
+IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
@@ -1261,9 +1261,9 @@ IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54916E11;
+TimeStamp = /548CB640/54935DE1;
 Reference = Q601;
-ValeurCmp = PNP;
+ValeurCmp = MMSS8550;
 IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
