@@ -228,7 +228,7 @@ Connection ~ 9650 5700
 Wire Wire Line
 	4500 4650 6650 4650
 Wire Wire Line
-	6650 4650 6650 5500
+	6650 4650 6650 9700
 Wire Wire Line
 	6650 5500 6950 5500
 $Sheet
@@ -420,4 +420,10 @@ Wire Wire Line
 Wire Wire Line
 	9300 8600 9300 8450
 Connection ~ 9300 8450
+Wire Wire Line
+	9300 9000 9300 9700
+Wire Wire Line
+	9300 9700 6650 9700
+Connection ~ 6650 5500
+Connection ~ 9300 9000
 $EndSCHEMATC
