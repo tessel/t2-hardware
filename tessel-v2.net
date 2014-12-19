@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /media/sf_technical/TesselV2/tessel-v2.sch)
-    (date "Fri 19 Dec 2014 01:33:38 AM PST")
-    (tool "Eeschema 0.201412111631+5320~19~ubuntu14.04.1-product"))
+    (source /home/eric/github/tessel-v2-hardware/tessel-v2.sch)
+    (date "Fri 19 Dec 2014 10:45:55 AM EST")
+    (tool "Eeschema (2014-11-19 BZR 5293)-product"))
   (components
     (comp (ref U201)
       (value MT7620N)
@@ -1592,17 +1592,6 @@
       (sheetpath (names /I/O/) (tstamps /548CB7C3/))
       (tstamp 549410B2)))
   (libparts
-    (libpart (lib device) (part CP2)
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) CP2))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part C)
       (description "Condensateur non polarise")
       (footprints
@@ -1612,6 +1601,17 @@
       (fields
         (field (name Reference) C)
         (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CP2)
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP2))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -2375,13 +2375,13 @@
         (pin (num R8) (name NC) (type NotConnected)))))
   (libraries
     (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
-    (library (logical transistors)
-      (uri /usr/share/kicad/library/transistors.lib))
+      (uri /usr/local/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
+      (uri /usr/local/share/kicad/library/conn.lib))
+    (library (logical transistors)
+      (uri /usr/local/share/kicad/library/transistors.lib))
     (library (logical tm-kicad-lib)
-      (uri /media/sf_technical/tm-kicad-lib/tm-kicad-lib.lib)))
+      (uri /home/eric/github/tm-kicad-library/tm-kicad-lib.lib)))
   (nets
     (net (code 1) (name /COPROCESSOR/SWDIO)
       (node (ref U701) (pin 46))
