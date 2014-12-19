@@ -3757,7 +3757,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 5491354F) (tstamp 549146AA)
-    (at 143.688 123.838 180)
+    (at 136.703 123.33 180)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548C90C9/54924EBB)
@@ -7283,7 +7283,7 @@
     (tags "pin header")
     (path /548CB7C3/5492442A)
     (fp_text reference J817 (at 0 -2.286) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.3 0.3) (thickness 0.03)))
     )
     (fp_text value CONN_01X03 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7314,7 +7314,7 @@
     (tags "pin header")
     (path /548CB7C3/549243ED)
     (fp_text reference J818 (at 0 -2.286) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.3 0.3) (thickness 0.03)))
     )
     (fp_text value CONN_01X01 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7674,7 +7674,7 @@
     (at 153.55 112.17 135)
     (path /548C90C9/548F43B1)
     (fp_text reference U201 (at 0.25 -7.5 135) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.3 0.3) (thickness 0.03)))
     )
     (fp_text value MT7620N (at 5.45 -6.54 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7992,7 +7992,7 @@
     (at 177.958635 110.566601 180)
     (path /548C90C9/548CC02E/548CFEFF)
     (fp_text reference U301 (at 0 0 270) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.3 0.3) (thickness 0.03)))
     )
     (fp_text value W9751G6KB-25 (at -2 -6.8 180) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.08)))
@@ -8286,7 +8286,7 @@
     (fp_text reference J501 (at 0 -1.1) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
     )
-    (fp_text value CONN_01X01 (at -1.181 3.834) (layer F.SilkS)
+    (fp_text value CONN_01X01 (at -0.254 1.397) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 smd circle (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask)
