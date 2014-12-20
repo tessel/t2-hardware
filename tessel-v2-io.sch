@@ -1203,10 +1203,6 @@ Text GLabel 7900 1600 0    60   Input ~ 0
 3.3V_CP
 Text HLabel 9000 1900 2    60   Input ~ 0
 DAC
-Text HLabel 9000 1700 2    60   Input ~ 0
-PA_CS
-Text HLabel 9000 1600 2    60   Input ~ 0
-PB_CS
 Text GLabel 9000 1800 2    60   Input ~ 0
 CP_VDDANA
 $Comp
@@ -2290,4 +2286,8 @@ Text Label 11950 1700 0    60   ~ 0
 TN_P1
 Text Label 11950 1600 0    60   ~ 0
 TP_P1
+Text GLabel 9000 1700 2    60   Input ~ 0
+PA_CS
+Text GLabel 9000 1600 2    60   Input ~ 0
+PB_CS
 $EndSCHEMATC

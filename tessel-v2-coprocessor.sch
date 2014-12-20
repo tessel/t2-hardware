@@ -53,8 +53,6 @@ Text HLabel 9900 4600 2    60   BiDi ~ 0
 PORT_B_MOSI
 Text HLabel 9900 4700 2    60   BiDi ~ 0
 PORT_B_SCK
-Text HLabel 9900 4800 2    60   BiDi ~ 0
-PORT_B_~CS
 Text HLabel 9900 4900 2    60   BiDi ~ 0
 PORT_B_MISO
 Text HLabel 9900 5100 2    60   BiDi ~ 0
@@ -93,8 +91,6 @@ Text HLabel 9900 7100 2    60   BiDi ~ 0
 PORT_A_MOSI
 Text HLabel 9900 7200 2    60   BiDi ~ 0
 PORT_A_SCK
-Text HLabel 9900 7300 2    60   BiDi ~ 0
-PORT_A_~CS
 Text HLabel 9900 7400 2    60   BiDi ~ 0
 PORT_A_MISO
 Text HLabel 6700 5300 0    60   BiDi ~ 0
@@ -410,8 +406,6 @@ Wire Wire Line
 Wire Wire Line
 	9700 7400 9900 7400
 Wire Wire Line
-	9700 7300 9900 7300
-Wire Wire Line
 	9700 7200 9900 7200
 Wire Wire Line
 	9700 6400 11250 6400
@@ -439,8 +433,6 @@ Wire Wire Line
 	9700 5100 9900 5100
 Wire Wire Line
 	9700 4900 9900 4900
-Wire Wire Line
-	9700 4800 9900 4800
 Wire Wire Line
 	9700 4700 9900 4700
 Wire Wire Line
@@ -733,4 +725,12 @@ Text Label 9800 6900 0    60   ~ 0
 CP_BRIDGE_SAM_RX_SAM
 Text GLabel 6600 5600 0    60   Input ~ 0
 PORST_N
+Wire Wire Line
+	9700 4800 9900 4800
+Wire Wire Line
+	9700 7300 9900 7300
+Text GLabel 9900 7300 2    60   Input ~ 0
+PA_CS
+Text GLabel 9900 4800 2    60   Input ~ 0
+PB_CS
 $EndSCHEMATC
