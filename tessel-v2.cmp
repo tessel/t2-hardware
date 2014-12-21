@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-19 BZR 5293)-product   date = Fri 19 Dec 2014 10:47:34 AM EST
+Cmp-Mod V01 Created by Cvpcb (2014-11-19 BZR 5293)-product   date = Sun 21 Dec 2014 04:47:45 PM EST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491EF9D;
@@ -680,6 +680,20 @@ IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /548CB640/549879F3;
+Reference = C628;
+ValeurCmp = 10uF, DNP;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54986B76;
+Reference = C629;
+ValeurCmp = 10uF, DNP;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /548CB895/54978225;
 Reference = C701;
 ValeurCmp = 100nF;
@@ -872,6 +886,34 @@ BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491674C;
 Reference = D501;
 ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/549879ED;
+Reference = D601;
+ValeurCmp = Green;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54985B61;
+Reference = D602;
+ValeurCmp = Green;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/5498C547;
+Reference = D603;
+ValeurCmp = Green;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/5498D429;
+Reference = D604;
+ValeurCmp = Green;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
@@ -1523,6 +1565,34 @@ BeginCmp
 TimeStamp = /548CB640/54905054;
 Reference = R617;
 ValeurCmp = 1MR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/549879E1;
+Reference = R618;
+ValeurCmp = 1kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54984084;
+Reference = R619;
+ValeurCmp = 1kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/5498C53B;
+Reference = R620;
+ValeurCmp = 1kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/5498D41D;
+Reference = R621;
+ValeurCmp = 1kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
