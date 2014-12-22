@@ -1,0 +1,10 @@
+### Module positions - created on Sun 21 Dec 2014 09:04:02 PM PST ###
+### Printed by Pcbnew version kicad 0.201412111631+5320~19~ubuntu14.04.1-product
+## Unit = mm, Angle = deg.
+## Side : F.Cu
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C237     1.2V             SMD-0805           62.6500    40.9500      45.0    B.Cu
+C238     1.5V             SMD-0805           68.0000    24.6500     270.0    B.Cu
+C239     1.8V             SMD-0805           67.8000    34.3000       0.0    B.Cu
+C240     3.3V             SMD-0805           41.9500    33.9000     180.0    B.Cu
+## End
