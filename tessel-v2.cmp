@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-19 BZR 5293)-product   date = Sun 21 Dec 2014 04:47:45 PM EST
+Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Sun 21 Dec 2014 06:01:35 PM PST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491EF9D;
@@ -278,6 +278,34 @@ TimeStamp = /548C90C9/54910D5A;
 Reference = C236;
 ValeurCmp = 4.7uF;
 IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/54978D3A;
+Reference = C237;
+ValeurCmp = 10uF, DNP;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/54978FD1;
+Reference = C238;
+ValeurCmp = 10uF, DNP;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/549791E9;
+Reference = C239;
+ValeurCmp = 10uF, DNP;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/5497943D;
+Reference = C240;
+ValeurCmp = 10uF, DNP;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
@@ -883,6 +911,13 @@ IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /548C90C9/548CC15A/5497E278;
+Reference = D401;
+ValeurCmp = Blue;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491674C;
 Reference = D501;
 ValeurCmp = LED;
@@ -1382,6 +1417,13 @@ EndCmp
 BeginCmp
 TimeStamp = /548C90C9/548CC15A/549239D5;
 Reference = R401;
+ValeurCmp = 4.7kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/548CC15A/5497E32A;
+Reference = R402;
 ValeurCmp = 4.7kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
