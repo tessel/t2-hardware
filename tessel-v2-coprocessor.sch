@@ -440,8 +440,6 @@ Wire Wire Line
 Wire Wire Line
 	4800 7100 6900 7100
 Wire Wire Line
-	6900 6100 6700 6100
-Wire Wire Line
 	6900 6000 6700 6000
 Wire Wire Line
 	6900 5900 6700 5900
@@ -652,8 +650,6 @@ Wire Wire Line
 	6900 6400 6700 6400
 Wire Wire Line
 	6700 6700 6900 6700
-Text HLabel 6700 6100 0    60   Input ~ 0
-GPIO_1
 Text HLabel 6700 5700 0    60   Input ~ 0
 GPIO_2_DAC
 Text Label 3400 4600 0    60   ~ 0
@@ -733,4 +729,27 @@ Text GLabel 9900 4800 2    60   Input ~ 0
 PB_CS
 Text HLabel 6700 4600 0    60   Input ~ 0
 SAM_~RESET
+Wire Wire Line
+	6000 6200 6800 6200
+Text HLabel 5250 6200 0    60   Input ~ 0
+MT_CS0
+$Comp
+L R R?
+U 1 1 54BE9CC0
+P 5750 6200
+F 0 "R?" V 5830 6200 40  0000 C CNN
+F 1 "22R" V 5757 6201 40  0000 C CNN
+F 2 "tm-kicad-lib:SMD-0402" V 5680 6200 30  0001 C CNN
+F 3 "" H 5750 6200 30  0000 C CNN
+	1    5750 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 6200 5500 6200
+Wire Wire Line
+	6800 6200 6800 6100
+Wire Wire Line
+	6800 6100 6900 6100
+Text Label 6200 6200 0    60   ~ 0
+CS0_SAM
 $EndSCHEMATC

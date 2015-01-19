@@ -2007,8 +2007,6 @@ Wire Wire Line
 Wire Wire Line
 	8200 1600 7900 1600
 Wire Wire Line
-	8200 1800 7900 1800
-Wire Wire Line
 	8700 1600 9000 1600
 Wire Wire Line
 	8700 1700 9000 1700
@@ -2100,14 +2098,7 @@ NoConn ~ 14200 6900
 Wire Wire Line
 	7900 1700 8200 1700
 Text HLabel 7900 1800 0    60   Input ~ 0
-GPIO1
-Text HLabel 7900 1950 0    60   Input ~ 0
 MT_CS0
-Wire Wire Line
-	7900 1950 8000 1950
-Wire Wire Line
-	8000 1950 8000 1800
-Connection ~ 8000 1800
 Wire Wire Line
 	9000 3350 9000 4900
 Connection ~ 9000 4900
@@ -2290,4 +2281,6 @@ Text GLabel 9000 1700 2    60   Input ~ 0
 PA_CS
 Text GLabel 9000 1600 2    60   Input ~ 0
 PB_CS
+Wire Wire Line
+	7900 1800 8200 1800
 $EndSCHEMATC
