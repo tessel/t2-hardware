@@ -50,17 +50,17 @@ S 17300 10300 1800 2200
 U 548CC02E
 F0 "RAM" 60
 F1 "tessel-v2-mediatek-ram.sch" 60
-F2 "DDR_VREF" I L 17300 10650 60 
+F2 "DDR_VREF" I L 17300 10650 60
 $EndSheet
 $Sheet
 S 17300 7100 1800 2200
 U 548CC15A
 F0 "FLASH" 60
 F1 "tessel-v2-mediatek-flash.sch" 60
-F2 "Flash_SI" I R 19100 7450 60 
-F3 "Flash_SO" I R 19100 7600 60 
-F4 "Flash_CS" I R 19100 8050 60 
-F5 "Flash_SCK" I R 19100 8200 60 
+F2 "Flash_SI" I R 19100 7450 60
+F3 "Flash_SO" I R 19100 7600 60
+F4 "Flash_CS" I R 19100 8050 60
+F5 "Flash_SCK" I R 19100 8200 60
 $EndSheet
 $Sheet
 S 17300 3900 1800 2200
@@ -77,7 +77,7 @@ F 1 "MT7620N" H 5550 9500 60  0000 C CNN
 F 2 "tm-kicad-lib:MT7620N" H 4650 9000 60  0001 C CNN
 F 3 "" H 4650 9000 60  0000 C CNN
 	1    6250 8500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L MT7620N U201
@@ -88,18 +88,18 @@ F 1 "MT7620N" H 10150 11500 60  0000 C CNN
 F 2 "tm-kicad-lib:MT7620N" H 9250 11000 60  0001 C CNN
 F 3 "" H 9250 11000 60  0000 C CNN
 	5    10850 10500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L GND #PWR209
+L GND #PWR01
 U 1 1 548FCCAF
 P 8550 7950
-F 0 "#PWR209" H 8550 7700 60  0001 C CNN
+F 0 "#PWR01" H 8550 7700 60  0001 C CNN
 F 1 "GND" H 8550 7800 60  0000 C CNN
 F 2 "" H 8550 7950 60  0000 C CNN
 F 3 "" H 8550 7950 60  0000 C CNN
 	1    8550 7950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 9000 9650 0    60   ~ 0
 ERROR_LED
@@ -112,18 +112,18 @@ F 1 "20MHz" H 6700 10200 60  0000 C CNN
 F 2 "tm-kicad-lib:CTS-425" H 6700 9950 60  0001 C CNN
 F 3 "" H 6700 9950 60  0000 C CNN
 	1    6700 9950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L GND #PWR206
+L GND #PWR02
 U 1 1 548FD1CD
 P 6700 10800
-F 0 "#PWR206" H 6700 10550 60  0001 C CNN
+F 0 "#PWR02" H 6700 10550 60  0001 C CNN
 F 1 "GND" H 6700 10650 60  0000 C CNN
 F 2 "" H 6700 10800 60  0000 C CNN
 F 3 "" H 6700 10800 60  0000 C CNN
 	1    6700 10800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C226
@@ -134,7 +134,7 @@ F 1 "10pF" H 7206 10115 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 7238 10050 30  0001 C CNN
 F 3 "" H 7200 10200 60  0000 C CNN
 	1    7200 10200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C221
@@ -145,7 +145,7 @@ F 1 "10pF" H 6156 10115 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 6188 10050 30  0001 C CNN
 F 3 "" H 6150 10200 60  0000 C CNN
 	1    6150 10200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R202
@@ -156,7 +156,7 @@ F 1 "100R" V 7957 10051 40  0000 C CNN
 F 2 "tm-kicad-lib:SMD-0402" V 7880 10050 30  0001 C CNN
 F 3 "" H 7950 10050 30  0000 C CNN
 	1    7950 10050
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L C C228
@@ -167,7 +167,7 @@ F 1 "10nF" H 8006 10365 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 8038 10300 30  0001 C CNN
 F 3 "" H 8000 10450 60  0000 C CNN
 	1    8000 10450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C215
@@ -178,7 +178,7 @@ F 1 "1uF" H 4806 6515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 4838 6450 30  0001 C CNN
 F 3 "" H 4800 6600 60  0000 C CNN
 	1    4800 6600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L INDUCTOR L202
@@ -189,7 +189,7 @@ F 1 "3.9nH" V 11450 2250 40  0000 C CNN
 F 2 "tm-kicad-lib:SMD-0402" H 11350 2250 60  0001 C CNN
 F 3 "" H 11350 2250 60  0000 C CNN
 	1    11350 2250
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L C C235
@@ -200,29 +200,29 @@ F 1 "3.9pF" H 12406 2465 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 12438 2400 30  0001 C CNN
 F 3 "" H 12400 2550 60  0000 C CNN
 	1    12400 2550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L +3.3V #PWR208
+L +3.3V #PWR03
 U 1 1 548FF520
 P 8500 5350
-F 0 "#PWR208" H 8500 5200 60  0001 C CNN
+F 0 "#PWR03" H 8500 5200 60  0001 C CNN
 F 1 "+3.3V" H 8500 5490 60  0000 C CNN
 F 2 "" H 8500 5350 60  0000 C CNN
 F 3 "" H 8500 5350 60  0000 C CNN
 	1    8500 5350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L +3.3V #PWR211
+L +3.3V #PWR04
 U 1 1 548FF90D
 P 9450 3850
-F 0 "#PWR211" H 9450 3700 60  0001 C CNN
+F 0 "#PWR04" H 9450 3700 60  0001 C CNN
 F 1 "+3.3V" H 9450 3990 60  0000 C CNN
 F 2 "" H 9450 3850 60  0000 C CNN
 F 3 "" H 9450 3850 60  0000 C CNN
 	1    9450 3850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C230
@@ -233,7 +233,7 @@ F 1 "4.7uF" H 9856 4065 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0603" H 9888 4000 30  0001 C CNN
 F 3 "" H 9850 4150 60  0000 C CNN
 	1    9850 4150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L C C229
@@ -244,18 +244,18 @@ F 1 "10pF" H 9856 3865 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 9888 3800 30  0001 C CNN
 F 3 "" H 9850 3950 60  0000 C CNN
 	1    9850 3950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
-L GND #PWR212
+L GND #PWR05
 U 1 1 548FFC28
 P 10100 4650
-F 0 "#PWR212" H 10100 4400 60  0001 C CNN
+F 0 "#PWR05" H 10100 4400 60  0001 C CNN
 F 1 "GND" H 10100 4500 60  0000 C CNN
 F 2 "" H 10100 4650 60  0000 C CNN
 F 3 "" H 10100 4650 60  0000 C CNN
 	1    10100 4650
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L C C231
@@ -266,7 +266,7 @@ F 1 "10pF" H 9856 4515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 9888 4450 30  0001 C CNN
 F 3 "" H 9850 4600 60  0000 C CNN
 	1    9850 4600
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L C C232
@@ -277,7 +277,7 @@ F 1 "4.7uF" H 9856 4715 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0603" H 9888 4650 30  0001 C CNN
 F 3 "" H 9850 4800 60  0000 C CNN
 	1    9850 4800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L C C233
@@ -288,7 +288,7 @@ F 1 "10pF" H 9856 4915 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 9888 4850 30  0001 C CNN
 F 3 "" H 9850 5000 60  0000 C CNN
 	1    9850 5000
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L C C234
@@ -299,7 +299,7 @@ F 1 "100nF" H 9856 5115 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 9888 5050 30  0001 C CNN
 F 3 "" H 9850 5200 60  0000 C CNN
 	1    9850 5200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 NoConn ~ 11850 6800
 NoConn ~ 11850 6900
@@ -310,15 +310,15 @@ NoConn ~ 11000 5750
 NoConn ~ 11100 5750
 NoConn ~ 11450 5750
 $Comp
-L +3.3V #PWR213
+L +3.3V #PWR06
 U 1 1 54901F95
 P 11200 5100
-F 0 "#PWR213" H 11200 4950 60  0001 C CNN
+F 0 "#PWR06" H 11200 4950 60  0001 C CNN
 F 1 "+3.3V" H 11200 5240 60  0000 C CNN
 F 2 "" H 11200 5100 60  0000 C CNN
 F 3 "" H 11200 5100 60  0000 C CNN
 	1    11200 5100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C218
@@ -329,7 +329,7 @@ F 1 "1uF" H 5506 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 5538 8450 30  0001 C CNN
 F 3 "" H 5500 8600 60  0000 C CNN
 	1    5500 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C219
@@ -340,7 +340,7 @@ F 1 "100nF" H 5756 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 5788 8450 30  0001 C CNN
 F 3 "" H 5750 8600 60  0000 C CNN
 	1    5750 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C220
@@ -351,7 +351,7 @@ F 1 "100nF" H 6006 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 6038 8450 30  0001 C CNN
 F 3 "" H 6000 8600 60  0000 C CNN
 	1    6000 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C222
@@ -362,7 +362,7 @@ F 1 "100nF" H 6256 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 6288 8450 30  0001 C CNN
 F 3 "" H 6250 8600 60  0000 C CNN
 	1    6250 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C223
@@ -373,7 +373,7 @@ F 1 "10uF" H 6506 8515 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0805" H 6538 8450 30  0001 C CNN
 F 3 "" H 6500 8600 60  0000 C CNN
 	1    6500 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C224
@@ -384,7 +384,7 @@ F 1 "100nF" H 6756 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 6788 8450 30  0001 C CNN
 F 3 "" H 6750 8600 60  0000 C CNN
 	1    6750 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C225
@@ -395,7 +395,7 @@ F 1 "100nF" H 7006 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 7038 8450 30  0001 C CNN
 F 3 "" H 7000 8600 60  0000 C CNN
 	1    7000 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C227
@@ -406,29 +406,29 @@ F 1 "100nF" H 7256 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 7288 8450 30  0001 C CNN
 F 3 "" H 7250 8600 60  0000 C CNN
 	1    7250 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L +3.3V #PWR203
+L +3.3V #PWR07
 U 1 1 54903A33
 P 6350 8250
-F 0 "#PWR203" H 6350 8100 60  0001 C CNN
+F 0 "#PWR07" H 6350 8100 60  0001 C CNN
 F 1 "+3.3V" H 6350 8390 60  0000 C CNN
 F 2 "" H 6350 8250 60  0000 C CNN
 F 3 "" H 6350 8250 60  0000 C CNN
 	1    6350 8250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L GND #PWR204
+L GND #PWR08
 U 1 1 54903B07
 P 6350 9000
-F 0 "#PWR204" H 6350 8750 60  0001 C CNN
+F 0 "#PWR08" H 6350 8750 60  0001 C CNN
 F 1 "GND" H 6350 8850 60  0000 C CNN
 F 2 "" H 6350 9000 60  0000 C CNN
 F 3 "" H 6350 9000 60  0000 C CNN
 	1    6350 9000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C212
@@ -439,7 +439,7 @@ F 1 "100nF" H 4156 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 4188 8450 30  0001 C CNN
 F 3 "" H 4150 8600 60  0000 C CNN
 	1    4150 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C213
@@ -450,7 +450,7 @@ F 1 "100nF" H 4406 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 4438 8450 30  0001 C CNN
 F 3 "" H 4400 8600 60  0000 C CNN
 	1    4400 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C214
@@ -461,7 +461,7 @@ F 1 "100nF" H 4656 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 4688 8450 30  0001 C CNN
 F 3 "" H 4650 8600 60  0000 C CNN
 	1    4650 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C216
@@ -472,7 +472,7 @@ F 1 "1uF" H 4906 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 4938 8450 30  0001 C CNN
 F 3 "" H 4900 8600 60  0000 C CNN
 	1    4900 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C207
@@ -483,7 +483,7 @@ F 1 "100nF" H 2606 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 2638 8450 30  0001 C CNN
 F 3 "" H 2600 8600 60  0000 C CNN
 	1    2600 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C206
@@ -494,7 +494,7 @@ F 1 "100nF" H 2356 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 2388 8450 30  0001 C CNN
 F 3 "" H 2350 8600 60  0000 C CNN
 	1    2350 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C205
@@ -505,7 +505,7 @@ F 1 "100nF" H 2106 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 2138 8450 30  0001 C CNN
 F 3 "" H 2100 8600 60  0000 C CNN
 	1    2100 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C204
@@ -516,7 +516,7 @@ F 1 "100nF" H 1856 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 1888 8450 30  0001 C CNN
 F 3 "" H 1850 8600 60  0000 C CNN
 	1    1850 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C203
@@ -527,7 +527,7 @@ F 1 "1uF" H 1606 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 1638 8450 30  0001 C CNN
 F 3 "" H 1600 8600 60  0000 C CNN
 	1    1600 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C202
@@ -538,7 +538,7 @@ F 1 "4.7uF" H 1356 8515 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0603" H 1388 8450 30  0001 C CNN
 F 3 "" H 1350 8600 60  0000 C CNN
 	1    1350 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C209
@@ -549,7 +549,7 @@ F 1 "100nF" H 3206 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 3238 8450 30  0001 C CNN
 F 3 "" H 3200 8600 60  0000 C CNN
 	1    3200 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C210
@@ -560,51 +560,51 @@ F 1 "100nF" H 3456 8515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 3488 8450 30  0001 C CNN
 F 3 "" H 3450 8600 60  0000 C CNN
 	1    3450 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L +1.2V #PWR205
+L +1.2V #PWR09
 U 1 1 5490938C
 P 6450 5250
-F 0 "#PWR205" H 6450 5390 20  0001 C CNN
+F 0 "#PWR09" H 6450 5390 20  0001 C CNN
 F 1 "+1.2V" H 6450 5360 30  0000 C CNN
 F 2 "" H 6450 5250 60  0000 C CNN
 F 3 "" H 6450 5250 60  0000 C CNN
 	1    6450 5250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L +1.8V #PWR207
+L +1.8V #PWR010
 U 1 1 549093A0
 P 7550 5250
-F 0 "#PWR207" H 7550 5390 20  0001 C CNN
+F 0 "#PWR010" H 7550 5390 20  0001 C CNN
 F 1 "+1.8V" H 7550 5360 30  0000 C CNN
 F 2 "" H 7550 5250 60  0000 C CNN
 F 3 "" H 7550 5250 60  0000 C CNN
 	1    7550 5250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L +1.8V #PWR202
+L +1.8V #PWR011
 U 1 1 5490A3FA
 P 4550 8200
-F 0 "#PWR202" H 4550 8340 20  0001 C CNN
+F 0 "#PWR011" H 4550 8340 20  0001 C CNN
 F 1 "+1.8V" H 4550 8310 30  0000 C CNN
 F 2 "" H 4550 8200 60  0000 C CNN
 F 3 "" H 4550 8200 60  0000 C CNN
 	1    4550 8200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L +1.2V #PWR201
+L +1.2V #PWR012
 U 1 1 5490A9A8
 P 1950 8200
-F 0 "#PWR201" H 1950 8340 20  0001 C CNN
+F 0 "#PWR012" H 1950 8340 20  0001 C CNN
 F 1 "+1.2V" H 1950 8310 30  0000 C CNN
 F 2 "" H 1950 8200 60  0000 C CNN
 F 3 "" H 1950 8200 60  0000 C CNN
 	1    1950 8200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text HLabel 19850 7450 2    60   Input ~ 0
 MT_SI
@@ -623,7 +623,7 @@ F 1 "4.7kR" V 7907 9151 40  0000 C CNN
 F 2 "tm-kicad-lib:SMD-0402" V 7830 9150 30  0001 C CNN
 F 3 "" H 7900 9150 30  0000 C CNN
 	1    7900 9150
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text Label 9350 5650 1    60   ~ 0
 RF0_V33N
@@ -638,7 +638,7 @@ F 1 "3.0nH" V 12950 2250 40  0000 C CNN
 F 2 "tm-kicad-lib:SMD-0402" H 12850 2250 60  0001 C CNN
 F 3 "" H 12850 2250 60  0000 C CNN
 	1    12850 2250
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L C C237
@@ -649,7 +649,7 @@ F 1 "3.9pF" H 13206 2465 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 13238 2400 30  0001 C CNN
 F 3 "" H 13200 2550 60  0000 C CNN
 	1    13200 2550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C239
@@ -660,29 +660,29 @@ F 1 "4.7uF" H 13506 2465 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0603" H 13538 2400 30  0001 C CNN
 F 3 "" H 13500 2550 60  0000 C CNN
 	1    13500 2550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L +3.3V #PWR217
+L +3.3V #PWR013
 U 1 1 5490FE7F
 P 13500 2100
-F 0 "#PWR217" H 13500 1950 60  0001 C CNN
+F 0 "#PWR013" H 13500 1950 60  0001 C CNN
 F 1 "+3.3V" H 13500 2240 60  0000 C CNN
 F 2 "" H 13500 2100 60  0000 C CNN
 F 3 "" H 13500 2100 60  0000 C CNN
 	1    13500 2100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L GND #PWR215
+L GND #PWR014
 U 1 1 54910029
 P 12750 2900
-F 0 "#PWR215" H 12750 2650 60  0001 C CNN
+F 0 "#PWR014" H 12750 2650 60  0001 C CNN
 F 1 "GND" H 12750 2750 60  0000 C CNN
 F 2 "" H 12750 2900 60  0000 C CNN
 F 3 "" H 12750 2900 60  0000 C CNN
 	1    12750 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L INDUCTOR L201
@@ -693,7 +693,7 @@ F 1 "3.9nH" V 11300 3300 40  0000 C CNN
 F 2 "tm-kicad-lib:SMD-0402" H 11200 3300 60  0001 C CNN
 F 3 "" H 11200 3300 60  0000 C CNN
 	1    11200 3300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L C C236
@@ -704,7 +704,7 @@ F 1 "3.9pF" H 12406 3515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 12438 3450 30  0001 C CNN
 F 3 "" H 12400 3600 60  0000 C CNN
 	1    12400 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L INDUCTOR L204
@@ -715,7 +715,7 @@ F 1 "3.0nH" V 12950 3300 40  0000 C CNN
 F 2 "tm-kicad-lib:SMD-0402" H 12850 3300 60  0001 C CNN
 F 3 "" H 12850 3300 60  0000 C CNN
 	1    12850 3300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L C C238
@@ -726,7 +726,7 @@ F 1 "3.9pF" H 13206 3515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402" H 13238 3450 30  0001 C CNN
 F 3 "" H 13200 3600 60  0000 C CNN
 	1    13200 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C240
@@ -737,40 +737,40 @@ F 1 "4.7uF" H 13506 3515 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0603" H 13538 3450 30  0001 C CNN
 F 3 "" H 13500 3600 60  0000 C CNN
 	1    13500 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L +3.3V #PWR218
+L +3.3V #PWR015
 U 1 1 54910D64
 P 13500 3150
-F 0 "#PWR218" H 13500 3000 60  0001 C CNN
+F 0 "#PWR015" H 13500 3000 60  0001 C CNN
 F 1 "+3.3V" H 13500 3290 60  0000 C CNN
 F 2 "" H 13500 3150 60  0000 C CNN
 F 3 "" H 13500 3150 60  0000 C CNN
 	1    13500 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L GND #PWR216
+L GND #PWR016
 U 1 1 54910D6B
 P 12750 3950
-F 0 "#PWR216" H 12750 3700 60  0001 C CNN
+F 0 "#PWR016" H 12750 3700 60  0001 C CNN
 F 1 "GND" H 12750 3800 60  0000 C CNN
 F 2 "" H 12750 3950 60  0000 C CNN
 F 3 "" H 12750 3950 60  0000 C CNN
 	1    12750 3950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L +1.2V #PWR214
+L +1.2V #PWR017
 U 1 1 5491253A
 P 11250 4700
-F 0 "#PWR214" H 11250 4840 20  0001 C CNN
+F 0 "#PWR017" H 11250 4840 20  0001 C CNN
 F 1 "+1.2V" H 11250 4810 30  0000 C CNN
 F 2 "" H 11250 4700 60  0000 C CNN
 F 3 "" H 11250 4700 60  0000 C CNN
 	1    11250 4700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R204
@@ -781,7 +781,7 @@ F 1 "4.7kR" V 11357 5351 40  0000 C CNN
 F 2 "tm-kicad-lib:SMD-0402" V 11280 5350 30  0001 C CNN
 F 3 "" H 11350 5350 30  0000 C CNN
 	1    11350 5350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text Label 11700 2250 0    60   ~ 0
 RF0_1_V33n
@@ -808,44 +808,44 @@ L C C201
 U 1 1 54978D3A
 P 1050 8600
 F 0 "C201" H 1050 8700 40  0000 L CNN
-F 1 "10uF, DNP" H 1056 8515 40  0000 L CNN
+F 1 "10uF DNP" H 1056 8515 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0805" H 1088 8450 30  0001 C CNN
 F 3 "" H 1050 8600 60  0000 C CNN
 	1    1050 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C208
 U 1 1 54978FD1
 P 2950 8600
 F 0 "C208" H 2950 8700 40  0000 L CNN
-F 1 "10uF, DNP" H 2956 8515 40  0000 L CNN
+F 1 "10uF DNP" H 2956 8515 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0805" H 2988 8450 30  0001 C CNN
 F 3 "" H 2950 8600 60  0000 C CNN
 	1    2950 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C211
 U 1 1 549791E9
 P 3900 8600
 F 0 "C211" H 3900 8700 40  0000 L CNN
-F 1 "10uF, DNP" H 3906 8515 40  0000 L CNN
+F 1 "10uF DNP" H 3906 8515 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0805" H 3938 8450 30  0001 C CNN
 F 3 "" H 3900 8600 60  0000 C CNN
 	1    3900 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C217
 U 1 1 5497943D
 P 5250 8600
 F 0 "C217" H 5250 8700 40  0000 L CNN
-F 1 "10uF, DNP" H 5256 8515 40  0000 L CNN
+F 1 "10uF DNP" H 5256 8515 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0805" H 5288 8450 30  0001 C CNN
 F 3 "" H 5250 8600 60  0000 C CNN
 	1    5250 8600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8500 7600 8500 7750
@@ -1030,9 +1030,9 @@ Wire Wire Line
 Wire Wire Line
 	17300 10650 12200 10650
 Wire Wire Line
-	12200 5450 12200 10650
+	12200 10650 12200 5450
 Wire Wire Line
-	9950 5450 12200 5450
+	12200 5450 9950 5450
 Wire Wire Line
 	9950 5450 9950 5750
 Wire Wire Line
@@ -1303,10 +1303,10 @@ U 1 1 54BF4ECE
 P 8900 10500
 F 0 "D201" H 8900 10600 50  0000 C CNN
 F 1 "RED" H 8900 10400 50  0000 C CNN
-F 2 "" H 8900 10500 60  0000 C CNN
+F 2 "" H 8900 10500 60  0001 C CNN
 F 3 "" H 8900 10500 60  0000 C CNN
 	1    8900 10500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	8900 10300 8900 9650
@@ -1321,20 +1321,20 @@ F 1 "1kR" V 8907 11101 40  0000 C CNN
 F 2 "tm-kicad-lib:SMD-0402" V 8830 11100 30  0001 C CNN
 F 3 "" H 8900 11100 30  0000 C CNN
 	1    8900 11100
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	8900 10850 8900 10700
 $Comp
-L GND #PWR210
+L GND #PWR018
 U 1 1 54BF57E4
 P 8900 11450
-F 0 "#PWR210" H 8900 11200 60  0001 C CNN
+F 0 "#PWR018" H 8900 11200 60  0001 C CNN
 F 1 "GND" H 8900 11300 60  0000 C CNN
 F 2 "" H 8900 11450 60  0000 C CNN
 F 3 "" H 8900 11450 60  0000 C CNN
 	1    8900 11450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8900 11350 8900 11450

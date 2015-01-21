@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Sun 21 Dec 2014 06:01:35 PM PST
+Cmp-Mod V01 Created by Cvpcb 0.201501182016+5379~20~ubuntu14.04.1-product   date = Wed 21 Jan 2015 11:38:57 AM PST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491EF9D;
@@ -29,283 +29,297 @@ IdModule  = tm-kicad-lib:1909763-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/54904C40;
+TimeStamp = /548C90C9/548CC15D/54BF1E54;
+Reference = AE505;
+ValeurCmp = ANTENNA;
+IdModule  = !Parts:2.4GHz-INVERTED-F-ANTENNA;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/548CC15D/54BF2584;
+Reference = AE506;
+ValeurCmp = ANTENNA;
+IdModule  = !Parts:2.4GHz-INVERTED-F-ANTENNA;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/54978D3A;
 Reference = C201;
+ValeurCmp = 10uF DNP;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/54904C40;
+Reference = C202;
 ValeurCmp = 4.7uF;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/54904BCE;
-Reference = C202;
+Reference = C203;
 ValeurCmp = 1uF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/54904B91;
-Reference = C203;
-ValeurCmp = 100nF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/54904B51;
 Reference = C204;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/54904B0E;
+TimeStamp = /548C90C9/54904B51;
 Reference = C205;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/54904AC8;
+TimeStamp = /548C90C9/54904B0E;
 Reference = C206;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/54905997;
+TimeStamp = /548C90C9/54904AC8;
 Reference = C207;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/549059E3;
+TimeStamp = /548C90C9/54978FD1;
 Reference = C208;
-ValeurCmp = 100nF;
-IdModule  = tm-kicad-lib:SMD-0402;
+ValeurCmp = 10uF DNP;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/54903DA9;
+TimeStamp = /548C90C9/54905997;
 Reference = C209;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/54903E09;
+TimeStamp = /548C90C9/549059E3;
 Reference = C210;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/548FE2F7;
+TimeStamp = /548C90C9/549791E9;
 Reference = C211;
-ValeurCmp = 1uF;
-IdModule  = tm-kicad-lib:SMD-0402;
+ValeurCmp = 10uF DNP;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/54903E44;
+TimeStamp = /548C90C9/54903DA9;
 Reference = C212;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/54903E80;
+TimeStamp = /548C90C9/54903E09;
 Reference = C213;
+ValeurCmp = 100nF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/54903E44;
+Reference = C214;
+ValeurCmp = 100nF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/548FE2F7;
+Reference = C215;
 ValeurCmp = 1uF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /548C90C9/54903E80;
+Reference = C216;
+ValeurCmp = 1uF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/5497943D;
+Reference = C217;
+ValeurCmp = 10uF DNP;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /548C90C9/5490272D;
-Reference = C214;
+Reference = C218;
 ValeurCmp = 1uF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/5490278B;
-Reference = C215;
+Reference = C219;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/549027BC;
-Reference = C216;
-ValeurCmp = 100nF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/548FD2A7;
-Reference = C217;
-ValeurCmp = 10pF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/54902840;
-Reference = C218;
-ValeurCmp = 100nF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/54902875;
-Reference = C219;
-ValeurCmp = 10uF;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/54902A17;
 Reference = C220;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/54902A54;
+TimeStamp = /548C90C9/548FD2A7;
 Reference = C221;
+ValeurCmp = 10pF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/54902840;
+Reference = C222;
+ValeurCmp = 100nF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/54902875;
+Reference = C223;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/54902A17;
+Reference = C224;
+ValeurCmp = 100nF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/54902A54;
+Reference = C225;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/548FD250;
-Reference = C222;
+Reference = C226;
 ValeurCmp = 10pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/54902A88;
-Reference = C223;
+Reference = C227;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/548FD6DA;
-Reference = C224;
+Reference = C228;
 ValeurCmp = 10nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/548FF9E4;
-Reference = C225;
-ValeurCmp = 10pF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/548FF9A2;
-Reference = C226;
-ValeurCmp = 4.7uF;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/549004C6;
-Reference = C227;
-ValeurCmp = 10pF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/549004F8;
-Reference = C228;
-ValeurCmp = 4.7uF;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/549006EA;
 Reference = C229;
 ValeurCmp = 10pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/549007FF;
+TimeStamp = /548C90C9/548FF9A2;
 Reference = C230;
+ValeurCmp = 4.7uF;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/549004C6;
+Reference = C231;
+ValeurCmp = 10pF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/549004F8;
+Reference = C232;
+ValeurCmp = 4.7uF;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/549006EA;
+Reference = C233;
+ValeurCmp = 10pF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/549007FF;
+Reference = C234;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/548FF2BC;
-Reference = C231;
+Reference = C235;
 ValeurCmp = 3.9pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/54910D44;
-Reference = C232;
+Reference = C236;
 ValeurCmp = 3.9pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/5490FA31;
-Reference = C233;
+Reference = C237;
 ValeurCmp = 3.9pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/54910D54;
-Reference = C234;
+Reference = C238;
 ValeurCmp = 3.9pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/5490FA9A;
-Reference = C235;
+Reference = C239;
 ValeurCmp = 4.7uF;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/54910D5A;
-Reference = C236;
+Reference = C240;
 ValeurCmp = 4.7uF;
 IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/54978D3A;
-Reference = C237;
-ValeurCmp = 10uF, DNP;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/54978FD1;
-Reference = C238;
-ValeurCmp = 10uF, DNP;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/549791E9;
-Reference = C239;
-ValeurCmp = 10uF, DNP;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/5497943D;
-Reference = C240;
-ValeurCmp = 10uF, DNP;
-IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
@@ -463,57 +477,29 @@ IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/548CC15D/5491DF95;
-Reference = C512;
-ValeurCmp = 1.2pF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/548CC15D/5492F36B;
-Reference = C513;
-ValeurCmp = 1.2pF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/548CC15D/5491DC7C;
-Reference = C514;
-ValeurCmp = 1.2pF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/548CC15D/5492F35F;
-Reference = C515;
-ValeurCmp = 1.2pF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491E0C6;
-Reference = C516;
+Reference = C512;
 ValeurCmp = 1.8pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5492F377;
-Reference = C517;
+Reference = C513;
 ValeurCmp = 1.8pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491E4E1;
-Reference = C518;
+Reference = C514;
 ValeurCmp = 1.8pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5492F383;
-Reference = C519;
+Reference = C515;
 ValeurCmp = 1.8pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
@@ -521,7 +507,7 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB640/54907224;
 Reference = C601;
-ValeurCmp = 10uF;
+ValeurCmp = 10uF DNP;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
@@ -540,184 +526,177 @@ IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54900384;
+TimeStamp = /548CB640/549879F3;
 Reference = C604;
 ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54905BB7;
+TimeStamp = /548CB640/54BD9ABC;
 Reference = C605;
-ValeurCmp = 1nF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/549555CB;
-Reference = C606;
-ValeurCmp = 15pF;
-IdModule  = tm-kicad-lib:SMD-0402;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/549071EA;
-Reference = C607;
+Reference = C606;
 ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/549071F0;
-Reference = C608;
+Reference = C607;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/549071E4;
-Reference = C609;
+Reference = C608;
 ValeurCmp = 10uF DNP;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/5490429E;
-Reference = C610;
+TimeStamp = /548CB640/54900384;
+Reference = C609;
 ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/5491553C;
+TimeStamp = /548CB640/54BE0E48;
+Reference = C610;
+ValeurCmp = 10uF DNP;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54BE379C;
 Reference = C611;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54BE0E4E;
+Reference = C612;
+ValeurCmp = 10nF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54BE37B4;
+Reference = C613;
+ValeurCmp = 4.7uF;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/5491553C;
+Reference = C614;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54962B4C;
-Reference = C612;
-ValeurCmp = 10uF;
-IdModule  = SMD_Packages:SMD-0805;
+TimeStamp = /548CB640/54BE0E62;
+Reference = C615;
+ValeurCmp = 4.7uF;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54904314;
-Reference = C613;
+TimeStamp = /548CB640/54BE37A2;
+Reference = C616;
 ValeurCmp = 10nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/5490E77B;
-Reference = C614;
-ValeurCmp = 4.7uF;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/54962B52;
-Reference = C615;
-ValeurCmp = 10nF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/54904BE9;
-Reference = C616;
+Reference = C617;
 ValeurCmp = 4.7uF;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54917A12;
-Reference = C617;
+Reference = C618;
 ValeurCmp = 100uF DNP;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/5490EF43;
-Reference = C618;
+Reference = C619;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54915FCA;
-Reference = C619;
+Reference = C620;
 ValeurCmp = 4.7uF;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54974D61;
-Reference = C620;
-ValeurCmp = 100nF;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/54903B3D;
+TimeStamp = /548CB640/54BE0E1E;
 Reference = C621;
 ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54962B1C;
+TimeStamp = /548CB640/54BE3772;
 Reference = C622;
 ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/549038BF;
+TimeStamp = /548CB640/54BE0E24;
 Reference = C623;
-ValeurCmp = 10uF;
-IdModule  = SMD_Packages:SMD-0805;
+ValeurCmp = 100nF;
+IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54962B22;
+TimeStamp = /548CB640/54BE41A4;
 Reference = C624;
 ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/5495FD64;
+TimeStamp = /548CB640/54BE0E18;
 Reference = C625;
-ValeurCmp = 10uF;
+ValeurCmp = 10uF DNP;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54962B28;
+TimeStamp = /548CB640/54BE4460;
 Reference = C626;
-ValeurCmp = 100nF;
+ValeurCmp = 1uF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54903C66;
+TimeStamp = /548CB640/54BE3778;
 Reference = C627;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/549879F3;
+TimeStamp = /548CB640/54BE376C;
 Reference = C628;
-ValeurCmp = 10uF, DNP;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/54986B76;
-Reference = C629;
-ValeurCmp = 10uF, DNP;
+ValeurCmp = 10uF DNP;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
@@ -876,51 +855,58 @@ IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/5491701B;
+TimeStamp = /548CB7C3/54940757;
 Reference = C813;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/54917021;
+TimeStamp = /548CB7C3/549408D7;
 Reference = C814;
-ValeurCmp = 10uF;
-IdModule  = SMD_Packages:SMD-0805;
+ValeurCmp = 100nF;
+IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/5490474C;
+TimeStamp = /548CB7C3/5491701B;
 Reference = C815;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/54940757;
+TimeStamp = /548CB7C3/54917021;
 Reference = C816;
-ValeurCmp = 100nF;
-IdModule  = tm-kicad-lib:SMD-0402;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/549408D7;
+TimeStamp = /548CB7C3/5490474C;
 Reference = C817;
 ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /548C90C9/54BF4ECE;
+Reference = D201;
+ValeurCmp = RED;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /548C90C9/548CC15A/5497E278;
 Reference = D401;
-ValeurCmp = Blue;
+ValeurCmp = BLUE;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491674C;
 Reference = D501;
-ValeurCmp = LED;
+ValeurCmp = AMBER;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
@@ -932,7 +918,7 @@ IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54985B61;
+TimeStamp = /548CB640/54BD9AB6;
 Reference = D602;
 ValeurCmp = Green;
 IdModule  = LEDs:LED-0603;
@@ -946,8 +932,15 @@ IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/5498D429;
+TimeStamp = /548CB640/54BE0EC7;
 Reference = D604;
+ValeurCmp = Green;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54BE380D;
+Reference = D605;
 ValeurCmp = Green;
 IdModule  = LEDs:LED-0603;
 EndCmp
@@ -960,66 +953,66 @@ IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/5491069A;
+TimeStamp = /548CB7C3/54BF80D8;
 Reference = D802;
+ValeurCmp = GREEN;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/5491069A;
+Reference = D803;
 ValeurCmp = TVS-2;
 IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/549000A2;
-Reference = D803;
-ValeurCmp = Green;
-IdModule  = LEDs:LED-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/5490043C;
 Reference = D804;
 ValeurCmp = Green;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/54900475;
+TimeStamp = /548CB7C3/5490043C;
 Reference = D805;
 ValeurCmp = Green;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/5490FDCC;
+TimeStamp = /548CB7C3/54900475;
 Reference = D806;
+ValeurCmp = Green;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/5490FDCC;
+Reference = D807;
 ValeurCmp = TVS-2;
 IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/549004B3;
-Reference = D807;
+Reference = D808;
 ValeurCmp = Green;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/5490FF84;
-Reference = D808;
-ValeurCmp = TVS-2;
-IdModule  = SMD_Packages:SOT-23;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/5491140D;
 Reference = D809;
 ValeurCmp = TVS-2;
 IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/54924EBB;
-Reference = J201;
-ValeurCmp = CONN_01X01;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+TimeStamp = /548CB7C3/5491140D;
+Reference = D810;
+ValeurCmp = TVS-2;
+IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
@@ -1051,24 +1044,17 @@ IdModule  = tm-kicad-lib:Testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/548CC15D/5491EAD6;
-Reference = J503;
-ValeurCmp = CONN_01X03;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+TimeStamp = /548CB640/54927F53;
+Reference = J601;
+ValeurCmp = CONN_02X08;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x08;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54942FBC;
-Reference = J601;
+Reference = J602;
 ValeurCmp = CONN_01X03;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/54927F53;
-Reference = J602;
-ValeurCmp = CONN_02X08;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x08;
 EndCmp
 
 BeginCmp
@@ -1177,22 +1163,15 @@ IdModule  = tm-kicad-lib:CONN_02x05_0.05in;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/5497B032;
+TimeStamp = /548CB7C3/54C032ED;
 Reference = J816;
 ValeurCmp = CONN_02X05;
 IdModule  = tm-kicad-lib:CONN_02x05_0.05in;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/5492442A;
-Reference = J817;
-ValeurCmp = CONN_01X03;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
-EndCmp
-
-BeginCmp
 TimeStamp = /548CB7C3/549243ED;
-Reference = J818;
+Reference = J817;
 ValeurCmp = CONN_01X01;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
 EndCmp
@@ -1254,43 +1233,15 @@ IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/548CC15D/5491DC09;
-Reference = L505;
-ValeurCmp = 2.7nH;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/548CC15D/5492F359;
-Reference = L506;
-ValeurCmp = 2.7nH;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/548CC15D/5491DF34;
-Reference = L507;
-ValeurCmp = 2.7nH;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/548CC15D/5492F365;
-Reference = L508;
-ValeurCmp = 2.7nH;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491E48A;
-Reference = L509;
+Reference = L505;
 ValeurCmp = 2.4nH;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5492F37D;
-Reference = L510;
+Reference = L506;
 ValeurCmp = 2.4nH;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
@@ -1298,22 +1249,22 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB640/549071D8;
 Reference = L601;
-ValeurCmp = 1uH;
+ValeurCmp = 2.2uH;
 IdModule  = tm-kicad-lib:LQH44PN1R0NP0L(1.0uH);
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/549002DD;
+TimeStamp = /548CB640/54BE0E0C;
 Reference = L602;
-ValeurCmp = 470nH;
-IdModule  = tm-kicad-lib:SRP4012-R47M(470nH);
+ValeurCmp = 2.2uH;
+IdModule  = tm-kicad-lib:LQH44PN1R0NP0L(1.0uH);
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54962B10;
+TimeStamp = /548CB640/54BE3760;
 Reference = L603;
 ValeurCmp = 2.2uH;
-IdModule  = tm-kicad-lib:NR6028T2R2N(2.2uH);
+IdModule  = tm-kicad-lib:LQH44PN1R0NP0L(1.0uH);
 EndCmp
 
 BeginCmp
@@ -1373,8 +1324,15 @@ IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/54912AB6;
+TimeStamp = /548C90C9/54BF5650;
 Reference = R203;
+ValeurCmp = 1kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/54912AB6;
+Reference = R204;
 ValeurCmp = 4.7kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
@@ -1422,14 +1380,21 @@ IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/548CC15A/5497E32A;
+TimeStamp = /548C90C9/548CC15A/54923AA1;
 Reference = R402;
 ValeurCmp = 4.7kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/548CC15A/54923AA1;
+TimeStamp = /548C90C9/548CC15A/54BF3CBB;
+Reference = R403;
+ValeurCmp = 10kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/548CC15A/5497E32A;
 Reference = R404;
 ValeurCmp = 4.7kR;
 IdModule  = tm-kicad-lib:SMD-0402;
@@ -1443,197 +1408,183 @@ IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/548CC15D/549167C3;
+TimeStamp = /548C90C9/548CC15D/549228BB;
 Reference = R502;
+ValeurCmp = 4.7kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/548CC15D/549167C3;
+Reference = R503;
 ValeurCmp = 300R;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/54919448;
-Reference = R503;
-ValeurCmp = 4.7kR, 1%;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/548CC15D/5491938E;
 Reference = R504;
 ValeurCmp = 4.7kR, 1%;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/548CC15D/5491920E;
+TimeStamp = /548C90C9/548CC15D/5491938E;
 Reference = R505;
-ValeurCmp = 4.7kR, 1%;
+ValeurCmp = 4.7kR DNP;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/548CC15D/5491920E;
+Reference = R506;
+ValeurCmp = 4.7kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/549247BD;
-Reference = R506;
-ValeurCmp = 0R DNP;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548C90C9/548CC15D/5492F3FF;
 Reference = R507;
 ValeurCmp = 0R DNP;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548C90C9/548CC15D/549228BB;
+TimeStamp = /548C90C9/548CC15D/5492F3FF;
 Reference = R508;
-ValeurCmp = 4.7kR;
+ValeurCmp = 0R DNP;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54907246;
+TimeStamp = /548C90C9/548CC15D/54BF2178;
+Reference = R509;
+ValeurCmp = 0R DNP;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/548CC15D/54BF2592;
+Reference = R510;
+ValeurCmp = 0R DNP;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54BF3A89;
 Reference = R601;
-ValeurCmp = 1R;
+ValeurCmp = 100kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54910C7C;
+TimeStamp = /548CB640/54BF416D;
 Reference = R602;
-ValeurCmp = 10kR;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/5490CBBD;
-Reference = R603;
-ValeurCmp = 10kR;
+ValeurCmp = 100kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/548FE5A4;
+Reference = R603;
+ValeurCmp = 33kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54BD9A96;
 Reference = R604;
 ValeurCmp = 33kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54903D3C;
+TimeStamp = /548CB640/549879E1;
 Reference = R605;
-ValeurCmp = 5.1kR;
+ValeurCmp = 1kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54903C97;
+TimeStamp = /548CB640/54BD9AB0;
 Reference = R606;
-ValeurCmp = 51kR;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/54907262;
-Reference = R607;
-ValeurCmp = 1MR;
+ValeurCmp = 1kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/549071DE;
-Reference = R608;
-ValeurCmp = 220kR, 1%;
+Reference = R607;
+ValeurCmp = 450kR, 1%;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/549071F6;
-Reference = R609;
-ValeurCmp = 48.7kR, 1%;
+Reference = R608;
+ValeurCmp = 100kR, 1%;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54912DC7;
+TimeStamp = /548CB640/5498C53B;
+Reference = R609;
+ValeurCmp = 1kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54BE0E83;
 Reference = R610;
 ValeurCmp = 10kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54904B6B;
+TimeStamp = /548CB640/54BE0E77;
 Reference = R611;
-ValeurCmp = 1R;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/54912DB8;
-Reference = R612;
 ValeurCmp = 10kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54900355;
+TimeStamp = /548CB640/54BE0E12;
+Reference = R612;
+ValeurCmp = 450kR, 1%;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54BE0E2A;
 Reference = R613;
 ValeurCmp = 100kR, 1%;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54903DB1;
+TimeStamp = /548CB640/54BE3766;
 Reference = R614;
-ValeurCmp = 32.4kR, 1%;
+ValeurCmp = 200kR, 1%;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54962B16;
+TimeStamp = /548CB640/54BE377E;
 Reference = R615;
-ValeurCmp = 33.2kR, 1%;
+ValeurCmp = 100kR, 1%;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54962B2E;
+TimeStamp = /548CB640/54BE0EBB;
 Reference = R616;
-ValeurCmp = 10.0kR, 1%;
+ValeurCmp = 1kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54905054;
+TimeStamp = /548CB640/54BE3801;
 Reference = R617;
-ValeurCmp = 1MR;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/549879E1;
-Reference = R618;
-ValeurCmp = 1kR;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/54984084;
-Reference = R619;
-ValeurCmp = 1kR;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/5498C53B;
-Reference = R620;
-ValeurCmp = 1kR;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/5498D41D;
-Reference = R621;
 ValeurCmp = 1kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
@@ -1646,57 +1597,64 @@ IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB895/54912D2C;
+TimeStamp = /548CB895/54BE9CC0;
 Reference = R702;
 ValeurCmp = 22R;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB895/54912D32;
+TimeStamp = /548CB895/54912D2C;
 Reference = R703;
 ValeurCmp = 22R;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB895/54912B30;
+TimeStamp = /548CB895/54912D32;
 Reference = R704;
 ValeurCmp = 22R;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB895/54912C7C;
+TimeStamp = /548CB895/54912B30;
 Reference = R705;
 ValeurCmp = 22R;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB895/54913EC4;
+TimeStamp = /548CB895/54912C7C;
 Reference = R706;
 ValeurCmp = 22R;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB895/54913EBE;
+TimeStamp = /548CB895/54913EC4;
 Reference = R707;
 ValeurCmp = 22R;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB895/54913ED0;
+TimeStamp = /548CB895/54913EBE;
 Reference = R708;
 ValeurCmp = 22R;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB895/54913ECA;
+TimeStamp = /548CB895/54913ED0;
 Reference = R709;
+ValeurCmp = 22R;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB895/54913ECA;
+Reference = R710;
 ValeurCmp = 22R;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
@@ -1709,150 +1667,171 @@ IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/54916677;
+TimeStamp = /548CB7C3/54928680;
 Reference = R802;
 ValeurCmp = 4.7kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/548FBB62;
+TimeStamp = /548CB7C3/54916677;
 Reference = R803;
 ValeurCmp = 4.7kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/548F9D36;
+TimeStamp = /548CB7C3/548FBB62;
 Reference = R804;
+ValeurCmp = 4.7kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/548F9D36;
+Reference = R805;
 ValeurCmp = 10kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/548FC0A9;
-Reference = R805;
-ValeurCmp = 4.7kR;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/548FBB95;
 Reference = R806;
 ValeurCmp = 4.7kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/548FA0FF;
+TimeStamp = /548CB7C3/548FBB95;
 Reference = R807;
+ValeurCmp = 4.7kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/548FA0FF;
+Reference = R808;
 ValeurCmp = 649R, 1%;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/548FF659;
-Reference = R808;
-ValeurCmp = 300R;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/548FF95D;
-Reference = R809;
-ValeurCmp = 300R;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/548FF916;
-Reference = R810;
-ValeurCmp = 300R;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/548FF99F;
-Reference = R811;
-ValeurCmp = 300R;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/54904DEB;
-Reference = R812;
-ValeurCmp = 6.19kR, 1%;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/54907831;
-Reference = R813;
-ValeurCmp = 300R;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/54907A61;
-Reference = R814;
-ValeurCmp = 300R;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /548CB7C3/549255EE;
-Reference = R815;
+Reference = R809;
 ValeurCmp = 4.7kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/5492492E;
-Reference = R816;
+Reference = R810;
 ValeurCmp = 4.7kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/549248B1;
-Reference = R817;
-ValeurCmp = 4.7kR;
+TimeStamp = /548CB7C3/548FF659;
+Reference = R811;
+ValeurCmp = 300R;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/54928680;
-Reference = R818;
-ValeurCmp = 4.7kR;
+TimeStamp = /548CB7C3/548FF95D;
+Reference = R812;
+ValeurCmp = 300R;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/548FF916;
+Reference = R813;
+ValeurCmp = 300R;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/548FF99F;
+Reference = R814;
+ValeurCmp = 300R;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/5494042E;
-Reference = R819;
+Reference = R815;
 ValeurCmp = 49.9R, 1%;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/54940FDB;
-Reference = R820;
+Reference = R816;
 ValeurCmp = 49.9R, 1%;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/5494103E;
-Reference = R821;
+Reference = R817;
 ValeurCmp = 49.9R, 1%;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/549410B2;
-Reference = R822;
+Reference = R818;
 ValeurCmp = 49.9R, 1%;
 IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54904DEB;
+Reference = R819;
+ValeurCmp = 6.19kR, 1%;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54C05688;
+Reference = R820;
+ValeurCmp = 22R;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54C05987;
+Reference = R821;
+ValeurCmp = 22R;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54907A61;
+Reference = R822;
+ValeurCmp = 300R;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54907831;
+Reference = R823;
+ValeurCmp = 300R;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/548CC15D/54BF6A48;
+Reference = T501;
+ValeurCmp = 2450BL15B100;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /548C90C9/548CC15D/54BF8042;
+Reference = T502;
+ValeurCmp = 2450BL15B100;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -1877,37 +1856,37 @@ IdModule  = tm-kicad-lib:WNG008;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/5491A509;
-Reference = U601;
-ValeurCmp = NCP6334B;
-IdModule  = tm-kicad-lib:WDFN8-2x2-0.5P;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/548FCFEB;
-Reference = U602;
-ValeurCmp = FDG6342L;
-IdModule  = tm-kicad-lib:SC70-6;
-EndCmp
-
-BeginCmp
 TimeStamp = /548CB640/548FCFA8;
-Reference = U603;
+Reference = U601;
 ValeurCmp = AAT4610;
 IdModule  = SMD_Packages:SOT-23-5;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/5496BC93;
+TimeStamp = /548CB640/54BD9A8A;
+Reference = U602;
+ValeurCmp = AAT4610;
+IdModule  = SMD_Packages:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54BDB3A5;
+Reference = U603;
+ValeurCmp = AP3417C;
+IdModule  = SMD_Packages:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/54BE0ED1;
 Reference = U604;
-ValeurCmp = TPS56X209;
+ValeurCmp = AP3417C;
 IdModule  = SMD_Packages:SOT-23-6;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/5491AE64;
+TimeStamp = /548CB640/54BE38A8;
 Reference = U605;
-ValeurCmp = FAN5353;
+ValeurCmp = AP3418;
 IdModule  = tm-kicad-lib:FAN5353;
 EndCmp
 
