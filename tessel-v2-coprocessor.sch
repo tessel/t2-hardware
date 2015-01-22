@@ -726,7 +726,7 @@ Wire Wire Line
 Text GLabel 9900 7200 2    60   Input ~ 0
 PA_CS
 Text GLabel 9900 4800 2    60   Input ~ 0
-PB_CS
+PB_CS/POWER
 Text HLabel 6700 4600 0    60   Input ~ 0
 SAM_~RESET
 Wire Wire Line

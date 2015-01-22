@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501182016+5379~20~ubuntu14.04.1-product   date = Wed 21 Jan 2015 12:24:33 PM PST
+Cmp-Mod V01 Created by Cvpcb 0.201501182016+5379~20~ubuntu14.04.1-product   date = Wed 21 Jan 2015 05:21:31 PM PST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491EF9D;
@@ -1016,6 +1016,13 @@ IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
+TimeStamp = /548CB7C3/54C16B7F;
+Reference = D811;
+ValeurCmp = WHITE;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /548C90C9/548CC15A/54927175;
 Reference = J401;
 ValeurCmp = CONN_01X01;
@@ -1114,30 +1121,30 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/5494AFA3;
-Reference = J809;
-ValeurCmp = CONN_02X04;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
-EndCmp
-
-BeginCmp
 TimeStamp = /548CB7C3/548FDA9E;
-Reference = J810;
+Reference = J809;
 ValeurCmp = USB_A_2_stack;
 IdModule  = tm-kicad-lib:KUSBEX-ASFS2N-B;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/548F4832;
-Reference = J811;
+Reference = J810;
 ValeurCmp = MODULE_HEADER;
 IdModule  = tm-kicad-lib:MODULE_HEADER_TESSEL;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/548FDD0B;
-Reference = J812;
+Reference = J811;
 ValeurCmp = USB_A_2_stack;
+IdModule  = tm-kicad-lib:KUSBEX-ASFS2N-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54C1ABCA;
+Reference = J812;
+ValeurCmp = CONN_01X08;
 IdModule  = tm-kicad-lib:KUSBEX-ASFS2N-B;
 EndCmp
 
@@ -1149,30 +1156,37 @@ IdModule  = tm-kicad-lib:MODULE_HEADER_TESSEL;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/54902F47;
-Reference = J814;
-ValeurCmp = RJ45_LEDs;
-IdModule  = tm-kicad-lib:RB1-125BAG1A;
-EndCmp
-
-BeginCmp
 TimeStamp = /548CB7C3/549677D0;
-Reference = J815;
+Reference = J814;
 ValeurCmp = CONN_02X05;
 IdModule  = tm-kicad-lib:CONN_02x05_0.05in;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/54C032ED;
-Reference = J816;
+Reference = J815;
 ValeurCmp = CONN_02X05;
 IdModule  = tm-kicad-lib:CONN_02x05_0.05in;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54902F47;
+Reference = J816;
+ValeurCmp = RJ45_LEDs;
+IdModule  = tm-kicad-lib:RB1-125BAG1A;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/549243ED;
 Reference = J817;
 ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54C19EA0;
+Reference = J818;
+ValeurCmp = CONN_01X08;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
 EndCmp
 
@@ -1817,6 +1831,13 @@ BeginCmp
 TimeStamp = /548CB7C3/54907831;
 Reference = R823;
 ValeurCmp = 300R;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54C16EED;
+Reference = R824;
+ValeurCmp = 1kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
