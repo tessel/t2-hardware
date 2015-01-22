@@ -1,9 +1,33 @@
 (export (version D)
   (design
     (source /home/technical/github/tessel-v2-hardware/tessel-v2.sch)
-    (date "Wed 21 Jan 2015 06:03:24 PM PST")
+    (date "Wed 21 Jan 2015 06:43:47 PM PST")
     (tool "Eeschema 0.201501182016+5379~20~ubuntu14.04.1-product"))
   (components
+    (comp (ref H101)
+      (value HOLE)
+      (footprint Mounting_Holes:MountingHole_2-5mm)
+      (libsource (lib tm-kicad-lib) (part HOLE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 54C07487))
+    (comp (ref H102)
+      (value HOLE)
+      (footprint Mounting_Holes:MountingHole_2-5mm)
+      (libsource (lib tm-kicad-lib) (part HOLE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 54C07804))
+    (comp (ref H103)
+      (value HOLE)
+      (footprint Mounting_Holes:MountingHole_2-5mm)
+      (libsource (lib tm-kicad-lib) (part HOLE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 54C07827))
+    (comp (ref H104)
+      (value HOLE)
+      (footprint Mounting_Holes:MountingHole_2-5mm)
+      (libsource (lib tm-kicad-lib) (part HOLE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 54C07848))
     (comp (ref U201)
       (value MT7620N)
       (footprint tm-kicad-lib:MT7620N)
@@ -1683,69 +1707,17 @@
       (tstamp 54C16EED))
     (comp (ref J812)
       (value CONN_01X08)
-      (footprint tm-kicad-lib:KUSBEX-ASFS2N-B)
+      (footprint Pin_Headers:Pin_Header_Straight_1x08)
       (libsource (lib conn) (part CONN_01X08))
       (sheetpath (names /I/O/) (tstamps /548CB7C3/))
       (tstamp 54C1ABCA))
     (comp (ref J818)
       (value CONN_01X08)
-      (footprint Pin_Headers:Pin_Header_Straight_1x01)
+      (footprint Pin_Headers:Pin_Header_Straight_1x08)
       (libsource (lib conn) (part CONN_01X08))
       (sheetpath (names /I/O/) (tstamps /548CB7C3/))
       (tstamp 54C19EA0)))
   (libparts
-    (libpart (lib device) (part C)
-      (description "Condensateur non polarise")
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part CP2)
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) CP2))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part CRYSTAL)
-      (fields
-        (field (name Reference) X)
-        (field (name Value) CRYSTAL))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part INDUCTOR)
-      (fields
-        (field (name Reference) L)
-        (field (name Value) INDUCTOR))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
     (libpart (lib device) (part R)
       (description Resistance)
       (footprints
@@ -1760,92 +1732,6 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib transistors) (part BC807-40)
-      (aliases
-        (alias BC808-40))
-      (description "BC807-40, 45V Vce, 0.8A Ic, PNP, SOT-23")
-      (docs http://www.fairchildsemi.com/ds/BC/BC807.pdf)
-      (footprints
-        (fp SOT-23*))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) BC807-40)
-        (field (name Footprint) SOT-23))
-      (pins
-        (pin (num 1) (name B) (type input))
-        (pin (num 2) (name E) (type passive))
-        (pin (num 3) (name C) (type passive))))
-    (libpart (lib conn) (part CONN_01X01)
-      (footprints
-        (fp Pin_Header_Straight_1X01)
-        (fp Pin_Header_Angled_1X01)
-        (fp Socket_Strip_Straight_1X01)
-        (fp Socket_Strip_Angled_1X01))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X01))
-      (pins
-        (pin (num 1) (name P1) (type passive))))
-    (libpart (lib conn) (part CONN_01X02)
-      (footprints
-        (fp Pin_Header_Straight_1X02)
-        (fp Pin_Header_Angled_1X02)
-        (fp Socket_Strip_Straight_1X02)
-        (fp Socket_Strip_Angled_1X02))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X02))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))))
-    (libpart (lib conn) (part CONN_01X03)
-      (footprints
-        (fp Pin_Header_Straight_1X03)
-        (fp Pin_Header_Angled_1X03)
-        (fp Socket_Strip_Straight_1X03)
-        (fp Socket_Strip_Angled_1X03))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X03))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))))
-    (libpart (lib conn) (part CONN_01X07)
-      (footprints
-        (fp Pin_Header_Straight_1X07)
-        (fp Pin_Header_Angled_1X07)
-        (fp Socket_Strip_Straight_1X07)
-        (fp Socket_Strip_Angled_1X07))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X07))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))
-        (pin (num 6) (name P6) (type passive))
-        (pin (num 7) (name P7) (type passive))))
-    (libpart (lib conn) (part CONN_01X08)
-      (footprints
-        (fp Pin_Header_Straight_1X08)
-        (fp Pin_Header_Angled_1X08)
-        (fp Socket_Strip_Straight_1X08)
-        (fp Socket_Strip_Angled_1X08))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X08))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))
-        (pin (num 6) (name P6) (type passive))
-        (pin (num 7) (name P7) (type passive))
-        (pin (num 8) (name P8) (type passive))))
     (libpart (lib conn) (part CONN_02X01)
       (footprints
         (fp Pin_Header_Straight_2X01)
@@ -1858,26 +1744,6 @@
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))))
-    (libpart (lib conn) (part CONN_02X05)
-      (footprints
-        (fp Pin_Header_Straight_2X05)
-        (fp Pin_Header_Angled_2X05)
-        (fp Socket_Strip_Straight_2X05)
-        (fp Socket_Strip_Angled_2X05))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_02X05))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))
-        (pin (num 6) (name P6) (type passive))
-        (pin (num 7) (name P7) (type passive))
-        (pin (num 8) (name P8) (type passive))
-        (pin (num 9) (name P9) (type passive))
-        (pin (num 10) (name P10) (type passive))))
     (libpart (lib conn) (part CONN_02X08)
       (footprints
         (fp Pin_Header_Straight_2X08)
@@ -1904,6 +1770,140 @@
         (pin (num 14) (name P14) (type passive))
         (pin (num 15) (name P15) (type passive))
         (pin (num 16) (name P16) (type passive))))
+    (libpart (lib device) (part INDUCTOR)
+      (fields
+        (field (name Reference) L)
+        (field (name Value) INDUCTOR))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib conn) (part CONN_01X03)
+      (footprints
+        (fp Pin_Header_Straight_1X03)
+        (fp Pin_Header_Angled_1X03)
+        (fp Socket_Strip_Straight_1X03)
+        (fp Socket_Strip_Angled_1X03))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X03))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))))
+    (libpart (lib conn) (part CONN_02X05)
+      (footprints
+        (fp Pin_Header_Straight_2X05)
+        (fp Pin_Header_Angled_2X05)
+        (fp Socket_Strip_Straight_2X05)
+        (fp Socket_Strip_Angled_2X05))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_02X05))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))
+        (pin (num 9) (name P9) (type passive))
+        (pin (num 10) (name P10) (type passive))))
+    (libpart (lib device) (part CP2)
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP2))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib transistors) (part BC807-40)
+      (aliases
+        (alias BC808-40))
+      (description "BC807-40, 45V Vce, 0.8A Ic, PNP, SOT-23")
+      (docs http://www.fairchildsemi.com/ds/BC/BC807.pdf)
+      (footprints
+        (fp SOT-23*))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) BC807-40)
+        (field (name Footprint) SOT-23))
+      (pins
+        (pin (num 1) (name B) (type input))
+        (pin (num 2) (name E) (type passive))
+        (pin (num 3) (name C) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part CONN_01X02)
+      (footprints
+        (fp Pin_Header_Straight_1X02)
+        (fp Pin_Header_Angled_1X02)
+        (fp Socket_Strip_Straight_1X02)
+        (fp Socket_Strip_Angled_1X02))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X02))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))))
+    (libpart (lib conn) (part CONN_01X01)
+      (footprints
+        (fp Pin_Header_Straight_1X01)
+        (fp Pin_Header_Angled_1X01)
+        (fp Socket_Strip_Straight_1X01)
+        (fp Socket_Strip_Angled_1X01))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X01))
+      (pins
+        (pin (num 1) (name P1) (type passive))))
+    (libpart (lib conn) (part CONN_01X08)
+      (footprints
+        (fp Pin_Header_Straight_1X08)
+        (fp Pin_Header_Angled_1X08)
+        (fp Socket_Strip_Straight_1X08)
+        (fp Socket_Strip_Angled_1X08))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X08))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))))
     (libpart (lib conn) (part USB-MINI-B)
       (aliases
         (alias USB-MICRO-B))
@@ -1923,6 +1923,13 @@
         (pin (num 7) (name SHELL2) (type passive))
         (pin (num 8) (name SHELL3) (type passive))
         (pin (num 9) (name SHELL4) (type passive))))
+    (libpart (lib device) (part CRYSTAL)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
     (libpart (lib tm-kicad-lib) (part 2450BL15B100)
       (description "BALUN 2.4GHz 2.45GHz 2.5GHz 50 100")
       (docs http://www.johansontechnology.com/images/stories/ip/baluns/JTI_Balun-2450BL15B100_6-02.pdf)
@@ -2069,6 +2076,10 @@
         (pin (num 46) (name AMBER[1]/SPI_CS) (type input))
         (pin (num 47) (name VCC) (type input))
         (pin (num 48) (name VREG) (type input))))
+    (libpart (lib tm-kicad-lib) (part HOLE)
+      (fields
+        (field (name Reference) H)
+        (field (name Value) HOLE)))
     (libpart (lib tm-kicad-lib) (part MODULE_HEADER)
       (fields
         (field (name Reference) J)
@@ -2452,16 +2463,33 @@
         (pin (num R2) (name A12) (type input))
         (pin (num R3) (name NC) (type NotConnected))
         (pin (num R7) (name NC) (type NotConnected))
-        (pin (num R8) (name NC) (type NotConnected)))))
+        (pin (num R8) (name NC) (type NotConnected))))
+    (libpart (lib conn) (part CONN_01X07)
+      (footprints
+        (fp Pin_Header_Straight_1X07)
+        (fp Pin_Header_Angled_1X07)
+        (fp Socket_Strip_Straight_1X07)
+        (fp Socket_Strip_Angled_1X07))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X07))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
-    (library (logical transistors)
-      (uri /usr/share/kicad/library/transistors.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical tm-kicad-lib)
-      (uri /home/technical/github/tm-kicad-library/tm-kicad-lib.lib)))
+      (uri /home/technical/github/tm-kicad-library/tm-kicad-lib.lib))
+    (library (logical transistors)
+      (uri /usr/share/kicad/library/transistors.lib)))
   (nets
     (net (code 1) (name /COPROCESSOR/SAM_USB_DP)
       (node (ref U701) (pin 34))
