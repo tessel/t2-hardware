@@ -1,4 +1,4 @@
-update=Wed 21 Jan 2015 06:01:30 PM PST
+update=Thu 22 Jan 2015 09:19:36 PM PST
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,26 +6,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=
-UseCmpFile=1
-PadDrill=0
-PadDrillOvalY=0
-PadSizeH=0.8000999999999999
-PadSizeV=1.00076
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.09999999999999999
-ModuleOutlineThickness=0.15
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -76,3 +56,23 @@ LibName30=valves
 LibName31=tm-kicad-lib
 [general]
 version=1
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=
+UseCmpFile=1
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=0.45
+PadSizeV=0.45
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.09999999999999999
+ModuleOutlineThickness=0.15
