@@ -497,7 +497,7 @@ U 1 1 54900866
 P 5400 7400
 F 0 "X701" H 5400 7550 60  0000 C CNN
 F 1 "FC-135" H 5400 7250 60  0000 C CNN
-F 2 "tm-kicad-lib:SC-32S" H 5400 7400 60  0001 C CNN
+F 2 "tm-kicad-lib:FC-135" H 5400 7400 60  0001 C CNN
 F 3 "http://www.seeedstudio.com/wiki/images/7/78/306010055.pdf" H 5400 7400 60  0001 C CNN
 	1    5400 7400
 	1    0    0    -1  
