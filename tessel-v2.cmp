@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501231216+5386~20~ubuntu14.04.1-product   date = Fri 23 Jan 2015 11:23:53 AM PST
+Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Fri 23 Jan 2015 06:58:39 PM PST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491EF9D;
@@ -710,7 +710,7 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB895/548F96F8;
 Reference = C702;
-ValeurCmp = 10pF;
+ValeurCmp = 12.5pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
@@ -724,7 +724,7 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB895/548F96CA;
 Reference = C704;
-ValeurCmp = 10pF;
+ValeurCmp = 12.5pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
@@ -773,14 +773,14 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB7C3/548FC9D0;
 Reference = C801;
-ValeurCmp = 8pF;
+ValeurCmp = 20pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/548FCA07;
 Reference = C802;
-ValeurCmp = 8pF;
+ValeurCmp = 20pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
@@ -890,6 +890,20 @@ IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /548CB7C3/54C5086A;
+Reference = C818;
+ValeurCmp = 0.1uF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54C49CBB;
+Reference = C819;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /548C90C9/54BF4ECE;
 Reference = D201;
 ValeurCmp = RED;
@@ -946,10 +960,10 @@ IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/54967C1F;
+TimeStamp = /548CB7C3/54C2E848;
 Reference = D801;
-ValeurCmp = TVS-2;
-IdModule  = SMD_Packages:SOT-23;
+ValeurCmp = PRTR5V0U2X,215;
+IdModule  = tm-kicad-lib:PRTR5V0U2X,215;
 EndCmp
 
 BeginCmp
@@ -960,59 +974,31 @@ IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/5491069A;
+TimeStamp = /548CB7C3/54C2E4B4;
 Reference = D803;
-ValeurCmp = TVS-2;
-IdModule  = SMD_Packages:SOT-23;
+ValeurCmp = PRTR5V0U2X,215;
+IdModule  = tm-kicad-lib:PRTR5V0U2X,215;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/549000A2;
+TimeStamp = /548CB7C3/54C2E3FD;
 Reference = D804;
-ValeurCmp = GREEN;
-IdModule  = LEDs:LED-0603;
+ValeurCmp = PRTR5V0U2X,215;
+IdModule  = tm-kicad-lib:PRTR5V0U2X,215;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/5490043C;
+TimeStamp = /548CB7C3/54C2E28C;
 Reference = D805;
-ValeurCmp = GREEN;
-IdModule  = LEDs:LED-0603;
+ValeurCmp = PRTR5V0U2X,215;
+IdModule  = tm-kicad-lib:PRTR5V0U2X,215;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/54900475;
+TimeStamp = /548CB7C3/54C2E37D;
 Reference = D806;
-ValeurCmp = GREEN;
-IdModule  = LEDs:LED-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/5490FDCC;
-Reference = D807;
-ValeurCmp = TVS-2;
-IdModule  = SMD_Packages:SOT-23;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/549004B3;
-Reference = D808;
-ValeurCmp = GREEN;
-IdModule  = LEDs:LED-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/5490FF84;
-Reference = D809;
-ValeurCmp = TVS-2;
-IdModule  = SMD_Packages:SOT-23;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/5491140D;
-Reference = D810;
-ValeurCmp = TVS-2;
-IdModule  = SMD_Packages:SOT-23;
+ValeurCmp = PRTR5V0U2X,215;
+IdModule  = tm-kicad-lib:PRTR5V0U2X,215;
 EndCmp
 
 BeginCmp
@@ -1093,10 +1079,10 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/54968820;
+TimeStamp = /548CB7C3/54C57D51;
 Reference = J801;
-ValeurCmp = USB-MICRO-B;
-IdModule  = tm-kicad-lib:MICRO-USB-10104111;
+ValeurCmp = USB-micro-TH;
+IdModule  = tm-kicad-lib:Seeed-USB-Micro-320010028;
 EndCmp
 
 BeginCmp
@@ -1107,24 +1093,10 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x07;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/54905BD2;
+TimeStamp = /548CB7C3/54C5EBAA;
 Reference = J803;
-ValeurCmp = CONN_01X01;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/548FB8F0;
-Reference = J804;
-ValeurCmp = CONN_02X01;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x01;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/548FA315;
-Reference = J805;
-ValeurCmp = CONN_02X01;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x01;
+ValeurCmp = HR911105A;
+IdModule  = tm-kicad-lib:HR911105a;
 EndCmp
 
 BeginCmp
@@ -1137,13 +1109,6 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB7C3/548F8D58;
 Reference = J807;
-ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/548F8C03;
-Reference = J808;
 ValeurCmp = CONN_01X02;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
@@ -1188,13 +1153,6 @@ TimeStamp = /548CB7C3/54C032ED;
 Reference = J815;
 ValeurCmp = CONN_02X05;
 IdModule  = tm-kicad-lib:CONN_02x05_0.05in;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/54902F47;
-Reference = J816;
-ValeurCmp = RJ45_LEDs;
-IdModule  = tm-kicad-lib:RB1-125BAG1A;
 EndCmp
 
 BeginCmp
@@ -1709,44 +1667,37 @@ IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/54916677;
+TimeStamp = /548CB7C3/54C4E15F;
 Reference = R803;
-ValeurCmp = 4.7kR;
+ValeurCmp = 100kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/548FBB62;
+TimeStamp = /548CB7C3/54C4D4D1;
 Reference = R804;
-ValeurCmp = 4.7kR;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/548F9D36;
-Reference = R805;
 ValeurCmp = 10kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/548FC0A9;
-Reference = R806;
-ValeurCmp = 4.7kR;
+TimeStamp = /548CB7C3/54C4BFE8;
+Reference = R805;
+ValeurCmp = 100kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/548FBB95;
 Reference = R807;
-ValeurCmp = 4.7kR;
+ValeurCmp = 100kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/548FA0FF;
 Reference = R808;
-ValeurCmp = 649R 1%;
+ValeurCmp = 2.7kR 1%;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
@@ -1761,34 +1712,6 @@ BeginCmp
 TimeStamp = /548CB7C3/5492492E;
 Reference = R810;
 ValeurCmp = 4.7kR;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/548FF659;
-Reference = R811;
-ValeurCmp = 300R;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/548FF95D;
-Reference = R812;
-ValeurCmp = 300R;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/548FF916;
-Reference = R813;
-ValeurCmp = 300R;
-IdModule  = tm-kicad-lib:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB7C3/548FF99F;
-Reference = R814;
-ValeurCmp = 300R;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
@@ -1940,24 +1863,24 @@ IdModule  = SMD_Packages:QFN-48-1EP;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/5493FA1B;
+TimeStamp = /548CB7C3/54C2AEE7;
 Reference = U801;
-ValeurCmp = AP2192ASG-13;
-IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+ValeurCmp = AIC1528-0PSTR;
+IdModule  = tm-kicad-lib:SOP-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/548F8A97;
+TimeStamp = /548CB7C3/54C1BE0C;
 Reference = U802;
-ValeurCmp = CY7C65632;
+ValeurCmp = FE1.1;
 IdModule  = tm-kicad-lib:CY7C65634-48AXCT;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB7C3/54911CE3;
+TimeStamp = /548CB7C3/54C2AF77;
 Reference = U803;
-ValeurCmp = AP2192ASG-13;
-IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+ValeurCmp = AIC1528-0PSTR;
+IdModule  = tm-kicad-lib:SOP-8;
 EndCmp
 
 BeginCmp
@@ -1970,15 +1893,15 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB895/54900866;
 Reference = X701;
-ValeurCmp = SC32S-12.5PF20PPM;
-IdModule  = tm-kicad-lib:SC-32S;
+ValeurCmp = FC-135;
+IdModule  = tm-kicad-lib:FC-135;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/548FCA48;
 Reference = X801;
 ValeurCmp = 12MHz;
-IdModule  = tm-kicad-lib:NX5032GA-12.000000MHZ-LN-CD-1;
+IdModule  = tm-kicad-lib:Seeed-xtal-12MHz;
 EndCmp
 
 EndListe
