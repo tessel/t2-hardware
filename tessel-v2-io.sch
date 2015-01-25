@@ -1619,7 +1619,7 @@ Wire Wire Line
 	6900 9650 6900 9350
 Connection ~ 6050 9650
 Wire Wire Line
-	5450 9650 5450 9500
+	5450 9450 5450 9650
 Connection ~ 6650 9650
 Wire Wire Line
 	6050 9650 6050 9600
@@ -1652,7 +1652,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 9650 10700 9650
 Wire Wire Line
-	8550 9650 8550 9500
+	8550 9450 8550 9650
 Wire Wire Line
 	9050 9050 9600 9050
 Wire Wire Line
