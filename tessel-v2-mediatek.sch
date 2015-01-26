@@ -611,7 +611,7 @@ MT_SI
 Text HLabel 19850 7600 2    60   Input ~ 0
 MT_SO
 Text HLabel 19850 8050 2    60   Input ~ 0
-MT_CS
+MT_CS0
 Text HLabel 19850 8200 2    60   Input ~ 0
 MT_SCK
 $Comp
