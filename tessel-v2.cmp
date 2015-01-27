@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501251816+5388~20~ubuntu14.04.1-product   date = Mon 26 Jan 2015 05:53:39 PM PST
+Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Mon 26 Jan 2015 06:23:01 PM PST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491EF9D;
@@ -185,7 +185,7 @@ EndCmp
 BeginCmp
 TimeStamp = /548C90C9/548FD2A7;
 Reference = C221;
-ValeurCmp = 10pF;
+ValeurCmp = 9pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
@@ -220,7 +220,7 @@ EndCmp
 BeginCmp
 TimeStamp = /548C90C9/548FD250;
 Reference = C226;
-ValeurCmp = 10pF;
+ValeurCmp = 9pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
@@ -773,7 +773,7 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB895/548F96F8;
 Reference = C702;
-ValeurCmp = 12.5pF;
+ValeurCmp = 11pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
@@ -787,7 +787,7 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB895/548F96CA;
 Reference = C704;
-ValeurCmp = 12.5pF;
+ValeurCmp = 11pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
@@ -836,14 +836,14 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB7C3/548FC9D0;
 Reference = C801;
-ValeurCmp = 20pF;
+ValeurCmp = 18pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/548FCA07;
 Reference = C802;
-ValeurCmp = 20pF;
+ValeurCmp = 18pF;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
@@ -985,6 +985,41 @@ TimeStamp = /548CB7C3/54CABBD8;
 Reference = C822;
 ValeurCmp = 100pF;
 IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54C729ED;
+Reference = C823;
+ValeurCmp = 100nF DNP;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54C72972;
+Reference = C824;
+ValeurCmp = 100nF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54C728F6;
+Reference = C825;
+ValeurCmp = 100nF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54C7260B;
+Reference = C826;
+ValeurCmp = 100nF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54C72287;
+Reference = C827;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
