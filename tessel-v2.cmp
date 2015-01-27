@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501270101+5388~20~ubuntu14.04.1-product   date = Tue 27 Jan 2015 11:32:57 AM PST
+Cmp-Mod V01 Created by Cvpcb 0.201501270101+5388~20~ubuntu14.04.1-product   date = Tue 27 Jan 2015 12:43:38 PM PST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491EF9D;
@@ -963,7 +963,7 @@ BeginCmp
 TimeStamp = /548CB7C3/54C49CBB;
 Reference = C819;
 ValeurCmp = 22uF;
-IdModule  = Capacitors_SMD:C_0805;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
