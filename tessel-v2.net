@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/technical/github/tessel-v2-hardware/tessel-v2.sch)
-    (date "Mon 26 Jan 2015 05:52:06 PM PST")
+    (date "Mon 26 Jan 2015 05:53:35 PM PST")
     (tool "Eeschema 0.201501251816+5388~20~ubuntu14.04.1-product"))
   (components
     (comp (ref H101)
