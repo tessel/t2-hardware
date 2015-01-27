@@ -1,0 +1,16 @@
+{ 
+  "components": "tessel-v2-parts.csv"
+  , "bom": "../tessel-v2.csv"
+  , "output": "tessel-v2-matched.csv"
+  , "componentsMatch": ["Manufacturer Part #", "Value"]
+  , "bomMatch": "Designation"
+  , "replace": [
+      {"Ref Des": "Designator"}
+      , {"Qty": "Quantity"}
+      , {"Value":"Designation"}
+    ]
+  , "order": { 
+      "key": "Ref Des"
+      , "order": ["U", "Q", "A", "X", "D", "L", "J", "R", "C", "H", "T"]
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "bom",
+  "version": "0.0.0",
+  "description": "```js {    \"components\": \"tessel-v2-parts.csv\" // file with part #s and prices   , \"bom\": \"../tessel-v2.csv\" // file with new tessel bom   // order to match items in. {components_header: bom_header}   // ex: items will first be matched by part # then value   , \"match\": [     {\"Manufacturer Part #\": \"Designation\"}      , {\"Value\": \"Designation\"}   ]   // replace the ref des & qty with the designator header in tessel-v2.csv   , \"replace\": {\"Ref Des\": \"Designator\",     \"Qty\": \"Quantity\",   }   // order we want bom components to appear. DNP is always last   , \"order\": [\"U\", \"A\", \"X\", \"D\", \"L\", \"J\", \"R\", \"C\"] } ```",
+  "main": "match.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csv": "~0.4.1"
+  }
+}
