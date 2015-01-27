@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501251816+5388~20~ubuntu14.04.1-product   date = Mon 26 Jan 2015 05:39:53 PM PST
+Cmp-Mod V01 Created by Cvpcb 0.201501251816+5388~20~ubuntu14.04.1-product   date = Mon 26 Jan 2015 05:52:32 PM PST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491EF9D;
@@ -946,6 +946,13 @@ IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /548CB7C3/54CAA917;
+Reference = C817;
+ValeurCmp = 100pF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /548CB7C3/54C5086A;
 Reference = C818;
 ValeurCmp = 100nF;
@@ -957,6 +964,27 @@ TimeStamp = /548CB7C3/54C49CBB;
 Reference = C819;
 ValeurCmp = 22uF;
 IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54CAE7DE;
+Reference = C820;
+ValeurCmp = 100pF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54CAD4B5;
+Reference = C821;
+ValeurCmp = 100pF;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54CABBD8;
+Reference = C822;
+ValeurCmp = 100pF;
+IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
 
 BeginCmp
@@ -1893,6 +1921,34 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB7C3/54C980F9;
 Reference = R829;
+ValeurCmp = 100kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54CAAA85;
+Reference = R830;
+ValeurCmp = 100kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54CAE7E4;
+Reference = R831;
+ValeurCmp = 100kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54CAD4BB;
+Reference = R832;
+ValeurCmp = 100kR;
+IdModule  = tm-kicad-lib:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB7C3/54CABBDE;
+Reference = R833;
 ValeurCmp = 100kR;
 IdModule  = tm-kicad-lib:SMD-0402;
 EndCmp
