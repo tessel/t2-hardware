@@ -894,7 +894,7 @@ Connection ~ 9300 4300
 Wire Wire Line
 	8750 3450 8750 5900
 Wire Wire Line
-	8850 4750 8850 5900
+	8850 4700 8850 5900
 Connection ~ 8850 5350
 Connection ~ 8850 5150
 Connection ~ 8850 4950
@@ -1314,4 +1314,16 @@ F 3 "" H 9750 3050 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	10100 3450 10450 3450
+$Comp
+L +3.3V #PWR?
+U 1 1 54CAAC80
+P 8850 4700
+F 0 "#PWR?" H 8850 4550 60  0001 C CNN
+F 1 "+3.3V" H 8850 4840 60  0000 C CNN
+F 2 "" H 8850 4700 60  0000 C CNN
+F 3 "" H 8850 4700 60  0000 C CNN
+	1    8850 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8850 4750
 $EndSCHEMATC
