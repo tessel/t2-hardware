@@ -797,9 +797,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 6 /MEDIATEK/MT_XTAL_XO_R))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1965,9 +1965,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 16 /MEDIATEK/RF/RF1_OUTN))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1991,9 +1991,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 24 3.3V_CP))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2067,9 +2067,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 225) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 2 +1.2V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2093,9 +2093,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 2 +1.2V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2119,9 +2119,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 2 +1.2V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2145,9 +2145,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 2 +1.2V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2171,9 +2171,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 45) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 2 +1.2V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2197,9 +2197,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 3 1.5V_SOC))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2223,9 +2223,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 3 1.5V_SOC))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2249,9 +2249,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2275,9 +2275,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2301,9 +2301,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 45) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2327,9 +2327,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 225) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 170 "Net-(C215-Pad1)"))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2353,9 +2353,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2379,9 +2379,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 315) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2405,9 +2405,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 315) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2431,9 +2431,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2457,9 +2457,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2483,9 +2483,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 315) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2509,9 +2509,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2535,9 +2535,9 @@
       (net 5 +3.3V))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2561,9 +2561,9 @@
       (net 5 +3.3V))
     (pad 1 smd rect (at -0.44958 0 315) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2587,9 +2587,9 @@
       (net 5 +3.3V))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2613,9 +2613,9 @@
       (net 5 +3.3V))
     (pad 1 smd rect (at -0.44958 0 225) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2639,9 +2639,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 9 /MEDIATEK/RAM/CLK))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2665,9 +2665,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 315) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 10 /MEDIATEK/RAM/CLK_N))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2691,9 +2691,9 @@
       (net 11 /MEDIATEK/RAM/DDR_VREF))
     (pad 1 smd rect (at -0.44958 0 315) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2717,9 +2717,9 @@
       (net 11 /MEDIATEK/RAM/DDR_VREF))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2743,9 +2743,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2769,9 +2769,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 315) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 12 "Net-(C501-Pad1)"))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2795,9 +2795,9 @@
       (net 13 /MEDIATEK/RF/RF0_OUTP))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2821,9 +2821,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 14 /MEDIATEK/RF/RF0_OUTN))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2847,9 +2847,9 @@
       (net 15 /MEDIATEK/RF/RF1_OUTP))
     (pad 1 smd rect (at -0.44958 0 45) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2873,9 +2873,9 @@
       (net 17 /MEDIATEK/RF/RF0_OUTP_TCIN))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 171 /MEDIATEK/RF/RF0_BALUN_IN_P))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2899,9 +2899,9 @@
       (net 18 /MEDIATEK/RF/RF0_OUTN_TCIN))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 172 /MEDIATEK/RF/RF0_BALUN_IN_N))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2925,9 +2925,9 @@
       (net 19 /MEDIATEK/RF/RF1_OUTP_TCIN))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 173 /MEDIATEK/RF/RF1_BALUN_IN_P))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2951,9 +2951,9 @@
       (net 20 /MEDIATEK/RF/RF1_OUTN_TCIN))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 174 /MEDIATEK/RF/RF1_BALUN_IN_N))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2977,9 +2977,9 @@
       (net 172 /MEDIATEK/RF/RF0_BALUN_IN_N))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 171 /MEDIATEK/RF/RF0_BALUN_IN_P))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3003,9 +3003,9 @@
       (net 174 /MEDIATEK/RF/RF1_BALUN_IN_N))
     (pad 1 smd rect (at -0.44958 0 45) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 173 /MEDIATEK/RF/RF1_BALUN_IN_P))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3029,9 +3029,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 175 /MEDIATEK/RF/RF0_BALUN_OUT))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3055,9 +3055,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 45) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 176 /MEDIATEK/RF/RF1_BALUN_OUT))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3081,9 +3081,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 232 /MEDIATEK/RF/RF0_FEED))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3107,9 +3107,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 45) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 233 /MEDIATEK/RF/RF1_FEED))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3161,9 +3161,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 21 +5V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3383,9 +3383,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3409,9 +3409,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3435,9 +3435,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 252 /COPROCESSOR/SAM_~RESET))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3461,9 +3461,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 225) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 26 /COPROCESSOR/SAM_XTAL32_1))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3487,9 +3487,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 24 3.3V_CP))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3513,9 +3513,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 45) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 27 /COPROCESSOR/SAM_XTAL32_2))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3539,9 +3539,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 28 /COPROCESSOR/VDDCORE))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3565,9 +3565,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 24 3.3V_CP))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3647,9 +3647,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 29 CP_VDDANA))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3673,9 +3673,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 30 /I/O/USB_XTAL_OUT))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3699,9 +3699,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 31 /I/O/USB_XTAL_IN))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3725,9 +3725,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3751,9 +3751,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3777,9 +3777,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3803,9 +3803,9 @@
       (net 253 /I/O/VBUS[2]_IN))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3857,9 +3857,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 254 /I/O/VBUS[1]_IN))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3911,9 +3911,9 @@
       (net 255 /I/O/VBUS[4]_IN))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3965,9 +3965,9 @@
       (net 177 "Net-(C813-Pad2)"))
     (pad 1 smd rect (at -0.44958 0 45) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -5756,9 +5756,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 11 /MEDIATEK/RAM/DDR_VREF))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -5782,9 +5782,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 45) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -5808,9 +5808,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 45) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -5834,9 +5834,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -5860,9 +5860,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -5886,9 +5886,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 225) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6068,9 +6068,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 256 /I/O/VBUS[3]_IN))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6401,9 +6401,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6455,9 +6455,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 7 /MEDIATEK/MT_XTAL_XI))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6481,9 +6481,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 225) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 8 /MEDIATEK/MT_PLL_VC_CAP))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6557,9 +6557,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6583,9 +6583,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6665,9 +6665,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 24 3.3V_CP))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6747,9 +6747,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 21 +5V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6798,9 +6798,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6849,9 +6849,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 21 +5V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6875,9 +6875,9 @@
       (net 4 +1.8V))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 2 +1.2V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6926,9 +6926,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6952,9 +6952,9 @@
       (net 36 "Net-(C814-Pad2)"))
     (pad 1 smd rect (at -0.44958 0 45) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -7833,9 +7833,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 234 /I/O/VBUSM))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8358,9 +8358,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 225) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 2 +1.2V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8384,9 +8384,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 2 +1.2V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8410,9 +8410,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 225) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 2 +1.2V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8436,9 +8436,9 @@
       (net 5 +3.3V))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8462,9 +8462,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8488,9 +8488,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 225) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8514,9 +8514,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8540,9 +8540,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 45) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8566,9 +8566,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 225) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 4 +1.8V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8592,9 +8592,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8725,9 +8725,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 259 "Net-(C817-Pad1)"))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8751,9 +8751,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 260 "Net-(C820-Pad1)"))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8777,9 +8777,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 261 "Net-(C821-Pad1)"))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8803,9 +8803,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 262 "Net-(C822-Pad1)"))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8829,9 +8829,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 239 /I/O/USB_18))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8855,9 +8855,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 239 /I/O/USB_18))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8881,9 +8881,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 239 /I/O/USB_18))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8907,9 +8907,9 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 239 /I/O/USB_18))
-    (model smd\chip_cms.wrl
+    (model Capacitors_SMD/C_0402.wrl
       (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
