@@ -1750,9 +1750,9 @@
       (net 35 /I/O/VBUS[3]))
     (pad 2 smd rect (at 0.9525 0 180) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 256 /I/O/VBUS[3]_IN))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Resistors_SMD/R_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3135,9 +3135,9 @@
       (net 21 +5V))
     (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3189,9 +3189,9 @@
       (net 49 3.3V_PORTA))
     (pad 2 smd rect (at 0.9525 0 90) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3217,9 +3217,9 @@
       (net 21 +5V))
     (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3245,9 +3245,9 @@
       (net 21 +5V))
     (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3273,9 +3273,9 @@
       (net 5 +3.3V))
     (pad 2 smd rect (at 0.9525 0 180) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3301,9 +3301,9 @@
       (net 4 +1.8V))
     (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3329,9 +3329,9 @@
       (net 4 +1.8V))
     (pad 2 smd rect (at 0.9525 0 180) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3357,9 +3357,9 @@
       (net 5 +3.3V))
     (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3593,9 +3593,9 @@
       (net 24 3.3V_CP))
     (pad 2 smd rect (at 0.9525 0 90) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3621,9 +3621,9 @@
       (net 29 CP_VDDANA))
     (pad 2 smd rect (at 0.9525 0 180) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3831,9 +3831,9 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.9525 0 270) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 32 /I/O/VBUS[2]))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3885,9 +3885,9 @@
       (net 33 /I/O/VBUS[1]))
     (pad 2 smd rect (at 0.9525 0 90) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3939,9 +3939,9 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.9525 0 270) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 34 /I/O/VBUS[4]))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4282,9 +4282,9 @@
       (net 32 /I/O/VBUS[2]))
     (pad 2 smd rect (at 0.9525 0 90) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 253 /I/O/VBUS[2]_IN))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Resistors_SMD/R_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4310,9 +4310,9 @@
       (net 33 /I/O/VBUS[1]))
     (pad 2 smd rect (at 0.9525 0 180) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 254 /I/O/VBUS[1]_IN))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Resistors_SMD/R_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4338,9 +4338,9 @@
       (net 34 /I/O/VBUS[4]))
     (pad 2 smd rect (at 0.9525 0 90) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 255 /I/O/VBUS[4]_IN))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Resistors_SMD/R_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6096,9 +6096,9 @@
       (net 4 +1.8V))
     (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6266,9 +6266,9 @@
       (net 2 +1.2V))
     (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6319,9 +6319,9 @@
       (net 3 1.5V_SOC))
     (pad 2 smd rect (at 0.9525 0 270) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6347,9 +6347,9 @@
       (net 4 +1.8V))
     (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6375,9 +6375,9 @@
       (net 5 +3.3V))
     (pad 2 smd rect (at 0.9525 0 180) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6429,9 +6429,9 @@
       (net 5 +3.3V))
     (pad 2 smd rect (at 0.9525 0 45) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6611,9 +6611,9 @@
       (net 22 3.3V_PORTB))
     (pad 2 smd rect (at 0.9525 0 90) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6639,9 +6639,9 @@
       (net 24 3.3V_CP))
     (pad 2 smd rect (at 0.9525 0 180) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6693,9 +6693,9 @@
       (net 24 3.3V_CP))
     (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6721,9 +6721,9 @@
       (net 21 +5V))
     (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6980,9 +6980,9 @@
       (net 35 /I/O/VBUS[3]))
     (pad 2 smd rect (at 0.9525 0 180) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8620,9 +8620,9 @@
       (net 21 +5V))
     (pad 2 smd rect (at 0.9525 0) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8699,9 +8699,9 @@
       (net 4 +1.8V))
     (pad 2 smd rect (at 0.9525 0 90) (size 0.889 1.397) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -8935,9 +8935,9 @@
       (net 239 /I/O/USB_18))
     (pad 2 smd rect (at 0.9525 0 90) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -9100,9 +9100,9 @@
       (net 21 +5V))
     (pad 2 smd rect (at 0.9525 0 270) (size 0.889 1.397) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0805.wrl
+    (model Capacitors_SMD/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
