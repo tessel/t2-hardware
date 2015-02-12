@@ -778,7 +778,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBAF57) (tstamp 5494A469)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBAF57) (tstamp 5494A469)
     (at 127.233958 123.936068 180)
     (path /548C90C9/548FD2A7)
     (attr smd)
@@ -990,7 +990,7 @@
       (net 4 +1.8V))
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB21F) (tstamp 54C9980C)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB21F) (tstamp 54C9980C)
     (at 152.067955 106.441342 225)
     (path /548C90C9/548CC02E/548D3CA8)
     (attr smd)
@@ -1016,7 +1016,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB128) (tstamp 5491498C)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB128) (tstamp 5491498C)
     (at 154.102335 122.313802 180)
     (path /548C90C9/548CC15D/549167C3)
     (attr smd)
@@ -1042,7 +1042,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB12B) (tstamp 54914981)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB12B) (tstamp 54914981)
     (at 153.594335 121.043802 270)
     (path /548C90C9/548CC15D/549228BB)
     (attr smd)
@@ -1703,7 +1703,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB1C5) (tstamp 54C70458)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB1C5) (tstamp 54C70458)
     (at 122.605515 105.295742)
     (path /548CB7C3/54C7F49E)
     (attr smd)
@@ -1817,7 +1817,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2.49936 2.49936) (drill 2.49936) (layers))
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAF15) (tstamp 54C3F304)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAF15) (tstamp 54C3F304)
     (at 114.602955 122.316342 90)
     (path /548CB7C3/54C481ED)
     (attr smd)
@@ -1894,7 +1894,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB223) (tstamp 54C9983C)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB223) (tstamp 54C9983C)
     (at 152.702955 107.076342 225)
     (path /548C90C9/548CC02E/548D3CD9)
     (attr smd)
@@ -1920,7 +1920,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB23C) (tstamp 54C99830)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB23C) (tstamp 54C99830)
     (at 153.845955 105.298342 315)
     (path /548C90C9/548CC02E/548D36D9)
     (attr smd)
@@ -1946,7 +1946,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB0C6) (tstamp 54CA93ED)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB0C6) (tstamp 54CA93ED)
     (at 142.161955 118.252342)
     (path /548C90C9/548CC15D/5492F371)
     (attr smd)
@@ -1972,7 +1972,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5494DDFF) (tstamp 54C078B2)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 5494DDFF) (tstamp 54C078B2)
     (at 114.859335 113.042802 270)
     (path /548CB895/548FA741)
     (attr smd)
@@ -2048,7 +2048,7 @@
       (net 233 /MEDIATEK/RF/RF1_FEED))
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB53E) (tstamp 54C072ED)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB53E) (tstamp 54C072ED)
     (at 134.922955 116.718342 225)
     (path /548C90C9/54904BCE)
     (attr smd)
@@ -2074,7 +2074,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB588) (tstamp 549140BE)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB588) (tstamp 549140BE)
     (at 140.256955 113.553342 135)
     (path /548C90C9/54904B91)
     (attr smd)
@@ -2100,7 +2100,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB56B) (tstamp 54C072E1)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB56B) (tstamp 54C072E1)
     (at 134.668955 107.320342 135)
     (path /548C90C9/54904B51)
     (attr smd)
@@ -2126,7 +2126,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB568) (tstamp 54C072D5)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB568) (tstamp 54C072D5)
     (at 133.525955 108.473342 135)
     (path /548C90C9/54904B0E)
     (attr smd)
@@ -2152,7 +2152,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB1FC) (tstamp 549140DF)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB1FC) (tstamp 549140DF)
     (at 144.193955 107.330342 45)
     (path /548C90C9/54904AC8)
     (attr smd)
@@ -2178,7 +2178,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB5D1) (tstamp 54C8AC6E)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB5D1) (tstamp 54C8AC6E)
     (at 138.100495 116.598962 90)
     (path /548C90C9/54905997)
     (attr smd)
@@ -2204,7 +2204,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB5E5) (tstamp 54914100)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB5E5) (tstamp 54914100)
     (at 139.497335 118.186302 135)
     (path /548C90C9/549059E3)
     (attr smd)
@@ -2230,7 +2230,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB20F) (tstamp 54914116)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB20F) (tstamp 54914116)
     (at 151.559955 102.758342 180)
     (path /548C90C9/54903DA9)
     (attr smd)
@@ -2256,7 +2256,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB67F) (tstamp 54914121)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB67F) (tstamp 54914121)
     (at 156.233555 100.650142 135)
     (path /548C90C9/54903E09)
     (attr smd)
@@ -2282,7 +2282,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB1F9) (tstamp 54C072C9)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB1F9) (tstamp 54C072C9)
     (at 142.669955 106.187342 45)
     (path /548C90C9/54903E44)
     (attr smd)
@@ -2308,7 +2308,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAF9A) (tstamp 54C073F2)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBAF9A) (tstamp 54C073F2)
     (at 134.925 119.393 225)
     (path /548C90C9/548FE2F7)
     (attr smd)
@@ -2334,7 +2334,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB659) (tstamp 54914142)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB659) (tstamp 54914142)
     (at 145.336955 111.521342)
     (path /548C90C9/54903E80)
     (attr smd)
@@ -2360,7 +2360,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB56F) (tstamp 54914158)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB56F) (tstamp 54914158)
     (at 136.957335 107.962802 315)
     (path /548C90C9/5490272D)
     (attr smd)
@@ -2386,7 +2386,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB573) (tstamp 54914170)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB573) (tstamp 54914170)
     (at 135.560495 109.296462 315)
     (path /548C90C9/549027BC)
     (attr smd)
@@ -2412,7 +2412,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB4EF) (tstamp 54948877)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB4EF) (tstamp 54948877)
     (at 131.840955 110.223342 180)
     (path /548C90C9/54902840)
     (attr smd)
@@ -2438,7 +2438,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB518) (tstamp 5491419C)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB518) (tstamp 5491419C)
     (at 131.242335 113.804802 270)
     (path /548C90C9/54902A17)
     (attr smd)
@@ -2464,7 +2464,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB62B) (tstamp 54C072BD)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB62B) (tstamp 54C072BD)
     (at 142.974755 118.138042 315)
     (path /548C90C9/54902A54)
     (attr smd)
@@ -2490,7 +2490,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB57F) (tstamp 549141BF)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB57F) (tstamp 549141BF)
     (at 138.735335 103.517802 90)
     (path /548C90C9/54902A88)
     (attr smd)
@@ -2516,7 +2516,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB607) (tstamp 5493A1FD)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB607) (tstamp 5493A1FD)
     (at 138.227335 119.646802)
     (path /548C90C9/548FF9E4)
     (attr smd)
@@ -2542,7 +2542,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB5A1) (tstamp 549141ED)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB5A1) (tstamp 549141ED)
     (at 139.370495 115.074962 315)
     (path /548C90C9/549004C6)
     (attr smd)
@@ -2568,7 +2568,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB64C) (tstamp 54C8C201)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB64C) (tstamp 54C8C201)
     (at 140.640335 117.106802 135)
     (path /548C90C9/549006EA)
     (attr smd)
@@ -2594,7 +2594,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB60E) (tstamp 5493A39E)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB60E) (tstamp 5493A39E)
     (at 141.275335 118.122802 225)
     (path /548C90C9/549007FF)
     (attr smd)
@@ -2620,7 +2620,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB23F) (tstamp 54C99824)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB23F) (tstamp 54C99824)
     (at 152.702955 105.298342 135)
     (path /548C90C9/548CC02E/548D4B3C)
     (attr smd)
@@ -2646,7 +2646,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB228) (tstamp 54C99818)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB228) (tstamp 54C99818)
     (at 153.845955 106.441342 315)
     (path /548C90C9/548CC02E/548D48B9)
     (attr smd)
@@ -2672,7 +2672,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB25B) (tstamp 54C9FDD4)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB25B) (tstamp 54C9FDD4)
     (at 161.07379 97.369354 315)
     (path /548C90C9/548CC02E/548D79BD)
     (attr smd)
@@ -2698,7 +2698,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB26B) (tstamp 54C9FDF8)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB26B) (tstamp 54C9FDF8)
     (at 161.612605 99.165406 135)
     (path /548C90C9/548CC02E/548D6B14)
     (attr smd)
@@ -2724,7 +2724,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB4B8) (tstamp 54977CEF)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB4B8) (tstamp 54977CEF)
     (at 123.368335 109.105802)
     (path /548C90C9/548CC15A/548FCD34)
     (attr smd)
@@ -2750,7 +2750,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAFBF) (tstamp 549142A8)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBAFBF) (tstamp 549142A8)
     (at 135.501949 121.548049 315)
     (path /548C90C9/548CC15D/54918014)
     (attr smd)
@@ -2776,7 +2776,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB08C) (tstamp 549142B3)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB08C) (tstamp 549142B3)
     (at 138.988515 121.043742 180)
     (path /548C90C9/548CC15D/5491D8CB)
     (attr smd)
@@ -2802,7 +2802,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAFDE) (tstamp 549142BE)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBAFDE) (tstamp 549142BE)
     (at 137.464515 121.043742 180)
     (path /548C90C9/548CC15D/5491E068)
     (attr smd)
@@ -2828,7 +2828,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB093) (tstamp 54CA93F9)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB093) (tstamp 54CA93F9)
     (at 140.891955 119.268342 45)
     (path /548C90C9/548CC15D/5492F341)
     (attr smd)
@@ -2854,7 +2854,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB063) (tstamp 549142DF)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB063) (tstamp 549142DF)
     (at 138.607515 123.710742 90)
     (path /548C90C9/548CC15D/5491D9DB)
     (attr smd)
@@ -2880,7 +2880,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB05F) (tstamp 549142EA)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB05F) (tstamp 549142EA)
     (at 137.845515 123.710742 90)
     (path /548C90C9/548CC15D/54922984)
     (attr smd)
@@ -2906,7 +2906,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB0B0) (tstamp 54CA93C9)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB0B0) (tstamp 54CA93C9)
     (at 143.243015 121.234242 135)
     (path /548C90C9/548CC15D/5492F34D)
     (attr smd)
@@ -2932,7 +2932,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB0F8) (tstamp 54CA93BD)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB0F8) (tstamp 54CA93BD)
     (at 143.878015 120.599242 135)
     (path /548C90C9/548CC15D/5492F3F4)
     (attr smd)
@@ -2958,7 +2958,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB02C) (tstamp 5491430B)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB02C) (tstamp 5491430B)
     (at 138.226515 124.853742 180)
     (path /548C90C9/548CC15D/5491DBA9)
     (attr smd)
@@ -2984,7 +2984,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB0FA) (tstamp 54CA93B1)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB0FA) (tstamp 54CA93B1)
     (at 144.386015 121.742242 45)
     (path /548C90C9/548CC15D/5492F353)
     (attr smd)
@@ -3010,7 +3010,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB039) (tstamp 5491DCCC)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB039) (tstamp 5491DCCC)
     (at 138.734515 127.901742 180)
     (path /548C90C9/548CC15D/5491E0C6)
     (attr smd)
@@ -3036,7 +3036,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB10F) (tstamp 54971E85)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB10F) (tstamp 54971E85)
     (at 147.497515 123.012242 45)
     (path /548C90C9/548CC15D/5492F377)
     (attr smd)
@@ -3062,7 +3062,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB03E) (tstamp 5491DD10)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB03E) (tstamp 5491DD10)
     (at 138.734515 130.187742 180)
     (path /548C90C9/548CC15D/5491E4E1)
     (attr smd)
@@ -3088,7 +3088,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB113) (tstamp 54971E79)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB113) (tstamp 54971E79)
     (at 149.148515 124.663242 45)
     (path /548C90C9/548CC15D/5492F383)
     (attr smd)
@@ -3142,7 +3142,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAE13) (tstamp 54C5DBDE)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBAE13) (tstamp 54C5DBDE)
     (at 109.329955 91.780342 270)
     (path /548CB640/5490722A)
     (attr smd)
@@ -3364,7 +3364,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB281) (tstamp 54C69D96)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB281) (tstamp 54C69D96)
     (at 169.178955 96.253342 270)
     (path /548CB640/54BE4460)
     (attr smd)
@@ -3390,7 +3390,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB286) (tstamp 54C69DD1)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB286) (tstamp 54C69DD1)
     (at 167.019955 94.856342 180)
     (path /548CB640/54BE3778)
     (attr smd)
@@ -3416,7 +3416,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB49F) (tstamp 54C079D0)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB49F) (tstamp 54C079D0)
     (at 106.186955 88.125342)
     (path /548CB895/54978225)
     (attr smd)
@@ -3442,7 +3442,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAE88) (tstamp 54C2AD8E)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBAE88) (tstamp 54C2AD8E)
     (at 109.779 101.994 225)
     (path /548CB895/548F96F8)
     (attr smd)
@@ -3468,7 +3468,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB4AA) (tstamp 54C07846)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB4AA) (tstamp 54C07846)
     (at 118.920955 104.780342 90)
     (path /548CB895/548FAA8B)
     (attr smd)
@@ -3494,7 +3494,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAE8B) (tstamp 54C2AD82)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBAE8B) (tstamp 54C2AD82)
     (at 108.509 103.264 45)
     (path /548CB895/548F96CA)
     (attr smd)
@@ -3520,7 +3520,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAEC1) (tstamp 54C078A6)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBAEC1) (tstamp 54C078A6)
     (at 115.711955 103.365342 90)
     (path /548CB895/548FA7E4)
     (attr smd)
@@ -3546,7 +3546,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAEBE) (tstamp 54C073B2)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBAEBE) (tstamp 54C073B2)
     (at 114.856955 102.875342 90)
     (path /548CB895/548FA7B7)
     (attr smd)
@@ -3628,7 +3628,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAED9) (tstamp 54C0789A)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBAED9) (tstamp 54C0789A)
     (at 110.758955 107.683342 180)
     (path /548CB895/548F9D6C)
     (attr smd)
@@ -3654,7 +3654,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB32F) (tstamp 54C074F8)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB32F) (tstamp 54C074F8)
     (at 141.275495 85.483962 270)
     (path /548CB7C3/548FC9D0)
     (attr smd)
@@ -3680,7 +3680,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB33A) (tstamp 54C074EC)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB33A) (tstamp 54C074EC)
     (at 140.259495 83.324962 90)
     (path /548CB7C3/548FCA07)
     (attr smd)
@@ -3706,7 +3706,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB756) (tstamp 54C07596)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB756) (tstamp 54C07596)
     (at 134.290335 82.943802 90)
     (path /548CB7C3/54906403)
     (attr smd)
@@ -3732,7 +3732,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB882) (tstamp 54C0757E)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB882) (tstamp 54C0757E)
     (at 128.194335 85.229802 180)
     (path /548CB7C3/5490644B)
     (attr smd)
@@ -3758,7 +3758,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB31E) (tstamp 54C0758A)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB31E) (tstamp 54C0758A)
     (at 128.747955 88.007342 180)
     (path /548CB7C3/549064B7)
     (attr smd)
@@ -3784,7 +3784,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB76B) (tstamp 54914574)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB76B) (tstamp 54914574)
     (at 128.193515 66.814742 180)
     (path /548CB7C3/549160AC)
     (attr smd)
@@ -3838,7 +3838,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB84F) (tstamp 54C4A37C)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB84F) (tstamp 54C4A37C)
     (at 123.113515 69.481742)
     (path /548CB7C3/54914D43)
     (attr smd)
@@ -3892,7 +3892,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB728) (tstamp 54C075F3)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB728) (tstamp 54C075F3)
     (at 147.624515 67.322742 180)
     (path /548CB7C3/54917032)
     (attr smd)
@@ -3946,7 +3946,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB68C) (tstamp 54C5BBBA)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB68C) (tstamp 54C5BBBA)
     (at 161.812955 84.823342 45)
     (path /548CB7C3/54940757)
     (attr smd)
@@ -4236,7 +4236,7 @@
     )
   )
 
-  (module SMD_Packages:SMD-0603 (layer F.Cu) (tedit 54CBAE96) (tstamp 54C07398)
+  (module tm-kicad-lib:SMD-0603-R (layer F.Cu) (tedit 54CBAE96) (tstamp 54C07398)
     (at 108.726955 107.429342)
     (path /548CB895/548FA5A7)
     (attr smd)
@@ -4254,9 +4254,9 @@
       (net 24 3.3V_CP))
     (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 29 CP_VDDANA))
-    (model SMD_Packages/SMD-0603.wrl
+    (model Resistors_SMD/R_0603.wrl
       (at (xyz 0 0 0.001))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4373,7 +4373,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBAEE1) (tstamp 54C8BD88)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBAEE1) (tstamp 54C8BD88)
     (at 112.282955 106.159342)
     (path /548C90C9/5490CBD2)
     (attr smd)
@@ -4399,7 +4399,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBAF4C) (tstamp 54914929)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBAF4C) (tstamp 54914929)
     (at 127.772773 122.678832 270)
     (path /548C90C9/548FD597)
     (attr smd)
@@ -4425,7 +4425,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAF39) (tstamp 54914934)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAF39) (tstamp 54914934)
     (at 125.524955 120.919342)
     (path /548C90C9/54BF5650)
     (attr smd)
@@ -4451,7 +4451,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB25F) (tstamp 54C9FDEC)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB25F) (tstamp 54C9FDEC)
     (at 160.445172 97.997972 135)
     (path /548C90C9/548CC02E/548D6FE8)
     (attr smd)
@@ -4477,7 +4477,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB26F) (tstamp 54C9FDE0)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB26F) (tstamp 54C9FDE0)
     (at 162.241223 98.536788 315)
     (path /548C90C9/548CC02E/548D71F3)
     (attr smd)
@@ -4503,7 +4503,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAFBA) (tstamp 54914976)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAFBA) (tstamp 54914976)
     (at 134.873428 122.17629 135)
     (path /548C90C9/548CC15D/54917341)
     (attr smd)
@@ -4529,7 +4529,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAF85) (tstamp 54914997)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAF85) (tstamp 54914997)
     (at 133.745955 118.732342 135)
     (path /548C90C9/548CC15D/54919448)
     (attr smd)
@@ -4555,7 +4555,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB54C) (tstamp 549149A2)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB54C) (tstamp 549149A2)
     (at 136.920955 114.795342 180)
     (path /548C90C9/548CC15D/5491938E)
     (attr smd)
@@ -4581,7 +4581,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB55F) (tstamp 5494886B)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB55F) (tstamp 5494886B)
     (at 136.920955 115.684342 180)
     (path /548C90C9/548CC15D/5491920E)
     (attr smd)
@@ -4607,7 +4607,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAD68) (tstamp 54C07A21)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAD68) (tstamp 54C07A21)
     (at 108.091955 84.188342)
     (path /548CB640/54BF3A89)
     (attr smd)
@@ -4633,7 +4633,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAF02) (tstamp 54C07993)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAF02) (tstamp 54C07993)
     (at 108.599955 114.287342 270)
     (path /548CB640/54BF416D)
     (attr smd)
@@ -4659,7 +4659,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAD73) (tstamp 54C0799F)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAD73) (tstamp 54C0799F)
     (at 109.742955 87.236342 90)
     (path /548CB640/548FE5A4)
     (attr smd)
@@ -4685,7 +4685,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBAF06) (tstamp 54C07A15)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBAF06) (tstamp 54C07A15)
     (at 107.937835 118.249802 180)
     (path /548CB640/54BD9A96)
     (attr smd)
@@ -4711,7 +4711,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBACCF) (tstamp 54C0738D)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBACCF) (tstamp 54C0738D)
     (at 108.001 76.848 180)
     (path /548CB640/549879E1)
     (attr smd)
@@ -4737,7 +4737,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAD50) (tstamp 54C07381)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAD50) (tstamp 54C07381)
     (at 103.900955 81.394342 90)
     (path /548CB640/54BD9AB0)
     (attr smd)
@@ -4763,7 +4763,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAE62) (tstamp 54C5DBD2)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAE62) (tstamp 54C5DBD2)
     (at 112.377955 94.447342 180)
     (path /548CB640/549071DE)
     (attr smd)
@@ -4789,7 +4789,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAE27) (tstamp 54C5DBC6)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAE27) (tstamp 54C5DBC6)
     (at 110.853955 94.447342 180)
     (path /548CB640/549071F6)
     (attr smd)
@@ -4815,7 +4815,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBACC4) (tstamp 54C07816)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBACC4) (tstamp 54C07816)
     (at 108.001 74.308 180)
     (path /548CB640/5498C53B)
     (attr smd)
@@ -4841,7 +4841,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAE9D) (tstamp 54C0769F)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAE9D) (tstamp 54C0769F)
     (at 112.790955 100.190342)
     (path /548CB640/54BE0E77)
     (attr smd)
@@ -4867,7 +4867,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB365) (tstamp 54C92D84)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB365) (tstamp 54C92D84)
     (at 132.519135 97.436982 180)
     (path /548CB640/54BE0E12)
     (attr smd)
@@ -4893,7 +4893,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB368) (tstamp 54C92DC3)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB368) (tstamp 54C92DC3)
     (at 130.995134 97.436982 180)
     (path /548CB640/54BE0E2A)
     (attr smd)
@@ -4919,7 +4919,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB28F) (tstamp 54C69DC5)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB28F) (tstamp 54C69DC5)
     (at 167.019955 93.840342 180)
     (path /548CB640/54BE3766)
     (attr smd)
@@ -4945,7 +4945,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB28A) (tstamp 54C69DB9)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB28A) (tstamp 54C69DB9)
     (at 165.495955 93.840342 180)
     (path /548CB640/54BE377E)
     (attr smd)
@@ -4971,7 +4971,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBACB5) (tstamp 54973B02)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBACB5) (tstamp 54973B02)
     (at 108.001 71.768 180)
     (path /548CB640/54BE0EBB)
     (attr smd)
@@ -4997,7 +4997,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAD5B) (tstamp 54C076AB)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAD5B) (tstamp 54C076AB)
     (at 106.223335 81.419802 90)
     (path /548CB640/54BE3801)
     (attr smd)
@@ -5023,7 +5023,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBADB5) (tstamp 54C07822)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBADB5) (tstamp 54C07822)
     (at 104.535955 88.125342 180)
     (path /548CB895/5497863A)
     (attr smd)
@@ -5049,7 +5049,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB147) (tstamp 54C07329)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB147) (tstamp 54C07329)
     (at 122.569955 104.254342)
     (path /548CB895/54BE9CC0)
     (attr smd)
@@ -5075,7 +5075,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB19C) (tstamp 54C07305)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB19C) (tstamp 54C07305)
     (at 122.569955 111.366342 180)
     (path /548CB895/54912D2C)
     (attr smd)
@@ -5101,7 +5101,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB18E) (tstamp 54C07335)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB18E) (tstamp 54C07335)
     (at 122.569955 110.350342 180)
     (path /548CB895/54912D32)
     (attr smd)
@@ -5127,7 +5127,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB1AF) (tstamp 54C0731D)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB1AF) (tstamp 54C0731D)
     (at 122.569955 113.398342 180)
     (path /548CB895/54912B30)
     (attr smd)
@@ -5153,7 +5153,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB1AA) (tstamp 54C07359)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB1AA) (tstamp 54C07359)
     (at 122.569955 112.382342 180)
     (path /548CB895/54912C7C)
     (attr smd)
@@ -5179,7 +5179,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB167) (tstamp 54C07341)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB167) (tstamp 54C07341)
     (at 122.569955 107.302342 180)
     (path /548CB895/54913EC4)
     (attr smd)
@@ -5205,7 +5205,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB15A) (tstamp 54C0734D)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB15A) (tstamp 54C0734D)
     (at 122.569955 106.286342 180)
     (path /548CB895/54913EBE)
     (attr smd)
@@ -5231,7 +5231,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB183) (tstamp 54C07311)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB183) (tstamp 54C07311)
     (at 122.569955 109.334342 180)
     (path /548CB895/54913ED0)
     (attr smd)
@@ -5257,7 +5257,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB513) (tstamp 54914AE1)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB513) (tstamp 54914AE1)
     (at 131.115335 112.534802 180)
     (path /548CB7C3/548F5965)
     (attr smd)
@@ -5283,7 +5283,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAF19) (tstamp 54C0755A)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAF19) (tstamp 54C0755A)
     (at 113.078955 122.316342 270)
     (path /548CB7C3/54928680)
     (attr smd)
@@ -5309,7 +5309,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB876) (tstamp 54C07566)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB876) (tstamp 54C07566)
     (at 129.590515 89.420742 90)
     (path /548CB7C3/54C4E15F)
     (attr smd)
@@ -5335,7 +5335,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB879) (tstamp 54C07542)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB879) (tstamp 54C07542)
     (at 128.701515 89.420742 90)
     (path /548CB7C3/54C4D4D1)
     (attr smd)
@@ -5361,7 +5361,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB873) (tstamp 54C077CB)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB873) (tstamp 54C077CB)
     (at 130.606515 89.166742 270)
     (path /548CB7C3/54C4BFE8)
     (attr smd)
@@ -5387,7 +5387,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB322) (tstamp 54C07572)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB322) (tstamp 54C07572)
     (at 128.722955 88.882342)
     (path /548CB7C3/548FBB95)
     (attr smd)
@@ -5413,7 +5413,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB30B) (tstamp 54C0766C)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB30B) (tstamp 54C0766C)
     (at 128.067335 84.467802 180)
     (path /548CB7C3/548FA0FF)
     (attr smd)
@@ -5439,7 +5439,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB889) (tstamp 54C07660)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB889) (tstamp 54C07660)
     (at 125.109955 96.380342 270)
     (path /548CB7C3/549255EE)
     (attr smd)
@@ -5465,7 +5465,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAF74) (tstamp 54C07764)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAF74) (tstamp 54C07764)
     (at 131.369335 120.408802 270)
     (path /548CB7C3/5492492E)
     (attr smd)
@@ -5582,7 +5582,7 @@
     )
   )
 
-  (module SMD_Packages:SMD-0603 (layer F.Cu) (tedit 54CBADF5) (tstamp 54C5DB7B)
+  (module tm-kicad-lib:SMD-0603-C (layer F.Cu) (tedit 54CBADF5) (tstamp 54C5DB7B)
     (at 109.329955 90.129342 180)
     (path /548CB640/5490724C)
     (attr smd)
@@ -5607,7 +5607,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB4E8) (tstamp 54C072F9)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB4E8) (tstamp 54C072F9)
     (at 126.797335 109.105802)
     (path /548C90C9/548CC15A/549239D5)
     (attr smd)
@@ -5633,7 +5633,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB2CA) (tstamp 54C5BBD2)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB2CA) (tstamp 54C5BBD2)
     (at 161.558955 83.934342 135)
     (path /548CB7C3/5494042E)
     (attr smd)
@@ -5659,7 +5659,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB2C5) (tstamp 54C5BBC6)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB2C5) (tstamp 54C5BBC6)
     (at 162.701955 85.077342 315)
     (path /548CB7C3/54940FDB)
     (attr smd)
@@ -5685,7 +5685,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB2BD) (tstamp 549361B4)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB2BD) (tstamp 549361B4)
     (at 156.605955 83.807342 135)
     (path /548CB7C3/5494103E)
     (attr smd)
@@ -5711,7 +5711,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB2BF) (tstamp 54934923)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB2BF) (tstamp 54934923)
     (at 157.748955 84.950342 315)
     (path /548CB7C3/549410B2)
     (attr smd)
@@ -5737,7 +5737,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB65D) (tstamp 5492A720)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB65D) (tstamp 5492A720)
     (at 142.923955 112.283342 180)
     (path /548C90C9/548CC02E/548D79FD)
     (attr smd)
@@ -5763,7 +5763,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB67A) (tstamp 5492A72B)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB67A) (tstamp 5492A72B)
     (at 161.465955 98.821342 45)
     (path /548C90C9/548CC02E/548D3587)
     (attr smd)
@@ -5789,7 +5789,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB676) (tstamp 5492A736)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB676) (tstamp 5492A736)
     (at 163.561455 100.916842 45)
     (path /548C90C9/548CC02E/548D7FDE)
     (attr smd)
@@ -5815,7 +5815,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB683) (tstamp 5492A741)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB683) (tstamp 5492A741)
     (at 156.766955 95.265342 90)
     (path /548C90C9/548CC02E/548D8010)
     (attr smd)
@@ -5841,7 +5841,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 5449A310) (tstamp 5492A74C)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 5449A310) (tstamp 5492A74C)
     (at 144.132015 116.662242 270)
     (path /548C90C9/548CC02E/548D803B)
     (attr smd)
@@ -5867,7 +5867,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB249) (tstamp 54C073DA)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB249) (tstamp 54C073DA)
     (at 154.988955 108.346342 225)
     (path /548C90C9/548CC02E/548D8069)
     (attr smd)
@@ -5945,7 +5945,7 @@
       (net 47 /MEDIATEK/RF/NC_78))
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB1F3) (tstamp 54C07460)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB1F3) (tstamp 54C07460)
     (at 133.872955 106.032342 135)
     (path /548CB7C3/54904DEB)
     (attr smd)
@@ -5971,7 +5971,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB1B6) (tstamp 54C07454)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB1B6) (tstamp 54C07454)
     (at 122.569955 103.238342 180)
     (path /548CB7C3/54C05688)
     (attr smd)
@@ -5997,7 +5997,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBAEC4) (tstamp 54C07448)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBAEC4) (tstamp 54C07448)
     (at 118.669335 102.247802 180)
     (path /548CB7C3/54C05987)
     (attr smd)
@@ -6023,7 +6023,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB71A) (tstamp 54C0743C)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB71A) (tstamp 54C0743C)
     (at 159.397955 67.707342 135)
     (path /548CB7C3/54907A61)
     (attr smd)
@@ -6049,7 +6049,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB745) (tstamp 5493E6F0)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB745) (tstamp 5493E6F0)
     (at 144.322515 78.371742 90)
     (path /548CB7C3/5491701B)
     (attr smd)
@@ -6103,7 +6103,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBAF21) (tstamp 54977C2A)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBAF21) (tstamp 54977C2A)
     (at 119.428955 115.575342 180)
     (path /548C90C9/548CC15A/54923AA1)
     (attr smd)
@@ -6273,7 +6273,7 @@
     )
   )
 
-  (module SMD_Packages:SMD-0603 (layer B.Cu) (tedit 54CBB537) (tstamp 54C05F70)
+  (module tm-kicad-lib:SMD-0603-C (layer B.Cu) (tedit 54CBB537) (tstamp 54C05F70)
     (at 135.179335 113.042802)
     (path /548C90C9/54904C40)
     (attr smd)
@@ -6382,7 +6382,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB86E) (tstamp 54C0778D)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB86E) (tstamp 54C0778D)
     (at 131.495515 90.563742 270)
     (path /548C90C9/5490278B)
     (attr smd)
@@ -6436,7 +6436,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBAF5D) (tstamp 54C077B3)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBAF5D) (tstamp 54C077B3)
     (at 129.568824 121.960412 180)
     (path /548C90C9/548FD250)
     (attr smd)
@@ -6462,7 +6462,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAFC5) (tstamp 54C05FBD)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBAFC5) (tstamp 54C05FBD)
     (at 135.941 119.647 225)
     (path /548C90C9/548FD6DA)
     (attr smd)
@@ -6488,7 +6488,7 @@
     )
   )
 
-  (module SMD_Packages:SMD-0603 (layer B.Cu) (tedit 54CBB620) (tstamp 54C05FC7)
+  (module tm-kicad-lib:SMD-0603-C (layer B.Cu) (tedit 54CBB620) (tstamp 54C05FC7)
     (at 138.354335 121.297802 90)
     (path /548C90C9/548FF9A2)
     (attr smd)
@@ -6513,7 +6513,7 @@
     )
   )
 
-  (module SMD_Packages:SMD-0603 (layer B.Cu) (tedit 54CBB626) (tstamp 54C05FD0)
+  (module tm-kicad-lib:SMD-0603-C (layer B.Cu) (tedit 54CBB626) (tstamp 54C05FD0)
     (at 142.418335 119.392802 135)
     (path /548C90C9/549004F8)
     (attr smd)
@@ -6538,7 +6538,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB06E) (tstamp 54C8BEE2)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB06E) (tstamp 54C8BEE2)
     (at 140.513335 121.551802 270)
     (path /548C90C9/548FF2BC)
     (attr smd)
@@ -6564,7 +6564,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB595) (tstamp 54C05FE3)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB595) (tstamp 54C05FE3)
     (at 138.100495 115.074962 90)
     (path /548C90C9/54910D44)
     (attr smd)
@@ -6646,7 +6646,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAE2D) (tstamp 54C5DBAC)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBAE2D) (tstamp 54C5DBAC)
     (at 112.377955 95.463342 180)
     (path /548CB640/549071F0)
     (attr smd)
@@ -6728,7 +6728,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB356) (tstamp 54C92DB7)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB356) (tstamp 54C92DB7)
     (at 129.598135 94.769982 270)
     (path /548CB640/54BE0E4E)
     (attr smd)
@@ -6754,7 +6754,7 @@
     )
   )
 
-  (module SMD_Packages:SMD-0603 (layer F.Cu) (tedit 54CBB2A0) (tstamp 54C69E04)
+  (module tm-kicad-lib:SMD-0603-C (layer F.Cu) (tedit 54CBB2A0) (tstamp 54C69E04)
     (at 163.971955 89.522342 180)
     (path /548CB640/54BE37B4)
     (attr smd)
@@ -6779,7 +6779,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB1CA) (tstamp 54C07409)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB1CA) (tstamp 54C07409)
     (at 127.940495 106.438962 90)
     (path /548CB640/5491553C)
     (attr smd)
@@ -6805,7 +6805,7 @@
     )
   )
 
-  (module SMD_Packages:SMD-0603 (layer F.Cu) (tedit 54CBB35A) (tstamp 54C92DAB)
+  (module tm-kicad-lib:SMD-0603-C (layer F.Cu) (tedit 54CBB35A) (tstamp 54C92DAB)
     (at 129.471135 93.118982 180)
     (path /548CB640/54BE0E62)
     (attr smd)
@@ -6830,7 +6830,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB2A2) (tstamp 54C69DF9)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB2A2) (tstamp 54C69DF9)
     (at 163.971955 91.173342 270)
     (path /548CB640/54BE37A2)
     (attr smd)
@@ -6856,7 +6856,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB1CE) (tstamp 54C0609C)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB1CE) (tstamp 54C0609C)
     (at 128.956495 107.200962 90)
     (path /548CB640/5490EF43)
     (attr smd)
@@ -6882,7 +6882,7 @@
     )
   )
 
-  (module SMD_Packages:SMD-0603 (layer F.Cu) (tedit 54CBB1E1) (tstamp 54C060A6)
+  (module tm-kicad-lib:SMD-0603-C (layer F.Cu) (tedit 54CBB1E1) (tstamp 54C060A6)
     (at 126.887955 109.588342 90)
     (path /548CB640/54915FCA)
     (attr smd)
@@ -6907,7 +6907,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB387) (tstamp 54C92D5C)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB387) (tstamp 54C92D5C)
     (at 132.519135 98.452982 180)
     (path /548CB640/54BE0E24)
     (attr smd)
@@ -6933,7 +6933,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB690) (tstamp 54C074C7)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB690) (tstamp 54C074C7)
     (at 156.859955 84.696342 45)
     (path /548CB7C3/549408D7)
     (attr smd)
@@ -7429,7 +7429,7 @@
       (net 4 +1.8V))
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAF8B) (tstamp 54C06323)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAF8B) (tstamp 54C06323)
     (at 131.112955 114.315342 315)
     (path /548C90C9/54912AB6)
     (attr smd)
@@ -7455,7 +7455,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB175) (tstamp 54C0634F)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB175) (tstamp 54C0634F)
     (at 122.569955 108.318342 180)
     (path /548CB895/54913ECA)
     (attr smd)
@@ -7481,7 +7481,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB716) (tstamp 54C0635A)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB716) (tstamp 54C0635A)
     (at 164.972955 67.682342 225)
     (path /548CB7C3/54907831)
     (attr smd)
@@ -7507,7 +7507,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB4AE) (tstamp 54C06365)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB4AE) (tstamp 54C06365)
     (at 102.539515 110.375742 180)
     (path /548CB7C3/54C16EED)
     (attr smd)
@@ -7814,7 +7814,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB324) (tstamp 54C4B3E6)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB324) (tstamp 54C4B3E6)
     (at 128.747955 89.757342 180)
     (path /548CB7C3/54C5086A)
     (attr smd)
@@ -8108,7 +8108,7 @@
       (net 182 "Net-(D807-Pad2)"))
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB70A) (tstamp 54C3F30A)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB70A) (tstamp 54C3F30A)
     (at 162.697955 74.757342 90)
     (path /548CB7C3/54C40B91)
     (attr smd)
@@ -8134,7 +8134,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB70D) (tstamp 54C3F310)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB70D) (tstamp 54C3F310)
     (at 161.747955 74.757342 270)
     (path /548CB7C3/54C40BF9)
     (attr smd)
@@ -8160,7 +8160,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB704) (tstamp 54C3F316)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB704) (tstamp 54C3F316)
     (at 164.322955 81.207342)
     (path /548CB7C3/54C40ACD)
     (attr smd)
@@ -8186,7 +8186,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB700) (tstamp 54C3F31C)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB700) (tstamp 54C3F31C)
     (at 164.297955 82.157342 180)
     (path /548CB7C3/54C40CD9)
     (attr smd)
@@ -8212,7 +8212,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB69D) (tstamp 54C3F322)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB69D) (tstamp 54C3F322)
     (at 163.022955 81.707342 270)
     (path /548CB7C3/54C3FDD6)
     (attr smd)
@@ -8238,7 +8238,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB710) (tstamp 54C3F328)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB710) (tstamp 54C3F328)
     (at 162.247955 76.132342)
     (path /548CB7C3/54C4077D)
     (attr smd)
@@ -8339,7 +8339,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB57A) (tstamp 54C703DD)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB57A) (tstamp 54C703DD)
     (at 136.893995 105.613462 225)
     (path /548C90C9/54C9E656)
     (attr smd)
@@ -8365,7 +8365,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB1D9) (tstamp 54C703E8)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB1D9) (tstamp 54C703E8)
     (at 131.750335 108.343802 90)
     (path /548C90C9/54C9E650)
     (attr smd)
@@ -8391,7 +8391,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB4FF) (tstamp 54C703F3)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB4FF) (tstamp 54C703F3)
     (at 132.319455 114.505842 225)
     (path /548C90C9/54C9E64A)
     (attr smd)
@@ -8417,7 +8417,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB615) (tstamp 54C703FE)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB615) (tstamp 54C703FE)
     (at 139.751335 120.154802 90)
     (path /548C90C9/54C9FDB4)
     (attr smd)
@@ -8443,7 +8443,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB671) (tstamp 54C70409)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB671) (tstamp 54C70409)
     (at 166.291955 104.472842)
     (path /548C90C9/548CC02E/54C976A0)
     (attr smd)
@@ -8469,7 +8469,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB24D) (tstamp 54C70414)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB24D) (tstamp 54C70414)
     (at 156.258955 108.346342 225)
     (path /548C90C9/548CC02E/54C976A6)
     (attr smd)
@@ -8495,7 +8495,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB655) (tstamp 54C7041F)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB655) (tstamp 54C7041F)
     (at 144.892455 113.108842 270)
     (path /548C90C9/548CC02E/54C976AC)
     (attr smd)
@@ -8521,7 +8521,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB66D) (tstamp 54C7042A)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB66D) (tstamp 54C7042A)
     (at 161.084955 106.123842 45)
     (path /548C90C9/548CC02E/54C976B2)
     (attr smd)
@@ -8547,7 +8547,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB66A) (tstamp 54C70435)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB66A) (tstamp 54C70435)
     (at 158.392555 110.937142 225)
     (path /548C90C9/548CC02E/54C976B8)
     (attr smd)
@@ -8573,7 +8573,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB4B4) (tstamp 54C70440)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB4B4) (tstamp 54C70440)
     (at 120.574335 111.772802 180)
     (path /548C90C9/548CC15A/54C991E6)
     (attr smd)
@@ -8627,7 +8627,7 @@
     )
   )
 
-  (module SMD_Packages:SMD-0603 (layer F.Cu) (tedit 54CBB2B2) (tstamp 54C70462)
+  (module tm-kicad-lib:SMD-0603-R (layer F.Cu) (tedit 54CBB2B2) (tstamp 54C70462)
     (at 152.448955 88.026342 180)
     (path /548CB7C3/54C8111B)
     (attr smd)
@@ -8645,14 +8645,14 @@
       (net 4 +1.8V))
     (pad 2 smd rect (at 0.762 0 180) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 239 /I/O/USB_18))
-    (model SMD_Packages/SMD-0603.wrl
+    (model Resistors_SMD/R_0603.wrl
       (at (xyz 0 0 0.001))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBAF63) (tstamp 54C7046D)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBAF63) (tstamp 54C7046D)
     (at 130.480335 120.281802)
     (path /548CB7C3/54C980F9)
     (attr smd)
@@ -8706,7 +8706,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAC5C) (tstamp 54C721E0)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBAC5C) (tstamp 54C721E0)
     (at 115.494335 62.369802)
     (path /548CB7C3/54CAA917)
     (attr smd)
@@ -8732,7 +8732,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB2F2) (tstamp 54C721EB)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB2F2) (tstamp 54C721EB)
     (at 133.782335 67.068802)
     (path /548CB7C3/54CAE7DE)
     (attr smd)
@@ -8758,7 +8758,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB2E5) (tstamp 54C721F6)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54CBB2E5) (tstamp 54C721F6)
     (at 152.321955 65.674342)
     (path /548CB7C3/54CAD4B5)
     (attr smd)
@@ -8784,7 +8784,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB2D7) (tstamp 54C72201)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB2D7) (tstamp 54C72201)
     (at 172.517335 68.973802)
     (path /548CB7C3/54CABBD8)
     (attr smd)
@@ -8810,7 +8810,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB32C) (tstamp 54C7220C)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB32C) (tstamp 54C7220C)
     (at 140.513335 88.658802)
     (path /548CB7C3/54C729ED)
     (attr smd)
@@ -8836,7 +8836,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB335) (tstamp 54C72217)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB335) (tstamp 54C72217)
     (at 140.132495 85.864962)
     (path /548CB7C3/54C72972)
     (attr smd)
@@ -8862,7 +8862,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB316) (tstamp 54C72222)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB316) (tstamp 54C72222)
     (at 127.559335 85.229802 180)
     (path /548CB7C3/54C728F6)
     (attr smd)
@@ -8888,7 +8888,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB308) (tstamp 54C7222D)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54CBB308) (tstamp 54C7222D)
     (at 129.210335 84.086802 90)
     (path /548CB7C3/54C7260B)
     (attr smd)
@@ -8942,7 +8942,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAC56) (tstamp 54C72245)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAC56) (tstamp 54C72245)
     (at 115.494335 63.639802)
     (path /548CB7C3/54CAAA85)
     (attr smd)
@@ -8968,7 +8968,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB2EF) (tstamp 54C72250)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB2EF) (tstamp 54C72250)
     (at 133.782335 65.798802)
     (path /548CB7C3/54CAE7E4)
     (attr smd)
@@ -8994,7 +8994,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB2E8) (tstamp 54C7225B)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB2E8) (tstamp 54C7225B)
     (at 152.321955 66.690342)
     (path /548CB7C3/54CAD4BB)
     (attr smd)
@@ -9020,7 +9020,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB2D4) (tstamp 54C72266)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB2D4) (tstamp 54C72266)
     (at 172.517335 70.243802)
     (path /548CB7C3/54CABBDE)
     (attr smd)
@@ -9317,7 +9317,7 @@
       (net 233 /MEDIATEK/RF/RF1_FEED))
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54C05CDC) (tstamp 54CC65B1)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54C05CDC) (tstamp 54CC65B1)
     (at 118.539955 64.023342 180)
     (path /548CB7C3/54CDD6C0)
     (attr smd)
@@ -9343,7 +9343,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54C05CDC) (tstamp 54CC6598)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54C05CDC) (tstamp 54CC6598)
     (at 128.953955 63.007342)
     (path /548CB7C3/54CDD2CF)
     (attr smd)
@@ -9369,7 +9369,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54C05CDC) (tstamp 54CC659E)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54C05CDC) (tstamp 54CC659E)
     (at 139.621955 64.404342 180)
     (path /548CB7C3/54CDFFD1)
     (attr smd)
@@ -9395,7 +9395,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54C05CDC) (tstamp 54CC65A4)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54C05CDC) (tstamp 54CC65A4)
     (at 143.558955 64.023342 180)
     (path /548CB7C3/54CDFF40)
     (attr smd)
