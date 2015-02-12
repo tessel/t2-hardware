@@ -5600,9 +5600,9 @@
       (net 21 +5V))
     (pad 2 smd rect (at 0.762 0 180) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0603.wrl
+    (model Capacitors_SMD/C_0603.wrl
       (at (xyz 0 0 0.001))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6291,9 +6291,9 @@
       (net 2 +1.2V))
     (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0603.wrl
+    (model Capacitors_SMD/C_0603.wrl
       (at (xyz 0 0 0.001))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6506,9 +6506,9 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.762 0 90) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model SMD_Packages/SMD-0603.wrl
+    (model Capacitors_SMD/C_0603.wrl
       (at (xyz 0 0 0.001))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6531,9 +6531,9 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.762 0 135) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model SMD_Packages/SMD-0603.wrl
+    (model Capacitors_SMD/C_0603.wrl
       (at (xyz 0 0 0.001))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6772,9 +6772,9 @@
       (net 21 +5V))
     (pad 2 smd rect (at 0.762 0 180) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0603.wrl
+    (model Capacitors_SMD/C_0603.wrl
       (at (xyz 0 0 0.001))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6823,9 +6823,9 @@
       (net 21 +5V))
     (pad 2 smd rect (at 0.762 0 180) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model SMD_Packages/SMD-0603.wrl
+    (model Capacitors_SMD/C_0603.wrl
       (at (xyz 0 0 0.001))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -6900,9 +6900,9 @@
       (net 2 +1.2V))
     (pad 2 smd rect (at 0.762 0 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
       (net 4 +1.8V))
-    (model SMD_Packages/SMD-0603.wrl
+    (model Capacitors_SMD/C_0603.wrl
       (at (xyz 0 0 0.001))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
