@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201502111101+5414~21~ubuntu14.04.1-product   date = Thu 12 Feb 2015 03:16:04 PM PST
+Cmp-Mod V01 Created by Cvpcb 0.201502111101+5414~21~ubuntu14.04.1-product   date = Thu 12 Feb 2015 07:36:15 PM PST
 
 BeginCmp
 TimeStamp = /548C90C9/548CC15D/5491FF82;
@@ -1930,6 +1930,13 @@ TimeStamp = /548CB7C3/54CDFF40;
 Reference = R837;
 ValeurCmp = 100kR;
 IdModule  = tm-kicad-lib:SMD-0402-R;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DD9FA3;
+Reference = SILK101;
+ValeurCmp = logo;
+IdModule  = !Parts:TESSEL-HEXAGON-LOGO;
 EndCmp
 
 BeginCmp

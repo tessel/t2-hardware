@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:tm-kicad-lib
-LIBS:nordicsemi
 LIBS:tessel-v2-cache
 EELAYER 25 0
 EELAYER END
@@ -422,6 +421,17 @@ F 1 "HOLE" H 3800 9250 60  0000 C CNN
 F 2 "Mounting_Holes:MountingHole_2-5mm" H 3800 9400 60  0001 C CNN
 F 3 "" H 3800 9400 60  0000 C CNN
 	1    3800 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L logo SILK?
+U 1 1 54DD821E
+P 4200 9400
+F 0 "SILK?" H 4200 9450 60  0000 C CNN
+F 1 "logo" H 4200 9350 60  0000 C CNN
+F 2 "" H 4200 9400 60  0000 C CNN
+F 3 "" H 4200 9400 60  0000 C CNN
+	1    4200 9400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
