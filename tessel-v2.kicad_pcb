@@ -7637,6 +7637,16 @@
       (net 1 GND))
     (pad 6 smd rect (at 0.65 0.9 270) (size 0.35 1) (layers F.Cu F.Paste F.Mask)
       (net 199 "Net-(T501-Pad6)"))
+    (model SMD_Packages/SOT-23-6.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.08 0.08 0.08))
+      (rotate (xyz 0 0 0))
+    )
+    (model Resistors_SMD/R_0805.wrl
+      (at (xyz 0 0 0.04))
+      (scale (xyz 1 1 2))
+      (rotate (xyz 0 180 0))
+    )
   )
 
   (module !Parts:EIA-0805 (layer F.Cu) (tedit 54CBB109) (tstamp 54CA93A5)
@@ -7663,6 +7673,16 @@
       (net 1 GND))
     (pad 6 smd rect (at 0.65 0.9 315) (size 0.35 1) (layers F.Cu F.Paste F.Mask)
       (net 200 "Net-(T502-Pad6)"))
+    (model Resistors_SMD/R_0805.wrl
+      (at (xyz 0 0 0.04))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 0))
+    )
+    (model SMD_Packages/SOT-23-6.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.08 0.08 0.08))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SMD_Packages:SOT-23-5 (layer F.Cu) (tedit 54CBAD6F) (tstamp 54C07970)
