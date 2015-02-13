@@ -1119,6 +1119,11 @@
       (net 5 +3.3V))
     (pad 2 smd rect (at 0.7493 0 270) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 37 /MEDIATEK/RF/WLED_N_R))
+    (model unused_3d/smd.led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.2 0.3))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module tm-kicad-lib:CONN_02x05_0.05in (layer F.Cu) (tedit 5463CAA5) (tstamp 54C079E0)
@@ -7025,6 +7030,11 @@
       (net 178 /MEDIATEK/ERROR_LED))
     (pad 2 smd rect (at 0.7493 0 180) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 179 "Net-(D201-Pad2)"))
+    (model unused_3d/smd.led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.2 0.3))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 54CBACC8) (tstamp 54C0B554)
@@ -7065,6 +7075,11 @@
       (net 49 3.3V_PORTA))
     (pad 2 smd rect (at 0.7493 0) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 166 "Net-(D601-Pad2)"))
+    (model unused_3d/smd.led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.2 0.3))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 54CBAD55) (tstamp 54C07912)
@@ -7105,6 +7120,11 @@
       (net 22 3.3V_PORTB))
     (pad 2 smd rect (at 0.7493 0 270) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 167 "Net-(D602-Pad2)"))
+    (model unused_3d/smd.led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.2 0.3))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 54CBACBD) (tstamp 54C0B4FB)
@@ -7145,6 +7165,11 @@
       (net 24 3.3V_CP))
     (pad 2 smd rect (at 0.7493 0) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 168 "Net-(D603-Pad2)"))
+    (model unused_3d/smd.led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.2 0.3))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 54C0527B) (tstamp 54C0B5A4)
@@ -7185,6 +7210,11 @@
       (net 5 +3.3V))
     (pad 2 smd rect (at 0.7493 0) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 169 "Net-(D604-Pad2)"))
+    (model unused_3d/smd.led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.2 0.3))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 54CBAD58) (tstamp 54C0B31B)
@@ -7225,6 +7255,11 @@
       (net 4 +1.8V))
     (pad 2 smd rect (at 0.7493 0 270) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 180 "Net-(D605-Pad2)"))
+    (model unused_3d/smd.led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.2 0.3))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 54CBAF7A) (tstamp 54C075B3)
@@ -7265,6 +7300,11 @@
       (net 181 /I/O/LED_USER_GREEN))
     (pad 2 smd rect (at 0.7493 0 90) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
+    (model unused_3d/smd.led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.2 0.3))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 54CBAEF3) (tstamp 54C0626D)
@@ -7305,6 +7345,11 @@
       (net 183 PB_CS/POWER))
     (pad 2 smd rect (at 0.7493 0 180) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 184 "Net-(D811-Pad2)"))
+    (model unused_3d/smd.led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.2 0.3))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 54C0527A) (tstamp 54C06486)
@@ -8106,6 +8151,11 @@
       (net 257 /I/O/MT_GPIO_HOLD))
     (pad 2 smd rect (at 0.7493 0) (size 0.79756 0.79756) (layers F.Cu F.Paste F.Mask)
       (net 182 "Net-(D807-Pad2)"))
+    (model unused_3d/smd.led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.2 0.3))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB70A) (tstamp 54C3F30A)
