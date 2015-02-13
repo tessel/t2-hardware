@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 0.201501300117+5396~20~ubuntu14.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 0.201502111101+5414~21~ubuntu14.04.1-product)
 
   (general
     (links 805)
     (no_connects 0)
-    (area 95.501014 59.40518 176.489561 152.110001)
+    (area 99.949999 61.049999 176.250001 150.050001)
     (thickness 1.6)
     (drawings 31)
     (tracks 6694)
@@ -988,6 +988,11 @@
       (net 230 "Net-(U301-PadA8)"))
     (pad A9 smd circle (at 3.2 -5.6 225) (size 0.45 0.45) (layers F.Cu F.Paste F.Mask)
       (net 4 +1.8V))
+    (model Housings_DFN_QFN/VDFN-8-1EP_2x2mm_Pitch0.5mm.wrl
+      (at (xyz 0 0 -0.01))
+      (scale (xyz 3.9 6.1 1.5))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB21F) (tstamp 54C9980C)
@@ -1479,6 +1484,11 @@
       (net 3 1.5V_SOC))
     (pad 149 smd rect (at 0 0 135) (size 5.8 5.8) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
+    (model Housings_DFN_QFN/QFN-64-1EP_9x9mm_Pitch0.5mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1.27 1.27 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SMD_Packages:QFN-48-1EP (layer F.Cu) (tedit 54C05279) (tstamp 54C07882)
@@ -1667,6 +1677,11 @@
       (net 41 /I/O/USB_DD+[1]))
     (pad 4 smd rect (at -0.95 -0.95 180) (size 0.6 0.6) (layers F.Cu F.Paste F.Mask)
       (net 21 +5V))
+    (model SMD_Packages/SOT-23-5.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.1 0.1 0.1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x07 (layer F.Cu) (tedit 5494E39D) (tstamp 54C7F31B)
@@ -4033,7 +4048,7 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer B.Cu) (tedit 54CBB642) (tstamp 54949570)
+  (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54CBB642) (tstamp 54949570)
     (at 138.952955 116.573342 270)
     (path /548C90C9/54910D3E)
     (attr smd)
@@ -4052,14 +4067,14 @@
       (net 83 /MEDIATEK/RF1_V33N))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
-      (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
-      (rotate (xyz 0 0 0))
+    (model Resistors_SMD/R_0402.wrl
+      (at (xyz 0 0 0.02))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB0E1) (tstamp 54914825)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB0E1) (tstamp 54914825)
     (at 139.841955 120.002342 135)
     (path /548C90C9/548FF18F)
     (attr smd)
@@ -4078,14 +4093,14 @@
       (net 84 /MEDIATEK/RF0_V33N))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 5 +3.3V))
-    (model smd\chip_cms.wrl
-      (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
-      (rotate (xyz 0 0 0))
+    (model Resistors_SMD/R_0402.wrl
+      (at (xyz 0 0 0.02))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB017) (tstamp 54914846)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB017) (tstamp 54914846)
     (at 138.607515 122.186742 90)
     (path /548C90C9/548CC15D/5491D96C)
     (attr smd)
@@ -4104,14 +4119,14 @@
       (net 13 /MEDIATEK/RF/RF0_OUTP))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 17 /MEDIATEK/RF/RF0_OUTP_TCIN))
-    (model smd\chip_cms.wrl
-      (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
-      (rotate (xyz 0 0 0))
+    (model Resistors_SMD/R_0402.wrl
+      (at (xyz 0 0 0.02))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBAFEF) (tstamp 5494472E)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAFEF) (tstamp 5494472E)
     (at 137.846 122.187 90)
     (path /548C90C9/548CC15D/5492294C)
     (attr smd)
@@ -4130,14 +4145,14 @@
       (net 14 /MEDIATEK/RF/RF0_OUTN))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 18 /MEDIATEK/RF/RF0_OUTN_TCIN))
-    (model smd\chip_cms.wrl
-      (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
-      (rotate (xyz 0 0 0))
+    (model Resistors_SMD/R_0402.wrl
+      (at (xyz 0 0 0.02))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB0A9) (tstamp 54CA93E1)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB0A9) (tstamp 54CA93E1)
     (at 142.100015 120.091242 135)
     (path /548C90C9/548CC15D/5492F347)
     (attr smd)
@@ -4156,14 +4171,14 @@
       (net 15 /MEDIATEK/RF/RF1_OUTP))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 19 /MEDIATEK/RF/RF1_OUTP_TCIN))
-    (model smd\chip_cms.wrl
-      (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
-      (rotate (xyz 0 0 0))
+    (model Resistors_SMD/R_0402.wrl
+      (at (xyz 0 0 0.02))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB0ED) (tstamp 54CA93D5)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB0ED) (tstamp 54CA93D5)
     (at 142.735015 119.456242 135)
     (path /548C90C9/548CC15D/5492F3EE)
     (attr smd)
@@ -4182,14 +4197,14 @@
       (net 16 /MEDIATEK/RF/RF1_OUTN))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 20 /MEDIATEK/RF/RF1_OUTN_TCIN))
-    (model smd\chip_cms.wrl
-      (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
-      (rotate (xyz 0 0 0))
+    (model Resistors_SMD/R_0402.wrl
+      (at (xyz 0 0 0.02))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB047) (tstamp 54914872)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB047) (tstamp 54914872)
     (at 139.242515 129.044742 90)
     (path /548C90C9/548CC15D/5491E48A)
     (attr smd)
@@ -4208,14 +4223,14 @@
       (net 175 /MEDIATEK/RF/RF0_BALUN_OUT))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 232 /MEDIATEK/RF/RF0_FEED))
-    (model smd\chip_cms.wrl
-      (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
-      (rotate (xyz 0 0 0))
+    (model Resistors_SMD/R_0402.wrl
+      (at (xyz 0 0 0.02))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
     )
   )
 
-  (module tm-kicad-lib:SMD-0402 (layer F.Cu) (tedit 54CBB119) (tstamp 54971E61)
+  (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBB119) (tstamp 54971E61)
     (at 148.005515 124.155242 135)
     (path /548C90C9/548CC15D/5492F37D)
     (attr smd)
@@ -4234,10 +4249,10 @@
       (net 176 /MEDIATEK/RF/RF1_BALUN_OUT))
     (pad 1 smd rect (at -0.44958 0 135) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 233 /MEDIATEK/RF/RF1_FEED))
-    (model smd\chip_cms.wrl
-      (at (xyz 0 0 0.002))
-      (scale (xyz 0.05 0.05 0.05))
-      (rotate (xyz 0 0 0))
+    (model Resistors_SMD/R_0402.wrl
+      (at (xyz 0 0 0.02))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
     )
   )
 
@@ -6248,6 +6263,11 @@
       (net 58 /I/O/PWR#[1]))
     (pad 48 smd rect (at -2.75 -4 180) (size 0.2 1.5) (layers F.Cu F.Paste F.Mask)
       (net 155 /I/O/OVR#[1]))
+    (model Housings_QFP/LQFP-48_7x7mm_Pitch0.5mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SMD_Packages:SMD-0805 (layer B.Cu) (tedit 54CBB660) (tstamp 54C9FC29)
@@ -7436,6 +7456,11 @@
       (net 85 /POWER/33C_SW))
     (pad 1 smd rect (at 1.8 0 270) (size 1.5 4) (layers F.Cu F.Paste F.Mask)
       (net 24 3.3V_CP))
+    (model Inductors/self_cms_we-tpc_XL.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module !Parts:SWPA5020S (layer F.Cu) (tedit 54C005B4) (tstamp 54C92D50)
@@ -7454,6 +7479,11 @@
       (net 86 /POWER/33S_SW))
     (pad 1 smd rect (at 1.8 0 270) (size 1.5 4) (layers F.Cu F.Paste F.Mask)
       (net 5 +3.3V))
+    (model Inductors/self_cms_we-tpc_XL.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module !Parts:SWPA5020S (layer F.Cu) (tedit 54C005B4) (tstamp 54C69D9F)
@@ -7472,6 +7502,11 @@
       (net 25 /POWER/18S_SW))
     (pad 1 smd rect (at 1.8 0 270) (size 1.5 4) (layers F.Cu F.Paste F.Mask)
       (net 4 +1.8V))
+    (model Inductors/self_cms_we-tpc_XL.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54CBAF8B) (tstamp 54C06323)
@@ -7906,6 +7941,11 @@
       (net 38 /COPROCESSOR/SAM_USB_DM))
     (pad 4 smd rect (at -0.95 -0.95 270) (size 0.6 0.6) (layers F.Cu F.Paste F.Mask)
       (net 21 +5V))
+    (model SMD_Packages/SOT-23-5.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.1 0.1 0.1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module tm-kicad-lib:PRTR5V0U2X,215 (layer F.Cu) (tedit 54C48DB9) (tstamp 54C314AC)
@@ -7929,6 +7969,11 @@
       (net 236 /I/O/USB_DD+[2]))
     (pad 4 smd rect (at -0.95 -0.95 180) (size 0.6 0.6) (layers F.Cu F.Paste F.Mask)
       (net 21 +5V))
+    (model SMD_Packages/SOT-23-5.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.1 0.1 0.1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module tm-kicad-lib:PRTR5V0U2X,215 (layer F.Cu) (tedit 54CBB2F8) (tstamp 54C314B3)
@@ -7952,6 +7997,11 @@
       (net 43 /I/O/USB_DD+[3]))
     (pad 4 smd rect (at -0.95 -0.95 90) (size 0.6 0.6) (layers F.Cu F.Paste F.Mask)
       (net 21 +5V))
+    (model SMD_Packages/SOT-23-5.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.1 0.1 0.1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module tm-kicad-lib:PRTR5V0U2X,215 (layer F.Cu) (tedit 54CBB33E) (tstamp 54C314BA)
@@ -7975,6 +8025,11 @@
       (net 45 /I/O/USB_DD+[4]))
     (pad 4 smd rect (at -0.95 -0.95 90) (size 0.6 0.6) (layers F.Cu F.Paste F.Mask)
       (net 21 +5V))
+    (model SMD_Packages/SOT-23-6.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.1 0.1 0.1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module tm-kicad-lib:Seeed-USB-Micro-320010028 (layer F.Cu) (tedit 54CBAC66) (tstamp 54C314C1)
@@ -8094,6 +8149,11 @@
       (net 26 /COPROCESSOR/SAM_XTAL32_1))
     (pad 2 smd rect (at -1.175 0 45) (size 0.65 1.3) (layers F.Cu F.Paste F.Mask)
       (net 27 /COPROCESSOR/SAM_XTAL32_2))
+    (model Crystals_Oscillators_SMD/crystal_FA238-TSX3225.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.18 0.15 0.15))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module tm-kicad-lib:Seeed-xtal-12MHz (layer B.Cu) (tedit 54C1A336) (tstamp 54C314F4)
