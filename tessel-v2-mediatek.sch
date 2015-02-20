@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title "Tessel v2"
 Date ""
 Rev ""
@@ -45,28 +45,6 @@ Comment2 "CC-BY-SA"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 13450 6550 1800 2200
-U 548CC02E
-F0 "RAM" 60
-F1 "tessel-v2-mediatek-ram.sch" 60
-$EndSheet
-$Sheet
-S 13450 3700 1800 2200
-U 548CC15A
-F0 "FLASH" 60
-F1 "tessel-v2-mediatek-flash.sch" 60
-F2 "Flash_SI" I R 15250 4050 60 
-F3 "Flash_SO" I R 15250 4200 60 
-F4 "Flash_CS" I R 15250 4650 60 
-F5 "Flash_SCK" I R 15250 4800 60 
-$EndSheet
-$Sheet
-S 13450 950  1800 2200
-U 548CC15D
-F0 "RF" 60
-F1 "tessel-v2-mediatek-rf.sch" 60
-$EndSheet
 $Comp
 L GND #PWR01
 U 1 1 548FCCAF
@@ -147,12 +125,12 @@ $EndComp
 $Comp
 L C C215
 U 1 1 548FE2F7
-P 4000 6750
-F 0 "C215" H 4000 6850 40  0000 L CNN
-F 1 "1uF" H 4006 6665 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 4038 6600 30  0001 C CNN
-F 3 "" H 4000 6750 60  0000 C CNN
-	1    4000 6750
+P 4000 6200
+F 0 "C215" H 4000 6300 40  0000 L CNN
+F 1 "1uF" H 4006 6115 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 4038 6050 30  0001 C CNN
+F 3 "" H 4000 6200 60  0000 C CNN
+	1    4000 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -568,14 +546,6 @@ F 3 "" H 3350 9300 60  0000 C CNN
 	1    3350 9300
 	1    0    0    -1  
 $EndComp
-Text HLabel 15550 4050 2    60   Input ~ 0
-MT_SI
-Text HLabel 15550 4200 2    60   Input ~ 0
-MT_SO
-Text HLabel 15550 4650 2    60   Input ~ 0
-MT_CS0
-Text HLabel 15550 4800 2    60   Input ~ 0
-MT_SCK
 $Comp
 L R R201
 U 1 1 5490CBD2
@@ -714,8 +684,6 @@ $EndComp
 Wire Wire Line
 	7700 7750 7700 7900
 Wire Wire Line
-	4000 7900 7700 7900
-Wire Wire Line
 	7700 7900 7750 7900
 Wire Wire Line
 	7750 7900 7800 7900
@@ -797,10 +765,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 5800 4000 5800
 Wire Wire Line
-	4000 5800 4000 6550
-Wire Wire Line
-	4000 6950 4000 7900
-Connection ~ 7700 7900
+	4000 5800 4000 6000
 Wire Wire Line
 	4950 5900 4950 5700
 Connection ~ 4950 5700
@@ -951,9 +916,11 @@ Connection ~ 9300 5150
 Wire Wire Line
 	9000 5900 9000 5800
 Wire Wire Line
-	11400 5600 9250 5600
+	9150 5600 9250 5600
 Wire Wire Line
-	9250 5600 9150 5600
+	9250 5600 11800 5600
+Wire Wire Line
+	11800 5600 12000 5600
 Wire Wire Line
 	9150 5600 9150 5900
 Wire Wire Line
@@ -1111,14 +1078,6 @@ Connection ~ 4000 10000
 Connection ~ 6050 10000
 Connection ~ 5150 10000
 Connection ~ 4900 10000
-Wire Wire Line
-	15250 4050 15550 4050
-Wire Wire Line
-	15250 4200 15550 4200
-Wire Wire Line
-	15250 4650 15550 4650
-Wire Wire Line
-	15250 4800 15550 4800
 Wire Wire Line
 	3400 3650 3400 4000
 Wire Wire Line
@@ -1546,7 +1505,7 @@ $EndComp
 Text GLabel 12000 5600 2    60   Input ~ 0
 DDR_VREF
 Wire Wire Line
-	11800 5800 11800 5600
+	11800 5600 11800 5800
 Connection ~ 11800 5600
 $Comp
 L GND #PWR?
@@ -1561,8 +1520,105 @@ F 3 "" H 11800 6400 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	11800 6200 11800 6400
+$Comp
+L GND #PWR?
+U 1 1 54EC7EE4
+P 4000 6600
+F 0 "#PWR?" H 4000 6350 60  0001 C CNN
+F 1 "GND" H 4000 6450 60  0000 C CNN
+F 2 "" H 4000 6600 60  0000 C CNN
+F 3 "" H 4000 6600 60  0000 C CNN
+	1    4000 6600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	11400 5600 11800 5600
+	4000 6600 4000 6400
+Text GLabel 5900 2600 2    60   Input ~ 0
+PORST_N
+$Comp
+L CONN_02X05 J?
+U 1 1 54EDE1A1
+P 5450 2300
+F 0 "J?" H 5450 2600 50  0000 C CNN
+F 1 "CONN_02X05" H 5450 2000 50  0000 C CNN
+F 2 "tm-kicad-lib:CONN_02x05_0.05in" H 5450 1100 60  0001 C CNN
+F 3 "" H 5450 1100 60  0000 C CNN
+	1    5450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 54EDE1A8
+P 5000 2700
+F 0 "#PWR?" H 5000 2450 60  0001 C CNN
+F 1 "GND" H 5000 2550 60  0000 C CNN
+F 2 "" H 5000 2700 60  0000 C CNN
+F 3 "" H 5000 2700 60  0000 C CNN
+	1    5000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 54EDE1AE
+P 5100 2000
+F 0 "#PWR?" H 5100 1960 30  0001 C CNN
+F 1 "+3.3V" H 5100 2110 30  0000 C CNN
+F 2 "" H 5100 2000 60  0000 C CNN
+F 3 "" H 5100 2000 60  0000 C CNN
+	1    5100 2000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5200 2400
+Text GLabel 5900 2000 2    60   Input ~ 0
+MT_TMS
+Text GLabel 5900 2150 2    60   Input ~ 0
+MT_TCLK
+Text GLabel 5900 2450 2    60   Input ~ 0
+MT_TDI
+Text GLabel 5900 2300 2    60   Input ~ 0
+MT_TDO
 Wire Wire Line
-	11800 5600 12000 5600
+	5800 2600 5900 2600
+Wire Wire Line
+	5800 2500 5800 2600
+Wire Wire Line
+	5850 2450 5850 2400
+Wire Wire Line
+	5900 2450 5850 2450
+Wire Wire Line
+	5800 2000 5900 2000
+Wire Wire Line
+	5800 2100 5800 2000
+Wire Wire Line
+	5850 2150 5850 2200
+Wire Wire Line
+	5900 2150 5850 2150
+Wire Wire Line
+	5100 2000 5100 2100
+Wire Wire Line
+	5100 2100 5200 2100
+Wire Wire Line
+	5700 2100 5800 2100
+Wire Wire Line
+	5850 2200 5700 2200
+Wire Wire Line
+	5700 2300 5900 2300
+Wire Wire Line
+	5850 2400 5700 2400
+Wire Wire Line
+	5700 2500 5800 2500
+Wire Wire Line
+	5200 2200 5000 2200
+Wire Wire Line
+	5000 2200 5000 2300
+Wire Wire Line
+	5000 2300 5000 2500
+Wire Wire Line
+	5000 2500 5000 2700
+Wire Wire Line
+	5200 2300 5000 2300
+Connection ~ 5000 2300
+Wire Wire Line
+	5000 2500 5200 2500
+Connection ~ 5000 2500
 $EndSCHEMATC
