@@ -270,5 +270,5 @@ $EndComp
 Connection ~ 6600 3800
 Connection ~ 6600 3000
 Text GLabel 6150 4350 0    60   Input ~ 0
-FLASH_CS
+FLASH_~CS
 $EndSCHEMATC

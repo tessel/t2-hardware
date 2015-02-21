@@ -635,8 +635,8 @@ Text Label 2750 4400 0    60   ~ 0
 MT_PLL_VC_CAP
 Text Label 1200 4300 0    60   ~ 0
 MT_XTAL_XO_R
-Text GLabel 3200 4000 0    60   Input ~ 0
-PORST_N
+Text GLabel 3100 4000 0    60   Input ~ 0
+~PORST
 $Comp
 L C C201
 U 1 1 54978D3A
@@ -1465,7 +1465,7 @@ Wire Wire Line
 	2000 4300 1100 4300
 Connection ~ 3400 4000
 Wire Wire Line
-	3200 4000 3400 4000
+	3100 4000 3400 4000
 Wire Wire Line
 	3400 4000 3600 4000
 Wire Wire Line
@@ -1534,7 +1534,7 @@ $EndComp
 Wire Wire Line
 	4000 6600 4000 6400
 Text GLabel 5900 2600 2    60   Input ~ 0
-PORST_N
+~PORST
 $Comp
 L CONN_02X05 J?
 U 1 1 54EDE1A1
