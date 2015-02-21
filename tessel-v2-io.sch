@@ -146,15 +146,7 @@ F 3 "" H 1900 8100 60  0000 C CNN
 	1    1900 8100
 	1    0    0    -1  
 $EndComp
-Text Label 2200 2300 0    60   ~ 0
-MT_TDO
-Text Label 2200 2400 0    60   ~ 0
-MT_TDI
-Text Label 2200 2500 0    60   ~ 0
-MT_TMS
-Text Label 2200 2600 0    60   ~ 0
-MT_TCLK
-Text Label 2200 2700 0    60   ~ 0
+Text Label 1900 2700 0    60   ~ 0
 MT_~RESET
 NoConn ~ 5100 2500
 NoConn ~ 5100 2400
@@ -230,12 +222,12 @@ $EndComp
 $Comp
 L CONN_01X01 J817
 U 1 1 549243ED
-P 1900 2700
-F 0 "J817" H 1900 2800 50  0000 C CNN
-F 1 "CONN_01X01" V 2000 2700 50  0000 C CNN
-F 2 "!Parts:Testpoint" H 1900 2700 60  0001 C CNN
-F 3 "" H 1900 2700 60  0000 C CNN
-	1    1900 2700
+P 1600 2700
+F 0 "J817" H 1600 2800 50  0000 C CNN
+F 1 "CONN_01X01" V 1700 2700 50  0000 C CNN
+F 2 "!Parts:Testpoint" H 1600 2700 60  0001 C CNN
+F 3 "" H 1600 2700 60  0000 C CNN
+	1    1600 2700
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -639,10 +631,6 @@ Text Label 13500 6700 0    60   ~ 0
 USER_LED_GREEN
 Text Label 11900 6700 0    60   ~ 0
 USER_LED_BLUE
-Text Label 7300 7600 2    60   ~ 0
-MT_TDO
-Text Label 7300 7300 2    60   ~ 0
-MT_TCLK
 Text Label 5300 2100 0    60   ~ 0
 TP_P1
 Text Label 5300 2000 0    60   ~ 0
@@ -798,7 +786,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 3600 9900 3600
 Wire Wire Line
-	2850 2400 2100 2400
+	2600 2400 2850 2400
 Connection ~ 11500 3800
 Connection ~ 2300 9800
 Wire Wire Line
@@ -830,7 +818,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 9100 3100 9100
 Wire Wire Line
-	2850 2600 2100 2600
+	2500 2600 2850 2600
 Connection ~ 5300 7200
 Wire Wire Line
 	5300 7200 5200 7200
@@ -883,7 +871,7 @@ Wire Wire Line
 	13300 2600 13300 3600
 Connection ~ 13300 3600
 Wire Wire Line
-	2100 2300 2850 2300
+	2650 2300 2850 2300
 Wire Wire Line
 	5200 7600 6300 7600
 Wire Wire Line
@@ -891,9 +879,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 2700 5300 2800
 Wire Wire Line
-	2850 2700 2100 2700
+	2850 2700 1800 2700
 Wire Wire Line
-	2850 2500 2100 2500
+	2550 2500 2850 2500
 Wire Wire Line
 	5300 3350 5300 3300
 Wire Wire Line
@@ -946,9 +934,9 @@ Wire Wire Line
 Wire Wire Line
 	6300 7300 5200 7300
 Wire Wire Line
-	7400 7600 6800 7600
+	7050 7600 6800 7600
 Wire Wire Line
-	6800 7300 7400 7300
+	6800 7300 7000 7300
 Wire Wire Line
 	2500 4600 2500 4700
 Wire Wire Line
@@ -1054,4 +1042,32 @@ Wire Wire Line
 	7900 3600 8200 3600
 Text Notes 7400 2600 0    60   ~ 0
 DEBUG HEADER
+Text GLabel 2250 2350 0    60   Input ~ 0
+MT_TMS
+Text GLabel 2300 2500 0    60   Input ~ 0
+MT_TCLK
+Text GLabel 2200 2200 0    60   Input ~ 0
+MT_TDI
+Text GLabel 2250 2050 0    60   Input ~ 0
+MT_TDO
+Wire Wire Line
+	2500 2600 2500 2500
+Wire Wire Line
+	2500 2500 2300 2500
+Wire Wire Line
+	2250 2350 2550 2350
+Wire Wire Line
+	2550 2350 2550 2500
+Wire Wire Line
+	2600 2400 2600 2200
+Wire Wire Line
+	2600 2200 2200 2200
+Wire Wire Line
+	2650 2300 2650 2050
+Wire Wire Line
+	2650 2050 2250 2050
+Text GLabel 7000 7300 2    60   Input ~ 0
+MT_TCLK
+Text GLabel 7050 7600 2    60   Input ~ 0
+MT_TDO
 $EndSCHEMATC

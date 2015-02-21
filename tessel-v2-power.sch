@@ -425,9 +425,9 @@ F 3 "" H 14400 2700 60  0000 C CNN
 	1    14400 2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 4600 5600 2    60   Input ~ 0
+Text GLabel 5400 5600 2    60   Output ~ 0
 3.3V_PORTA
-Text GLabel 4600 8200 2    60   Input ~ 0
+Text GLabel 5400 8200 2    60   Output ~ 0
 3.3V_PORTB
 $Comp
 L BC807-40 Q601
@@ -1082,7 +1082,7 @@ F 3 "" H 15200 5600 60  0000 C CNN
 	1    15200 5600
 	1    0    0    -1  
 $EndComp
-Text GLabel 7400 2800 2    60   Input ~ 0
+Text GLabel 7400 2800 2    60   Output ~ 0
 3.3V_CP
 $Comp
 L +3.3V #PWR0108
@@ -1342,7 +1342,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 8200 4400 8200
 Wire Wire Line
-	4400 8200 4600 8200
+	4400 8200 5400 8200
 Wire Wire Line
 	1700 8300 1900 8300
 Wire Wire Line
@@ -1402,7 +1402,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 5600 4400 5600
 Wire Wire Line
-	4400 5600 4600 5600
+	4400 5600 5400 5600
 Wire Wire Line
 	1700 5700 1900 5700
 Wire Wire Line
@@ -1506,4 +1506,84 @@ Wire Wire Line
 Connection ~ 10900 9400
 Text Notes 10300 7700 0    60   ~ 0
 1.2V
+$Comp
+L R R?
+U 1 1 54EC6ACD
+P 5000 6450
+F 0 "R?" V 5080 6450 40  0000 C CNN
+F 1 "1kR" V 5007 6451 40  0000 C CNN
+F 2 "tm-kicad-lib:SMD-0402-R" V 4930 6450 30  0001 C CNN
+F 3 "" H 5000 6450 30  0000 C CNN
+	1    5000 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EC6AD4
+P 5000 5900
+F 0 "D?" H 5000 6000 50  0000 C CNN
+F 1 "GREEN" H 5000 5800 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 5000 5900 60  0001 C CNN
+F 3 "" H 5000 5900 60  0000 C CNN
+	1    5000 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 54EC6ADB
+P 5000 6800
+F 0 "#PWR?" H 5000 6550 60  0001 C CNN
+F 1 "GND" H 5000 6650 60  0000 C CNN
+F 2 "" H 5000 6800 60  0000 C CNN
+F 3 "" H 5000 6800 60  0000 C CNN
+	1    5000 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6100 5000 6200
+Wire Wire Line
+	5000 6700 5000 6800
+Wire Wire Line
+	5000 5600 5000 5700
+Connection ~ 5000 5600
+$Comp
+L R R?
+U 1 1 54EC6BE3
+P 5000 9050
+F 0 "R?" V 5080 9050 40  0000 C CNN
+F 1 "1kR" V 5007 9051 40  0000 C CNN
+F 2 "tm-kicad-lib:SMD-0402-R" V 4930 9050 30  0001 C CNN
+F 3 "" H 5000 9050 30  0000 C CNN
+	1    5000 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 54EC6BE9
+P 5000 8500
+F 0 "D?" H 5000 8600 50  0000 C CNN
+F 1 "GREEN" H 5000 8400 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 5000 8500 60  0001 C CNN
+F 3 "" H 5000 8500 60  0000 C CNN
+	1    5000 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 54EC6BEF
+P 5000 9400
+F 0 "#PWR?" H 5000 9150 60  0001 C CNN
+F 1 "GND" H 5000 9250 60  0000 C CNN
+F 2 "" H 5000 9400 60  0000 C CNN
+F 3 "" H 5000 9400 60  0000 C CNN
+	1    5000 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 8700 5000 8800
+Wire Wire Line
+	5000 9300 5000 9400
+Wire Wire Line
+	5000 8200 5000 8300
+Connection ~ 5000 8200
 $EndSCHEMATC
