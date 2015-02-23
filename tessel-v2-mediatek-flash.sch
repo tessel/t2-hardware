@@ -107,9 +107,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 4400 6500 4400
 Wire Wire Line
-	6400 4500 6700 4500
-Wire Wire Line
-	6700 4500 7200 4500
+	6400 4500 7200 4500
 Wire Wire Line
 	8600 4300 8700 4300
 Wire Wire Line
@@ -117,9 +115,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 3000 7000 4300
 Wire Wire Line
-	6100 2900 6100 3000
-Wire Wire Line
-	6100 3000 6100 3200
+	6100 2900 6100 3200
 Wire Wire Line
 	6700 4700 6700 4500
 Connection ~ 6700 4500
@@ -137,9 +133,7 @@ F 3 "" H 8700 4950 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 4150 8700 4300
-Wire Wire Line
-	8700 4300 8700 4700
+	8700 4150 8700 4700
 Connection ~ 8700 4300
 Wire Wire Line
 	8700 5300 8700 5200
@@ -178,9 +172,7 @@ $EndComp
 Wire Wire Line
 	6600 3200 6600 3000
 Wire Wire Line
-	6100 3000 6600 3000
-Wire Wire Line
-	6600 3000 7000 3000
+	6100 3000 7000 3000
 Connection ~ 6100 3000
 Text GLabel 8900 4150 2    60   Input ~ 0
 CP_BRIDGE_MOSI
@@ -231,9 +223,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 3800 6600 3800
 Wire Wire Line
-	6600 3600 6600 3800
-Wire Wire Line
-	6600 3800 6600 3900
+	6600 3600 6600 3900
 $Comp
 L GND #PWR802
 U 1 1 54EAF476
