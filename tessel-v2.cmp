@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by Cvpcb 0.201502231246+5447~21~ubuntu14.04.1-product   date = Mon 23 Feb 2015 08:07:48 PM PST
+Cmp-Mod V01 Created by Cvpcb 0.201502231246+5447~21~ubuntu14.04.1-product   date = Mon 23 Feb 2015 08:21:00 PM PST
 
 BeginCmp
 TimeStamp = /548CC15D/54BF1E54;
 Reference = AE601;
 ValeurCmp = ANTENNA;
-IdModule  = !Parts:2.4GHz-INVERTED-F-ANTENNA;
+IdModule  = tm-kicad-lib:2.4GHz-INVERTED-F-ANTENNA;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CC15D/54BF2584;
 Reference = AE602;
 ValeurCmp = ANTENNA;
-IdModule  = !Parts:2.4GHz-INVERTED-F-ANTENNA;
+IdModule  = tm-kicad-lib:2.4GHz-INVERTED-F-ANTENNA;
 EndCmp
 
 BeginCmp
@@ -956,7 +956,7 @@ BeginCmp
 TimeStamp = /54ED78C8/54EDB9B3;
 Reference = C918;
 ValeurCmp = 10uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = tm-kicad-lib:SMD-0805-C;
 EndCmp
 
 BeginCmp
@@ -1103,21 +1103,21 @@ BeginCmp
 TimeStamp = /548CC15D/54918BC9;
 Reference = J601;
 ValeurCmp = CONN_01X01;
-IdModule  = !Parts:Testpoint;
+IdModule  = tm-kicad-lib:Testpoint;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CC15D/54918C42;
 Reference = J602;
 ValeurCmp = CONN_01X01;
-IdModule  = !Parts:Testpoint;
+IdModule  = tm-kicad-lib:Testpoint;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/549243ED;
 Reference = J701;
 ValeurCmp = CONN_01X01;
-IdModule  = !Parts:Testpoint;
+IdModule  = tm-kicad-lib:Testpoint;
 EndCmp
 
 BeginCmp
@@ -1131,7 +1131,7 @@ BeginCmp
 TimeStamp = /548CB7C3/54E93B66;
 Reference = J703;
 ValeurCmp = CONN_01X08;
-IdModule  = !Parts:CONN_01x08_0.05in;
+IdModule  = tm-kicad-lib:CONN_01x08_0.05in;
 EndCmp
 
 BeginCmp
@@ -1166,21 +1166,21 @@ BeginCmp
 TimeStamp = /548CB640/549071D8;
 Reference = L301;
 ValeurCmp = 2.2uH;
-IdModule  = !Parts:SWPA5020S;
+IdModule  = tm-kicad-lib:SWPA5020S;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54BE0E0C;
 Reference = L302;
 ValeurCmp = 2.2uH;
-IdModule  = !Parts:SWPA5020S;
+IdModule  = tm-kicad-lib:SWPA5020S;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54BE3760;
 Reference = L303;
 ValeurCmp = 2.2uH;
-IdModule  = !Parts:SWPA5020S;
+IdModule  = tm-kicad-lib:SWPA5020S;
 EndCmp
 
 BeginCmp
@@ -1250,7 +1250,7 @@ BeginCmp
 TimeStamp = /548CB640/54935DE1;
 Reference = Q301;
 ValeurCmp = MMSS8550;
-IdModule  = SMD_Packages:SOT-23;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT23;
 EndCmp
 
 BeginCmp
@@ -1775,28 +1775,28 @@ BeginCmp
 TimeStamp = /54DD9FA3;
 Reference = SILK101;
 ValeurCmp = logo;
-IdModule  = !Parts:TESSEL-TEXT-LOGO-31.8mm8.1mm;
+IdModule  = tm-kicad-lib:TESSEL-TEXT-LOGO-31.8mm8.1mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB895/54E6B041;
 Reference = SW401;
 ValeurCmp = SW_PUSH;
-IdModule  = !Parts:TL1015AF160QG;
+IdModule  = tm-kicad-lib:TL1015AF160QG;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CC15D/54BF6A48;
 Reference = T601;
 ValeurCmp = 2450BL15B100;
-IdModule  = !Parts:EIA-0805;
+IdModule  = tm-kicad-lib:EIA-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CC15D/54BF8042;
 Reference = T602;
 ValeurCmp = 2450BL15B100;
-IdModule  = !Parts:EIA-0805;
+IdModule  = tm-kicad-lib:EIA-0805;
 EndCmp
 
 BeginCmp
@@ -1810,42 +1810,42 @@ BeginCmp
 TimeStamp = /548CB640/548FCFA8;
 Reference = U301;
 ValeurCmp = AAT4610;
-IdModule  = SMD_Packages:SOT-23-5;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54BD9A8A;
 Reference = U302;
 ValeurCmp = AAT4610;
-IdModule  = SMD_Packages:SOT-23-5;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54BDB3A5;
 Reference = U303;
 ValeurCmp = AP3417C;
-IdModule  = SMD_Packages:SOT-23-5;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54BE0ED1;
 Reference = U304;
 ValeurCmp = AP3417C;
-IdModule  = SMD_Packages:SOT-23-5;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54BE38A8;
 Reference = U305;
 ValeurCmp = AP3418;
-IdModule  = SMD_Packages:SOT-23-5;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB895/548FAB63;
 Reference = U401;
 ValeurCmp = SAMD21G14A-MU;
-IdModule  = !Parts:QFN-48-1EP-7mm;
+IdModule  = tm-kicad-lib:QFN-48-1EP-7mm;
 EndCmp
 
 BeginCmp
