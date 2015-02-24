@@ -54,7 +54,7 @@ F 1 "2.2pF" H 7106 3915 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402-C" H 7138 3850 30  0001 C CNN
 F 3 "" H 7100 4000 60  0000 C CNN
 	1    7100 4000
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L INDUCTOR L602
@@ -87,7 +87,7 @@ F 1 "0.8pF" H 9606 3065 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402-C" H 9638 3000 30  0001 C CNN
 F 3 "" H 9600 3150 60  0000 C CNN
 	1    9600 3150
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C602
@@ -220,7 +220,7 @@ F 1 "2.2pF" H 7106 6515 40  0000 L CNN
 F 2 "tm-kicad-lib:SMD-0402-C" H 7138 6450 30  0001 C CNN
 F 3 "" H 7100 6600 60  0000 C CNN
 	1    7100 6600
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L INDUCTOR L603
