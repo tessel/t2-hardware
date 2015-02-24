@@ -767,13 +767,13 @@ F 3 "" H 9500 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1400 3600 0    60   ~ 0
-USB_DD-[3]
+USB_DD-[1]
 Text Label 1400 3700 0    60   ~ 0
-USB_DD+[3]
+USB_DD+[1]
 Text Label 1400 4100 0    60   ~ 0
-USB_DD-[4]
+USB_DD-[2]
 Text Label 1400 4200 0    60   ~ 0
-USB_DD+[4]
+USB_DD+[2]
 $Comp
 L PRTR5V0U2X,215 D901
 U 1 1 54ECA38E
