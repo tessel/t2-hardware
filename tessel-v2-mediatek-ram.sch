@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 3 8
+Sheet 5 9
 Title "Tessel v2"
 Date ""
 Rev ""
@@ -46,940 +46,900 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MT7620N U?
-U 2 1 548CE37F
-P 7300 6100
-AR Path="/548C90C9/548CE37F" Ref="U?"  Part="2" 
-AR Path="/548C90C9/548CC02E/548CE37F" Ref="U201"  Part="2" 
-F 0 "U201" H 6500 7200 60  0000 C CNN
-F 1 "MT7620N" H 6600 7100 60  0000 C CNN
-F 2 "tm-kicad-lib:MT7620N" H 5750 6600 60  0001 C CNN
-F 3 "" H 5750 6600 60  0000 C CNN
-	2    7300 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L W9751G6KB-25 U301
+L W9751G6KB-25 U501
 U 1 1 548CFEFF
-P 10150 5750
-F 0 "U301" H 9000 7500 60  0000 C CNN
-F 1 "W9751G6KB-25" H 10150 5750 60  0000 C CNN
-F 2 "tm-kicad-lib:WBGA-84" H 8550 6150 60  0001 C CNN
-F 3 "" H 8550 6150 60  0000 C CNN
-	1    10150 5750
+P 12300 5100
+F 0 "U501" H 11150 6850 60  0000 C CNN
+F 1 "W9751G6KB-25" H 12300 5100 60  0000 C CNN
+F 2 "tm-kicad-lib:WBGA-84" H 10700 5500 60  0001 C CNN
+F 3 "" H 10700 5500 60  0000 C CNN
+	1    12300 5100
 	1    0    0    -1  
 $EndComp
-Text Label 7950 5250 0    60   ~ 0
+Text Label 4700 4100 0    60   ~ 0
 A0
-Text Label 7950 5350 0    60   ~ 0
+Text Label 4700 4200 0    60   ~ 0
 A1
-Text Label 7950 5450 0    60   ~ 0
+Text Label 4700 4300 0    60   ~ 0
 A2
-Text Label 7950 5550 0    60   ~ 0
+Text Label 4700 4400 0    60   ~ 0
 A3
-Text Label 7950 5650 0    60   ~ 0
+Text Label 4700 4500 0    60   ~ 0
 A4
-Text Label 7950 5750 0    60   ~ 0
+Text Label 4700 4600 0    60   ~ 0
 A5
-Text Label 7950 5850 0    60   ~ 0
+Text Label 4700 4700 0    60   ~ 0
 A6
-Text Label 7950 5950 0    60   ~ 0
+Text Label 4700 4800 0    60   ~ 0
 A7
-Text Label 7950 6050 0    60   ~ 0
+Text Label 4700 4900 0    60   ~ 0
 A8
-Text Label 7950 6150 0    60   ~ 0
+Text Label 4700 5000 0    60   ~ 0
 A9
-Text Label 7950 6250 0    60   ~ 0
+Text Label 4700 5100 0    60   ~ 0
 A10
-Text Label 7950 6350 0    60   ~ 0
+Text Label 4700 5200 0    60   ~ 0
 A11
-Text Label 7950 6450 0    60   ~ 0
+Text Label 4700 5300 0    60   ~ 0
 A12
-Text Label 7950 6950 0    60   ~ 0
+Text Label 4700 5800 0    60   ~ 0
 CKE
-Text Label 7900 7050 0    60   ~ 0
-CS_N
-Text Label 7850 7150 0    60   ~ 0
-CAS_N
-Text Label 7850 7250 0    60   ~ 0
-RAS_N
-Text Label 7900 7350 0    60   ~ 0
-WE_N
-Entry Wire Line
-	5750 5150 5850 5250
-Entry Wire Line
-	5750 5250 5850 5350
-Entry Wire Line
-	5750 5350 5850 5450
-Entry Wire Line
-	5750 5450 5850 5550
-Entry Wire Line
-	5750 5550 5850 5650
-Entry Wire Line
-	5750 5650 5850 5750
-Entry Wire Line
-	5750 5750 5850 5850
-Entry Wire Line
-	5750 5850 5850 5950
-Entry Wire Line
-	5750 5950 5850 6050
-Entry Wire Line
-	5750 6050 5850 6150
-Entry Wire Line
-	5750 6150 5850 6250
-Entry Wire Line
-	5750 6250 5850 6350
-Entry Wire Line
-	5750 6350 5850 6450
-Entry Wire Line
-	5750 6450 5850 6550
-Entry Wire Line
-	5750 6550 5850 6650
-Entry Wire Line
-	5750 6650 5850 6750
-Entry Wire Line
-	12100 4250 12200 4350
-Entry Wire Line
-	12100 4350 12200 4450
-Entry Wire Line
-	12100 4450 12200 4550
-Entry Wire Line
-	12100 4550 12200 4650
-Entry Wire Line
-	12100 4650 12200 4750
-Entry Wire Line
-	12100 4750 12200 4850
-Entry Wire Line
-	12100 4850 12200 4950
-Entry Wire Line
-	12100 4950 12200 5050
-Entry Wire Line
-	12100 5050 12200 5150
-Entry Wire Line
-	12100 5150 12200 5250
-Entry Wire Line
-	12100 5250 12200 5350
-Entry Wire Line
-	12100 5350 12200 5450
-Entry Wire Line
-	12100 5450 12200 5550
-Entry Wire Line
-	12100 5550 12200 5650
-Entry Wire Line
-	12100 5650 12200 5750
-Entry Wire Line
-	12100 5750 12200 5850
-Text Label 5900 5250 0    60   ~ 0
+Text Label 4700 5900 0    60   ~ 0
+~CS
+Text Label 4700 6000 0    60   ~ 0
+~CAS
+Text Label 4700 6100 0    60   ~ 0
+~RAS
+Text Label 4700 6200 0    60   ~ 0
+~WE
+Text Label 2300 4100 0    60   ~ 0
 DQ0
-Text Label 5900 5350 0    60   ~ 0
+Text Label 2300 4200 0    60   ~ 0
 DQ1
-Text Label 5900 5450 0    60   ~ 0
+Text Label 2300 4300 0    60   ~ 0
 DQ2
-Text Label 5900 5550 0    60   ~ 0
+Text Label 2300 4400 0    60   ~ 0
 DQ3
-Text Label 5900 5650 0    60   ~ 0
+Text Label 2300 4500 0    60   ~ 0
 DQ4
-Text Label 5900 5750 0    60   ~ 0
+Text Label 2300 4600 0    60   ~ 0
 DQ5
-Text Label 5900 5850 0    60   ~ 0
+Text Label 2300 4700 0    60   ~ 0
 DQ6
-Text Label 5900 5950 0    60   ~ 0
+Text Label 2300 4800 0    60   ~ 0
 DQ7
-Text Label 5900 6050 0    60   ~ 0
+Text Label 2300 4900 0    60   ~ 0
 DQ8
-Text Label 5900 6150 0    60   ~ 0
+Text Label 2300 5000 0    60   ~ 0
 DQ9
-Text Label 5900 6250 0    60   ~ 0
+Text Label 2300 5100 0    60   ~ 0
 DQ10
-Text Label 5900 6350 0    60   ~ 0
+Text Label 2300 5200 0    60   ~ 0
 DQ11
-Text Label 5900 6450 0    60   ~ 0
+Text Label 2300 5300 0    60   ~ 0
 DQ12
-Text Label 5900 6550 0    60   ~ 0
+Text Label 2300 5400 0    60   ~ 0
 DQ13
-Text Label 5900 6650 0    60   ~ 0
+Text Label 2300 5500 0    60   ~ 0
 DQ14
-Text Label 5900 6750 0    60   ~ 0
+Text Label 2300 5600 0    60   ~ 0
 DQ15
-Text Label 11650 4250 0    60   ~ 0
+Text Label 13800 3600 0    60   ~ 0
 DQ0
-Text Label 11650 4350 0    60   ~ 0
+Text Label 13800 3700 0    60   ~ 0
 DQ1
-Text Label 11650 4450 0    60   ~ 0
+Text Label 13800 3800 0    60   ~ 0
 DQ2
-Text Label 11650 4550 0    60   ~ 0
+Text Label 13800 3900 0    60   ~ 0
 DQ3
-Text Label 11650 4650 0    60   ~ 0
+Text Label 13800 4000 0    60   ~ 0
 DQ4
-Text Label 11650 4750 0    60   ~ 0
+Text Label 13800 4100 0    60   ~ 0
 DQ5
-Text Label 11650 4850 0    60   ~ 0
+Text Label 13800 4200 0    60   ~ 0
 DQ6
-Text Label 11650 4950 0    60   ~ 0
+Text Label 13800 4300 0    60   ~ 0
 DQ7
-Text Label 11650 5050 0    60   ~ 0
+Text Label 13800 4400 0    60   ~ 0
 DQ8
-Text Label 11650 5150 0    60   ~ 0
+Text Label 13800 4500 0    60   ~ 0
 DQ9
-Text Label 11650 5250 0    60   ~ 0
+Text Label 13800 4600 0    60   ~ 0
 DQ10
-Text Label 11650 5350 0    60   ~ 0
+Text Label 13800 4700 0    60   ~ 0
 DQ11
-Text Label 11650 5450 0    60   ~ 0
+Text Label 13800 4800 0    60   ~ 0
 DQ12
-Text Label 11650 5550 0    60   ~ 0
+Text Label 13800 4900 0    60   ~ 0
 DQ13
-Text Label 11650 5650 0    60   ~ 0
+Text Label 13800 5000 0    60   ~ 0
 DQ14
-Text Label 11650 5750 0    60   ~ 0
+Text Label 13800 5100 0    60   ~ 0
 DQ15
-Text Label 6200 7800 0    60   ~ 0
+Text Label 2300 6400 0    60   ~ 0
 BA1
-Text Label 6200 7950 0    60   ~ 0
+Text Label 2300 6300 0    60   ~ 0
 BA0
-Text Label 7850 6550 0    60   ~ 0
+Text Label 4700 5400 0    60   ~ 0
 ODT
-Text Label 11550 6550 0    60   ~ 0
+Text Label 13800 5900 0    60   ~ 0
 ODT
-Text Label 5900 6950 0    60   ~ 0
+Text Label 2300 5800 0    60   ~ 0
 DQM0
-Text Label 5900 7050 0    60   ~ 0
+Text Label 2300 5900 0    60   ~ 0
 DQM1
-Text Label 5900 7200 0    60   ~ 0
+Text Label 2300 6050 0    60   ~ 0
 DQS0
-Text Label 5900 7300 0    60   ~ 0
+Text Label 2300 6150 0    60   ~ 0
 DQS1
-Text Label 8500 7150 0    60   ~ 0
+Text Label 10200 6500 0    60   ~ 0
 DQM1
-Text Label 8500 7250 0    60   ~ 0
+Text Label 10200 6600 0    60   ~ 0
 DQM0
-Text Label 11700 6050 0    60   ~ 0
+Text Label 13800 5400 0    60   ~ 0
 DQS1
-Text Label 11700 6350 0    60   ~ 0
+Text Label 13800 5700 0    60   ~ 0
 DQS0
 $Comp
-L GND #PWR021
+L GND #PWR0131
 U 1 1 548D31D5
-P 10250 8900
-F 0 "#PWR021" H 10250 8650 60  0001 C CNN
-F 1 "GND" H 10250 8750 60  0000 C CNN
-F 2 "" H 10250 8900 60  0000 C CNN
-F 3 "" H 10250 8900 60  0000 C CNN
-	1    10250 8900
+P 13200 7300
+F 0 "#PWR0131" H 13200 7050 60  0001 C CNN
+F 1 "GND" H 13200 7150 60  0000 C CNN
+F 2 "" H 13200 7300 60  0000 C CNN
+F 3 "" H 13200 7300 60  0000 C CNN
+	1    13200 7300
 	1    0    0    -1  
 $EndComp
-Text HLabel 8600 8950 3    60   Input ~ 0
+$Comp
+L C C501
+U 1 1 548D3587
+P 2500 8900
+F 0 "C501" H 2500 9000 40  0000 L CNN
+F 1 "10nF" H 2506 8815 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 2538 8750 30  0001 C CNN
+F 3 "" H 2500 8900 60  0000 C CNN
+	1    2500 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R505
+U 1 1 548D36D9
+P 8400 3250
+F 0 "R505" V 8480 3250 40  0000 C CNN
+F 1 "120R" V 8407 3251 40  0000 C CNN
+F 2 "tm-kicad-lib:SMD-0402-R" V 8330 3250 30  0001 C CNN
+F 3 "" H 8400 3250 30  0000 C CNN
+	1    8400 3250
+	1    0    0    -1  
+$EndComp
+Text Label 10200 4300 0    60   ~ 0
+DDR2_CLK
+Text Label 10200 4400 0    60   ~ 0
+~DDR2_CLK
+$Comp
+L R R503
+U 1 1 548D3CA8
+P 7450 2700
+F 0 "R503" V 7530 2700 40  0000 C CNN
+F 1 "22R" V 7457 2701 40  0000 C CNN
+F 2 "tm-kicad-lib:SMD-0402-R" V 7380 2700 30  0001 C CNN
+F 3 "" H 7450 2700 30  0000 C CNN
+	1    7450 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R504
+U 1 1 548D3CD9
+P 7450 3800
+F 0 "R504" V 7530 3800 40  0000 C CNN
+F 1 "22R" V 7457 3801 40  0000 C CNN
+F 2 "tm-kicad-lib:SMD-0402-R" V 7380 3800 30  0001 C CNN
+F 3 "" H 7450 3800 30  0000 C CNN
+	1    7450 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L C C514
+U 1 1 548D48B9
+P 7900 4100
+F 0 "C514" H 7900 4200 40  0000 L CNN
+F 1 "5pF" H 7906 4015 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 7938 3950 30  0001 C CNN
+F 3 "" H 7900 4100 60  0000 C CNN
+	1    7900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C513
+U 1 1 548D4B3C
+P 7900 3000
+F 0 "C513" H 7900 3100 40  0000 L CNN
+F 1 "5pF" H 7906 2915 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 7938 2850 30  0001 C CNN
+F 3 "" H 7900 3000 60  0000 C CNN
+	1    7900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0132
+U 1 1 548D4FEE
+P 7900 3300
+F 0 "#PWR0132" H 7900 3050 60  0001 C CNN
+F 1 "GND" H 7900 3150 60  0000 C CNN
+F 2 "" H 7900 3300 60  0000 C CNN
+F 3 "" H 7900 3300 60  0000 C CNN
+	1    7900 3300
+	1    0    0    -1  
+$EndComp
+Text Label 4700 5500 0    60   ~ 0
+M_~DDR2_CLK
+Text Label 4700 5600 0    60   ~ 0
+M_DDR2_CLK
+Text Label 6400 2700 0    60   ~ 0
+M_DDR2_CLK
+Text Label 6400 3800 0    60   ~ 0
+M_~DDR2_CLK
+$Comp
+L R R501
+U 1 1 548D6FE8
+P 7300 5850
+F 0 "R501" V 7380 5850 40  0000 C CNN
+F 1 "4.7kR 1%" V 7307 5851 40  0000 C CNN
+F 2 "tm-kicad-lib:SMD-0402-R" V 7230 5850 30  0001 C CNN
+F 3 "" H 7300 5850 30  0000 C CNN
+	1    7300 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R502
+U 1 1 548D71F3
+P 7300 6750
+F 0 "R502" V 7380 6750 40  0000 C CNN
+F 1 "4.7kR 1%" V 7307 6751 40  0000 C CNN
+F 2 "tm-kicad-lib:SMD-0402-R" V 7230 6750 30  0001 C CNN
+F 3 "" H 7300 6750 30  0000 C CNN
+	1    7300 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C511
+U 1 1 548D79BD
+P 7700 5800
+F 0 "C511" H 7700 5900 40  0000 L CNN
+F 1 "100nF" H 7706 5715 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 7738 5650 30  0001 C CNN
+F 3 "" H 7700 5800 60  0000 C CNN
+	1    7700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C512
+U 1 1 548D79FD
+P 7700 6700
+F 0 "C512" H 7700 6800 40  0000 L CNN
+F 1 "100nF" H 7706 6615 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 7738 6550 30  0001 C CNN
+F 3 "" H 7700 6700 60  0000 C CNN
+	1    7700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C502
+U 1 1 548D7FDE
+P 2900 8900
+F 0 "C502" H 2900 9000 40  0000 L CNN
+F 1 "100nF" H 2906 8815 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 2938 8750 30  0001 C CNN
+F 3 "" H 2900 8900 60  0000 C CNN
+	1    2900 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C503
+U 1 1 548D8010
+P 3300 8900
+F 0 "C503" H 3300 9000 40  0000 L CNN
+F 1 "100nF" H 3306 8815 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 3338 8750 30  0001 C CNN
+F 3 "" H 3300 8900 60  0000 C CNN
+	1    3300 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C504
+U 1 1 548D803B
+P 3700 8900
+F 0 "C504" H 3700 9000 40  0000 L CNN
+F 1 "100nF" H 3706 8815 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 3738 8750 30  0001 C CNN
+F 3 "" H 3700 8900 60  0000 C CNN
+	1    3700 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C505
+U 1 1 548D8069
+P 4100 8900
+F 0 "C505" H 4100 9000 40  0000 L CNN
+F 1 "100nF" H 4106 8815 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 4138 8750 30  0001 C CNN
+F 3 "" H 4100 8900 60  0000 C CNN
+	1    4100 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.8V #PWR0133
+U 1 1 5490BE7F
+P 11400 2900
+F 0 "#PWR0133" H 11400 3040 20  0001 C CNN
+F 1 "+1.8V" H 11400 3010 30  0000 C CNN
+F 2 "" H 11400 2900 60  0000 C CNN
+F 3 "" H 11400 2900 60  0000 C CNN
+	1    11400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.8V #PWR0134
+U 1 1 5490C3F5
+P 2500 8400
+F 0 "#PWR0134" H 2500 8540 20  0001 C CNN
+F 1 "+1.8V" H 2500 8510 30  0000 C CNN
+F 2 "" H 2500 8400 60  0000 C CNN
+F 3 "" H 2500 8400 60  0000 C CNN
+	1    2500 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.8V #PWR0135
+U 1 1 5490C6A2
+P 7300 5400
+F 0 "#PWR0135" H 7300 5540 20  0001 C CNN
+F 1 "+1.8V" H 7300 5510 30  0000 C CNN
+F 2 "" H 7300 5400 60  0000 C CNN
+F 3 "" H 7300 5400 60  0000 C CNN
+	1    7300 5400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13700 6200
+NoConn ~ 13700 5500
+NoConn ~ 13700 5800
+NoConn ~ 13700 6500
+NoConn ~ 13700 6100
+NoConn ~ 13700 6400
+NoConn ~ 13700 6300
+NoConn ~ 13700 6600
+$Comp
+L C C506
+U 1 1 54C976A0
+P 4500 8900
+F 0 "C506" H 4500 9000 40  0000 L CNN
+F 1 "10nF" H 4506 8815 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 4538 8750 30  0001 C CNN
+F 3 "" H 4500 8900 60  0000 C CNN
+	1    4500 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C507
+U 1 1 54C976A6
+P 4900 8900
+F 0 "C507" H 4900 9000 40  0000 L CNN
+F 1 "100nF" H 4906 8815 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 4938 8750 30  0001 C CNN
+F 3 "" H 4900 8900 60  0000 C CNN
+	1    4900 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C508
+U 1 1 54C976AC
+P 5300 8900
+F 0 "C508" H 5300 9000 40  0000 L CNN
+F 1 "100nF" H 5306 8815 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 5338 8750 30  0001 C CNN
+F 3 "" H 5300 8900 60  0000 C CNN
+	1    5300 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C509
+U 1 1 54C976B2
+P 5700 8900
+F 0 "C509" H 5700 9000 40  0000 L CNN
+F 1 "100nF" H 5706 8815 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 5738 8750 30  0001 C CNN
+F 3 "" H 5700 8900 60  0000 C CNN
+	1    5700 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C510
+U 1 1 54C976B8
+P 6100 8900
+F 0 "C510" H 6100 9000 40  0000 L CNN
+F 1 "100nF" H 6106 8815 40  0000 L CNN
+F 2 "tm-kicad-lib:SMD-0402-C" H 6138 8750 30  0001 C CNN
+F 3 "" H 6100 8900 60  0000 C CNN
+	1    6100 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0136
+U 1 1 54E9B31B
+P 7700 7200
+F 0 "#PWR0136" H 7700 6950 60  0001 C CNN
+F 1 "GND" H 7700 7050 60  0000 C CNN
+F 2 "" H 7700 7200 60  0000 C CNN
+F 3 "" H 7700 7200 60  0000 C CNN
+	1    7700 7200
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 5900 2    60   Input ~ 0
 DDR_VREF
 $Comp
-L C C306
-U 1 1 548D3587
-P 13400 5600
-F 0 "C306" H 13400 5700 40  0000 L CNN
-F 1 "10nF" H 13406 5515 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 13438 5450 30  0001 C CNN
-F 3 "" H 13400 5600 60  0000 C CNN
-	1    13400 5600
+L GND #PWR0137
+U 1 1 54EB9E52
+P 6100 9400
+F 0 "#PWR0137" H 6100 9150 60  0001 C CNN
+F 1 "GND" H 6100 9250 60  0000 C CNN
+F 2 "" H 6100 9400 60  0000 C CNN
+F 3 "" H 6100 9400 60  0000 C CNN
+	1    6100 9400
 	1    0    0    -1  
 $EndComp
+Text Label 10200 4600 0    60   ~ 0
+A0
+Text Label 10200 4700 0    60   ~ 0
+A1
+Text Label 10200 4800 0    60   ~ 0
+A2
+Text Label 10200 4900 0    60   ~ 0
+A3
+Text Label 10200 5000 0    60   ~ 0
+A4
+Text Label 10200 5100 0    60   ~ 0
+A5
+Text Label 10200 5200 0    60   ~ 0
+A6
+Text Label 10200 5300 0    60   ~ 0
+A7
+Text Label 10200 5400 0    60   ~ 0
+A8
+Text Label 10200 5500 0    60   ~ 0
+A9
+Text Label 10200 5600 0    60   ~ 0
+A10
+Text Label 10200 5700 0    60   ~ 0
+A11
+Text Label 10200 5800 0    60   ~ 0
+A12
+Text Label 10200 6100 0    60   ~ 0
+BA1
+Text Label 10200 6000 0    60   ~ 0
+BA0
+Text Label 10200 3600 0    60   ~ 0
+~CS
+Text Label 10200 3800 0    60   ~ 0
+~RAS
+Text Label 10200 3900 0    60   ~ 0
+~CAS
+Text Label 10200 4000 0    60   ~ 0
+~WE
+Text Label 10200 4200 0    60   ~ 0
+CKE
 $Comp
-L R R303
-U 1 1 548D36D9
-P 7650 4300
-F 0 "R303" V 7730 4300 40  0000 C CNN
-F 1 "120R" V 7657 4301 40  0000 C CNN
-F 2 "tm-kicad-lib:SMD-0402-R" V 7580 4300 30  0001 C CNN
-F 3 "" H 7650 4300 30  0000 C CNN
-	1    7650 4300
+L GND #PWR0138
+U 1 1 54E8D57D
+P 7900 4400
+F 0 "#PWR0138" H 7900 4150 60  0001 C CNN
+F 1 "GND" H 7900 4250 60  0000 C CNN
+F 2 "" H 7900 4400 60  0000 C CNN
+F 3 "" H 7900 4400 60  0000 C CNN
+	1    7900 4400
 	1    0    0    -1  
 $EndComp
-Text Label 8050 4950 1    60   ~ 0
-CLK
-Text Label 7900 5050 1    60   ~ 0
-CLK_N
+Text Label 9100 2700 2    60   ~ 0
+DDR2_CLK
+Text Label 9100 3800 2    60   ~ 0
+~DDR2_CLK
+Wire Wire Line
+	2750 4100 2200 4100
+Wire Wire Line
+	2750 4200 2200 4200
+Wire Wire Line
+	2750 4300 2200 4300
+Wire Wire Line
+	2750 4400 2200 4400
+Wire Wire Line
+	2750 4500 2200 4500
+Wire Wire Line
+	2750 4600 2200 4600
+Wire Wire Line
+	2750 4700 2200 4700
+Wire Wire Line
+	2750 4800 2200 4800
+Wire Wire Line
+	2750 4900 2200 4900
+Wire Wire Line
+	2750 5000 2200 5000
+Wire Wire Line
+	2750 5100 2200 5100
+Wire Wire Line
+	2750 5200 2200 5200
+Wire Wire Line
+	2750 5300 2200 5300
+Wire Wire Line
+	2750 5400 2200 5400
+Wire Wire Line
+	2750 5500 2200 5500
+Wire Wire Line
+	2750 5600 2200 5600
+Wire Wire Line
+	13700 3600 14300 3600
+Wire Wire Line
+	13700 3700 14300 3700
+Wire Wire Line
+	13700 3800 14300 3800
+Wire Wire Line
+	13700 3900 14300 3900
+Wire Wire Line
+	13700 4000 14300 4000
+Wire Wire Line
+	13700 4100 14300 4100
+Wire Wire Line
+	13700 4200 14300 4200
+Wire Wire Line
+	13700 4300 14300 4300
+Wire Wire Line
+	13700 4400 14300 4400
+Wire Wire Line
+	13700 4500 14300 4500
+Wire Wire Line
+	13700 4600 14300 4600
+Wire Wire Line
+	13700 4700 14300 4700
+Wire Wire Line
+	13700 4800 14300 4800
+Wire Wire Line
+	13700 4900 14300 4900
+Wire Wire Line
+	13700 5000 14300 5000
+Wire Wire Line
+	13700 5100 14300 5100
+Wire Wire Line
+	2750 6300 2200 6300
+Wire Wire Line
+	4500 5400 5400 5400
+Wire Wire Line
+	13700 5900 14300 5900
+Wire Wire Line
+	2750 5800 2200 5800
+Wire Wire Line
+	2750 5900 2200 5900
+Wire Wire Line
+	2750 6050 2200 6050
+Wire Wire Line
+	2750 6150 2200 6150
+Wire Wire Line
+	10900 6500 10100 6500
+Wire Wire Line
+	10900 6600 10100 6600
+Wire Wire Line
+	13700 5400 14300 5400
+Wire Wire Line
+	13700 5700 14300 5700
+Wire Wire Line
+	11500 7000 11500 7200
+Wire Wire Line
+	11500 7200 13200 7200
+Wire Wire Line
+	11600 7200 11600 7000
+Wire Wire Line
+	11700 7200 11700 7000
+Connection ~ 11600 7200
+Wire Wire Line
+	11800 7200 11800 7000
+Connection ~ 11700 7200
+Wire Wire Line
+	11900 7200 11900 7000
+Connection ~ 11800 7200
+Wire Wire Line
+	12100 7200 12100 7000
+Connection ~ 11900 7200
+Wire Wire Line
+	12200 7200 12200 7000
+Connection ~ 12100 7200
+Wire Wire Line
+	12300 7200 12300 7000
+Connection ~ 12200 7200
+Wire Wire Line
+	13200 7000 13200 7300
+Wire Wire Line
+	12400 7200 12400 7000
+Connection ~ 12300 7200
+Wire Wire Line
+	12500 7200 12500 7000
+Connection ~ 12400 7200
+Wire Wire Line
+	12600 7200 12600 7000
+Connection ~ 12500 7200
+Wire Wire Line
+	12700 7200 12700 7000
+Connection ~ 12600 7200
+Wire Wire Line
+	12800 7200 12800 7000
+Connection ~ 12700 7200
+Wire Wire Line
+	12900 7200 12900 7000
+Connection ~ 12800 7200
+Wire Wire Line
+	13000 7200 13000 7000
+Connection ~ 12900 7200
+Connection ~ 13000 7200
+Wire Wire Line
+	4500 5500 5400 5500
+Wire Wire Line
+	4500 5600 5400 5600
+Wire Wire Line
+	7700 2700 9200 2700
+Wire Wire Line
+	7900 2800 7900 2700
+Connection ~ 7900 2700
+Wire Wire Line
+	7900 3300 7900 3200
+Wire Wire Line
+	6300 2700 7200 2700
+Wire Wire Line
+	6300 3800 7200 3800
+Wire Wire Line
+	11400 3000 13100 3000
+Wire Wire Line
+	11400 2900 11400 3200
+Wire Wire Line
+	11500 3200 11500 3000
+Connection ~ 11500 3000
+Wire Wire Line
+	13100 3000 13100 3200
+Wire Wire Line
+	11600 3200 11600 3000
+Connection ~ 11600 3000
+Wire Wire Line
+	11700 3200 11700 3000
+Connection ~ 11700 3000
+Wire Wire Line
+	11800 3200 11800 3000
+Connection ~ 11800 3000
+Wire Wire Line
+	12000 3200 12000 3000
+Connection ~ 12000 3000
+Wire Wire Line
+	12100 3200 12100 3000
+Connection ~ 12100 3000
+Wire Wire Line
+	12200 3200 12200 3000
+Connection ~ 12200 3000
+Wire Wire Line
+	12300 3200 12300 3000
+Connection ~ 12300 3000
+Wire Wire Line
+	12400 3200 12400 3000
+Connection ~ 12400 3000
+Wire Wire Line
+	12500 3200 12500 3000
+Connection ~ 12500 3000
+Wire Wire Line
+	12600 3200 12600 3000
+Connection ~ 12600 3000
+Wire Wire Line
+	12700 3200 12700 3000
+Connection ~ 12700 3000
+Wire Wire Line
+	12800 3200 12800 3000
+Connection ~ 12800 3000
+Wire Wire Line
+	12900 3200 12900 3000
+Connection ~ 12900 3000
+Wire Wire Line
+	2500 8400 2500 8700
+Wire Wire Line
+	2500 8500 6100 8500
+Wire Wire Line
+	2900 8500 2900 8700
+Wire Wire Line
+	3300 8500 3300 8700
+Connection ~ 2900 8500
+Wire Wire Line
+	3700 8500 3700 8700
+Connection ~ 3300 8500
+Wire Wire Line
+	4100 8500 4100 8700
+Connection ~ 3700 8500
+Wire Wire Line
+	4100 9300 4100 9100
+Wire Wire Line
+	2500 9300 6100 9300
+Wire Wire Line
+	3700 9300 3700 9100
+Wire Wire Line
+	3300 9100 3300 9300
+Connection ~ 3700 9300
+Wire Wire Line
+	2900 9300 2900 9100
+Connection ~ 3300 9300
+Wire Wire Line
+	2500 9300 2500 9100
+Connection ~ 2900 9300
+Wire Wire Line
+	4500 8500 4500 8700
+Wire Wire Line
+	4900 8500 4900 8700
+Wire Wire Line
+	5300 8500 5300 8700
+Connection ~ 4900 8500
+Wire Wire Line
+	5700 8500 5700 8700
+Connection ~ 5300 8500
+Wire Wire Line
+	6100 8500 6100 8700
+Connection ~ 5700 8500
+Wire Wire Line
+	6100 9100 6100 9400
+Wire Wire Line
+	5700 9300 5700 9100
+Wire Wire Line
+	5300 9100 5300 9300
+Connection ~ 5700 9300
+Wire Wire Line
+	4900 9300 4900 9100
+Connection ~ 5300 9300
+Wire Wire Line
+	4500 9300 4500 9100
+Connection ~ 4900 9300
+Wire Wire Line
+	7300 5400 7300 5600
+Wire Wire Line
+	7700 5500 7700 5600
+Wire Wire Line
+	7700 6000 7700 6500
+Wire Wire Line
+	7300 6100 7300 6500
+Wire Wire Line
+	7300 6400 7700 6400
+Connection ~ 7700 6400
+Connection ~ 7300 6400
+Connection ~ 13200 7200
+Wire Wire Line
+	7700 6900 7700 7200
+Wire Wire Line
+	7300 7100 7700 7100
+Connection ~ 7700 6300
+Connection ~ 7300 5500
+Connection ~ 7700 7100
+Wire Wire Line
+	7700 5500 7300 5500
+Wire Wire Line
+	7300 7100 7300 7000
+Connection ~ 2500 8500
+Connection ~ 4100 9300
+Connection ~ 4500 8500
+Connection ~ 6100 9300
+Connection ~ 11400 3000
+Wire Wire Line
+	4500 4100 5400 4100
+Wire Wire Line
+	4500 4200 5400 4200
+Wire Wire Line
+	4500 4300 5400 4300
+Wire Wire Line
+	4500 4400 5400 4400
+Wire Wire Line
+	4500 4500 5400 4500
+Wire Wire Line
+	4500 4600 5400 4600
+Wire Wire Line
+	4500 4700 5400 4700
+Wire Wire Line
+	4500 4800 5400 4800
+Wire Wire Line
+	4500 4900 5400 4900
+Wire Wire Line
+	4500 5000 5400 5000
+Wire Wire Line
+	4500 5100 5400 5100
+Wire Wire Line
+	4500 5200 5400 5200
+Wire Wire Line
+	4500 5300 5400 5300
+Wire Wire Line
+	10900 4600 10100 4600
+Wire Wire Line
+	10900 4700 10100 4700
+Wire Wire Line
+	10900 4800 10100 4800
+Wire Wire Line
+	10900 4900 10100 4900
+Wire Wire Line
+	10900 5000 10100 5000
+Wire Wire Line
+	10900 5100 10100 5100
+Wire Wire Line
+	10900 5200 10100 5200
+Wire Wire Line
+	10900 5300 10100 5300
+Wire Wire Line
+	10900 5400 10100 5400
+Wire Wire Line
+	10900 5500 10100 5500
+Wire Wire Line
+	10900 5600 10100 5600
+Wire Wire Line
+	10900 5700 10100 5700
+Wire Wire Line
+	10900 5800 10100 5800
+Wire Wire Line
+	10900 6000 10100 6000
+Wire Wire Line
+	10900 6100 10100 6100
+Wire Wire Line
+	2750 6400 2200 6400
+Wire Wire Line
+	4500 5800 5400 5800
+Wire Wire Line
+	4500 5900 5400 5900
+Wire Wire Line
+	4500 6000 5400 6000
+Wire Wire Line
+	4500 6100 5400 6100
+Wire Wire Line
+	4500 6200 5400 6200
+Wire Wire Line
+	10900 3600 10100 3600
+Wire Wire Line
+	10900 3800 10100 3800
+Wire Wire Line
+	10900 3900 10100 3900
+Wire Wire Line
+	10900 4000 10100 4000
+Wire Wire Line
+	10900 4200 10100 4200
+Wire Wire Line
+	10900 4300 10100 4300
+Wire Wire Line
+	10900 4400 10100 4400
+Wire Wire Line
+	7700 3800 9200 3800
+Wire Wire Line
+	7900 3800 7900 3900
+Wire Wire Line
+	7900 4400 7900 4300
+Wire Wire Line
+	8400 3000 8400 2700
+Connection ~ 8400 2700
+Connection ~ 7900 3800
+Wire Wire Line
+	8400 3500 8400 3800
+Connection ~ 8400 3800
+Connection ~ 4500 9300
+Connection ~ 4100 8500
+Wire Wire Line
+	7700 6300 10900 6300
+Wire Wire Line
+	8350 5900 8100 5900
+Wire Wire Line
+	8100 5900 7700 6300
 $Comp
-L R R301
-U 1 1 548D3CA8
-P 6850 4050
-F 0 "R301" V 6930 4050 40  0000 C CNN
-F 1 "22R" V 6857 4051 40  0000 C CNN
-F 2 "tm-kicad-lib:SMD-0402-R" V 6780 4050 30  0001 C CNN
-F 3 "" H 6850 4050 30  0000 C CNN
-	1    6850 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R302
-U 1 1 548D3CD9
-P 6850 4250
-F 0 "R302" V 6930 4250 40  0000 C CNN
-F 1 "22R" V 6857 4251 40  0000 C CNN
-F 2 "tm-kicad-lib:SMD-0402-R" V 6780 4250 30  0001 C CNN
-F 3 "" H 6850 4250 30  0000 C CNN
-	1    6850 4250
-	0    1    1    0   
-$EndComp
-$Comp
-L C C302
-U 1 1 548D48B9
-P 7400 4550
-F 0 "C302" H 7400 4650 40  0000 L CNN
-F 1 "5pF" H 7406 4465 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 7438 4400 30  0001 C CNN
-F 3 "" H 7400 4550 60  0000 C CNN
-	1    7400 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C301
-U 1 1 548D4B3C
-P 7200 4550
-F 0 "C301" H 7200 4650 40  0000 L CNN
-F 1 "5pF" H 7206 4465 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 7238 4400 30  0001 C CNN
-F 3 "" H 7200 4550 60  0000 C CNN
-	1    7200 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR022
-U 1 1 548D4FEE
-P 7300 4850
-F 0 "#PWR022" H 7300 4600 60  0001 C CNN
-F 1 "GND" H 7300 4700 60  0000 C CNN
-F 2 "" H 7300 4850 60  0000 C CNN
-F 3 "" H 7300 4850 60  0000 C CNN
-	1    7300 4850
-	1    0    0    -1  
-$EndComp
-Text Label 7850 6650 0    60   ~ 0
-MCK_N
-Text Label 7850 6750 0    60   ~ 0
-MCK_P
-Text Label 6300 4050 0    60   ~ 0
-MCK_P
-Text Label 6300 4250 0    60   ~ 0
-MCK_N
-Wire Wire Line
-	7850 5250 8750 5250
-Wire Wire Line
-	8750 5350 7850 5350
-Wire Wire Line
-	7850 5450 8750 5450
-Wire Wire Line
-	7850 5550 8750 5550
-Wire Wire Line
-	7850 5650 8750 5650
-Wire Wire Line
-	7850 5750 8750 5750
-Wire Wire Line
-	7850 5850 8750 5850
-Wire Wire Line
-	7850 5950 8750 5950
-Wire Wire Line
-	8750 6050 7850 6050
-Wire Wire Line
-	7850 6150 8750 6150
-Wire Wire Line
-	7850 6250 8750 6250
-Wire Wire Line
-	7850 6350 8750 6350
-Wire Wire Line
-	7850 6450 8750 6450
-Wire Wire Line
-	7850 6950 8550 6950
-Wire Wire Line
-	8550 6950 8550 4850
-Wire Wire Line
-	8550 4850 8750 4850
-Wire Wire Line
-	7850 7050 8450 7050
-Wire Wire Line
-	8450 7050 8450 4250
-Wire Wire Line
-	8450 4250 8750 4250
-Wire Wire Line
-	7850 7150 8350 7150
-Wire Wire Line
-	8350 7150 8350 4550
-Wire Wire Line
-	8350 4550 8750 4550
-Wire Wire Line
-	7850 7250 8250 7250
-Wire Wire Line
-	8250 7250 8250 4450
-Wire Wire Line
-	8250 4450 8750 4450
-Wire Wire Line
-	7850 7350 8150 7350
-Wire Wire Line
-	8150 7350 8150 4650
-Wire Wire Line
-	8150 4650 8750 4650
-Wire Wire Line
-	6100 5250 5850 5250
-Wire Wire Line
-	6100 5350 5850 5350
-Wire Wire Line
-	6100 5450 5850 5450
-Wire Wire Line
-	6100 5550 5850 5550
-Wire Wire Line
-	6100 5650 5850 5650
-Wire Wire Line
-	6100 5750 5850 5750
-Wire Wire Line
-	6100 5850 5850 5850
-Wire Wire Line
-	6100 5950 5850 5950
-Wire Wire Line
-	6100 6050 5850 6050
-Wire Wire Line
-	6100 6150 5850 6150
-Wire Wire Line
-	6100 6250 5850 6250
-Wire Wire Line
-	6100 6350 5850 6350
-Wire Wire Line
-	6100 6450 5850 6450
-Wire Wire Line
-	6100 6550 5850 6550
-Wire Wire Line
-	6100 6650 5850 6650
-Wire Wire Line
-	6100 6750 5850 6750
-Wire Bus Line
-	5750 2300 5750 6650
-Wire Bus Line
-	5750 2300 12200 2300
-Wire Bus Line
-	12200 2300 12200 5850
-Wire Wire Line
-	11550 4250 12100 4250
-Wire Wire Line
-	11550 4350 12100 4350
-Wire Wire Line
-	11550 4450 12100 4450
-Wire Wire Line
-	11550 4550 12100 4550
-Wire Wire Line
-	11550 4650 12100 4650
-Wire Wire Line
-	11550 4750 12100 4750
-Wire Wire Line
-	11550 4850 12100 4850
-Wire Wire Line
-	11550 4950 12100 4950
-Wire Wire Line
-	11550 5050 12100 5050
-Wire Wire Line
-	11550 5150 12100 5150
-Wire Wire Line
-	11550 5250 12100 5250
-Wire Wire Line
-	11550 5350 12100 5350
-Wire Wire Line
-	11550 5450 12100 5450
-Wire Wire Line
-	11550 5550 12100 5550
-Wire Wire Line
-	11550 5650 12100 5650
-Wire Wire Line
-	11550 5750 12100 5750
-Wire Wire Line
-	6100 7550 6100 7800
-Wire Wire Line
-	6100 7800 8700 7800
-Wire Wire Line
-	8700 7800 8700 6750
-Wire Wire Line
-	8700 6750 8750 6750
-Wire Wire Line
-	6100 7450 6000 7450
-Wire Wire Line
-	6000 7450 6000 7950
-Wire Wire Line
-	6000 7950 8650 7950
-Wire Wire Line
-	8650 7950 8650 6650
-Wire Wire Line
-	8650 6650 8750 6650
-Wire Wire Line
-	7850 6550 8000 6550
-Wire Wire Line
-	11550 6550 11700 6550
-Wire Wire Line
-	6100 6950 5900 6950
-Wire Wire Line
-	6100 7050 5900 7050
-Wire Wire Line
-	6100 7200 5900 7200
-Wire Wire Line
-	6100 7300 5900 7300
-Wire Wire Line
-	8750 7150 8500 7150
-Wire Wire Line
-	8750 7250 8500 7250
-Wire Wire Line
-	11550 6050 11950 6050
-Wire Wire Line
-	11550 6350 11950 6350
-Wire Wire Line
-	9350 7650 9350 7800
-Wire Wire Line
-	9350 7800 11050 7800
-Wire Wire Line
-	9450 7800 9450 7650
-Wire Wire Line
-	9550 7800 9550 7650
-Connection ~ 9450 7800
-Wire Wire Line
-	9650 7800 9650 7650
-Connection ~ 9550 7800
-Wire Wire Line
-	9750 7800 9750 7650
-Connection ~ 9650 7800
-Wire Wire Line
-	9950 7800 9950 7650
-Connection ~ 9750 7800
-Wire Wire Line
-	10050 7800 10050 7650
-Connection ~ 9950 7800
-Wire Wire Line
-	10150 7800 10150 7650
-Connection ~ 10050 7800
-Wire Wire Line
-	10250 8900 10250 7650
-Connection ~ 10150 7800
-Wire Wire Line
-	10350 7800 10350 7650
-Connection ~ 10250 7800
-Wire Wire Line
-	10450 7800 10450 7650
-Connection ~ 10350 7800
-Wire Wire Line
-	10550 7800 10550 7650
-Connection ~ 10450 7800
-Wire Wire Line
-	10650 7800 10650 7650
-Connection ~ 10550 7800
-Wire Wire Line
-	10750 7800 10750 7650
-Connection ~ 10650 7800
-Wire Wire Line
-	10850 7800 10850 7650
-Connection ~ 10750 7800
-Wire Wire Line
-	11050 7800 11050 7650
-Connection ~ 10850 7800
-Wire Wire Line
-	8750 6950 8600 6950
-Wire Wire Line
-	8600 6950 8600 8950
-Wire Wire Line
-	7950 4950 8750 4950
-Wire Wire Line
-	7850 6650 8000 6650
-Wire Wire Line
-	7850 6750 8000 6750
-Wire Wire Line
-	7950 4050 7950 4950
-Wire Wire Line
-	7100 4250 7550 4250
-Wire Wire Line
-	7550 4250 7550 4650
-Wire Wire Line
-	7100 4050 7950 4050
-Connection ~ 7650 4050
-Wire Wire Line
-	7200 4350 7200 4050
-Connection ~ 7200 4050
-Wire Wire Line
-	7400 4350 7400 4250
-Connection ~ 7400 4250
-Wire Wire Line
-	7200 4750 7400 4750
-Wire Wire Line
-	7300 4850 7300 4750
-Connection ~ 7300 4750
-Wire Wire Line
-	6300 4050 6600 4050
-Wire Wire Line
-	6300 4250 6600 4250
-Wire Wire Line
-	9250 3700 10950 3700
-Wire Wire Line
-	9250 3700 9250 3850
-Wire Wire Line
-	9350 3850 9350 3700
-Connection ~ 9350 3700
-Wire Wire Line
-	10950 3700 10950 3850
-Wire Wire Line
-	9450 3850 9450 3700
-Connection ~ 9450 3700
-Wire Wire Line
-	9550 3850 9550 3700
-Connection ~ 9550 3700
-Wire Wire Line
-	9650 3850 9650 3700
-Connection ~ 9650 3700
-Wire Wire Line
-	9850 3850 9850 3700
-Connection ~ 9850 3700
-Wire Wire Line
-	9950 3850 9950 3700
-Connection ~ 9950 3700
-Wire Wire Line
-	10050 3850 10050 3700
-Connection ~ 10050 3700
-Wire Wire Line
-	10150 3850 10150 3700
-Connection ~ 10150 3700
-Wire Wire Line
-	10250 3850 10250 3700
-Connection ~ 10250 3700
-Wire Wire Line
-	10350 3850 10350 3700
-Connection ~ 10350 3700
-Wire Wire Line
-	10450 3850 10450 3700
-Connection ~ 10450 3700
-Wire Wire Line
-	10550 3850 10550 3700
-Connection ~ 10550 3700
-Wire Wire Line
-	10650 3850 10650 3700
-Connection ~ 10650 3700
-Wire Wire Line
-	10750 3850 10750 3700
-Connection ~ 10750 3700
-Wire Wire Line
-	10000 3700 10000 3400
-Connection ~ 10000 3700
-Wire Wire Line
-	7550 4650 7650 4650
-Wire Wire Line
-	7650 4550 7650 5050
-Wire Wire Line
-	7650 5050 8750 5050
-Connection ~ 7650 4650
-$Comp
-L C C304
-U 1 1 548D6B14
-P 9400 8900
-F 0 "C304" H 9400 9000 40  0000 L CNN
-F 1 "100nF" H 9406 8815 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 9438 8750 30  0001 C CNN
-F 3 "" H 9400 8900 60  0000 C CNN
-	1    9400 8900
-	0    1    1    0   
-$EndComp
-$Comp
-L R R304
-U 1 1 548D6FE8
-P 9400 8350
-F 0 "R304" V 9480 8350 40  0000 C CNN
-F 1 "4.7kR 1%" V 9407 8351 40  0000 C CNN
-F 2 "tm-kicad-lib:SMD-0402-R" V 9330 8350 30  0001 C CNN
-F 3 "" H 9400 8350 30  0000 C CNN
-	1    9400 8350
-	0    1    1    0   
-$EndComp
-$Comp
-L R R305
-U 1 1 548D71F3
-P 9750 8600
-F 0 "R305" V 9830 8600 40  0000 C CNN
-F 1 "4.7kR 1%" V 9757 8601 40  0000 C CNN
-F 2 "tm-kicad-lib:SMD-0402-R" V 9680 8600 30  0001 C CNN
-F 3 "" H 9750 8600 30  0000 C CNN
-	1    9750 8600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9600 8900 10250 8900
-Wire Wire Line
-	9750 8900 9750 8850
-Connection ~ 9750 8900
-Wire Wire Line
-	9200 8900 8600 8900
-Connection ~ 8600 8900
-Wire Wire Line
-	9650 8350 9950 8350
-Wire Wire Line
-	9650 8350 9650 8500
-Wire Wire Line
-	9650 8500 8600 8500
-Connection ~ 8600 8500
-Wire Wire Line
-	9150 8100 9150 8350
-$Comp
-L C C303
-U 1 1 548D79BD
-P 9400 8150
-F 0 "C303" H 9400 8250 40  0000 L CNN
-F 1 "100nF" H 9406 8065 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 9438 8000 30  0001 C CNN
-F 3 "" H 9400 8150 60  0000 C CNN
-	1    9400 8150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C305
-U 1 1 548D79FD
-P 9950 8600
-F 0 "C305" H 9950 8700 40  0000 L CNN
-F 1 "100nF" H 9956 8515 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 9988 8450 30  0001 C CNN
-F 3 "" H 9950 8600 60  0000 C CNN
-	1    9950 8600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9950 8350 9950 8400
-Connection ~ 9750 8350
-Wire Wire Line
-	9950 8800 9950 8900
-Connection ~ 9950 8900
-Wire Wire Line
-	9200 8150 9150 8150
-Connection ~ 9150 8150
-Wire Wire Line
-	9600 8150 9750 8150
-Wire Wire Line
-	9750 8150 9750 8350
-$Comp
-L C C307
-U 1 1 548D7FDE
-P 13650 5600
-F 0 "C307" H 13650 5700 40  0000 L CNN
-F 1 "100nF" H 13656 5515 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 13688 5450 30  0001 C CNN
-F 3 "" H 13650 5600 60  0000 C CNN
-	1    13650 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C308
-U 1 1 548D8010
-P 13900 5600
-F 0 "C308" H 13900 5700 40  0000 L CNN
-F 1 "100nF" H 13906 5515 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 13938 5450 30  0001 C CNN
-F 3 "" H 13900 5600 60  0000 C CNN
-	1    13900 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C309
-U 1 1 548D803B
-P 14150 5600
-F 0 "C309" H 14150 5700 40  0000 L CNN
-F 1 "100nF" H 14156 5515 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 14188 5450 30  0001 C CNN
-F 3 "" H 14150 5600 60  0000 C CNN
-	1    14150 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C310
-U 1 1 548D8069
-P 14400 5600
-F 0 "C310" H 14400 5700 40  0000 L CNN
-F 1 "100nF" H 14406 5515 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 14438 5450 30  0001 C CNN
-F 3 "" H 14400 5600 60  0000 C CNN
-	1    14400 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13400 5400 13400 5350
-Wire Wire Line
-	13400 5350 14400 5350
-Wire Wire Line
-	13650 5350 13650 5400
-Wire Wire Line
-	13900 5150 13900 5400
-Connection ~ 13650 5350
-Wire Wire Line
-	14150 5350 14150 5400
-Connection ~ 13900 5350
-Wire Wire Line
-	14400 5350 14400 5400
-Connection ~ 14150 5350
-Wire Wire Line
-	14400 5850 14400 5800
-Wire Wire Line
-	13400 5850 14400 5850
-Wire Wire Line
-	14150 5850 14150 5800
-Wire Wire Line
-	13900 5800 13900 6050
-Connection ~ 14150 5850
-Wire Wire Line
-	13650 5850 13650 5800
-Connection ~ 13900 5850
-Wire Wire Line
-	13400 5850 13400 5800
-Connection ~ 13650 5850
-$Comp
-L GND #PWR023
-U 1 1 548D88C7
-P 13900 6050
-F 0 "#PWR023" H 13900 5800 60  0001 C CNN
-F 1 "GND" H 13900 5900 60  0000 C CNN
-F 2 "" H 13900 6050 60  0000 C CNN
-F 3 "" H 13900 6050 60  0000 C CNN
-	1    13900 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L +1.8V #PWR024
-U 1 1 5490BE7F
-P 10000 3400
-F 0 "#PWR024" H 10000 3540 20  0001 C CNN
-F 1 "+1.8V" H 10000 3510 30  0000 C CNN
-F 2 "" H 10000 3400 60  0000 C CNN
-F 3 "" H 10000 3400 60  0000 C CNN
-	1    10000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L +1.8V #PWR025
-U 1 1 5490C3F5
-P 13900 5150
-F 0 "#PWR025" H 13900 5290 20  0001 C CNN
-F 1 "+1.8V" H 13900 5260 30  0000 C CNN
-F 2 "" H 13900 5150 60  0000 C CNN
-F 3 "" H 13900 5150 60  0000 C CNN
-	1    13900 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L +1.8V #PWR026
-U 1 1 5490C6A2
-P 9150 8100
-F 0 "#PWR026" H 9150 8240 20  0001 C CNN
-F 1 "+1.8V" H 9150 8210 30  0000 C CNN
-F 2 "" H 9150 8100 60  0000 C CNN
-F 3 "" H 9150 8100 60  0000 C CNN
-	1    9150 8100
-	1    0    0    -1  
-$EndComp
-Connection ~ 9650 8350
-NoConn ~ 11550 6850
-NoConn ~ 11550 6150
-NoConn ~ 11550 6450
-NoConn ~ 11550 7150
-NoConn ~ 11550 6750
-NoConn ~ 11550 7050
-NoConn ~ 11550 6950
-NoConn ~ 11550 7250
-$Comp
-L C C311
-U 1 1 54C976A0
-P 13400 6950
-F 0 "C311" H 13400 7050 40  0000 L CNN
-F 1 "10nF" H 13406 6865 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 13438 6800 30  0001 C CNN
-F 3 "" H 13400 6950 60  0000 C CNN
-	1    13400 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C312
-U 1 1 54C976A6
-P 13650 6950
-F 0 "C312" H 13650 7050 40  0000 L CNN
-F 1 "100nF" H 13656 6865 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 13688 6800 30  0001 C CNN
-F 3 "" H 13650 6950 60  0000 C CNN
-	1    13650 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C313
-U 1 1 54C976AC
-P 13900 6950
-F 0 "C313" H 13900 7050 40  0000 L CNN
-F 1 "100nF" H 13906 6865 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 13938 6800 30  0001 C CNN
-F 3 "" H 13900 6950 60  0000 C CNN
-	1    13900 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C314
-U 1 1 54C976B2
-P 14150 6950
-F 0 "C314" H 14150 7050 40  0000 L CNN
-F 1 "100nF" H 14156 6865 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 14188 6800 30  0001 C CNN
-F 3 "" H 14150 6950 60  0000 C CNN
-	1    14150 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C315
-U 1 1 54C976B8
-P 14400 6950
-F 0 "C315" H 14400 7050 40  0000 L CNN
-F 1 "100nF" H 14406 6865 40  0000 L CNN
-F 2 "tm-kicad-lib:SMD-0402-C" H 14438 6800 30  0001 C CNN
-F 3 "" H 14400 6950 60  0000 C CNN
-	1    14400 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13400 6750 13400 6700
-Wire Wire Line
-	13400 6700 14400 6700
-Wire Wire Line
-	13650 6700 13650 6750
-Wire Wire Line
-	13900 6500 13900 6750
-Connection ~ 13650 6700
-Wire Wire Line
-	14150 6700 14150 6750
-Connection ~ 13900 6700
-Wire Wire Line
-	14400 6700 14400 6750
-Connection ~ 14150 6700
-Wire Wire Line
-	14400 7200 14400 7150
-Wire Wire Line
-	13400 7200 14400 7200
-Wire Wire Line
-	14150 7200 14150 7150
-Wire Wire Line
-	13900 7150 13900 7400
-Connection ~ 14150 7200
-Wire Wire Line
-	13650 7200 13650 7150
-Connection ~ 13900 7200
-Wire Wire Line
-	13400 7200 13400 7150
-Connection ~ 13650 7200
-$Comp
-L GND #PWR027
-U 1 1 54C976D0
-P 13900 7400
-F 0 "#PWR027" H 13900 7150 60  0001 C CNN
-F 1 "GND" H 13900 7250 60  0000 C CNN
-F 2 "" H 13900 7400 60  0000 C CNN
-F 3 "" H 13900 7400 60  0000 C CNN
-	1    13900 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L +1.8V #PWR028
-U 1 1 54C976D6
-P 13900 6500
-F 0 "#PWR028" H 13900 6640 20  0001 C CNN
-F 1 "+1.8V" H 13900 6610 30  0000 C CNN
-F 2 "" H 13900 6500 60  0000 C CNN
-F 3 "" H 13900 6500 60  0000 C CNN
-	1    13900 6500
+L MT7620N U?
+U 2 1 548CE37F
+P 3950 4950
+AR Path="/548C90C9/548CE37F" Ref="U?"  Part="2" 
+AR Path="/548C90C9/548CC02E/548CE37F" Ref="U?"  Part="2" 
+AR Path="/548CC02E/548CE37F" Ref="U201"  Part="2" 
+F 0 "U201" H 3150 6050 60  0000 C CNN
+F 1 "MT7620N" H 3250 5950 60  0000 C CNN
+F 2 "tm-kicad-lib:MT7620N" H 2400 5450 60  0001 C CNN
+F 3 "" H 2400 5450 60  0000 C CNN
+	2    3950 4950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
