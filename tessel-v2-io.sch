@@ -1040,4 +1040,12 @@ Text Notes 5800 2100 0    60   ~ 0
 DIFF PAIR
 Text Notes 5800 1900 0    60   ~ 0
 DIFF PAIR
+Text Label 2300 9000 1    60   ~ 0
+TXM
+Text Label 1900 9100 0    60   ~ 0
+RXM
+Text Label 2600 6700 0    60   ~ 0
+TM
+Text Label 2600 4700 0    60   ~ 0
+RM
 $EndSCHEMATC
