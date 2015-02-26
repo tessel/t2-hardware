@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/technical/github/tessel-v2-hardware/tessel-v2.sch)
-    (date "Wed 25 Feb 2015 12:18:56 PM PST")
+    (date "Wed 25 Feb 2015 05:41:52 PM PST")
     (tool "Eeschema 0.201502241246+5451~21~ubuntu14.04.1-product"))
   (components
     (comp (ref H101)
@@ -1292,7 +1292,7 @@
       (tstamp 54BF80D8))
     (comp (ref J702)
       (value HR911105A)
-      (footprint tm-kicad-lib:HR911105a)
+      (footprint tm-kicad-lib:RB1-125BAG1A)
       (libsource (lib tm-kicad-lib) (part HR911105A))
       (sheetpath (names /MEDIATEK_I/O/) (tstamps /548CB7C3/))
       (tstamp 54C5EBAA))
