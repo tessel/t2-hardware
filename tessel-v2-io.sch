@@ -1048,4 +1048,8 @@ Text Label 2600 6700 0    60   ~ 0
 TM
 Text Label 2600 4700 0    60   ~ 0
 RM
+Text Label 5200 2700 0    60   ~ 0
+EPHY_RES
+Text Label 5200 8400 0    60   ~ 0
+ETH_SHELL
 $EndSCHEMATC
