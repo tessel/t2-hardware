@@ -125,7 +125,7 @@ def get_tolerance(classname):
     if name is None:
         return None
     # return mm_to_nm(float(name.group(2)))
-    return float(name.group(2)) # in mils
+    return mils_to_mm(mm_to_nm(float(name.group(2))))
 
 def median(x):
     "Return median from a list of values. Thanks to http://stackoverflow.com/a/25791644"
@@ -150,7 +150,7 @@ def test_netclass(netclass, tolerance, nets):
     # print individual net lengths, relative to the median length
     medlen = median([net[1] for net in nets])
     for (net,netlen) in nets:
-        print("   %s\t%.2f mils (%s%.2f mils)" % (net,mm_to_mils(nm_to_mm(netlen)),"+" if netlen > medlen else "",  mm_to_mils(nm_to_mm(netlen-medlen))))
+        print("   %s\t%.2f mils (%s%.2f mils)" % (net, mm_to_mils(nm_to_mm(netlen)),"+" if netlen > medlen else "",  mm_to_mils(nm_to_mm(netlen-medlen))))
 
 if __name__ == "__main__":
     try:
