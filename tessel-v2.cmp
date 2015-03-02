@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Mon 02 Mar 2015 01:56:29 PM PST
+Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Mon 02 Mar 2015 02:49:12 PM PST
 
 BeginCmp
 TimeStamp = /548CC15D/54BF1E54;
@@ -1020,6 +1020,48 @@ TimeStamp = /54ED78C8/54ECA3A2;
 Reference = D902;
 ValeurCmp = PRTR5V0U2X,215;
 IdModule  = tm-kicad-lib:PRTR5V0U2X,215;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F50161;
+Reference = F101;
+ValeurCmp = fiducial;
+IdModule  = tm-kicad-lib:fiducial;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F4F9B2;
+Reference = F102;
+ValeurCmp = fiducial;
+IdModule  = tm-kicad-lib:fiducial;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F5017A;
+Reference = F103;
+ValeurCmp = fiducial;
+IdModule  = tm-kicad-lib:fiducial;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F4F9D5;
+Reference = F104;
+ValeurCmp = fiducial;
+IdModule  = tm-kicad-lib:fiducial;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F50193;
+Reference = F105;
+ValeurCmp = fiducial;
+IdModule  = tm-kicad-lib:fiducial;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F4F9EE;
+Reference = F106;
+ValeurCmp = fiducial;
+IdModule  = tm-kicad-lib:fiducial;
 EndCmp
 
 BeginCmp

@@ -148,4 +148,74 @@ U 54ED78C8
 F0 "USB" 60
 F1 "tessel-v2-mediatek-usb.sch" 60
 $EndSheet
+$Comp
+L fiducial F?
+U 1 1 54F4F9B2
+P 3350 9850
+F 0 "F?" H 3300 10150 60  0001 C CNN
+F 1 "fiducial" H 3400 10050 60  0000 C CNN
+F 2 "" H 3400 10050 60  0000 C CNN
+F 3 "" H 3400 10050 60  0000 C CNN
+	1    3350 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L fiducial F?
+U 1 1 54F4F9D5
+P 3800 9850
+F 0 "F?" H 3750 10150 60  0001 C CNN
+F 1 "fiducial" H 3850 10050 60  0000 C CNN
+F 2 "" H 3850 10050 60  0000 C CNN
+F 3 "" H 3850 10050 60  0000 C CNN
+	1    3800 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L fiducial F?
+U 1 1 54F4F9EE
+P 4200 9850
+F 0 "F?" H 4150 10150 60  0001 C CNN
+F 1 "fiducial" H 4250 10050 60  0000 C CNN
+F 2 "" H 4250 10050 60  0000 C CNN
+F 3 "" H 4250 10050 60  0000 C CNN
+	1    4200 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L fiducial F?
+U 1 1 54F50161
+P 3350 9200
+F 0 "F?" H 3300 9500 60  0001 C CNN
+F 1 "fiducial" H 3400 9400 60  0000 C CNN
+F 2 "" H 3400 9400 60  0000 C CNN
+F 3 "" H 3400 9400 60  0000 C CNN
+	1    3350 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L fiducial F?
+U 1 1 54F5017A
+P 3750 9200
+F 0 "F?" H 3700 9500 60  0001 C CNN
+F 1 "fiducial" H 3800 9400 60  0000 C CNN
+F 2 "" H 3800 9400 60  0000 C CNN
+F 3 "" H 3800 9400 60  0000 C CNN
+	1    3750 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L fiducial F?
+U 1 1 54F50193
+P 4150 9200
+F 0 "F?" H 4100 9500 60  0001 C CNN
+F 1 "fiducial" H 4200 9400 60  0000 C CNN
+F 2 "" H 4200 9400 60  0000 C CNN
+F 3 "" H 4200 9400 60  0000 C CNN
+	1    4150 9200
+	1    0    0    -1  
+$EndComp
+Text Notes 3250 8900 0    60   ~ 0
+Front
+Text Notes 3250 9600 0    60   ~ 0
+Back
 $EndSCHEMATC
