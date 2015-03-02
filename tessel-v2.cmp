@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201502241246+5451~21~ubuntu14.04.1-product   date = Wed 25 Feb 2015 05:42:07 PM PST
+Cmp-Mod V01 Created by Cvpcb 0.201412111631+5320~19~ubuntu14.04.1-product   date = Mon 02 Mar 2015 01:56:29 PM PST
 
 BeginCmp
 TimeStamp = /548CC15D/54BF1E54;
@@ -1068,21 +1068,28 @@ BeginCmp
 TimeStamp = /548CB895/54E79A33;
 Reference = J402;
 ValeurCmp = USB-micro-TH;
-IdModule  = tm-kicad-lib:Seeed-USB-Micro-320010028;
+IdModule  = tm-kicad-lib:MICRO-USB-10104111;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB895/54E753DA;
 Reference = J403;
 ValeurCmp = MODULE_HEADER;
-IdModule  = tm-kicad-lib:MODULE_HEADER_TESSEL;
+IdModule  = tm-kicad-lib:MODULE_HEADER_TESSEL-backside;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB895/54E753D3;
 Reference = J404;
 ValeurCmp = MODULE_HEADER;
-IdModule  = tm-kicad-lib:MODULE_HEADER_TESSEL;
+IdModule  = tm-kicad-lib:MODULE_HEADER_TESSEL-backside;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB895/54F518CE;
+Reference = J405;
+ValeurCmp = CONN_01X01;
+IdModule  = tm-kicad-lib:CONN_01x01_0.05in;
 EndCmp
 
 BeginCmp
@@ -1131,7 +1138,7 @@ BeginCmp
 TimeStamp = /54ED78C8/54ECA3B6;
 Reference = J901;
 ValeurCmp = USB_A_2_stack;
-IdModule  = tm-kicad-lib:USB-double-xx-UAF-28;
+IdModule  = tm-kicad-lib:Molex-0672983090;
 EndCmp
 
 BeginCmp
@@ -1460,6 +1467,34 @@ BeginCmp
 TimeStamp = /548CB895/54E6B1E8;
 Reference = R416;
 ValeurCmp = 10kR;
+IdModule  = tm-kicad-lib:SMD-0402-R;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB895/54F4F93B;
+Reference = R417;
+ValeurCmp = 4.7kR;
+IdModule  = tm-kicad-lib:SMD-0402-R;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB895/54F4EF88;
+Reference = R418;
+ValeurCmp = 4.7kR;
+IdModule  = tm-kicad-lib:SMD-0402-R;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB895/54F4EEC1;
+Reference = R419;
+ValeurCmp = 4.7kR;
+IdModule  = tm-kicad-lib:SMD-0402-R;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB895/54F4F7D9;
+Reference = R420;
+ValeurCmp = 4.7kR;
 IdModule  = tm-kicad-lib:SMD-0402-R;
 EndCmp
 
