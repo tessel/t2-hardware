@@ -66,13 +66,13 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 0.4 0.19)
+    (pad_size 1.27 1.27)
     (pad_drill 0)
     (pad_to_mask_clearance 0.0762)
     (aux_axis_origin 76.2 152.4)
     (visible_elements 7FFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000007)
+      (layerselection 0x010fc_80000007)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -87,7 +87,7 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerbers/))
   )
 
   (net 0 "")
@@ -9483,7 +9483,7 @@
     )
   )
 
-  (module tm-kicad-lib:fiducial (layer F.Cu) (tedit 54F4ED64) (tstamp 54F4F0EA)
+  (module tm-kicad-lib:fiducial (layer F.Cu) (tedit 54F4FCF7) (tstamp 54F4F0EA)
     (at 108.712 135.128)
     (path /54F50161)
     (fp_text reference F101 (at 0 -3.81) (layer F.SilkS) hide
@@ -9493,10 +9493,10 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 smd circle (at 0 0) (size 1.27 1.27) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.635) (clearance 0.508))
+      (solder_mask_margin 0.635) (solder_paste_margin -25.4) (clearance 0.508))
   )
 
-  (module tm-kicad-lib:fiducial (layer F.Cu) (tedit 54F4ED45) (tstamp 54F4F0EF)
+  (module tm-kicad-lib:fiducial (layer F.Cu) (tedit 54F4FD24) (tstamp 54F4F0EF)
     (at 86.614 96.266)
     (path /54F4F9B2)
     (fp_text reference F102 (at 0 -3.81) (layer F.SilkS) hide
@@ -9506,10 +9506,10 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 smd circle (at 0 0) (size 1.27 1.27) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.635) (clearance 0.508))
+      (solder_mask_margin 0.635) (solder_paste_margin -25.4) (clearance 0.508))
   )
 
-  (module tm-kicad-lib:fiducial (layer F.Cu) (tedit 54F4ED55) (tstamp 54F4F0F4)
+  (module tm-kicad-lib:fiducial (layer F.Cu) (tedit 54F4FD1D) (tstamp 54F4F0F4)
     (at 129.032 100.838)
     (path /54F5017A)
     (fp_text reference F103 (at 0 -3.81) (layer F.SilkS) hide
@@ -9519,10 +9519,10 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 smd circle (at 0 0) (size 1.27 1.27) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.635) (clearance 0.508))
+      (solder_mask_margin 0.635) (solder_paste_margin -25.4) (clearance 0.508))
   )
 
-  (module tm-kicad-lib:fiducial (layer B.Cu) (tedit 54F4ED20) (tstamp 54F4F0F9)
+  (module tm-kicad-lib:fiducial (layer B.Cu) (tedit 54F4FD31) (tstamp 54F4F0F9)
     (at 87.884 143.256)
     (path /54F4F9D5)
     (fp_text reference F104 (at 0 3.81) (layer B.SilkS) hide
@@ -9532,10 +9532,10 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0) (size 1.27 1.27) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.635) (clearance 0.508))
+      (solder_mask_margin 0.635) (solder_paste_margin -25.4) (clearance 0.508))
   )
 
-  (module tm-kicad-lib:fiducial (layer B.Cu) (tedit 54F4ED38) (tstamp 54F4F0FE)
+  (module tm-kicad-lib:fiducial (layer B.Cu) (tedit 54F4FD2B) (tstamp 54F4F0FE)
     (at 123.19 131.572)
     (path /54F50193)
     (fp_text reference F105 (at 0 3.81) (layer B.SilkS) hide
@@ -9545,10 +9545,10 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0) (size 1.27 1.27) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.635) (clearance 0.508))
+      (solder_mask_margin 0.635) (solder_paste_margin -25.4) (clearance 0.508))
   )
 
-  (module tm-kicad-lib:fiducial (layer B.Cu) (tedit 54F4ED3C) (tstamp 54F4F103)
+  (module tm-kicad-lib:fiducial (layer B.Cu) (tedit 54F4FD37) (tstamp 54F4F103)
     (at 86.868 96.266)
     (path /54F4F9EE)
     (fp_text reference F106 (at 0 3.81) (layer B.SilkS) hide
@@ -9558,7 +9558,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0) (size 1.27 1.27) (layers B.Cu B.Paste B.Mask)
-      (solder_mask_margin 0.635) (clearance 0.508))
+      (solder_mask_margin 0.635) (solder_paste_margin -25.4) (clearance 0.508))
   )
 
   (gr_text "TM-T2-03\ntessel.io\nMade with love by Technical Machine" (at 132.588 147.32) (layer B.SilkS)
