@@ -5778,11 +5778,6 @@
       (net 2 GND))
     (pad 10 thru_hole circle (at 2.54 -0.635 90) (size 1.016 1.016) (drill 0.635) (layers *.Cu *.Mask F.SilkS)
       (net 70 ~PORST))
-    (model Pin_Headers/Pin_Header_Straight_2x05.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:CONN_02x05_0.05in (layer F.Cu) (tedit 54F4DB23) (tstamp 54EC9E49)
@@ -5815,11 +5810,6 @@
       (net 76 "Net-(J401-Pad9)"))
     (pad 10 thru_hole circle (at 2.54 -0.635 180) (size 1.016 1.016) (drill 0.635) (layers *.Cu *.Mask F.SilkS)
       (net 77 SAM_~RESET))
-    (model Pin_Headers/Pin_Header_Straight_2x05.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:Testpoint (layer F.Cu) (tedit 54F4DA30) (tstamp 54EC626D)
@@ -5887,11 +5877,6 @@
       (net 112 CP_BRIDGE_SCK))
     (pad 8 thru_hole circle (at 4.445 0 45) (size 1.016 1.016) (drill 0.635) (layers *.Cu *.Mask F.SilkS)
       (net 113 CP_BRIDGE_MOSI))
-    (model Pin_Headers/Pin_Header_Straight_1x08.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54F4D887) (tstamp 54EC629D)
