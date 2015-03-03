@@ -36,9 +36,9 @@ EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 6 9
-Title "Tessel v2"
+Title "Tessel 2"
 Date ""
-Rev ""
+Rev "TM-T2-03"
 Comp "Technical Machine"
 Comment1 "Copyright 2015 Technical Machine Inc."
 Comment2 "CC-BY-SA"
@@ -529,7 +529,7 @@ F 3 "" H 2600 4250 30  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Notes 2050 5900 0    60   ~ 0
-WLED: Boot config for\nAuto-detect DRAM config.\n0 = DRAM from EEPROM\n1 = DRAM from auto-detect
+WLED: BOOT CONFIG FOR\nAUTO-DETECT DRAM CONFIG.\n0 = DRAM FROM EEPROM\n1 = DRAM FROM AUTODETECT
 Text Notes 2050 6250 0    60   ~ 0
 ANT_TRN: DBG_JTAG_MODE\n0 = EPHY_LED\n1 = JTAG
 Text Notes 2050 6550 0    60   ~ 0

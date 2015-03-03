@@ -1072,6 +1072,19 @@ X VSS P9 -400 -1900 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# fiducial
+#
+DEF ~fiducial F 0 40 Y Y 1 F N
+F0 "F" 0 150 60 H V C CNN
+F1 "fiducial" 0 -50 60 H I C CNN
+F2 "" 50 200 60 H V C CNN
+F3 "" 50 200 60 H V C CNN
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 112 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # logo
 #
 DEF logo SILK 0 40 Y Y 1 F N

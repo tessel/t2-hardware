@@ -5905,11 +5905,6 @@
       (net 114 CP_BRIDGE_SAM_RX))
     (pad 2 thru_hole oval (at 0 2.54 180) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 115 CP_BRIDGE_SAM_TX))
-    (model Pin_Headers/Pin_Header_Straight_1x02.wrl
-      (at (xyz 0 -0.05 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54DA6278) (tstamp 54EC62B3)

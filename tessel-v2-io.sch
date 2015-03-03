@@ -36,9 +36,9 @@ EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 7 9
-Title "Tessel v2"
+Title "Tessel 2"
 Date ""
-Rev ""
+Rev "TM-T2-03"
 Comp "Technical Machine"
 Comment1 "Copyright 2015 Technical Machine Inc."
 Comment2 "CC-BY-SA"
@@ -194,9 +194,9 @@ F 3 "" H 12500 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 13450 4350 0    60   ~ 0
-TXD2/GPIO0: Bits 1 and 0 of CHIP_MODE\n1/0 = boot from SPI 3-Byte Addr\n1/1 = boot from SPI 4-Byte Addr
+TXD2/GPIO0: BITS 1 AND 0 OF CHIP_MODE\n1/0 = BOOT FROM SPI 3-BYTE ADDR\n1/1 = BOOT FROM SPI 4-BYTE ADDR
 Text Notes 9300 2600 0    60   ~ 0
-SPI_WP/SPI_HOLD: DRAM_TYPE\n0/0 = SDRAM\n0/1 = DDR1\n1/0 = DDR2\n\nSPI_WP is connected to SAM_RESET \nwhich already has a pullup\n
+SPI_WP/SPI_HOLD: DRAM_TYPE\n0/0 = SDRAM\n0/1 = DDR1\n1/0 = DDR2\n\nSPI_WP IS CONNECTED TO SAM_RESET \nWHICH ALREADY HAS A PULLUP\n
 $Comp
 L R R718
 U 1 1 54928680
@@ -1052,4 +1052,6 @@ Text Label 5200 2700 0    60   ~ 0
 EPHY_RES
 Text Label 5200 8400 0    60   ~ 0
 ETH_SHELL
+Text Notes 4700 6600 0    60   ~ 0
+ETHERNET
 $EndSCHEMATC

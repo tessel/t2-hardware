@@ -36,9 +36,9 @@ EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 3 9
-Title "Tessel v2"
+Title "Tessel 2"
 Date ""
-Rev ""
+Rev "TM-T2-03"
 Comp "Technical Machine"
 Comment1 "Copyright 2015 Technical Machine Inc."
 Comment2 "CC-BY-SA"
