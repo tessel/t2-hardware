@@ -2315,11 +2315,6 @@
       (net 13 +1.8V) (solder_mask_margin 0.0762))
     (pad 2 smd rect (at 0.95 0 135) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
       (net 2 GND) (solder_mask_margin 0.0762))
-    (model Capacitors_SMD/C_0805.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54DA6296) (tstamp 54EC5EAC)
@@ -2372,11 +2367,6 @@
       (net 7 +3.3V) (solder_mask_margin 0.0762))
     (pad 2 smd rect (at 0.95 0 225) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND) (solder_mask_margin 0.0762))
-    (model Capacitors_SMD/C_0805.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54DA6296) (tstamp 54EC5EBC)
@@ -2559,11 +2549,6 @@
       (net 12 +1.2V) (solder_mask_margin 0.0762))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
       (net 2 GND) (solder_mask_margin 0.0762))
-    (model Capacitors_SMD/C_0805.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54F4DA8D) (tstamp 54EC5EEA)
@@ -2616,11 +2601,6 @@
       (net 13 +1.8V) (solder_mask_margin 0.0762))
     (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND) (solder_mask_margin 0.0762))
-    (model Capacitors_SMD/C_0805.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0603-C (layer B.Cu) (tedit 54F4DA88) (tstamp 54EC5EFA)
@@ -3041,11 +3021,6 @@
       (net 14 +5V) (solder_mask_margin 0.0762))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND) (solder_mask_margin 0.0762))
-    (model Capacitors_SMD/C_0805.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54F4DB6C) (tstamp 54EC5F62)
@@ -3242,11 +3217,6 @@
       (net 15 3.3V_CP) (solder_mask_margin 0.0762))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND) (solder_mask_margin 0.0762))
-    (model Capacitors_SMD/C_0805.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0805-C (layer F.Cu) (tedit 54F4D839) (tstamp 54EC5FA0)
@@ -3304,11 +3274,6 @@
       (net 14 +5V) (solder_mask_margin 0.0762))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND) (solder_mask_margin 0.0762))
-    (model Capacitors_SMD/C_0805.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0805-C (layer F.Cu) (tedit 54F4D8BE) (tstamp 54F42508)
@@ -3695,11 +3660,6 @@
       (net 7 +3.3V) (solder_mask_margin 0.0762))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND) (solder_mask_margin 0.0762))
-    (model Capacitors_SMD/C_0805.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54F4D8DB) (tstamp 54F42491)
@@ -3778,11 +3738,6 @@
       (net 13 +1.8V) (solder_mask_margin 0.0762))
     (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND) (solder_mask_margin 0.0762))
-    (model Capacitors_SMD/C_0805.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 54DA6296) (tstamp 54EC6032)
@@ -7373,11 +7328,6 @@
       (net 145 /RF/ANT_TRN))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model Resistors_SMD/R_0402.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54DA6278) (tstamp 54EC63F8)
@@ -7477,11 +7427,6 @@
       (net 7 +3.3V))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 250 /MEDIATEK_I/O/RXM))
-    (model Resistors_SMD/R_0402.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54DA6278) (tstamp 54EC6410)
@@ -7503,11 +7448,6 @@
       (net 250 /MEDIATEK_I/O/RXM))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 2 GND))
-    (model Resistors_SMD/R_0402.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54F4D896) (tstamp 54EC6416)
@@ -7529,11 +7469,6 @@
       (net 7 +3.3V))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 251 /MEDIATEK_I/O/TXM))
-    (model Resistors_SMD/R_0402.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54F4D899) (tstamp 54EC641C)
@@ -7555,11 +7490,6 @@
       (net 251 /MEDIATEK_I/O/TXM))
     (pad 1 smd rect (at -0.44958 0 270) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 2 GND))
-    (model Resistors_SMD/R_0402.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54DA6278) (tstamp 54EC6422)
@@ -7659,11 +7589,6 @@
       (net 251 /MEDIATEK_I/O/TXM))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 98 /MEDIATEK_I/O/TX_MIDTAP))
-    (model Resistors_SMD/R_0402.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-R (layer B.Cu) (tedit 54F4D88F) (tstamp 54EC6440)
@@ -7685,11 +7610,6 @@
       (net 250 /MEDIATEK_I/O/RXM))
     (pad 1 smd rect (at -0.44958 0 90) (size 0.39878 0.59944) (layers B.Cu B.Paste B.Mask)
       (net 103 /MEDIATEK_I/O/RX_MIDTAP))
-    (model Resistors_SMD/R_0402.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54DA6278) (tstamp 54EC6446)
@@ -8075,11 +7995,6 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.44958 0 180) (size 0.39878 0.59944) (layers F.Cu F.Paste F.Mask)
       (net 249 /USB/DIS_REG))
-    (model Resistors_SMD/R_0402.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tm-kicad-lib:SMD-0402-R (layer F.Cu) (tedit 54DA6278) (tstamp 54ED2DA4)
