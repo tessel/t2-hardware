@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 7 9
 Title "Tessel 2"
 Date "Thu 12 Mar 2015"
-Rev "TM-T2-03"
+Rev "TM-T2-04"
 Comp "Technical Machine"
 Comment1 "Copyright 2015 Technical Machine Inc."
 Comment2 "CC-BY-SA or Solderpad, at your option."
