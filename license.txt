@@ -1,0 +1,7 @@
+Copyright 2015 Technical Machine, Inc.
+
+Licensed under the Solderpad Hardware License
+<http://solderpad.org/licenses/SHL-0.51/>
+or the Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>,
+at your option. Files in the project may not be copied, modified, or distributed except
+according to those terms.
