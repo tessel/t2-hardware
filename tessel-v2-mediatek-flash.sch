@@ -37,11 +37,11 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 8 9
 Title "Tessel 2"
-Date ""
+Date "Thu 12 Mar 2015"
 Rev "TM-T2-03"
 Comp "Technical Machine"
 Comment1 "Copyright 2015 Technical Machine Inc."
-Comment2 "CC-BY-SA"
+Comment2 "CC-BY-SA or Solderpad, at your option."
 Comment3 ""
 Comment4 ""
 $EndDescr
