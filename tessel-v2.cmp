@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201503200816+5525~22~ubuntu14.04.1-product   date = Fri 20 Mar 2015 01:27:25 PM PDT
+Cmp-Mod V01 Created by Cvpcb 0.201503301001+5550~22~ubuntu14.04.1-product   date = Mon 30 Mar 2015 11:42:37 AM PDT
 
 BeginCmp
 TimeStamp = /548CC15D/54BF1E54;
@@ -381,7 +381,7 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB640/54BE0E48;
 Reference = C310;
-ValeurCmp = 10uF DNP;
+ValeurCmp = 10uF;
 IdModule  = tm-kicad-lib:SMD-0805-C;
 EndCmp
 
@@ -421,10 +421,10 @@ IdModule  = tm-kicad-lib:SMD-0805-C;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54BE0E62;
+TimeStamp = /548CB640/5514F504;
 Reference = C316;
-ValeurCmp = 4.7uF;
-IdModule  = tm-kicad-lib:SMD-0603-C;
+ValeurCmp = 10uF;
+IdModule  = tm-kicad-lib:SMD-0805-C;
 EndCmp
 
 BeginCmp
@@ -502,6 +502,20 @@ TimeStamp = /548CB640/54BE376C;
 Reference = C327;
 ValeurCmp = 10uF DNP;
 IdModule  = tm-kicad-lib:SMD-0805-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/5515AEAF;
+Reference = C328;
+ValeurCmp = 10nF;
+IdModule  = tm-kicad-lib:SMD-0402-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CB640/5515A882;
+Reference = C329;
+ValeurCmp = 1uF;
+IdModule  = tm-kicad-lib:SMD-0402-C;
 EndCmp
 
 BeginCmp
@@ -976,7 +990,7 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB895/54EE1D25;
 Reference = D402;
-ValeurCmp = WHITE;
+ValeurCmp = BLUE;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
@@ -1114,10 +1128,10 @@ IdModule  = tm-kicad-lib:CONN_02x05_0.05in;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB895/54E79A33;
+TimeStamp = /548CB895/5519E4C0;
 Reference = J402;
-ValeurCmp = USB-micro-TH;
-IdModule  = tm-kicad-lib:MICRO-USB-10104111;
+ValeurCmp = MICROUSB-TH;
+IdModule  = !Parts:Seeed-USB-Micro-320010028;
 EndCmp
 
 BeginCmp
@@ -1212,13 +1226,6 @@ IdModule  = tm-kicad-lib:SWPA5020S;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54BE0E0C;
-Reference = L302;
-ValeurCmp = 2.2uH;
-IdModule  = tm-kicad-lib:SWPA5020S;
-EndCmp
-
-BeginCmp
 TimeStamp = /548CB640/54BE3760;
 Reference = L303;
 ValeurCmp = 2.2uH;
@@ -1296,6 +1303,13 @@ IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT23;
 EndCmp
 
 BeginCmp
+TimeStamp = /548CB640/5515C1C4;
+Reference = Q302;
+ValeurCmp = pMOS;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
 TimeStamp = /548C90C9/54912AB6;
 Reference = R201;
 ValeurCmp = 4.7kR;
@@ -1333,28 +1347,28 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB640/548FE5A4;
 Reference = R303;
-ValeurCmp = 33kR;
+ValeurCmp = 27kR;
 IdModule  = tm-kicad-lib:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54BD9A96;
 Reference = R304;
-ValeurCmp = 33kR;
+ValeurCmp = 27kR;
 IdModule  = tm-kicad-lib:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54EC6ACD;
 Reference = R305;
-ValeurCmp = 1kR;
+ValeurCmp = 120R;
 IdModule  = tm-kicad-lib:SMD-0402-R;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB640/54EC6BE3;
 Reference = R306;
-ValeurCmp = 1kR;
+ValeurCmp = 120R;
 IdModule  = tm-kicad-lib:SMD-0402-R;
 EndCmp
 
@@ -1380,16 +1394,9 @@ IdModule  = tm-kicad-lib:SMD-0402-R;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54BE0E12;
+TimeStamp = /548CB640/5514D836;
 Reference = R310;
-ValeurCmp = 450kR 1%;
-IdModule  = tm-kicad-lib:SMD-0402-R;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/54BE0E2A;
-Reference = R311;
-ValeurCmp = 100kR 1%;
+ValeurCmp = 10kR;
 IdModule  = tm-kicad-lib:SMD-0402-R;
 EndCmp
 
@@ -1968,30 +1975,30 @@ IdModule  = tm-kicad-lib:MT7620N;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/548FCFA8;
+TimeStamp = /548CB640/5514ACA5;
 Reference = U301;
-ValeurCmp = AAT4610;
+ValeurCmp = MT9700;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54BD9A8A;
+TimeStamp = /548CB640/5514AD5E;
 Reference = U302;
-ValeurCmp = AAT4610;
+ValeurCmp = MT9700;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54BDB3A5;
+TimeStamp = /548CB640/5514F328;
 Reference = U303;
-ValeurCmp = AP3417C;
+ValeurCmp = AP3418;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/54BE0ED1;
+TimeStamp = /548CB640/5514C58E;
 Reference = U304;
-ValeurCmp = AP3417C;
+ValeurCmp = MT9700;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
