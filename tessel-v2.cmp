@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201503301001+5550~22~ubuntu14.04.1-product   date = Mon 30 Mar 2015 12:06:47 PM PDT
+Cmp-Mod V01 Created by Cvpcb 0.201503301001+5550~22~ubuntu14.04.1-product   date = Mon 30 Mar 2015 01:18:03 PM PDT
 
 BeginCmp
 TimeStamp = /548CC15D/54BF1E54;
@@ -318,7 +318,7 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB640/54907224;
 Reference = C301;
-ValeurCmp = 10uF DNP;
+ValeurCmp = 10uF;
 IdModule  = tm-kicad-lib:SMD-0805-C;
 EndCmp
 
@@ -502,13 +502,6 @@ TimeStamp = /548CB640/54BE376C;
 Reference = C327;
 ValeurCmp = 10uF DNP;
 IdModule  = tm-kicad-lib:SMD-0805-C;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CB640/5515AEAF;
-Reference = C328;
-ValeurCmp = 10nF;
-IdModule  = tm-kicad-lib:SMD-0402-C;
 EndCmp
 
 BeginCmp
@@ -1109,21 +1102,21 @@ EndCmp
 BeginCmp
 TimeStamp = /548C90C9/54EDE1A1;
 Reference = J201;
-ValeurCmp = CONN_02X05;
+ValeurCmp = CONN_02X05 DNP;
 IdModule  = tm-kicad-lib:CONN_02x05_0.05in;
 EndCmp
 
 BeginCmp
-TimeStamp = /548CB640/55075B37;
+TimeStamp = /548CB640/551AE629;
 Reference = J301;
-ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+ValeurCmp = CONN_01X03 DNP;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB895/54E6D85A;
 Reference = J401;
-ValeurCmp = CONN_02X05;
+ValeurCmp = CONN_02X05 DNP;
 IdModule  = tm-kicad-lib:CONN_02x05_0.05in;
 EndCmp
 
@@ -1151,7 +1144,7 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB895/54F518CE;
 Reference = J405;
-ValeurCmp = CONN_01X01;
+ValeurCmp = CONN_01X01 DNP;
 IdModule  = tm-kicad-lib:CONN_01x01_0.05in;
 EndCmp
 
@@ -1186,14 +1179,14 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB7C3/54E93B66;
 Reference = J703;
-ValeurCmp = CONN_01X08;
+ValeurCmp = CONN_01X08 DNP;
 IdModule  = tm-kicad-lib:CONN_01x08_0.05in;
 EndCmp
 
 BeginCmp
 TimeStamp = /548CB7C3/55074E48;
 Reference = J704;
-ValeurCmp = CONN_01X04;
+ValeurCmp = CONN_01X04 DNP;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
 EndCmp
 
