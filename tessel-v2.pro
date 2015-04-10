@@ -21,7 +21,7 @@ RptLab=1
 LabSize=60
 [eeschema]
 version=1
-LibDir=../tm-kicad-library;../tessel-v2-hardware;../kicad-library
+LibDir=./tm-kicad-library;./
 [eeschema/libraries]
 LibName1=power
 LibName2=device
