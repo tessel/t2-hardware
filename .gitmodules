@@ -1,0 +1,3 @@
+[submodule "tm-kicad-library"]
+	path = tm-kicad-library
+	url = https://github.com/technicalmachine/tm-kicad-library
