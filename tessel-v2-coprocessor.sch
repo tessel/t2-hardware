@@ -776,8 +776,6 @@ Text GLabel 6450 6250 0    60   Output ~ 0
 PORT_B_PWR_EN
 Text GLabel 6250 6400 0    60   Output ~ 0
 MT_PWR_EN
-Text Label 9800 7200 0    60   ~ 0
-SAM_GPIO
 Text Label 1500 2450 1    60   ~ 0
 SAM_USB_SHELL
 Text GLabel 4850 6550 0    60   Output ~ 0
@@ -834,17 +832,6 @@ Text Label 5700 5700 0    60   ~ 0
 ~PORST~_SAM
 Text Notes 5250 7800 0    60   ~ 0
 12.5pF\nNOMINAL\nSHUNT
-$Comp
-L CONN_01X01 J405
-U 1 1 54F518CE
-P 11000 7800
-F 0 "J405" V 11000 7950 50  0000 C CNN
-F 1 "CONN_01X01 DNP" V 11100 7800 50  0000 C CNN
-F 2 "tm-kicad-lib:CONN_01x01_0.05in" H 11000 7800 60  0001 C CNN
-F 3 "" H 11000 7800 60  0000 C CNN
-	1    11000 7800
-	0    1    1    0   
-$EndComp
 $Comp
 L TM_R R419
 U 1 1 54F4EEC1
@@ -1167,8 +1154,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 6550 5000 6550
 Wire Wire Line
-	9700 7200 11000 7200
-Wire Wire Line
 	9700 4800 10600 4800
 Connection ~ 9400 2900
 Wire Wire Line
@@ -1379,8 +1364,6 @@ Wire Wire Line
 	5500 4600 5500 4700
 Connection ~ 5500 4700
 Wire Wire Line
-	11000 7200 11000 7600
-Wire Wire Line
 	13050 2100 13500 2100
 Wire Wire Line
 	13200 2100 13200 2200
@@ -1445,4 +1428,8 @@ F 3 "" H 2400 1900 60  0000 C CNN
 $EndComp
 Text Notes 1200 1500 0    60   ~ 0
 VIA STAKE SHELL\nPADS FOR MECHANICAL\nSTRENGTH
+Text GLabel 10700 7200 2    60   Output ~ 0
+18V_EN
+Wire Wire Line
+	10700 7200 9700 7200
 $EndSCHEMATC
