@@ -710,7 +710,7 @@
     (path /548CB7C3/54907A61)
     (attr smd)
     (fp_text reference R714 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 330R (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -736,7 +736,7 @@
     (path /548CB7C3/54907831)
     (attr smd)
     (fp_text reference R713 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 330R (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -762,7 +762,7 @@
     (path /548CB640/5490724C)
     (attr smd)
     (fp_text reference C303 (at 1.497 -0.146 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 4.7uF (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -789,7 +789,7 @@
     (path /54ED78C8/54EAE515)
     (attr smd)
     (fp_text reference C904 (at 0 1.27 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10uF (at 0 -1.524 90) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -820,7 +820,7 @@
     (path /548CB640/54900384)
     (attr smd)
     (fp_text reference C309 (at 1.893 -0.079 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -847,8 +847,8 @@
   (module tm-kicad-lib:TESSEL-TEXT-LOGO-31.8mm8.1mm (layer F.Cu) (tedit 54EE70D9) (tstamp 54EC64C8)
     (at 105.41 143.002)
     (path /54DD9FA3)
-    (fp_text reference SILK101 (at 0 0) (layer F.SilkS) hide
-      (effects (font (thickness 0.06)))
+    (fp_text reference SILK101 (at 0 0) (layer F.SilkS)
+      (effects (font (thickness 0.1)))
     )
     (fp_text value logo (at 0.75 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
@@ -1448,8 +1448,8 @@
   (module tm-kicad-lib:WBGA-84 (layer F.Cu) (tedit 54F4D917) (tstamp 54EEC1CC)
     (at 121.285 121.92 180)
     (path /548CC02E/548CFEFF)
-    (fp_text reference U501 (at 0 0 270) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference U501 (at 0 0 270) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value W9751G6KB-25 (at -2 -6.8 180) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.08)))
@@ -1641,7 +1641,7 @@
     (path /548CB7C3/54940757)
     (attr smd)
     (fp_text reference C702 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -1667,7 +1667,7 @@
     (path /548CB7C3/549410B2)
     (attr smd)
     (fp_text reference R706 (at 0 0.762 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "49.9R 1%" (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -1692,7 +1692,7 @@
     (at 97.155 138.43 90)
     (path /548CC15A/548FCC1A)
     (fp_text reference U801 (at -2.76 -3.42 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value S25FL256SAGNFI001 (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)) (justify mirror))
@@ -1730,7 +1730,7 @@
     (path /54ED78C8/54EDB877)
     (attr smd)
     (fp_text reference C915 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -1755,7 +1755,7 @@
     (at 105.41 144.78 180)
     (path /548CC15D/54BF1E54)
     (fp_text reference AE601 (at -6.24 -3.33 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value ANTENNA (at -6.12 -3.35 180) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.07)))
@@ -1838,7 +1838,7 @@
     (at 127 136.652 90)
     (path /548CC15D/54BF2584)
     (fp_text reference AE602 (at -6.24 3.33 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value ANTENNA (at -6.12 3.35 90) (layer B.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.07)) (justify mirror))
@@ -1921,7 +1921,7 @@
     (at 109.728 138.811 270)
     (path /548CC15D/5491FF82)
     (fp_text reference AE603 (at 2.464 0.023 360) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "UFL DNP" (at -2 2 270) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -1946,7 +1946,7 @@
     (at 113.665 138.811 180)
     (path /548CC15D/5492F38F)
     (fp_text reference AE604 (at -0.005 -1.649 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "UFL DNP" (at -2 2 180) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -1972,7 +1972,7 @@
     (path /548C90C9/548FE2F7)
     (attr smd)
     (fp_text reference C201 (at 1.164605 0.030406 315) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 1uF (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -1998,7 +1998,7 @@
     (path /548C90C9/549004C6)
     (attr smd)
     (fp_text reference C202 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10pF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2024,7 +2024,7 @@
     (path /548C90C9/548FF9E4)
     (attr smd)
     (fp_text reference C203 (at -0.7 0.774 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10pF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2050,7 +2050,7 @@
     (path /548C90C9/549006EA)
     (attr smd)
     (fp_text reference C204 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10pF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2076,7 +2076,7 @@
     (path /548C90C9/54C9FDB4)
     (attr smd)
     (fp_text reference C205 (at 1.73 0.023 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2102,7 +2102,7 @@
     (path /548C90C9/549007FF)
     (attr smd)
     (fp_text reference C206 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2128,7 +2128,7 @@
     (path /548C90C9/548FF9A2)
     (attr smd)
     (fp_text reference C207 (at 1.593 0.001 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 4.7uF (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -2153,7 +2153,7 @@
     (path /548C90C9/548FF2BC)
     (attr smd)
     (fp_text reference C208 (at 0.211 0.764 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1uF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2179,7 +2179,7 @@
     (path /548C90C9/54910D44)
     (attr smd)
     (fp_text reference C209 (at 1.572 0.31) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 1uF (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -2205,7 +2205,7 @@
     (path /548C90C9/549004F8)
     (attr smd)
     (fp_text reference C210 (at 0 1.143 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 4.7uF (at 0 0 270) (layer B.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -2230,7 +2230,7 @@
     (path /548C90C9/54EA99E6)
     (attr smd)
     (fp_text reference C211 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2256,7 +2256,7 @@
     (path /548C90C9/548FD2A7)
     (attr smd)
     (fp_text reference C212 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 18pF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2282,7 +2282,7 @@
     (path /548C90C9/548FD6DA)
     (attr smd)
     (fp_text reference C213 (at 0 -0.762 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10nF (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -2308,7 +2308,7 @@
     (path /548C90C9/548FD250)
     (attr smd)
     (fp_text reference C214 (at 0.479 -1.221 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 18pF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2336,7 +2336,7 @@
     (path /548C90C9/54978FD1)
     (attr smd)
     (fp_text reference C215 (at -1.979899 0.082024 225) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "10uF DNP" (at 0 -1.524 135) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -2360,7 +2360,7 @@
     (path /548C90C9/54C9E656)
     (attr smd)
     (fp_text reference C216 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2388,7 +2388,7 @@
     (path /548C90C9/5497943D)
     (attr smd)
     (fp_text reference C217 (at 0 -1.524 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "10uF DNP" (at 0 1.524 225) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -2412,7 +2412,7 @@
     (path /548C90C9/54905997)
     (attr smd)
     (fp_text reference C218 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2438,7 +2438,7 @@
     (path /548C90C9/54C9E650)
     (attr smd)
     (fp_text reference C219 (at 1.581 -0.031 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2464,7 +2464,7 @@
     (path /548C90C9/5490272D)
     (attr smd)
     (fp_text reference C220 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1uF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2490,7 +2490,7 @@
     (path /548C90C9/549059E3)
     (attr smd)
     (fp_text reference C221 (at -0.072 -0.7462) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2516,7 +2516,7 @@
     (path /548C90C9/54C9E64A)
     (attr smd)
     (fp_text reference C222 (at 0 0.762 225) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 225) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2542,7 +2542,7 @@
     (path /548C90C9/5490278B)
     (attr smd)
     (fp_text reference C223 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2570,7 +2570,7 @@
     (path /548C90C9/54978D3A)
     (attr smd)
     (fp_text reference C224 (at 0 1.524) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "10uF DNP" (at 0 -1.524) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -2594,7 +2594,7 @@
     (path /548C90C9/549027BC)
     (attr smd)
     (fp_text reference C225 (at -0.011 -0.785 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2622,7 +2622,7 @@
     (path /548C90C9/549791E9)
     (attr smd)
     (fp_text reference C226 (at 0 -1.524 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "10uF DNP" (at 0 1.524 180) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -2646,7 +2646,7 @@
     (path /548C90C9/54904C40)
     (attr smd)
     (fp_text reference C227 (at -1.537 0.0325 360) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 4.7uF (at 0 0 270) (layer B.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -2671,7 +2671,7 @@
     (path /548C90C9/54902840)
     (attr smd)
     (fp_text reference C228 (at 1.702006 -0.010607 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -2697,7 +2697,7 @@
     (path /548C90C9/54903DA9)
     (attr smd)
     (fp_text reference C229 (at 0 -0.762) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -2723,7 +2723,7 @@
     (path /548C90C9/54904BCE)
     (attr smd)
     (fp_text reference C230 (at 0 -0.762 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 1uF (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -2751,7 +2751,7 @@
     (path /548C90C9/54902875)
     (attr smd)
     (fp_text reference C231 (at 0 1.524 135) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10uF (at 0 -1.524 135) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -2780,7 +2780,7 @@
     (path /548C90C9/54903E09)
     (attr smd)
     (fp_text reference C232 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2806,7 +2806,7 @@
     (path /548C90C9/54904B91)
     (attr smd)
     (fp_text reference C233 (at 0.0115 0.7475) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -2832,7 +2832,7 @@
     (path /548C90C9/54902A17)
     (attr smd)
     (fp_text reference C234 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2858,7 +2858,7 @@
     (path /548C90C9/54903E44)
     (attr smd)
     (fp_text reference C235 (at 0 -0.762) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -2884,7 +2884,7 @@
     (path /548C90C9/54904B51)
     (attr smd)
     (fp_text reference C236 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2910,7 +2910,7 @@
     (path /548C90C9/54902A54)
     (attr smd)
     (fp_text reference C237 (at 0 0.762 315) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 315) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2936,7 +2936,7 @@
     (path /548C90C9/54903E80)
     (attr smd)
     (fp_text reference C238 (at 0 0.762 135) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1uF (at 0.09906 0 135) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2962,7 +2962,7 @@
     (path /548C90C9/54904B0E)
     (attr smd)
     (fp_text reference C239 (at -0.023 -0.788 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -2988,7 +2988,7 @@
     (path /548C90C9/54902A88)
     (attr smd)
     (fp_text reference C240 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -3014,7 +3014,7 @@
     (path /548C90C9/54904AC8)
     (attr smd)
     (fp_text reference C241 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -3042,7 +3042,7 @@
     (path /548CB640/54907224)
     (attr smd)
     (fp_text reference C301 (at -0.009 1.326 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524 90) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3066,7 +3066,7 @@
     (path /548CB640/5490722A)
     (attr smd)
     (fp_text reference C302 (at 1.633 -0.031 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10nF (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3094,7 +3094,7 @@
     (path /548CB640/549879F3)
     (attr smd)
     (fp_text reference C304 (at 0.095 1.328 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524 90) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3125,7 +3125,7 @@
     (path /548CB640/54BD9ABC)
     (attr smd)
     (fp_text reference C305 (at -1.905 0.195 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524 90) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3156,7 +3156,7 @@
     (path /548CB640/549071EA)
     (attr smd)
     (fp_text reference C306 (at -0.686 -1.348 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524 180) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3185,7 +3185,7 @@
     (path /548CB640/549071F0)
     (attr smd)
     (fp_text reference C307 (at -7.01 0.203 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3213,7 +3213,7 @@
     (path /548CB640/549071E4)
     (attr smd)
     (fp_text reference C308 (at -0.076 1.398) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "10uF DNP" (at 0 1.524) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3239,7 +3239,7 @@
     (path /548CB640/54BE0E48)
     (attr smd)
     (fp_text reference C310 (at 0 -1.524 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524 90) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3270,7 +3270,7 @@
     (path /548CB640/54BE379C)
     (attr smd)
     (fp_text reference C311 (at 0.272 1.331 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524 270) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3299,7 +3299,7 @@
     (path /548CB640/5491553C)
     (attr smd)
     (fp_text reference C312 (at 0.002 -0.796 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -3325,7 +3325,7 @@
     (path /548CB640/54BE0E4E)
     (attr smd)
     (fp_text reference C313 (at 0 -0.762 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10nF (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3351,7 +3351,7 @@
     (path /548CB640/54BE37B4)
     (attr smd)
     (fp_text reference C314 (at -1.704 0.385 360) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 4.7uF (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3378,7 +3378,7 @@
     (path /548CB640/5490E77B)
     (attr smd)
     (fp_text reference C315 (at 0 1.524 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10uF (at 0 -1.524 90) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -3407,7 +3407,7 @@
     (path /548CB640/54BE37A2)
     (attr smd)
     (fp_text reference C317 (at -1.161 -0.072 360) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10nF (at 0.09906 0 270) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3433,7 +3433,7 @@
     (path /548CB640/5490EF43)
     (attr smd)
     (fp_text reference C318 (at 1.655337 -0.04879 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3459,7 +3459,7 @@
     (path /548CB640/54915FCA)
     (attr smd)
     (fp_text reference C319 (at 0 -1.143 135) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 4.7uF (at 0 0 135) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3486,7 +3486,7 @@
     (path /548CB640/54BE0E1E)
     (attr smd)
     (fp_text reference C320 (at 0 -1.524 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524 270) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3517,7 +3517,7 @@
     (path /548CB640/54BE3772)
     (attr smd)
     (fp_text reference C321 (at -1.994 -0.063 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524 90) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3546,7 +3546,7 @@
     (path /548CB640/54BE0E24)
     (attr smd)
     (fp_text reference C322 (at 0 -0.762 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0 270) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3574,7 +3574,7 @@
     (path /548CB640/54BE41A4)
     (attr smd)
     (fp_text reference C323 (at 2.004 -0.023 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524 180) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3605,7 +3605,7 @@
     (path /548CB640/54BE0E18)
     (attr smd)
     (fp_text reference C324 (at 0 -1.524 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "10uF DNP" (at 0 1.524 90) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3629,7 +3629,7 @@
     (path /548CB640/54BE4460)
     (attr smd)
     (fp_text reference C325 (at 0.139 -5.729 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 1uF (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3655,7 +3655,7 @@
     (path /548CB640/54BE3778)
     (attr smd)
     (fp_text reference C326 (at 0.139 -5.318 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3683,7 +3683,7 @@
     (path /548CB640/54BE376C)
     (attr smd)
     (fp_text reference C327 (at 0 -1.524) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "10uF DNP" (at 0 1.524) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3707,7 +3707,7 @@
     (path /548CB895/54E79A3A)
     (attr smd)
     (fp_text reference C401 (at 0 0.762 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100pF (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3733,7 +3733,7 @@
     (path /548CB895/548F96F8)
     (attr smd)
     (fp_text reference C402 (at 1.592 0.14) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10pF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -3759,7 +3759,7 @@
     (path /548CB895/548FAA8B)
     (attr smd)
     (fp_text reference C403 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -3785,7 +3785,7 @@
     (path /548CB895/548F96CA)
     (attr smd)
     (fp_text reference C404 (at -0.075 -0.8 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10pF (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -3811,7 +3811,7 @@
     (path /548CB895/548FA741)
     (attr smd)
     (fp_text reference C405 (at 0 -0.762 315) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0 315) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3837,7 +3837,7 @@
     (path /548CB895/548FA7E4)
     (attr smd)
     (fp_text reference C406 (at 1.584 -0.012 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3863,7 +3863,7 @@
     (path /548CB895/548FA7B7)
     (attr smd)
     (fp_text reference C407 (at 1.559 -0.083 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3891,7 +3891,7 @@
     (path /548CB895/548F9D44)
     (attr smd)
     (fp_text reference C408 (at 1.908 0.025 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10uF (at 0 -1.524) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -3922,7 +3922,7 @@
     (path /548CB895/548FAB15)
     (attr smd)
     (fp_text reference C409 (at 0.538 -1.326 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524 270) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -3951,7 +3951,7 @@
     (path /548CB895/548F9D6C)
     (attr smd)
     (fp_text reference C410 (at 1.615 0.054 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -3977,7 +3977,7 @@
     (path /548CB895/54E6B16C)
     (attr smd)
     (fp_text reference C411 (at 1.534 -0.012 450) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0 270) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4003,7 +4003,7 @@
     (path /548CC02E/548D3587)
     (attr smd)
     (fp_text reference C501 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4029,7 +4029,7 @@
     (path /548CC02E/548D7FDE)
     (attr smd)
     (fp_text reference C502 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4055,7 +4055,7 @@
     (path /548CC02E/548D8010)
     (attr smd)
     (fp_text reference C503 (at 0 0.762 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4081,7 +4081,7 @@
     (path /548CC02E/548D803B)
     (attr smd)
     (fp_text reference C504 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4107,7 +4107,7 @@
     (path /548CC02E/548D8069)
     (attr smd)
     (fp_text reference C505 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4133,7 +4133,7 @@
     (path /548CC02E/54C976A0)
     (attr smd)
     (fp_text reference C506 (at 0 0.762 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10nF (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4159,7 +4159,7 @@
     (path /548CC02E/54C976A6)
     (attr smd)
     (fp_text reference C507 (at 0 0.762 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4185,7 +4185,7 @@
     (path /548CC02E/54C976AC)
     (attr smd)
     (fp_text reference C508 (at 0 0.762 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4211,7 +4211,7 @@
     (path /548CC02E/54C976B2)
     (attr smd)
     (fp_text reference C509 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4237,7 +4237,7 @@
     (path /548CC02E/54C976B8)
     (attr smd)
     (fp_text reference C510 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4263,7 +4263,7 @@
     (path /548CC02E/548D79BD)
     (attr smd)
     (fp_text reference C511 (at -1.778 0) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4289,7 +4289,7 @@
     (path /548CC02E/548D79FD)
     (attr smd)
     (fp_text reference C512 (at 1.778 0) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4315,7 +4315,7 @@
     (path /548CC02E/548D4B3C)
     (attr smd)
     (fp_text reference C513 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 5pF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4341,7 +4341,7 @@
     (path /548CC02E/548D48B9)
     (attr smd)
     (fp_text reference C514 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 5pF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4367,7 +4367,7 @@
     (path /548CC15D/54918014)
     (attr smd)
     (fp_text reference C601 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100pF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4393,7 +4393,7 @@
     (path /548CC15D/5491E068)
     (attr smd)
     (fp_text reference C602 (at 0.896 0.771 360) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 2.2pF (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4419,7 +4419,7 @@
     (path /548CC15D/5491D8CB)
     (attr smd)
     (fp_text reference C603 (at 0.653 -0.726 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 2.2pF (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4445,7 +4445,7 @@
     (path /548CC15D/5492F341)
     (attr smd)
     (fp_text reference C604 (at 0.037477 0.734684 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 2.2pF (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4471,7 +4471,7 @@
     (path /548CC15D/5492F371)
     (attr smd)
     (fp_text reference C605 (at 0 -0.762 45) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 2.2pF (at 0.09906 0 45) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4497,7 +4497,7 @@
     (path /548CC15D/54922984)
     (attr smd)
     (fp_text reference C606 (at 0 -0.762 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100pF (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4523,7 +4523,7 @@
     (path /548CC15D/5491D9DB)
     (attr smd)
     (fp_text reference C607 (at 0.235 0.874 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100pF (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4549,7 +4549,7 @@
     (path /548CC15D/5492F34D)
     (attr smd)
     (fp_text reference C608 (at 0 -0.762 135) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100pF (at 0.09906 0 135) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4575,7 +4575,7 @@
     (path /548CC15D/5492F3F4)
     (attr smd)
     (fp_text reference C609 (at -0.019092 0.798324 135) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100pF (at 0.09906 0 135) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4601,7 +4601,7 @@
     (path /548CC15D/5491DBA9)
     (attr smd)
     (fp_text reference C610 (at 1.66 -0.0415) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 0.8pF (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4627,7 +4627,7 @@
     (path /548CC15D/5492F353)
     (attr smd)
     (fp_text reference C611 (at 1.696349 0.019092 45) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 0.8pF (at 0.09906 0 45) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4653,7 +4653,7 @@
     (path /548CC15D/5491E0C6)
     (attr smd)
     (fp_text reference C612 (at 1.68 -0.0075 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 1.8pF (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4679,7 +4679,7 @@
     (path /548CC15D/5492F377)
     (attr smd)
     (fp_text reference C613 (at 1.189354 0.381838 135) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 1.8pF (at 0.09906 0 45) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4705,7 +4705,7 @@
     (path /548CC15D/54EE38F2)
     (attr smd)
     (fp_text reference C614 (at -0.504 -1.3075 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "100pF DNP" (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4726,7 +4726,7 @@
     (path /548CC15D/54EE33E7)
     (attr smd)
     (fp_text reference C615 (at -1.583212 -0.045962 45) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "100pF DNP" (at 0.09906 0 45) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4747,7 +4747,7 @@
     (path /548CC15D/5491E4E1)
     (attr smd)
     (fp_text reference C616 (at 1.778 0 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 1.8pF (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4773,7 +4773,7 @@
     (path /548CC15D/5492F383)
     (attr smd)
     (fp_text reference C617 (at 0 -0.762 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 1.8pF (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4799,7 +4799,7 @@
     (path /548CB7C3/549408D7)
     (attr smd)
     (fp_text reference C701 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4825,7 +4825,7 @@
     (path /548CB7C3/54CABBD8)
     (attr smd)
     (fp_text reference C703 (at 0.025 -0.79 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100pF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4851,7 +4851,7 @@
     (path /548CC15A/548FCD34)
     (attr smd)
     (fp_text reference C801 (at 0 0.762 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4877,7 +4877,7 @@
     (path /548CC15A/54C991E6)
     (attr smd)
     (fp_text reference C802 (at 0.107 -0.741) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4903,7 +4903,7 @@
     (path /54ED78C8/54EAE50F)
     (attr smd)
     (fp_text reference C901 (at 0 -0.889) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4929,7 +4929,7 @@
     (path /54ED78C8/54EAE4C4)
     (attr smd)
     (fp_text reference C902 (at 0 -0.864 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -4955,7 +4955,7 @@
     (path /54ED78C8/54ECA3C8)
     (attr smd)
     (fp_text reference C903 (at 0 -0.762 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100pF (at 0.09906 0 270) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -4981,7 +4981,7 @@
     (path /54ED78C8/54EDB83D)
     (attr smd)
     (fp_text reference C907 (at 0 -0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 18pF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -5007,7 +5007,7 @@
     (path /54ED78C8/54EDB844)
     (attr smd)
     (fp_text reference C909 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 18pF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -5033,7 +5033,7 @@
     (path /54ED78C8/54EDBA0A)
     (attr smd)
     (fp_text reference C910 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -5059,7 +5059,7 @@
     (path /54ED78C8/54EDBA03)
     (attr smd)
     (fp_text reference C911 (at 0 -0.762 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -5085,7 +5085,7 @@
     (path /54ED78C8/54EDB9FC)
     (attr smd)
     (fp_text reference C912 (at 0 0.889) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100nF (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -5113,7 +5113,7 @@
     (path /54ED78C8/54EDB9F5)
     (attr smd)
     (fp_text reference C913 (at 0 1.397 135) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524 135) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -5142,7 +5142,7 @@
     (path /54ED78C8/54EDB870)
     (attr smd)
     (fp_text reference C914 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -5170,7 +5170,7 @@
     (path /54ED78C8/54EDB96F)
     (attr smd)
     (fp_text reference C916 (at 0 1.524 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10uF (at 0 -1.524 180) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -5199,7 +5199,7 @@
     (path /54ED78C8/54EDB87E)
     (attr smd)
     (fp_text reference C917 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -5227,7 +5227,7 @@
     (path /54ED78C8/54EDB9B3)
     (attr smd)
     (fp_text reference C918 (at 0 1.524 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10uF (at 0 -1.524 90) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -5258,7 +5258,7 @@
     (path /548CB640/54EC6AD4)
     (attr smd)
     (fp_text reference D301 (at 0 -1.016) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value GREEN (at 0 1.016) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5303,7 +5303,7 @@
     (path /548CB640/54EC6BE9)
     (attr smd)
     (fp_text reference D302 (at 0 -1.016) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value GREEN (at 0 1.016) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5345,7 +5345,7 @@
     (at 86.741 90.297 270)
     (path /548CB895/54E79A26)
     (fp_text reference D401 (at 1.948 -0.169 360) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value PRTR5V0U2X,215 (at 0 -1.27 270) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -5376,7 +5376,7 @@
     (path /548CB895/54EE1D25)
     (attr smd)
     (fp_text reference D402 (at 0 -1.016) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value BLUE (at 0 1.016) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5421,7 +5421,7 @@
     (path /548CB7C3/54EC1D15)
     (attr smd)
     (fp_text reference D701 (at -0.254 1.016 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value AMBER (at 0 1.016 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5466,7 +5466,7 @@
     (path /548CB7C3/54EA719A)
     (attr smd)
     (fp_text reference D702 (at 0 -1.016) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value RED (at 0 1.016) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5511,7 +5511,7 @@
     (path /548CB7C3/54C479A2)
     (attr smd)
     (fp_text reference D703 (at 0 -1.016) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value BLUE (at 0 1.016) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5556,7 +5556,7 @@
     (path /548CB7C3/54BF80D8)
     (attr smd)
     (fp_text reference D704 (at 0 -1.016) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value GREEN (at 0 1.016) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5598,7 +5598,7 @@
     (at 100.076 102.997 90)
     (path /54ED78C8/54ECA38E)
     (fp_text reference D901 (at 0.254 -2.032 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value PRTR5V0U2X,215 (at 0 -1.27 90) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -5626,7 +5626,7 @@
     (at 96.901 102.997 90)
     (path /54ED78C8/54ECA3A2)
     (fp_text reference D902 (at 0.254 -2.032 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value PRTR5V0U2X,215 (at 0 -1.27 90) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -5655,8 +5655,8 @@
     (descr "Mounting hole, Befestigungsbohrung, 2,5mm, No Annular, Kein Restring,")
     (tags "Mounting hole, Befestigungsbohrung, 2,5mm, No Annular, Kein Restring,")
     (path /54C07487)
-    (fp_text reference H101 (at 0 -3.50012) (layer F.SilkS) hide
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+    (fp_text reference H101 (at 0 -3.50012) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value HOLE (at 0.09906 3.59918) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5670,8 +5670,8 @@
     (descr "Mounting hole, Befestigungsbohrung, 2,5mm, No Annular, Kein Restring,")
     (tags "Mounting hole, Befestigungsbohrung, 2,5mm, No Annular, Kein Restring,")
     (path /54C07804)
-    (fp_text reference H102 (at 0 -3.50012) (layer F.SilkS) hide
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+    (fp_text reference H102 (at 0 -3.50012) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value HOLE (at 0.09906 3.59918) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5685,8 +5685,8 @@
     (descr "Mounting hole, Befestigungsbohrung, 2,5mm, No Annular, Kein Restring,")
     (tags "Mounting hole, Befestigungsbohrung, 2,5mm, No Annular, Kein Restring,")
     (path /54C07827)
-    (fp_text reference H103 (at 0 -3.50012) (layer F.SilkS) hide
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+    (fp_text reference H103 (at 0 -3.50012) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value HOLE (at 0.09906 3.59918) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5700,8 +5700,8 @@
     (descr "Mounting hole, Befestigungsbohrung, 2,5mm, No Annular, Kein Restring,")
     (tags "Mounting hole, Befestigungsbohrung, 2,5mm, No Annular, Kein Restring,")
     (path /54C07848)
-    (fp_text reference H104 (at 0 -3.50012) (layer F.SilkS) hide
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+    (fp_text reference H104 (at 0 -3.50012) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value HOLE (at 0.09906 3.59918) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5714,7 +5714,7 @@
     (at 117.348 131.826)
     (path /548C90C9/54EDE1A1)
     (fp_text reference J201 (at 0 -1.778) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "CONN_02X05 DNP" (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -5746,7 +5746,7 @@
     (at 83.439 112.014 90)
     (path /548CB895/54E6D85A)
     (fp_text reference J401 (at 0.204 1.801 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "CONN_02X05 DNP" (at 0 3.175 90) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -5777,8 +5777,8 @@
   (module tm-kicad-lib:Testpoint (layer F.Cu) (tedit 54F4DA30) (tstamp 54EC626D)
     (at 101.6 129.794)
     (path /548CC15D/54918BC9)
-    (fp_text reference J601 (at 0.975 0.166) (layer F.SilkS) hide
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+    (fp_text reference J601 (at 0.975 0.166) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value CONN_01X01 (at -0.8 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5791,7 +5791,7 @@
     (at 106.553 128.524)
     (path /548CC15D/54918C42)
     (fp_text reference J602 (at 0 1.1) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value CONN_01X01 (at -0.8 1.5) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -5804,7 +5804,7 @@
     (at 110.236 128.016)
     (path /548CB7C3/549243ED)
     (fp_text reference J701 (at 0 -1.1) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value CONN_01X01 (at -0.8 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5817,7 +5817,7 @@
     (at 92.329 127.381 315)
     (path /548CB7C3/54E93B66)
     (fp_text reference J703 (at 0 -1.27 315) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "CONN_01X08 DNP" (at 0 1.27 315) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -5846,7 +5846,7 @@
     (path /548C90C9/548FF18F)
     (attr smd)
     (fp_text reference L201 (at 0.089803 -0.808223 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 3.9nH (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -5872,7 +5872,7 @@
     (path /548C90C9/54910D3E)
     (attr smd)
     (fp_text reference L202 (at -2.475 -0.047 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 3.9nH (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -5898,7 +5898,7 @@
     (descr http://www.flight-elec.com/upload/suppliers/fe/20101239421550581.pdf)
     (path /548CB640/549071D8)
     (fp_text reference L301 (at 0 -3 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 2.2uH (at 0 -1.5 270) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.07)))
@@ -5921,7 +5921,7 @@
     (descr http://www.flight-elec.com/upload/suppliers/fe/20101239421550581.pdf)
     (path /548CB640/54BE3760)
     (fp_text reference L303 (at 0 -3 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 2.2uH (at 0 -1.5 270) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.07)))
@@ -5944,7 +5944,7 @@
     (path /548CB895/548FA5A7)
     (attr smd)
     (fp_text reference L401 (at 0.093 1.065 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uH (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -5969,7 +5969,7 @@
     (path /548CC15D/5492294C)
     (attr smd)
     (fp_text reference L601 (at 0.0325 -0.807 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 3nH (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -5995,7 +5995,7 @@
     (path /548CC15D/5491D96C)
     (attr smd)
     (fp_text reference L602 (at 0.0125 0.899 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 3nH (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6021,7 +6021,7 @@
     (path /548CC15D/5492F347)
     (attr smd)
     (fp_text reference L603 (at -0.051619 -0.842164 135) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 3nH (at 0.09906 0 135) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6047,7 +6047,7 @@
     (path /548CC15D/5492F3EE)
     (attr smd)
     (fp_text reference L604 (at 0.00495 0.805395 135) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 3nH (at 0.09906 0 135) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6073,7 +6073,7 @@
     (path /548CC15D/5491E48A)
     (attr smd)
     (fp_text reference L605 (at 0 -0.762 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 2.4nH (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6099,7 +6099,7 @@
     (path /548CC15D/5492F37D)
     (attr smd)
     (fp_text reference L606 (at 0 -0.762 135) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 2.4nH (at 0.09906 0 135) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6127,7 +6127,7 @@
     (path /54ED78C8/54EAE509)
     (attr smd)
     (fp_text reference L901 (at 0 1.27 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value BLM21PG221SN1D (at 0 -1.524 90) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -6158,7 +6158,7 @@
     (path /54ED78C8/54EAE4BE)
     (attr smd)
     (fp_text reference L902 (at 0 1.27 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value BLM21PG221SN1D (at 0 -1.524 90) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -6189,7 +6189,7 @@
     (path /548CB640/54935DE1)
     (attr smd)
     (fp_text reference Q301 (at 0.688015 1.890096 405) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value MMSS8550 (at 0 3.81 225) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6217,7 +6217,7 @@
     (path /548C90C9/54912AB6)
     (attr smd)
     (fp_text reference R201 (at 1.629881 0.153442 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 4.7kR (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6243,7 +6243,7 @@
     (path /548C90C9/548FD597)
     (attr smd)
     (fp_text reference R202 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 22R (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -6269,7 +6269,7 @@
     (path /548C90C9/5490CBD2)
     (attr smd)
     (fp_text reference R203 (at 0 0.762 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 4.7kR (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -6295,7 +6295,7 @@
     (path /548CB640/54BF3A89)
     (attr smd)
     (fp_text reference R301 (at 0.005 -0.761 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "100kR DNP" (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -6321,7 +6321,7 @@
     (path /548CB640/54BF416D)
     (attr smd)
     (fp_text reference R302 (at -0.207 -0.938 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "100kR DNP" (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -6347,7 +6347,7 @@
     (path /548CB640/548FE5A4)
     (attr smd)
     (fp_text reference R303 (at -1.25 0.096 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 27kR (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -6373,7 +6373,7 @@
     (path /548CB640/54BD9A96)
     (attr smd)
     (fp_text reference R304 (at 0.029 -0.918 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 27kR (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -6399,7 +6399,7 @@
     (path /548CB640/54EC6ACD)
     (attr smd)
     (fp_text reference R305 (at 0 -0.762 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 120R (at 0.09906 0 270) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6425,7 +6425,7 @@
     (path /548CB640/54EC6BE3)
     (attr smd)
     (fp_text reference R306 (at 0 -0.762 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 120R (at 0.09906 0 270) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6451,7 +6451,7 @@
     (path /548CB640/549071DE)
     (attr smd)
     (fp_text reference R307 (at -8.685 -0.078 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "450kR 1%" (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6477,7 +6477,7 @@
     (path /548CB640/549071F6)
     (attr smd)
     (fp_text reference R308 (at -8.813 -0.103 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "100kR 1%" (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6503,7 +6503,7 @@
     (path /548CB640/54BE0E77)
     (attr smd)
     (fp_text reference R309 (at 0 -0.762) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10kR (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6529,7 +6529,7 @@
     (path /548CB640/5514D836)
     (attr smd)
     (fp_text reference R310 (at 0 -0.762 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10kR (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6555,7 +6555,7 @@
     (path /548CB640/54BE3766)
     (attr smd)
     (fp_text reference R312 (at 1.704 0.006 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "200kR 1%" (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6581,7 +6581,7 @@
     (path /548CB640/54BE377E)
     (attr smd)
     (fp_text reference R313 (at 1.724 -0.06 360) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "100kR 1%" (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6607,7 +6607,7 @@
     (path /548CB895/54E79A41)
     (attr smd)
     (fp_text reference R401 (at 0 -0.762 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100kR (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6633,7 +6633,7 @@
     (path /548CB895/54E6D86C)
     (attr smd)
     (fp_text reference R402 (at -1.737 -0.018 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 330R (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -6659,7 +6659,7 @@
     (path /548CB895/54E6D873)
     (attr smd)
     (fp_text reference R403 (at -1.697 0.038 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 330R (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -6685,7 +6685,7 @@
     (path /548CB895/54E9E2F0)
     (attr smd)
     (fp_text reference R404 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 22R (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -6711,7 +6711,7 @@
     (path /548CB895/54BE9CC0)
     (attr smd)
     (fp_text reference R405 (at -1.709077 -0.088388 45) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 22R (at 0.09906 0 45) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6737,7 +6737,7 @@
     (path /548CB895/5497863A)
     (attr smd)
     (fp_text reference R406 (at 0 0.762 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10kR (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -6763,7 +6763,7 @@
     (path /548CB895/54912D2C)
     (attr smd)
     (fp_text reference R407 (at 1.65958 -0.08556 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 22R (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6789,7 +6789,7 @@
     (path /548CB895/54912D32)
     (attr smd)
     (fp_text reference R408 (at 1.606547 -0.007071 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 22R (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6815,7 +6815,7 @@
     (path /548CB895/54912B30)
     (attr smd)
     (fp_text reference R409 (at 1.673722 -0.041719 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 22R (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6841,7 +6841,7 @@
     (path /548CB895/54912C7C)
     (attr smd)
     (fp_text reference R410 (at 1.65958 0.07566 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 22R (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6867,7 +6867,7 @@
     (path /548CB895/54913EC4)
     (attr smd)
     (fp_text reference R411 (at 1.546443 -0.012021 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 22R (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6893,7 +6893,7 @@
     (path /548CB895/54913EBE)
     (attr smd)
     (fp_text reference R412 (at 1.634831 0.059397 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 22R (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6919,7 +6919,7 @@
     (path /548CB895/54913ED0)
     (attr smd)
     (fp_text reference R413 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 22R (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -6945,7 +6945,7 @@
     (path /548CB895/54913ECA)
     (attr smd)
     (fp_text reference R414 (at -0.025 -0.729 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 22R (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -6971,7 +6971,7 @@
     (path /548CB895/54EE1D1E)
     (attr smd)
     (fp_text reference R415 (at 0.035 0.752 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 1kR (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -6997,7 +6997,7 @@
     (path /548CB895/54E6B1E8)
     (attr smd)
     (fp_text reference R416 (at 1.549 0.007 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10kR (at 0.09906 0 270) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7023,7 +7023,7 @@
     (path /548CC02E/548D6FE8)
     (attr smd)
     (fp_text reference R501 (at 1.778 0 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "4.7kR 1%" (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7049,7 +7049,7 @@
     (path /548CC02E/548D71F3)
     (attr smd)
     (fp_text reference R502 (at -1.778 0 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "4.7kR 1%" (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7075,7 +7075,7 @@
     (path /548CC02E/548D3CA8)
     (attr smd)
     (fp_text reference R503 (at 0 0.762 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 22R (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7101,7 +7101,7 @@
     (path /548CC02E/548D3CD9)
     (attr smd)
     (fp_text reference R504 (at 0 0.762 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 22R (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7127,7 +7127,7 @@
     (path /548CC02E/548D36D9)
     (attr smd)
     (fp_text reference R505 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 120R (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7153,7 +7153,7 @@
     (path /548CC15D/5491920E)
     (attr smd)
     (fp_text reference R601 (at 0.057 0.716 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 4.7kR (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7179,7 +7179,7 @@
     (path /548CC15D/5491938E)
     (attr smd)
     (fp_text reference R602 (at 0 -0.762 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "4.7kR DNP" (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7200,7 +7200,7 @@
     (path /548CC15D/54919448)
     (attr smd)
     (fp_text reference R603 (at 0 -0.762 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 4.7kR (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7226,7 +7226,7 @@
     (path /548CC15D/549228BB)
     (attr smd)
     (fp_text reference R604 (at 0 -0.762 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100kR (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7252,7 +7252,7 @@
     (path /548CC15D/54917341)
     (attr smd)
     (fp_text reference R605 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "24kR 1%" (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7278,7 +7278,7 @@
     (path /548CB7C3/5494103E)
     (attr smd)
     (fp_text reference R705 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "49.9R 1%" (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7304,7 +7304,7 @@
     (path /548CB7C3/5494042E)
     (attr smd)
     (fp_text reference R707 (at -1.717 0.05328) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "49.9R 1%" (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7330,7 +7330,7 @@
     (path /548CB7C3/54940FDB)
     (attr smd)
     (fp_text reference R708 (at -1.726 0.04) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "49.9R 1%" (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7356,7 +7356,7 @@
     (path /548CB7C3/54904DEB)
     (attr smd)
     (fp_text reference R711 (at 0 -0.762 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "6.19kR 1%" (at 0.09906 0 225) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7382,7 +7382,7 @@
     (path /548CB7C3/54CABBDE)
     (attr smd)
     (fp_text reference R712 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100kR (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7408,7 +7408,7 @@
     (path /548CB7C3/54EC1D1C)
     (attr smd)
     (fp_text reference R715 (at 0 -0.762) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 330R (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7434,7 +7434,7 @@
     (path /548CB7C3/54C7F49E)
     (attr smd)
     (fp_text reference R716 (at 0 -0.762) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 22R (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7460,7 +7460,7 @@
     (path /548CB7C3/54EA71A1)
     (attr smd)
     (fp_text reference R717 (at -1.641 -0.015) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 1kR (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7486,7 +7486,7 @@
     (path /548CB7C3/54928680)
     (attr smd)
     (fp_text reference R718 (at -1.132 0.055 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100kR (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7512,7 +7512,7 @@
     (path /548CB7C3/54C481ED)
     (attr smd)
     (fp_text reference R719 (at 0 -0.762 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 1kR (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7538,7 +7538,7 @@
     (path /548CB7C3/549255EE)
     (attr smd)
     (fp_text reference R720 (at 0 -0.762 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 4.7kR (at 0.09906 0 270) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7564,7 +7564,7 @@
     (path /548CB7C3/54C980F9)
     (attr smd)
     (fp_text reference R721 (at 0 -0.762) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100kR (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7590,7 +7590,7 @@
     (path /548CB7C3/5492492E)
     (attr smd)
     (fp_text reference R722 (at 0 -0.762 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 120R (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7616,7 +7616,7 @@
     (path /548CC15A/549239D5)
     (attr smd)
     (fp_text reference R801 (at -0.001 -0.767) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 4.7kR (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7642,7 +7642,7 @@
     (path /548CC15A/54923AA1)
     (attr smd)
     (fp_text reference R802 (at 0 0.762 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 4.7kR (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7668,7 +7668,7 @@
     (path /54ED78C8/550733F2)
     (attr smd)
     (fp_text reference R901 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100kR (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7689,7 +7689,7 @@
     (path /54ED78C8/54ECA3CE)
     (attr smd)
     (fp_text reference R903 (at 0 -0.762 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 100kR (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7715,7 +7715,7 @@
     (path /54ED78C8/54EDB984)
     (attr smd)
     (fp_text reference R904 (at 0 -0.762 45) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10kR (at 0.09906 0 45) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7741,7 +7741,7 @@
     (path /54ED78C8/54EDB817)
     (attr smd)
     (fp_text reference R906 (at 0 0.762 180) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "8.2kR 1%" (at 0.09906 0 180) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7767,7 +7767,7 @@
     (path /54ED78C8/54EDB82E)
     (attr smd)
     (fp_text reference R907 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "2.7kR 1%" (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -7793,7 +7793,7 @@
     (path /54ED78C8/54EDB836)
     (attr smd)
     (fp_text reference R908 (at 0 -0.762 315) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10kR (at 0.09906 0 315) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -7820,7 +7820,7 @@
     (tags "TACTILE SWITCH BUTTON")
     (path /548CB895/54E6B041)
     (fp_text reference SW401 (at 0 -1.95 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value SW_PUSH (at 0 -1.1 180) (layer F.Fab) hide
       (effects (font (size 0.25 0.25) (thickness 0.05)))
@@ -7846,7 +7846,7 @@
     (at 105.41 137.287 270)
     (path /548CC15D/54BF6A48)
     (fp_text reference T601 (at -0.222 -1.93 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 2450BL15B100 (at 0 3 270) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -7882,7 +7882,7 @@
     (at 113.03 134.239 315)
     (path /548CC15D/54BF8042)
     (fp_text reference T602 (at -0.115966 1.998284 315) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 2450BL15B100 (at 0 3 315) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -7918,7 +7918,7 @@
     (at 105.41 123.19 135)
     (path /548C90C9/548F43B1)
     (fp_text reference U201 (at -0.254 -6.604 135) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value MT7620N (at 0 -4.064 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8260,7 +8260,7 @@
     (path /548CB640/5514ACA5)
     (attr smd)
     (fp_text reference U301 (at -1.937 -1.206 360) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value MT9700 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8291,7 +8291,7 @@
     (path /548CB640/5514AD5E)
     (attr smd)
     (fp_text reference U302 (at 2.166 -0.048 90) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value MT9700 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8322,7 +8322,7 @@
     (path /548CB640/5514F328)
     (attr smd)
     (fp_text reference U303 (at -0.062 -1.856 360) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value AP3418 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8353,7 +8353,7 @@
     (path /548CB640/5514C58E)
     (attr smd)
     (fp_text reference U304 (at 2.19964 -0.29972 180) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value MT9700 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8384,7 +8384,7 @@
     (path /548CB640/54BE38A8)
     (attr smd)
     (fp_text reference U305 (at 0.194 0.006 270) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value AP3418 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8415,7 +8415,7 @@
     (path /548CB895/548FAB63)
     (attr smd)
     (fp_text reference U401 (at -0.01016 1.29032 45) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value SAMD21G17A-MU (at 0.0508 -0.889 45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8537,7 +8537,7 @@
     (at 98.171 88.265 180)
     (path /54ED78C8/54EAE4D0)
     (fp_text reference U901 (at -3.048 0 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value AIC1528-0PSTR (at 0.508 1.651 180) (layer B.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)) (justify mirror))
@@ -8569,7 +8569,7 @@
     (at 105.41 107.442 225)
     (path /54ED78C8/54EDB918)
     (fp_text reference U902 (at 0 -1.75 225) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value FE1.1 (at -9.7 -4.9 225) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -8690,7 +8690,7 @@
     (at 99.314 130.302 180)
     (path /548C90C9/548FD11E)
     (fp_text reference X201 (at 1.839 -0.103 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 20MHz (at -0.5 4 180) (layer B.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.15)) (justify mirror))
@@ -8713,7 +8713,7 @@
     (at 84.328 135.509 90)
     (path /548CB895/54900866)
     (fp_text reference X401 (at 0.079 1.307 90) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value FC-135 (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)) (justify mirror))
@@ -8735,7 +8735,7 @@
     (at 106.553 104.902 270)
     (path /54ED78C8/54EDB84B)
     (fp_text reference X901 (at 0.127 2.159 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 12MHz (at 0 0 270) (layer B.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)) (justify mirror))
@@ -8755,7 +8755,7 @@
     (path /54ED78C8/54EAE4CA)
     (attr smd)
     (fp_text reference C905 (at 0 1.27 270) (layer B.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10uF (at 0 -1.524 90) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -8786,7 +8786,7 @@
     (path /54ED78C8/54ED106E)
     (attr smd)
     (fp_text reference C906 (at 0 -1.524 45) (layer F.SilkS)
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524 45) (layer F.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
@@ -8814,7 +8814,7 @@
     (at 78.74 102.87 270)
     (path /548CB895/54E753DA)
     (fp_text reference J403 (at 0 1.27 270) (layer F.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.1)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value MODULE_HEADER (at 1.27 2.67 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.1)))
@@ -8912,7 +8912,7 @@
     (at 78.74 133.35 270)
     (path /548CB895/54E753D3)
     (fp_text reference J404 (at 0 1.27 270) (layer F.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.1)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value MODULE_HEADER (at 1.27 2.67 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.1)))
@@ -9011,7 +9011,7 @@
     (path /548CB895/54F4F93B)
     (attr smd)
     (fp_text reference R417 (at 0 -0.762) (layer F.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 4.7kR (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -9037,7 +9037,7 @@
     (path /548CB895/54F4EF88)
     (attr smd)
     (fp_text reference R418 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 4.7kR (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -9063,7 +9063,7 @@
     (path /548CB895/54F4EEC1)
     (attr smd)
     (fp_text reference R419 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 4.7kR (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -9089,7 +9089,7 @@
     (path /548CB895/54F4F7D9)
     (attr smd)
     (fp_text reference R420 (at 0 -0.762) (layer F.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 4.7kR (at 0.09906 0) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -9113,8 +9113,8 @@
   (module tm-kicad-lib:fiducial (layer F.Cu) (tedit 54F4FCF7) (tstamp 54F4F0EA)
     (at 108.712 135.128)
     (path /54F50161)
-    (fp_text reference F101 (at 0 -3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference F101 (at 0 -3.81) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value fiducial (at 0 -5.08) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9126,8 +9126,8 @@
   (module tm-kicad-lib:fiducial (layer F.Cu) (tedit 54F6112F) (tstamp 54F4F0EF)
     (at 84.582 92.329)
     (path /54F5017A)
-    (fp_text reference F102 (at 0 -3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference F102 (at 0 -3.81) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value fiducial (at 0 -5.08) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9139,8 +9139,8 @@
   (module tm-kicad-lib:fiducial (layer F.Cu) (tedit 54F4FD1D) (tstamp 54F4F0F4)
     (at 129.032 100.838)
     (path /54F50193)
-    (fp_text reference F103 (at 0 -3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference F103 (at 0 -3.81) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value fiducial (at 0 -5.08) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9152,8 +9152,8 @@
   (module tm-kicad-lib:fiducial (layer B.Cu) (tedit 54F4FD31) (tstamp 54F4F0F9)
     (at 87.884 143.256)
     (path /54F4F9B2)
-    (fp_text reference F104 (at 0 3.81) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (fp_text reference F104 (at 0 3.81) (layer B.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value fiducial (at 0 5.08) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9165,8 +9165,8 @@
   (module tm-kicad-lib:fiducial (layer B.Cu) (tedit 54F4FD2B) (tstamp 54F4F0FE)
     (at 123.19 131.572)
     (path /54F4F9D5)
-    (fp_text reference F105 (at 0 3.81) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (fp_text reference F105 (at 0 3.81) (layer B.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value fiducial (at 0 5.08) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9178,8 +9178,8 @@
   (module tm-kicad-lib:fiducial (layer B.Cu) (tedit 54F4FD37) (tstamp 54F4F103)
     (at 86.36 86.614)
     (path /54F4F9EE)
-    (fp_text reference F106 (at 0 3.81) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (fp_text reference F106 (at 0 3.81) (layer B.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value fiducial (at 0 5.08) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9194,7 +9194,7 @@
     (tags "pin header")
     (path /548CB7C3/55074E48)
     (fp_text reference J704 (at 0.254 11.811 90) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "CONN_01X04 DNP" (at 0 -3.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9225,7 +9225,7 @@
     (path /548CB640/55071E19)
     (attr smd)
     (fp_text reference R314 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100kR (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -9251,7 +9251,7 @@
     (path /548CB640/55072090)
     (attr smd)
     (fp_text reference R315 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100kR (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -9276,7 +9276,7 @@
     (at 98.9076 120.5738)
     (path /548CB640/55078BE1)
     (fp_text reference TP301 (at 0 1.27) (layer B.SilkS)
-      (effects (font (size 0.8 0.8) (thickness 0.127)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value TP (at 0 0.635) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -9289,7 +9289,7 @@
     (at 125.2855 129.032)
     (path /548CB640/550782AD)
     (fp_text reference TP302 (at 0 1.27) (layer B.SilkS)
-      (effects (font (size 0.8 0.8) (thickness 0.127)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value TP (at 0 0.635) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -9302,7 +9302,7 @@
     (at 86.995 110.236)
     (path /548CB895/5507734C)
     (fp_text reference TP401 (at 0 1.27) (layer B.SilkS)
-      (effects (font (size 0.8 0.8) (thickness 0.127)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value TP (at 0 0.635) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -9315,7 +9315,7 @@
     (at 86.487 112.903)
     (path /548CB895/550772D3)
     (fp_text reference TP402 (at 0 1.27) (layer B.SilkS)
-      (effects (font (size 0.8 0.8) (thickness 0.127)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value TP (at 0 0.635) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -9328,7 +9328,7 @@
     (at 82.423 119.888)
     (path /548CB895/55076899)
     (fp_text reference TP403 (at 0 1.27) (layer B.SilkS)
-      (effects (font (size 0.8 0.8) (thickness 0.127)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value TP (at 0 0.635) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -9341,7 +9341,7 @@
     (at 81.661 116.84)
     (path /548CB895/55076939)
     (fp_text reference TP404 (at 0 1.27) (layer B.SilkS)
-      (effects (font (size 0.8 0.8) (thickness 0.127)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value TP (at 0 0.635) (layer B.Fab) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)) (justify mirror))
@@ -9355,7 +9355,7 @@
     (path /548CB895/5508E395)
     (attr smd)
     (fp_text reference R421 (at 0 0.762) (layer B.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10kR (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -9381,7 +9381,7 @@
     (path /548CB7C3/54C40B91)
     (attr smd)
     (fp_text reference R701 (at 0 1.143 90) (layer B.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "10kR DNP" (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
@@ -9406,7 +9406,7 @@
     (path /548CB7C3/54C40BF9)
     (attr smd)
     (fp_text reference R702 (at 0 1.143 270) (layer B.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "10kR DNP" (at 0 0 270) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
@@ -9431,7 +9431,7 @@
     (path /548CB7C3/54C40ACD)
     (attr smd)
     (fp_text reference R703 (at 0 1.143 90) (layer B.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "10kR DNP" (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
@@ -9456,7 +9456,7 @@
     (path /548CB7C3/54C40CD9)
     (attr smd)
     (fp_text reference R704 (at 0 1.143 270) (layer B.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "10kR DNP" (at 0 0 270) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
@@ -9481,7 +9481,7 @@
     (path /548CB7C3/54C3FDD6)
     (attr smd)
     (fp_text reference R709 (at 0 1.143 90) (layer B.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "100kR DNP" (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
@@ -9506,7 +9506,7 @@
     (path /548CB7C3/54C4077D)
     (attr smd)
     (fp_text reference R710 (at 0 1.143 90) (layer B.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "100kR DNP" (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
@@ -9531,7 +9531,7 @@
     (path /54ED78C8/550C7B6A)
     (attr smd)
     (fp_text reference R902 (at 0 1.143 180) (layer B.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "0R DNP" (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
@@ -9556,7 +9556,7 @@
     (path /54ED78C8/550C7B9E)
     (attr smd)
     (fp_text reference R905 (at 0 1.143) (layer B.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value "0R DNP" (at 0 0) (layer B.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
@@ -9581,7 +9581,7 @@
     (path /54ED78C8/550C8F25)
     (attr smd)
     (fp_text reference R909 (at 0 -0.762 135) (layer F.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "0R DNP" (at 0.09906 0 135) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -9607,7 +9607,7 @@
     (path /54ED78C8/550C9076)
     (attr smd)
     (fp_text reference R910 (at 0 -0.762 180) (layer F.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value "0R DNP" (at 0.09906 0 180) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -9633,7 +9633,7 @@
     (path /54ED78C8/550C6B30)
     (attr smd)
     (fp_text reference R911 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 450kR (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -9659,7 +9659,7 @@
     (path /54ED78C8/550C6C1C)
     (attr smd)
     (fp_text reference R912 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 450kR (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -9687,7 +9687,7 @@
     (path /548CB640/5514F504)
     (attr smd)
     (fp_text reference C316 (at 0 -1.524) (layer F.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.1)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 10uF (at 0 1.524) (layer F.Fab) hide
       (effects (font (size 0.7 0.7) (thickness 0.1)))
@@ -9716,7 +9716,7 @@
     (path /548CB640/5515A882)
     (attr smd)
     (fp_text reference C329 (at 0 -0.762 270) (layer F.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value 1uF (at 0.09906 0 270) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
@@ -9744,9 +9744,9 @@
     (path /548CB640/5515C1C4)
     (attr smd)
     (fp_text reference Q302 (at 0 3.81) (layer B.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
-    (fp_text value DMG2305UX (at 0 -3.81) (layer B.Fab)
+    (fp_text value DMG2305UX (at 0 -3.81) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.29916 0.65024) (end 1.2509 0.65024) (layer B.SilkS) (width 0.15))
@@ -9773,9 +9773,9 @@
     (tags "pin header")
     (path /548CB640/551AE629)
     (fp_text reference J301 (at 0 -5.1) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
-    (fp_text value "CONN_01X03 DNP" (at 0 -3.1) (layer F.Fab)
+    (fp_text value "CONN_01X03 DNP" (at 0 -3.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 6.85) (layer F.CrtYd) (width 0.05))
@@ -9805,8 +9805,8 @@
   (module tm-kicad-lib:Seeed-USB-Micro-320010028 (layer F.Cu) (tedit 54C2E60A) (tstamp 551B6C4C)
     (at 86.36 85.09)
     (path /548CB895/5519E4C0)
-    (fp_text reference J402 (at -0.224 -2.759) (layer F.SilkS) hide
-      (effects (font (size 1.5 1.5) (thickness 0.15)))
+    (fp_text reference J402 (at -0.224 -2.759) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value MICROUSB-TH (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -9848,7 +9848,7 @@
     (at 100.711 98.104 180)
     (path /54ED78C8/54ECA3B6)
     (fp_text reference J901 (at 7.366 12.446 270) (layer F.SilkS)
-      (effects (font (size 1.5 1.5) (thickness 0.15)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value USB_A_2_stack (at -0.25 5.25 180) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -9893,7 +9893,7 @@
     (descr http://www.shopwiznet.com/lanotattachments/download/file/id/95/store/1/)
     (path /548CB7C3/54C5EBAA)
     (fp_text reference J702 (at -4.485 8.128 270) (layer F.SilkS)
-      (effects (font (size 1.5 1.5) (thickness 0.15)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     )
     (fp_text value HR911105A (at 4.21 3.25 180) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -9966,7 +9966,7 @@
     (path /54ED78C8/5530626A)
     (attr smd)
     (fp_text reference C908 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1uF (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -9992,7 +9992,7 @@
     (path /54ED78C8/55306223)
     (attr smd)
     (fp_text reference C919 (at 0 0.762 90) (layer B.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1uF (at 0.09906 0 90) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
@@ -10018,7 +10018,7 @@
     (path /548CB640/55318649)
     (attr smd)
     (fp_text reference R311 (at 0 0.762 270) (layer B.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.05)) (justify mirror))
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10kR (at 0.09906 0 270) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
