@@ -131,7 +131,11 @@ Match.prototype.generate = function(){
     if (replacement[valueKey].toUpperCase().indexOf("DNP") == -1) {
       // put into components bucket according to type
       // 1 because 0 char is \"
-      self.components[replacement[orderKey][1].toUpperCase()].push(replacement);
+      var arr = self.components[replacement[orderKey][1].toUpperCase()];
+      if (arr == undefined) {
+        console.error("Config .json needs to define order that components of type %s goes in", replacement[orderKey][1].toUpperCase());
+      } 
+      arr.push(replacement);
     } else {
       // put into DNP bucket
       self.components['DNP'].push(replacement);

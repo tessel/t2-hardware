@@ -17,7 +17,7 @@
   // order we want things to appear in. DNP is always last
   , "order": { 
       "key": "Ref Des"
-      , "order": ["U", "Q", "A", "X", "D", "L", "J", "R", "C", "H", "T"]
+      , "order": ["U", "Q", "A", "X", "D", "L", "S", "J", "R", "C", "H", "T"]
     }
 }
 ```
