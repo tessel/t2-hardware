@@ -1,3 +1,4 @@
 *.bck
 *.bak
 .DS_STORE
+*.kicad_pcb-bak
