@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201504171001+5604~22~ubuntu14.04.1-product   date = Fri 17 Apr 2015 11:22:11 AM PDT
+Cmp-Mod V01 Created by Cvpcb 0.201504211001+5616~22~ubuntu14.04.1-product   date = Tue 21 Apr 2015 12:37:50 PM PDT
 
 BeginCmp
 TimeStamp = /548CC15D/54BF1E54;
@@ -12,20 +12,6 @@ TimeStamp = /548CC15D/54BF2584;
 Reference = AE602;
 ValeurCmp = ANTENNA;
 IdModule  = tm-kicad-lib:2.4GHz-INVERTED-F-ANTENNA;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CC15D/5491FF82;
-Reference = AE603;
-ValeurCmp = UFL DNP;
-IdModule  = tm-kicad-lib:1909763-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /548CC15D/5492F38F;
-Reference = AE604;
-ValeurCmp = UFL DNP;
-IdModule  = tm-kicad-lib:1909763-1;
 EndCmp
 
 BeginCmp
@@ -1170,6 +1156,20 @@ IdModule  = tm-kicad-lib:Testpoint;
 EndCmp
 
 BeginCmp
+TimeStamp = /548CC15D/5491FF82;
+Reference = J603;
+ValeurCmp = UFL DNP;
+IdModule  = tm-kicad-lib:1909763-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /548CC15D/5492F38F;
+Reference = J604;
+ValeurCmp = UFL DNP;
+IdModule  = tm-kicad-lib:1909763-1;
+EndCmp
+
+BeginCmp
 TimeStamp = /548CB7C3/549243ED;
 Reference = J701;
 ValeurCmp = CONN_01X01;
@@ -1305,7 +1305,7 @@ EndCmp
 BeginCmp
 TimeStamp = /548CB640/5515C1C4;
 Reference = Q302;
-ValeurCmp = pMOS;
+ValeurCmp = DMG2305UX;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
