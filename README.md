@@ -1,4 +1,4 @@
-# tessel-v2-hardware
+# t2-hardware
 
 KiCAD design files for Technical Machine's Tessel 2
 
