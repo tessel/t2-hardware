@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:tm-kicad-lib
 LIBS:tessel-v2-cache
 EELAYER 25 0
 EELAYER END
