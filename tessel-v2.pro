@@ -1,4 +1,4 @@
-update=Tue 21 Apr 2015 12:42:20 PM PDT
+update=Tue 21 Apr 2015 03:44:54 PM PDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,19 +6,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema]
 version=1
 LibDir=./tm-kicad-library;./
@@ -76,3 +63,16 @@ BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
