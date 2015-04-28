@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:tm-kicad-lib
 LIBS:tessel-v2-cache
 EELAYER 25 0
 EELAYER END
@@ -980,7 +981,7 @@ F 1 "GREEN" H 5000 5800 50  0000 C CNN
 F 2 "LEDs:LED-0603" H 5000 5900 60  0001 C CNN
 F 3 "" H 5000 5900 60  0000 C CNN
 	1    5000 5900
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR0104
@@ -1013,7 +1014,7 @@ F 1 "GREEN" H 5000 8400 50  0000 C CNN
 F 2 "LEDs:LED-0603" H 5000 8500 60  0001 C CNN
 F 3 "" H 5000 8500 60  0000 C CNN
 	1    5000 8500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR0105

@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:tm-kicad-lib
 LIBS:tessel-v2-cache
 EELAYER 25 0
 EELAYER END
@@ -307,7 +308,7 @@ F 1 "GREEN" H 13000 6800 50  0000 C CNN
 F 2 "LEDs:LED-0603" H 13000 6900 60  0001 C CNN
 F 3 "" H 13000 6900 60  0000 C CNN
 	1    13000 6900
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Text Label 13750 3800 0    60   ~ 0
 USER_LED_GREEN
@@ -411,7 +412,7 @@ F 1 "BLUE" H 14600 6800 50  0000 C CNN
 F 2 "LEDs:LED-0603" H 14600 6900 60  0001 C CNN
 F 3 "" H 14600 6900 60  0000 C CNN
 	1    14600 6900
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L TM_R R719
@@ -541,7 +542,7 @@ F 1 "RED" H 9900 6800 50  0000 C CNN
 F 2 "LEDs:LED-0603" H 9900 6900 60  0001 C CNN
 F 3 "" H 9900 6900 60  0000 C CNN
 	1    9900 6900
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L TM_R R717
@@ -578,7 +579,7 @@ F 1 "AMBER" H 11300 7600 50  0000 C CNN
 F 2 "LEDs:LED-0603" H 11300 7700 60  0001 C CNN
 F 3 "" H 11300 7700 60  0000 C CNN
 	1    11300 7700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L TM_R R715

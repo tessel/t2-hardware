@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:tm-kicad-lib
 LIBS:tessel-v2-cache
 EELAYER 25 0
 EELAYER END
@@ -810,7 +811,7 @@ F 1 "BLUE" H 11600 2400 50  0000 C CNN
 F 2 "LEDs:LED-0603" H 11600 2500 60  0001 C CNN
 F 3 "" H 11600 2500 60  0000 C CNN
 	1    11600 2500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Text Label 10900 2200 0    60   ~ 0
 POWER_LED
