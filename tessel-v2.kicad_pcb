@@ -3,7 +3,7 @@
   (general
     (links 785)
     (no_connects 9)
-    (area 76.149999 83.769999 134.670001 152.450001)
+    (area -0.012701 -0.012701 175.387001 161.08)
     (thickness 1.6)
     (drawings 52)
     (tracks 6309)
@@ -3832,14 +3832,14 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 5535879E) (tstamp 54EC6050)
+  (module tm-kicad-lib:SMD-0402-C (layer F.Cu) (tedit 554004E2) (tstamp 54EC6050)
     (at 83.312 129.794 90)
     (path /548CB895/548FA7E4)
     (attr smd)
     (fp_text reference C406 (at 3.937 2.794 90) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.1)))
     )
-    (fp_text value 100nF (at 0.09906 0 90) (layer F.SilkS) hide
+    (fp_text value 1uF (at 0.09906 0 90) (layer F.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_line (start 0.7366 0.381) (end 0.7366 -0.381) (layer F.SilkS) (width 0.1016))
