@@ -1,127 +1,147 @@
-### Module positions - created on Tue 28 Apr 2015 03:01:04 PM PDT ###
-### Printed by Pcbnew version kicad 0.201504281001+5628~23~ubuntu14.04.1-product
-## Unit = inches, Angle = deg.
+### Module positions - created on Mon 29 Jun 2015 03:11:51 PM CST ###
+### Printed by Pcbnew version kicad 0.201506272247+5835~23~ubuntu14.04.1-product
+## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref    Val                  Package         PosX       PosY        Rot     Side
-C202     10pF             SMD-0402-C          1.1800     0.8150     270.0    bottom
-C203     10pF             SMD-0402-C          1.1900     1.0250      90.0    bottom
-C204     10pF             SMD-0402-C          1.2050     0.8900      90.0    bottom
-C205     100nF            SMD-0402-C          1.1550     1.0250      90.0    bottom
-C206     100nF            SMD-0402-C          1.1700     0.8900      90.0    bottom
-C207     4.7uF            SMD-0603-C          1.1100     1.0550      90.0    bottom
-C208     1uF              SMD-0402-C          1.1900     1.1100      90.0    bottom
-C210     4.7uF            SMD-0603-C          1.1250     0.8400     270.0    bottom
-C211     100nF            SMD-0402-C          1.4100     1.1050       0.0    bottom
-C212     18pF             SMD-0402-C          0.9900     0.8250     270.0    bottom
-C214     18pF             SMD-0402-C          0.9900     0.9150      90.0    bottom
-C215     10uF DNP         SMD-0805-C          1.2550     1.1550     135.0    bottom
-C216     100nF            SMD-0402-C          1.3375     0.9950       0.0    bottom
-C218     100nF            SMD-0402-C          1.2550     0.8350     270.0    bottom
-C219     100nF            SMD-0402-C          1.0650     1.0600      90.0    bottom
-C220     1uF              SMD-0402-C          1.0800     1.2700       0.0    bottom
-C221     100nF            SMD-0402-C          1.4800     1.1470       0.0    bottom
-C222     100nF            SMD-0402-C          1.1650     1.1800     225.0    bottom
-C223     100nF            SMD-0402-C          1.1550     1.4200      90.0    bottom
-C224     10uF DNP         SMD-0805-C          1.0350     1.1900       0.0    bottom
-C225     100nF            SMD-0402-C          1.0000     1.3150      90.0    bottom
-C227     4.7uF            SMD-0603-C          1.1375     1.2950     270.0    bottom
-C231     10uF             SMD-0805-C          1.0400     0.9500     135.0    bottom
-C232     100nF            SMD-0402-C          1.1450     0.9700       0.0    bottom
-C234     100nF            SMD-0402-C          0.9550     1.1650     270.0    bottom
-C236     100nF            SMD-0402-C          1.0350     1.3450      90.0    bottom
-C237     100nF            SMD-0402-C          1.3100     0.8950     315.0    bottom
-C238     1uF              SMD-0402-C          1.3012     1.1750     135.0    bottom
-C239     100nF            SMD-0402-C          1.1200     1.4200      90.0    bottom
-C240     100nF            SMD-0402-C          1.0100     1.1400       0.0    bottom
-C241     100nF            SMD-0402-C          1.0150     1.1050       0.0    bottom
-C312     100nF            SMD-0402-C          0.7400     1.2450      90.0    bottom
-C315     10uF             SMD-0805-C          0.7950     1.2800      90.0    bottom
-C402     10pF             SMD-0402-C          0.2700     0.7500       0.0    bottom
-C403     100nF            SMD-0402-C          0.4100     0.9050     270.0    bottom
-C404     10pF             SMD-0402-C          0.2200     0.6450     180.0    bottom
-C408     10uF             SMD-0805-C          0.3300     0.8250       0.0    bottom
-C501     10nF             SMD-0402-C          1.9550     1.2500      90.0    bottom
-C502     100nF            SMD-0402-C          1.9550     1.0000      90.0    bottom
-C503     100nF            SMD-0402-C          1.5775     1.3225     180.0    bottom
-C504     100nF            SMD-0402-C          1.9550     1.0650      90.0    bottom
-C505     100nF            SMD-0402-C          1.9550     1.1850      90.0    bottom
-C506     10nF             SMD-0402-C          1.5800     1.0450     180.0    bottom
-C507     100nF            SMD-0402-C          1.5800     1.1000     180.0    bottom
-C508     100nF            SMD-0402-C          1.5800     1.1700     180.0    bottom
-C509     100nF            SMD-0402-C          1.7550     1.1350       0.0    bottom
-C510     100nF            SMD-0402-C          1.6425     0.9500       0.0    bottom
-C511     100nF            SMD-0402-C          1.8400     1.5150       0.0    bottom
-C512     100nF            SMD-0402-C          1.9050     1.4800       0.0    bottom
-C513     5pF              SMD-0402-C          1.6350     1.1960     270.0    bottom
-C514     5pF              SMD-0402-C          1.6350     1.2650      90.0    bottom
-C601     100pF            SMD-0402-C          1.0650     0.6875     270.0    bottom
-C701     100nF            SMD-0402-C          1.4500     1.8600      90.0    bottom
-C702     100nF            SMD-0402-C          1.4900     1.6650     270.0    bottom
-C703     100pF            SMD-0402-C          1.4950     2.1100     270.0    bottom
-C801     100nF            SMD-0402-C          0.8800     0.7450     180.0    bottom
-C802     100nF            SMD-0402-C          0.9450     0.7350       0.0    bottom
-C901     100nF            SMD-0402-C          1.0150     2.5750       0.0    bottom
-C902     100nF            SMD-0402-C          0.9100     2.3600     180.0    bottom
-C904     10uF             SMD-0805-C          1.0900     2.4750      90.0    bottom
-C905     10uF             SMD-0805-C          1.0900     2.3450      90.0    bottom
-C907     18pF             SMD-0402-C          1.2950     1.9500       0.0    bottom
-C908     1uF              SMD-0402-C          1.3100     1.6323     270.0    bottom
-C909     18pF             SMD-0402-C          1.1100     1.9250     270.0    bottom
-C910     100nF            SMD-0402-C          1.2850     1.7500     270.0    bottom
-C914     100nF            SMD-0402-C          1.1300     1.6850       0.0    bottom
-C915     100nF            SMD-0402-C          1.0100     1.7700      90.0    bottom
-C916     10uF             SMD-0805-C          1.1500     1.5950     180.0    bottom
-C917     100nF            SMD-0402-C          1.0650     1.8000     270.0    bottom
-C918     10uF             SMD-0805-C          1.2150     1.6950      90.0    bottom
-C919     1uF              SMD-0402-C          1.3250     1.8350      90.0    bottom
-L201     3.9nH            SMD-0402-R          1.2250     1.0600     270.0    bottom
-L901     BLM21PG221SN1D   SMD-0805-R          1.0150     2.4750      90.0    bottom
-L902     BLM21PG221SN1D   SMD-0805-R          0.9900     2.3450      90.0    bottom
-Q302     DMG2305UX        SOT-23              0.4200     2.3450       0.0    bottom
-R202     22R              SMD-0402-R          1.0250     0.8450     270.0    bottom
-R203     4.7kR            SMD-0402-R          0.9750     0.4250     180.0    bottom
-R301     100kR DNP        SMD-0402-R          0.2750     2.2650     270.0    bottom
-R302     100kR DNP        SMD-0402-R          0.4050     1.2200     270.0    bottom
-R303     27kR             SMD-0402-R          0.2550     2.1550       0.0    bottom
-R304     27kR             SMD-0402-R          0.4050     1.1600     270.0    bottom
-R311     10kR             SMD-0402-R          1.4300     1.9600     270.0    bottom
-R314     100kR            SMD-0402-R          0.2400     2.2650      90.0    bottom
-R315     100kR            SMD-0402-R          0.4400     1.2200      90.0    bottom
-R402     330R             SMD-0402-R          0.2700     1.4200     180.0    bottom
-R403     330R             SMD-0402-R          0.2200     0.9550     180.0    bottom
-R404     22R              SMD-0402-R          0.9750     0.3650       0.0    bottom
-R406     10kR             SMD-0402-R          0.2400     1.7500     180.0    bottom
-R413     22R              SMD-0402-R          0.5300     0.9500     270.0    bottom
-R414     22R              SMD-0402-R          0.5650     0.9500     270.0    bottom
-R418     4.7kR            SMD-0402-R          0.1600     2.1500       0.0    bottom
-R419     4.7kR            SMD-0402-R          0.1600     2.2500       0.0    bottom
-R421     10kR             SMD-0402-R          0.6300     0.8300       0.0    bottom
-R501     4.7kR 1%         SMD-0402-R          1.8400     1.4800     180.0    bottom
-R502     4.7kR 1%         SMD-0402-R          1.9050     1.5150     180.0    bottom
-R503     22R              SMD-0402-R          1.5500     1.2050     180.0    bottom
-R504     22R              SMD-0402-R          1.5500     1.2400     180.0    bottom
-R505     120R             SMD-0402-R          1.6000     1.2250      90.0    bottom
-R605     24kR 1%          SMD-0402-R          1.0300     0.6875      90.0    bottom
-R701     10kR DNP         SMD-0603-R          1.7050     2.3300      90.0    bottom
-R702     10kR DNP         SMD-0603-R          1.6350     2.3300     270.0    bottom
-R703     10kR DNP         SMD-0603-R          1.7750     2.3300      90.0    bottom
-R704     10kR DNP         SMD-0603-R          1.8450     2.3300     270.0    bottom
-R705     49.9R 1%         SMD-0402-R          1.4650     1.8050       0.0    bottom
-R706     49.9R 1%         SMD-0402-R          1.5300     1.8050     180.0    bottom
-R707     49.9R 1%         SMD-0402-R          1.5050     1.7127       0.0    bottom
-R708     49.9R 1%         SMD-0402-R          1.5400     1.7500       0.0    bottom
-R709     100kR DNP        SMD-0603-R          1.7750     2.2200      90.0    bottom
-R710     100kR DNP        SMD-0603-R          1.7050     2.2200      90.0    bottom
-R712     100kR            SMD-0402-R          1.4450     2.1100     270.0    bottom
-R713     330R             SMD-0402-R          1.7200     2.4500     270.0    bottom
-R714     330R             SMD-0402-R          1.9600     2.2000     270.0    bottom
-R801     4.7kR            SMD-0402-R          0.8150     0.7450       0.0    bottom
-R802     4.7kR            SMD-0402-R          0.7500     0.7450     180.0    bottom
-R901     100kR            SMD-0402-R          1.1100     1.8350      90.0    bottom
-R902     0R DNP           SMD-0603-R          1.0250     2.6250     180.0    bottom
-R905     0R DNP           SMD-0603-R          0.6550     2.5550       0.0    bottom
-R906     8.2kR 1%         SMD-0402-R          0.8700     1.1550     180.0    bottom
-R907     2.7kR 1%         SMD-0402-R          1.0850     1.7200       0.0    bottom
-R911     450kR            SMD-0402-R          1.3250     1.7000     270.0    bottom
-R912     450kR            SMD-0402-R          1.3250     1.7700      90.0    bottom
+AE602    ANTENNA          2.4GHz-INVERTED-   50.8000    15.7480      90.0    bottom
+C202     10pF             SMD-0402-C         29.9720    20.7010     270.0    bottom
+C203     10pF             SMD-0402-C         30.2260    26.0350      90.0    bottom
+C204     10pF             SMD-0402-C         30.6070    22.6060      90.0    bottom
+C205     100nF            SMD-0402-C         29.3370    26.0350      90.0    bottom
+C206     100nF            SMD-0402-C         29.7180    22.6060      90.0    bottom
+C207     4.7uF            SMD-0603-C         28.1940    26.7970      90.0    bottom
+C208     1uF              SMD-0402-C         30.2260    28.1940      90.0    bottom
+C210     4.7uF            SMD-0603-C         28.5750    21.3360     270.0    bottom
+C211     100nF            SMD-0402-C         35.8140    28.0670       0.0    bottom
+C212     18pF             SMD-0402-C         25.1460    20.9550     270.0    bottom
+C214     18pF             SMD-0402-C         25.1460    23.2410      90.0    bottom
+C215     10uF DNP         SMD-0805-C         31.8770    29.3370     135.0    bottom
+C216     100nF            SMD-0402-C         33.9725    25.2730       0.0    bottom
+C218     100nF            SMD-0402-C         31.8770    21.2090     270.0    bottom
+C219     100nF            SMD-0402-C         27.0510    26.9240      90.0    bottom
+C220     1uF              SMD-0402-C         27.4320    32.2580       0.0    bottom
+C221     100nF            SMD-0402-C         37.5920    29.1338       0.0    bottom
+C222     100nF            SMD-0402-C         29.5910    29.9720     225.0    bottom
+C223     100nF            SMD-0402-C         29.3370    36.0680      90.0    bottom
+C224     10uF DNP         SMD-0805-C         26.2890    30.2260       0.0    bottom
+C225     100nF            SMD-0402-C         25.4000    33.4010      90.0    bottom
+C227     4.7uF            SMD-0603-C         28.8925    32.8930     270.0    bottom
+C231     10uF             SMD-0805-C         26.4160    24.1300     135.0    bottom
+C232     100nF            SMD-0402-C         29.0830    24.6380       0.0    bottom
+C234     100nF            SMD-0402-C         24.2570    29.5910     270.0    bottom
+C236     100nF            SMD-0402-C         26.2890    34.1630      90.0    bottom
+C237     100nF            SMD-0402-C         33.2740    22.7330     315.0    bottom
+C238     1uF              SMD-0402-C         33.0500    29.8450     135.0    bottom
+C239     100nF            SMD-0402-C         28.4480    36.0680      90.0    bottom
+C240     100nF            SMD-0402-C         25.6540    28.9560       0.0    bottom
+C241     100nF            SMD-0402-C         25.7810    28.0670       0.0    bottom
+C312     100nF            SMD-0402-C         18.7960    31.6230      90.0    bottom
+C315     10uF             SMD-0805-C         20.1930    32.5120      90.0    bottom
+C402     10pF             SMD-0402-C          6.8580    19.0500       0.0    bottom
+C403     100nF            SMD-0402-C         10.4140    22.9870     270.0    bottom
+C404     10pF             SMD-0402-C          5.5880    16.3830     180.0    bottom
+C408     10uF             SMD-0805-C          8.3820    20.9550       0.0    bottom
+C501     10nF             SMD-0402-C         49.6570    31.7500      90.0    bottom
+C502     100nF            SMD-0402-C         49.6570    25.4000      90.0    bottom
+C503     100nF            SMD-0402-C         40.0685    33.5915     180.0    bottom
+C504     100nF            SMD-0402-C         49.6570    27.0510      90.0    bottom
+C505     100nF            SMD-0402-C         49.6570    30.0990      90.0    bottom
+C506     10nF             SMD-0402-C         40.1320    26.5430     180.0    bottom
+C507     100nF            SMD-0402-C         40.1320    27.9400     180.0    bottom
+C508     100nF            SMD-0402-C         40.1320    29.7180     180.0    bottom
+C509     100nF            SMD-0402-C         44.5770    28.8290       0.0    bottom
+C510     100nF            SMD-0402-C         41.7195    24.1300       0.0    bottom
+C511     100nF            SMD-0402-C         46.7360    38.4810       0.0    bottom
+C512     100nF            SMD-0402-C         48.3870    37.5920       0.0    bottom
+C513     5pF              SMD-0402-C         41.5290    30.3784     270.0    bottom
+C514     5pF              SMD-0402-C         41.5290    32.1310      90.0    bottom
+C601     100pF            SMD-0402-C         27.0510    17.4625     270.0    bottom
+C701     100nF            SMD-0402-C         36.8300    47.2440      90.0    bottom
+C702     100nF            SMD-0402-C         37.8460    42.2910     270.0    bottom
+C703     100pF            SMD-0402-C         37.9730    53.5940     270.0    bottom
+C801     100nF            SMD-0402-C         22.3520    18.9230     180.0    bottom
+C802     100nF            SMD-0402-C         24.0030    18.6690       0.0    bottom
+C901     100nF            SMD-0402-C         25.7810    65.4050       0.0    bottom
+C902     100nF            SMD-0402-C         23.1140    59.9440     180.0    bottom
+C904     10uF             SMD-0805-C         27.6860    62.8650      90.0    bottom
+C905     10uF             SMD-0805-C         27.6860    59.5630      90.0    bottom
+C907     18pF             SMD-0402-C         32.8930    49.5300       0.0    bottom
+C908     1uF              SMD-0402-C         33.2740    41.4604     270.0    bottom
+C909     18pF             SMD-0402-C         28.1940    48.8950     270.0    bottom
+C910     100nF            SMD-0402-C         32.6390    44.4500     270.0    bottom
+C914     100nF            SMD-0402-C         28.7020    42.7990       0.0    bottom
+C915     100nF            SMD-0402-C         25.6540    44.9580      90.0    bottom
+C916     10uF             SMD-0805-C         29.2100    40.5130     180.0    bottom
+C917     100nF            SMD-0402-C         27.0510    45.7200     270.0    bottom
+C918     10uF             SMD-0805-C         30.8610    43.0530      90.0    bottom
+C919     1uF              SMD-0402-C         33.6550    46.6090      90.0    bottom
+F104     fiducial         fiducial           11.6840     9.1440       0.0    bottom
+F105     fiducial         fiducial           46.9900    20.8280       0.0    bottom
+F106     fiducial         fiducial           10.1600    65.7860       0.0    bottom
+G***     LOGO             CE-5.1mm-line      12.4460    48.8950     180.0    bottom
+G***     LOGO             FCC-5.1mm-line-l   20.7010    48.8950     180.0    bottom
+J602     CONN_01X01       Testpoint          30.3530    23.8760       0.0    bottom
+L201     3.9nH            SMD-0402-R         31.1150    26.9240     270.0    bottom
+L901     BLM21PG221SN1D   SMD-0805-R         25.7810    62.8650      90.0    bottom
+L902     BLM21PG221SN1D   SMD-0805-R         25.1460    59.5630      90.0    bottom
+Q302     DMG2305UX        SOT-23             10.6680    59.5630       0.0    bottom
+R202     22R              SMD-0402-R         26.0350    21.4630     270.0    bottom
+R203     4.7kR            SMD-0402-R         24.7650    10.7950     180.0    bottom
+R301     100kR DNP        SMD-0402-R          6.9850    57.5310     270.0    bottom
+R302     100kR DNP        SMD-0402-R         10.2870    30.9880     270.0    bottom
+R303     27kR             SMD-0402-R          6.4770    54.7370       0.0    bottom
+R304     27kR             SMD-0402-R         10.2870    29.4640     270.0    bottom
+R311     10kR             SMD-0402-R         36.3220    49.7840     270.0    bottom
+R314     100kR            SMD-0402-R          6.0960    57.5310      90.0    bottom
+R315     100kR            SMD-0402-R         11.1760    30.9880      90.0    bottom
+R402     330R             SMD-0402-R          6.8580    36.0680     180.0    bottom
+R403     330R             SMD-0402-R          5.5880    24.2570     180.0    bottom
+R404     22R              SMD-0402-R         24.7650     9.2710       0.0    bottom
+R406     10kR             SMD-0402-R          6.0960    44.4500     180.0    bottom
+R413     22R              SMD-0402-R         13.4620    24.1300     270.0    bottom
+R414     22R              SMD-0402-R         14.3510    24.1300     270.0    bottom
+R418     4.7kR            SMD-0402-R          4.0640    54.6100       0.0    bottom
+R419     4.7kR            SMD-0402-R          4.0640    57.1500       0.0    bottom
+R421     10kR             SMD-0402-R         16.0020    21.0820       0.0    bottom
+R501     4.7kR 1%         SMD-0402-R         46.7360    37.5920     180.0    bottom
+R502     4.7kR 1%         SMD-0402-R         48.3870    38.4810     180.0    bottom
+R503     22R              SMD-0402-R         39.3700    30.6070     180.0    bottom
+R504     22R              SMD-0402-R         39.3700    31.4960     180.0    bottom
+R505     120R             SMD-0402-R         40.6400    31.1150      90.0    bottom
+R605     24kR 1%          SMD-0402-R         26.1620    17.4625      90.0    bottom
+R701     10kR DNP         SMD-0603-R         43.3070    59.1820      90.0    bottom
+R702     10kR DNP         SMD-0603-R         41.5290    59.1820     270.0    bottom
+R703     10kR DNP         SMD-0603-R         45.0850    59.1820      90.0    bottom
+R704     10kR DNP         SMD-0603-R         46.8630    59.1820     270.0    bottom
+R705     49.9R 1%         SMD-0402-R         37.2110    45.8470       0.0    bottom
+R706     49.9R 1%         SMD-0402-R         38.8620    45.8470     180.0    bottom
+R707     49.9R 1%         SMD-0402-R         38.2270    43.5033       0.0    bottom
+R708     49.9R 1%         SMD-0402-R         39.1160    44.4500       0.0    bottom
+R709     100kR DNP        SMD-0603-R         45.0850    56.3880      90.0    bottom
+R710     100kR DNP        SMD-0603-R         43.3070    56.3880      90.0    bottom
+R712     100kR            SMD-0402-R         36.7030    53.5940     270.0    bottom
+R713     330R             SMD-0402-R         43.6880    62.2300     270.0    bottom
+R714     330R             SMD-0402-R         49.7840    55.8800     270.0    bottom
+R801     4.7kR            SMD-0402-R         20.7010    18.9230       0.0    bottom
+R802     4.7kR            SMD-0402-R         19.0500    18.9230     180.0    bottom
+R901     100kR            SMD-0402-R         28.1940    46.6090      90.0    bottom
+R902     0R DNP           SMD-0603-R         26.0350    66.6750     180.0    bottom
+R905     0R DNP           SMD-0603-R         16.6370    64.8970       0.0    bottom
+R906     8.2kR 1%         SMD-0402-R         22.0980    29.3370     180.0    bottom
+R907     2.7kR 1%         SMD-0402-R         27.5590    43.6880       0.0    bottom
+R911     450kR            SMD-0402-R         33.6550    43.1800     270.0    bottom
+R912     450kR            SMD-0402-R         33.6550    44.9580      90.0    bottom
+SILK102  OSHW logo        OSHW-silk-6.8mm    36.3220    13.3350     180.0    bottom
+SILK103  Tessel logo      Tessel-logo-10_2   50.8000    14.2240     180.0    bottom
+TP301    TP               Testpoint          22.7076    31.8262       0.0    bottom
+TP302    TP               Testpoint          49.0855    23.3680       0.0    bottom
+TP401    TP               Testpoint          10.7950    42.1640       0.0    bottom
+TP402    TP               Testpoint          10.2870    39.4970       0.0    bottom
+TP403    TP               Testpoint           6.2230    32.5120       0.0    bottom
+TP404    TP               Testpoint           5.4610    35.5600       0.0    bottom
+U801     S25FL256SAGNFI00 WNG008             20.9550    13.9700      90.0    bottom
+U901     AIC1528-0PSTR    SOP-8              21.9710    64.1350     180.0    bottom
+X201     20MHz            CTS-425            23.1140    22.0980     180.0    bottom
+X401     FC-135           FC-135              8.1280    16.8910      90.0    bottom
+X901     12MHz            Seeed-xtal-12MHz   30.3530    47.4980     270.0    bottom
 ## End
