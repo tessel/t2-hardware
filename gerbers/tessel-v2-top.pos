@@ -1,4 +1,4 @@
-### Module positions - created on Mon 29 Jun 2015 03:11:51 PM CST ###
+### Module positions - created on Mon 29 Jun 2015 03:26:20 PM CST ###
 ### Printed by Pcbnew version kicad 0.201506272247+5835~23~ubuntu14.04.1-product
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -81,6 +81,7 @@ D902     PRTR5V0U2X,215   PRTR5V0U2X,215     20.7010    49.4030      90.0    top
 F101     fiducial         fiducial           33.5915    17.3355       0.0    top
 F102     fiducial         fiducial           16.8910    51.1810       0.0    top
 F103     fiducial         fiducial           52.8320    51.5620       0.0    top
+J402     MICROUSB-TH      Seeed-USB-Micro-   10.1600    67.3100       0.0    top
 J601     CONN_01X01       Testpoint          25.4000    22.6060       0.0    top
 J603     UFL DNP          1909763-1          33.5280    13.5890     270.0    top
 J604     UFL DNP          1909763-1          37.4650    13.5890     180.0    top
