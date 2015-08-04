@@ -1,6 +1,6 @@
 # t2-hardware
 
-KiCAD design files for Technical Machine's Tessel 2
+KiCAD design files for the [Tessel 2](//tessel.io)
 
 To download [TM's KiCAD library](https://github.com/technicalmachine/tm-kicad-library), containing all the schematic symbols and footprints, run this command:
 
