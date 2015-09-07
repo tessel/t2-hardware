@@ -1,5 +1,5 @@
-### Module positions - created on Mon 29 Jun 2015 03:26:20 PM CST ###
-### Printed by Pcbnew version kicad 0.201506272247+5835~23~ubuntu14.04.1-product
+### Module positions - created on Mon 07 Sep 2015 01:36:41 PM PDT ###
+### Printed by Pcbnew version kicad 0.201509061501+6161~29~ubuntu14.04.1-product
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref    Val                  Package         PosX       PosY        Rot     Side
@@ -70,14 +70,18 @@ C912     100nF            SMD-0402-C         32.8930    49.5300       0.0    top
 C913     10uF             SMD-0805-C         22.7330    43.3070     135.0    top
 D301     GREEN            LED-0603            2.5400    36.1950     180.0    top
 D302     GREEN            LED-0603            2.5400    32.3850     180.0    top
-D401     PRTR5V0U2X,215   PRTR5V0U2X,215     10.5410    62.1030     270.0    top
+D401     CV0402VT6030T    SMD-0402-R         11.6840    62.4840     270.0    top
 D402     BLUE             LED-0603            2.5400    34.2900     180.0    top
+D403     CV0402VT6030T    SMD-0402-R          9.7104    62.7380     180.0    top
+D404     CV0402VT6030T    SMD-0402-R         11.4300    60.9600       0.0    top
 D701     AMBER            LED-0603           20.1930    15.1130       0.0    top
 D702     RED              LED-0603           17.5260    15.1130     180.0    top
 D703     BLUE             LED-0603           25.5270    15.1130     180.0    top
 D704     GREEN            LED-0603           22.8600    15.1130     180.0    top
-D901     PRTR5V0U2X,215   PRTR5V0U2X,215     23.8760    49.4030      90.0    top
-D902     PRTR5V0U2X,215   PRTR5V0U2X,215     20.7010    49.4030      90.0    top
+D901     CV0402VT6030T    SMD-0402-R         25.0190    49.9110     315.0    top
+D902     CV0402VT6030T    SMD-0402-R         23.8760    51.0540     135.0    top
+D903     CV0402VT6030T    SMD-0402-R         22.7330    49.5300       0.0    top
+D904     CV0402VT6030T    SMD-0402-R         21.0820    49.5300     180.0    top
 F101     fiducial         fiducial           33.5915    17.3355       0.0    top
 F102     fiducial         fiducial           16.8910    51.1810       0.0    top
 F103     fiducial         fiducial           52.8320    51.5620       0.0    top

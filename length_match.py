@@ -170,7 +170,7 @@ if __name__ == "__main__":
                 mtime = os.path.getmtime(filepath)
             except OSError:
                 pass # kicad save process seems to momentarily delete file, so there's a race here with "No such file.."
-            time.sleep(0.05)
+            time.sleep(0.2)
 
         first = False
         props = get_board_properties(filepath)

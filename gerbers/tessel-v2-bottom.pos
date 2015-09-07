@@ -1,5 +1,5 @@
-### Module positions - created on Mon 29 Jun 2015 03:26:20 PM CST ###
-### Printed by Pcbnew version kicad 0.201506272247+5835~23~ubuntu14.04.1-product
+### Module positions - created on Mon 07 Sep 2015 01:36:41 PM PDT ###
+### Printed by Pcbnew version kicad 0.201509061501+6161~29~ubuntu14.04.1-product
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref    Val                  Package         PosX       PosY        Rot     Side
@@ -41,6 +41,7 @@ C402     10pF             SMD-0402-C          6.8580    19.0500       0.0    bot
 C403     100nF            SMD-0402-C         10.4140    22.9870     270.0    bottom
 C404     10pF             SMD-0402-C          5.5880    16.3830     180.0    bottom
 C408     10uF             SMD-0805-C          8.3820    20.9550       0.0    bottom
+C412     10uF             SMD-0805-C         12.2822    17.6898     135.0    bottom
 C501     10nF             SMD-0402-C         49.6570    31.7500      90.0    bottom
 C502     100nF            SMD-0402-C         49.6570    25.4000      90.0    bottom
 C503     100nF            SMD-0402-C         40.0685    33.5915     180.0    bottom
@@ -75,6 +76,16 @@ C916     10uF             SMD-0805-C         29.2100    40.5130     180.0    bot
 C917     100nF            SMD-0402-C         27.0510    45.7200     270.0    bottom
 C918     10uF             SMD-0805-C         30.8610    43.0530      90.0    bottom
 C919     1uF              SMD-0402-C         33.6550    46.6090      90.0    bottom
+D705     CV0402VT6001T    SMD-0402-R         43.3070    56.1340      90.0    bottom
+D706     CV0402VT6001T    SMD-0402-R         45.0850    56.0654      90.0    bottom
+D707     CV0402VT6001T    SMD-0402-R         44.7040    48.3870       0.0    bottom
+D708     CV0402VT6001T    SMD-0402-R         46.3550    48.3870     180.0    bottom
+D709     CV0402VT6001T    SMD-0402-R         41.9100    48.1330      90.0    bottom
+D710     CV0402VT6001T    SMD-0402-R         48.3870    46.6090       0.0    bottom
+D711     CV0402VT6001T    SMD-0402-R         46.3550    64.1350     180.0    bottom
+D712     CV0402VT6001T    SMD-0402-R         44.5084    64.1350       0.0    bottom
+D905     CV0402VT6030T    SMD-0402-R         29.4640    62.9336      90.0    bottom
+D906     CV0402VT6030T    SMD-0402-R         23.1140    58.9280     180.0    bottom
 F104     fiducial         fiducial           11.6840     9.1440       0.0    bottom
 F105     fiducial         fiducial           46.9900    20.8280       0.0    bottom
 F106     fiducial         fiducial           10.1600    65.7860       0.0    bottom
@@ -117,8 +128,8 @@ R705     49.9R 1%         SMD-0402-R         37.2110    45.8470       0.0    bot
 R706     49.9R 1%         SMD-0402-R         38.8620    45.8470     180.0    bottom
 R707     49.9R 1%         SMD-0402-R         38.2270    43.5033       0.0    bottom
 R708     49.9R 1%         SMD-0402-R         39.1160    44.4500       0.0    bottom
-R709     100kR DNP        SMD-0603-R         45.0850    56.3880      90.0    bottom
-R710     100kR DNP        SMD-0603-R         43.3070    56.3880      90.0    bottom
+R709     100kR DNP        SMD-0603-R         46.8630    56.3880      90.0    bottom
+R710     100kR DNP        SMD-0603-R         41.5290    56.3880      90.0    bottom
 R712     100kR            SMD-0402-R         36.7030    53.5940     270.0    bottom
 R713     330R             SMD-0402-R         43.6880    62.2300     270.0    bottom
 R714     330R             SMD-0402-R         49.7840    55.8800     270.0    bottom
@@ -131,7 +142,6 @@ R906     8.2kR 1%         SMD-0402-R         22.0980    29.3370     180.0    bot
 R907     2.7kR 1%         SMD-0402-R         27.5590    43.6880       0.0    bottom
 R911     450kR            SMD-0402-R         33.6550    43.1800     270.0    bottom
 R912     450kR            SMD-0402-R         33.6550    44.9580      90.0    bottom
-SILK102  OSHW logo        OSHW-silk-6.8mm    36.3220    13.3350     180.0    bottom
 SILK103  Tessel logo      Tessel-logo-10_2   50.8000    14.2240     180.0    bottom
 TP301    TP               Testpoint          22.7076    31.8262       0.0    bottom
 TP302    TP               Testpoint          49.0855    23.3680       0.0    bottom

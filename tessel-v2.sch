@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -37,7 +36,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 9
 Title "Tessel 2"
-Date "Thu 12 Mar 2015"
+Date "2015-06-20"
 Rev "TM-T2-04"
 Comp "Technical Machine"
 Comment1 "Copyright 2015 Technical Machine Inc."
@@ -111,8 +110,8 @@ $Comp
 L logo SILK101
 U 1 1 54DD9FA3
 P 2700 9800
-F 0 "SILK101" H 2700 9800 60  0000 C CNN
-F 1 "logo" H 2700 9750 60  0000 C CNN
+F 0 "SILK101" H 2700 9850 60  0000 C CNN
+F 1 "Tessel 2 logo" H 2700 9750 60  0000 C CNN
 F 2 "tm-kicad-lib:TESSEL-TEXT-LOGO-31.8mm8.1mm" H 2700 9800 60  0001 C CNN
 F 3 "" H 2700 9800 60  0000 C CNN
 	1    2700 9800
@@ -220,4 +219,26 @@ Text Notes 4400 9500 0    60   ~ 0
 BACK
 Text Notes 1200 9200 0    60   ~ 0
 HOLES, LOGOS, AND FIDUCIALS
+$Comp
+L logo SILK102
+U 1 1 558A8FAB
+P 5700 9800
+F 0 "SILK102" H 5700 9850 60  0000 C CNN
+F 1 "OSHW logo" H 5700 9750 60  0000 C CNN
+F 2 "tm-kicad-lib:OSHW-Silk" H 5700 9800 60  0001 C CNN
+F 3 "" H 5700 9800 60  0000 C CNN
+	1    5700 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L logo SILK103
+U 1 1 558AA67D
+P 6400 9800
+F 0 "SILK103" H 6400 9850 60  0000 C CNN
+F 1 "Tessel logo" H 6400 9750 60  0000 C CNN
+F 2 "tm-kicad-lib:Tessel-logo-10_2mm" H 6400 9800 60  0001 C CNN
+F 3 "" H 6400 9800 60  0000 C CNN
+	1    6400 9800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
