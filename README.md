@@ -10,7 +10,7 @@ git submodule update --init
 
 ## Notes
 
-* We use the daily builds of KiCAD (for [Ubuntu](https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad and [OS X](http://www.kicad-pcb.org/display/KICAD/Installing+KiCad#InstallingKiCad-MacOSX)) and you should too!
+* We use the daily builds of KiCAD (for [Ubuntu](https://code.launchpad.net/~js-reynaud/+archive/ubuntu/ppa-kicad) and [OS X](http://www.kicad-pcb.org/display/KICAD/Installing+KiCad#InstallingKiCad-MacOSX)) and you should too!
 * As a general rule, do not assume that schematic, layout, and manufacturing exports were kept abreast on each commit. Do a fresh export (or use tagged releases) if you intend to actually send off gerbers.
 
 ### Troubleshooting
