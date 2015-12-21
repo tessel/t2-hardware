@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/eric/github/t2-hardware/tessel-v2.sch)
-    (date "Mon 07 Sep 2015 12:18:17 PM PDT")
-    (tool "Eeschema 0.201509061501+6161~29~ubuntu14.04.1-product")
+    (date "Mon 21 Dec 2015 12:40:53 AM PST")
+    (tool "Eeschema 0.201512080931+6353~38~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Tessel 2")
@@ -181,6 +181,18 @@
       (libsource (lib tm-kicad-lib) (part logo))
       (sheetpath (names /) (tstamps /))
       (tstamp 558AA67D))
+    (comp (ref SILK104)
+      (value "Tessel logo")
+      (footprint tm-kicad-lib:LOGO-CE-5mm)
+      (libsource (lib tm-kicad-lib) (part logo))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5677BCD2))
+    (comp (ref SILK105)
+      (value "Tessel logo")
+      (footprint tm-kicad-lib:LOGO-FCC-5mm)
+      (libsource (lib tm-kicad-lib) (part logo))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5677BD6F))
     (comp (ref X201)
       (value 20MHz)
       (footprint tm-kicad-lib:CTS-425)
@@ -1991,128 +2003,6 @@
       (sheetpath (names /USB/) (tstamps /54ED78C8/))
       (tstamp 55EE4182)))
   (libparts
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name K) (type passive))
-        (pin (num 2) (name A) (type passive))))
-    (libpart (lib device) (part SW_PUSH)
-      (description Button)
-      (fields
-        (field (name Reference) SW)
-        (field (name Value) SW_PUSH))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part TVS)
-      (description "Transient voltage suppressor diode (bi-directional)")
-      (fields
-        (field (name Reference) D)
-        (field (name Value) TVS))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib transistors) (part BC807-40)
-      (aliases
-        (alias BC808-40))
-      (description "45V Vce, 0.8A Ic, PNP, SOT-23")
-      (docs http://www.fairchildsemi.com/ds/BC/BC807.pdf)
-      (footprints
-        (fp SOT-23*))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) BC807-40)
-        (field (name Footprint) SOT-23))
-      (pins
-        (pin (num 1) (name B) (type input))
-        (pin (num 2) (name E) (type passive))
-        (pin (num 3) (name C) (type passive))))
-    (libpart (lib conn) (part CONN_01X01)
-      (footprints
-        (fp Pin_Header_Straight_1X01)
-        (fp Pin_Header_Angled_1X01)
-        (fp Socket_Strip_Straight_1X01)
-        (fp Socket_Strip_Angled_1X01))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X01))
-      (pins
-        (pin (num 1) (name P1) (type passive))))
-    (libpart (lib conn) (part CONN_01X03)
-      (footprints
-        (fp Pin_Header_Straight_1X03)
-        (fp Pin_Header_Angled_1X03)
-        (fp Socket_Strip_Straight_1X03)
-        (fp Socket_Strip_Angled_1X03))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X03))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))))
-    (libpart (lib conn) (part CONN_01X04)
-      (footprints
-        (fp Pin_Header_Straight_1X04)
-        (fp Pin_Header_Angled_1X04)
-        (fp Socket_Strip_Straight_1X04)
-        (fp Socket_Strip_Angled_1X04))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X04))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))))
-    (libpart (lib conn) (part CONN_01X08)
-      (footprints
-        (fp Pin_Header_Straight_1X08)
-        (fp Pin_Header_Angled_1X08)
-        (fp Socket_Strip_Straight_1X08)
-        (fp Socket_Strip_Angled_1X08))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X08))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))
-        (pin (num 6) (name P6) (type passive))
-        (pin (num 7) (name P7) (type passive))
-        (pin (num 8) (name P8) (type passive))))
-    (libpart (lib conn) (part CONN_02X05)
-      (footprints
-        (fp Pin_Header_Straight_2X05)
-        (fp Pin_Header_Angled_2X05)
-        (fp Socket_Strip_Straight_2X05)
-        (fp Socket_Strip_Angled_2X05))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_02X05))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))
-        (pin (num 6) (name P6) (type passive))
-        (pin (num 7) (name P7) (type passive))
-        (pin (num 8) (name P8) (type passive))
-        (pin (num 9) (name P9) (type passive))
-        (pin (num 10) (name P10) (type passive))))
     (libpart (lib tm-kicad-lib) (part 2450BL15B100)
       (description "BALUN 2.4GHz 2.45GHz 2.5GHz 50 100")
       (docs http://www.johansontechnology.com/images/stories/ip/baluns/JTI_Balun-2450BL15B100_6-02.pdf)
@@ -2165,6 +2055,109 @@
         (pin (num 3) (name SW) (type output))
         (pin (num 4) (name VIN) (type power_in))
         (pin (num 5) (name FB) (type input))))
+    (libpart (lib transistors) (part BC807-40)
+      (aliases
+        (alias BC808-40))
+      (description "45V Vce, 0.8A Ic, PNP, SOT-23")
+      (docs http://www.fairchildsemi.com/ds/BC/BC807.pdf)
+      (footprints
+        (fp SOT-23*))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) BC807-40)
+        (field (name Footprint) SOT-23))
+      (pins
+        (pin (num 1) (name B) (type input))
+        (pin (num 2) (name E) (type passive))
+        (pin (num 3) (name C) (type passive))))
+    (libpart (lib conn) (part CONN_01X01)
+      (description "Connector 01x01")
+      (footprints
+        (fp Pin_Header_Straight_1X01)
+        (fp Pin_Header_Angled_1X01)
+        (fp Socket_Strip_Straight_1X01)
+        (fp Socket_Strip_Angled_1X01))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X01))
+      (pins
+        (pin (num 1) (name P1) (type passive))))
+    (libpart (lib conn) (part CONN_01X03)
+      (description "Connector 01x03")
+      (footprints
+        (fp Pin_Header_Straight_1X03)
+        (fp Pin_Header_Angled_1X03)
+        (fp Socket_Strip_Straight_1X03)
+        (fp Socket_Strip_Angled_1X03))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X03))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))))
+    (libpart (lib conn) (part CONN_01X04)
+      (description "Connector 01x04")
+      (footprints
+        (fp Pin_Header_Straight_1X04)
+        (fp Pin_Header_Angled_1X04)
+        (fp Socket_Strip_Straight_1X04)
+        (fp Socket_Strip_Angled_1X04))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X04))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))))
+    (libpart (lib conn) (part CONN_01X08)
+      (description "Connector 01x08")
+      (footprints
+        (fp Pin_Header_Straight_1X08)
+        (fp Pin_Header_Angled_1X08)
+        (fp Socket_Strip_Straight_1X08)
+        (fp Socket_Strip_Angled_1X08))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X08))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))))
+    (libpart (lib conn) (part CONN_02X05)
+      (description "Connector 02x05")
+      (footprints
+        (fp Pin_Header_Straight_2X05)
+        (fp Pin_Header_Angled_2X05)
+        (fp Socket_Strip_Straight_2X05)
+        (fp Socket_Strip_Angled_2X05))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_02X05))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))
+        (pin (num 9) (name P9) (type passive))
+        (pin (num 10) (name P10) (type passive))))
+    (libpart (lib tessel-v2-cache) (part CRYSTAL)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
     (libpart (lib tm-kicad-lib) (part CRYSTAL-4)
       (fields
         (field (name Reference) X)
@@ -2250,6 +2243,21 @@
         (pin (num 12) (name LED_YELLOW_P) (type input))
         (pin (num 13) (name Shell) (type input))
         (pin (num 14) (name Shell) (type input))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name K) (type passive))
+        (pin (num 2) (name A) (type passive))))
     (libpart (lib tm-kicad-lib) (part MICROUSB-TH)
       (fields
         (field (name Reference) J)
@@ -2523,6 +2531,14 @@
         (pin (num 47) (name PB02) (type BiDi))
         (pin (num 48) (name PB03) (type BiDi))
         (pin (num 49) (name PAD) (type power_in))))
+    (libpart (lib device) (part SW_PUSH)
+      (description Button)
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_PUSH))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
     (libpart (lib tm-kicad-lib) (part TM_C)
       (footprints
         (fp C?)
@@ -2559,6 +2575,14 @@
         (field (name Value) TP))
       (pins
         (pin (num ~) (name ~) (type BiDi))))
+    (libpart (lib device) (part TVS)
+      (description "Transient voltage suppressor diode (bi-directional)")
+      (fields
+        (field (name Reference) D)
+        (field (name Value) TVS))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib tm-kicad-lib) (part UFL)
       (fields
         (field (name Reference) AE)
@@ -2693,19 +2717,12 @@
       (pins
         (pin (num 1) (name G) (type input))
         (pin (num 2) (name S) (type BiDi))
-        (pin (num 3) (name D) (type BiDi))))
-    (libpart (lib tessel-v2-cache) (part CRYSTAL)
-      (fields
-        (field (name Reference) X)
-        (field (name Value) CRYSTAL))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive)))))
+        (pin (num 3) (name D) (type BiDi)))))
   (libraries
-    (library (logical transistors)
-      (uri /usr/share/kicad/library/transistors.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical transistors)
+      (uri /usr/share/kicad/library/transistors.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical tm-kicad-lib)

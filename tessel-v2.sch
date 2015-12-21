@@ -241,4 +241,26 @@ F 3 "" H 6400 9800 60  0000 C CNN
 	1    6400 9800
 	1    0    0    -1  
 $EndComp
+$Comp
+L logo SILK104
+U 1 1 5677BCD2
+P 7050 9800
+F 0 "SILK104" H 7050 9850 60  0000 C CNN
+F 1 "Tessel logo" H 7050 9750 60  0000 C CNN
+F 2 "tm-kicad-lib:LOGO-CE-5mm" H 7050 9800 60  0001 C CNN
+F 3 "" H 7050 9800 60  0000 C CNN
+	1    7050 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L logo SILK105
+U 1 1 5677BD6F
+P 7650 9800
+F 0 "SILK105" H 7650 9850 60  0000 C CNN
+F 1 "Tessel logo" H 7650 9750 60  0000 C CNN
+F 2 "tm-kicad-lib:LOGO-FCC-5mm" H 7650 9800 60  0001 C CNN
+F 3 "" H 7650 9800 60  0000 C CNN
+	1    7650 9800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
