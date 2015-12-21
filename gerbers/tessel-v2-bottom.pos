@@ -1,5 +1,5 @@
-### Module positions - created on Mon 07 Sep 2015 01:53:30 PM PDT ###
-### Printed by Pcbnew version kicad 0.201509061501+6161~29~ubuntu14.04.1-product
+### Module positions - created on Mon 21 Dec 2015 12:56:01 AM PST ###
+### Printed by Pcbnew version kicad 0.201512080931+6353~38~ubuntu14.04.1-stable
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref    Val                  Package         PosX       PosY        Rot     Side
@@ -89,8 +89,6 @@ D906     CV0402VT6030T    SMD-0402-R         23.1140    58.9280     180.0    bot
 F104     fiducial         fiducial           11.6840     9.1440       0.0    bottom
 F105     fiducial         fiducial           46.9900    20.8280       0.0    bottom
 F106     fiducial         fiducial           10.1600    65.7860       0.0    bottom
-G***     LOGO             CE-5.1mm-line      12.4460    48.8950     180.0    bottom
-G***     LOGO             FCC-5.1mm-line-l   20.7010    48.8950     180.0    bottom
 J602     CONN_01X01       Testpoint          30.3530    23.8760       0.0    bottom
 L201     3.9nH            SMD-0402-R         31.1150    26.9240     270.0    bottom
 L901     BLM21PG221SN1D   SMD-0805-R         25.7810    62.8650      90.0    bottom
