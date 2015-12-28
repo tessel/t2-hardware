@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 0.201512231246+6403~40~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.0-stable)
 
   (general
     (links 809)
@@ -81,7 +81,7 @@
     (aux_axis_origin 76.2 152.4)
     (visible_elements 7FFFFF7F)
     (pcbplotparams
-      (layerselection 0x00010_7ffffff8)
+      (layerselection 0x00010_00000000)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -4457,12 +4457,12 @@
     )
   )
 
-  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 54DA6296) (tstamp 54F429CE)
+  (module tm-kicad-lib:SMD-0402-C (layer B.Cu) (tedit 5680B225) (tstamp 54F429CE)
     (at 124.587 114.808)
     (path /548CC02E/548D79FD)
     (attr smd)
     (fp_text reference C512 (at 2.159 0) (layer B.SilkS)
-      (effects (font (size 0.6 0.6) (thickness 0.1)))
+      (effects (font (size 0.6 0.6) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at 0.09906 0) (layer B.SilkS) hide
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)) (justify mirror))
